@@ -1,2 +1,2 @@
 # 勉強メモ
-[romanohu.githubio](https://romanohu.github.io/pages/research/research.html)でも読めます．
+[romanohu.github.io](https://romanohu.github.io/pages/research/research.html)でも読めます．
