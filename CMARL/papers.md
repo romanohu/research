@@ -1,4 +1,4 @@
-# マルチエージェント強化学習(MARL)
+# MARL　論文
 ## 参考資料一覧
 - 読んだ方が良い論文
     - [Planning Problems for Sophisticated Agents with Present Bias(2016)](https://arxiv.org/abs/1603.08177)

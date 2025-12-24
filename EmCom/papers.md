@@ -1,5 +1,4 @@
-# 創発コミュニケーション(EmCom)
-## 参考資料一覧
+# EmCom 論文
 - 読んだ方が良い論文
     - [Multi-Agent Cooperation and the Emergence of (Natural) Language(2016)](https://arxiv.org/abs/1612.07182)
     - [Multi-agent Reinforcement Learning in Sequential Social Dilemmas(2017)](https://arxiv.org/abs/1702.03037)
