@@ -3,6 +3,8 @@ name: Trigger Parent Repo Update
 on:
   push:
     branches: ["main"]
+    paths:
+      - '!README.md'
 
 jobs:
   notify:
