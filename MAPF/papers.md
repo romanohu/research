@@ -13,6 +13,5 @@
 
 ## 論文メモ
 
-
 ### 2024
 #### [MAPF-GPT: Imitation Learning for Multi-Agent Pathfinding at Scale](https://arxiv.org/abs/2409.00134)
