@@ -8,8 +8,11 @@
     - [Lifelong Multi-Agent Path Finding in Large-Scale Warehouses(2021)](https://ojs.aaai.org/index.php/AAAI/article/view/17344)
     - [MAPF-LNS2: Fast Repairing for Multi-Agent Path Finding via Large Neighborhood Search(2022)](https://ojs.aaai.org/index.php/AAAI/article/view/21266)
     - [Section 3 "Planning",  A Comprehensive Review on Leveraging Machine Learning for Multi-Agent Path Finding](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10506521)
-    - [MAPF-GPT: Imitation Learning for Multi-Agent Pathfinding at Scale(2024)](https://arxiv.org/abs/2409.00134)
+    - [MAPF-GPT: Imitation Learning for Multi-Agent Pathfinding at Scale(2024)](#mapf-gpt-imitation-learning-for-multi-agent-pathfinding-at-scale)
     - [Graph Attention-Guided Search for Dense Multi-Agent Pathfinding(2025)](https://arxiv.org/abs/2510.17382)
 
-- [OMRON：機械学習を活用した経路計画技術](https://www.omron.com/jp/ja/technology/omrontechnics/2021/20211119-taniai-yonetani.html)
-- [Youtube：研究で使うPython](https://www.youtube.com/watch?v=jJH6Dnl15MI&list=PLw5AEs-T7pLHxLaNvGD9tnhrDxAgH-QIw)
+## 論文メモ
+
+
+### 2024
+#### [MAPF-GPT: Imitation Learning for Multi-Agent Pathfinding at Scale](https://arxiv.org/abs/2409.00134)
