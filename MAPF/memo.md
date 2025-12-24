@@ -4,7 +4,7 @@
     - 取り合えず読むべし
 - [奥村圭祐：PIBTの解説](https://kei18.github.io/pibt2/)
 - [奥村圭祐：github](https://github.com/Kei18)
-    - LacamやPIBTのサンプルコードや、ビジュアライズツールがある．
+    - LaCamやPIBTのサンプルコードや、ビジュアライズツールがある．
 - [mapf.info](https://mapf.info/index.php/Main/HomePage)
      - MAPFの文献やチュートリアル、会議情報が載っている
 - [論文](papers.md)
