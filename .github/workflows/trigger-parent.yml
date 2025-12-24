@@ -1,0 +1,17 @@
+name: Trigger Parent Repo Update
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger parent repository update
+        run: |
+          curl -X POST \
+            -H "Accept: application/vnd.github.v3+json" \
+            -H "Authorization: token ${{ secrets.PAT_TOKEN }}" \
+            https://api.github.com/repos/romanohu/romanohu.github.io/dispatches \
+            -d '{"event_type":"update-submodule"}'
