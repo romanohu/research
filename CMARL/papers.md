@@ -25,7 +25,7 @@ Era(2020)](https://arxiv.org/abs/2006.02419)
     - [Multi-Agent Reinforcement Learning is a Sequence Modeling Problem(2023)](https://arxiv.org/abs/2205.14953?utm_source=chatgpt.com)
     - [A Comprehensive Survey on Multi-Agent Cooperative Decision-Making: Scenarios, Approaches, Challenges and Perspectives(2025)](https://arxiv.org/abs/2503.13415)
     - [OVERCOOKEDV2: RETHINKING OVERCOOKED FOR ZERO-SHOT COORDINATION(2025)](#overcookedv2-rethinking-overcooked-for-zero-shot-coordination)
-    - [SocialJax: An Evaluation Suite for Multi-agent Reinforcement Learning in Sequential Social Dilemmas](#socialjax-an-evaluation-suite-for-multi-agent-reinforcement-learning-in-sequential-social-dilemmas)
+    - [SocialJax: An Evaluation Suite for Multi-agent Reinforcement Learning in Sequential Social Dilemmas(2025)](#socialjax-an-evaluation-suite-for-multi-agent-reinforcement-learning-in-sequential-social-dilemmas)
 
 ## 論文メモ
 ### 2017
@@ -121,3 +121,5 @@ MARLが扱う課題の多くはNP困難問題に分類される．このサー�
     - 既存のZSC手法でもZSC性能を向上させることが確認できたが、テスト時に適応を要求されるシナリオでは苦戦している?ことが確認できた
 
 #### [SocialJax: An Evaluation Suite for Multi-agent Reinforcement Learning in Sequential Social Dilemmas](https://arxiv.org/abs/2503.14576v2)
+SSDに対するMARLの評価基盤として、SocialJaxという実装スイートを提案している．エージェントは観測として、MeltingPotのように2D画像を受け取るのではなく、環境設計として数理的に利害構造が埋め込まれる、つまりかなり抽象的な表現を受け取る．
+> [サイト？](https://sites.google.com/view/socialjax/home)、[github](https://github.com/cooperativex/SocialJax)
