@@ -23,6 +23,7 @@ Era(2020)](https://arxiv.org/abs/2006.02419)
     - [A Review of Cooperative Multi-Agent Deep Reinforcement Learning(2019)](#a-review-of-cooperative-multi-agent-deep-reinforcement-learning)
     - [RPM: Generalizable Behaviors for Multi-Agent Reinforcement Learning(2022)](https://arxiv.org/abs/2210.09646)
     - [Multi-Agent Reinforcement Learning is a Sequence Modeling Problem(2023)](https://arxiv.org/abs/2205.14953?utm_source=chatgpt.com)
+    - [A Review of Cooperation in Multi-agent Learning(2023)](#a-review-of-cooperation-in-multi-agent-learning)
     - [A Comprehensive Survey on Multi-Agent Cooperative Decision-Making: Scenarios, Approaches, Challenges and Perspectives(2025)](https://arxiv.org/abs/2503.13415)
     - [OVERCOOKEDV2: RETHINKING OVERCOOKED FOR ZERO-SHOT COORDINATION(2025)](#overcookedv2-rethinking-overcooked-for-zero-shot-coordination)
     - [SocialJax: An Evaluation Suite for Multi-agent Reinforcement Learning in Sequential Social Dilemmas(2025)](#socialjax-an-evaluation-suite-for-multi-agent-reinforcement-learning-in-sequential-social-dilemmas)
@@ -30,10 +31,14 @@ Era(2020)](https://arxiv.org/abs/2006.02419)
 ## 論文メモ
 ### 2017
 #### [Multi-agent Reinforcement Learning in Sequential Social Dilemmas](https://arxiv.org/abs/1702.03037)
+> [Joel Z. Leibo](../Authors/Joel%20Z.%20Leibo.md)
+
 従来のMGSDは1回の行動において"協力"か"裏切り"かの選択を迫る設定をしていたが、本論文ではその選択というのは短期的な行動選択ではなく、長期的な行動選択の方針(policy)として現れると主張している．それを県境するための枠組みとしてSequentialSocialDilemma(SSD)を提言する．これはMGSDの特徴を維持しつつも、時間的に拡張されたMarkovゲームとして定式化した社会ジレンマモデルである．SSDの特徴として協力の「度合い」も表現できる点がある．
 また、MGSDの利得行列上では同質に見えたとしても、SSDとして見ると本質的に異なるゲームがあることが判明した．
 記述的(Descriptive)な立場で、どのような行動パターンが現れるのかを観察．
 それぞれのゲームの差異の他に、学習の際のハイパーパラメータにも着目している．
+
+
 #### Multiagent cooperation and competition with deep reinforcement learning
 Pongゲーム環境において、報酬設定pを操作することで、協力的/競争的な行動が創発する．また、固定方策AIを相手に学習するsingle-playerDQNよりも、固定方策AIを用いないmultiplayerDQNのほうが、より一般的でロバストな戦略が育つ．
 ### 2018
@@ -80,7 +85,10 @@ $$r^{inf}_t(t)=\sum_{j≠i} D(\pi_j(・|o_t,a^i_t)||\pi_j(・|o_t,a^{i,cf}_t))$$
 第２項の部分はinfluence reward(内初的報酬)であり、この論文の文脈では、「自分の行動が他者の将来行動分布をどれだけ変えたか」を測る指標である．この部部では自分の観測と行動が入力信号として入り、しゅつりょくに相手の次行動の分布を出す行動予測モデルを学習している．そこで教師信号として相手の行動を(環境情報ではなく学習中のログを)使っている．この内初的報酬は「自分の行動が相手の行動分布を変えたと推定されたとき」である．これは暴力的・支配的な行動(例えばビームを打つなど)を助長しないかという疑問があるが、短期的なrewardが上がるが長期的には相手の行動分布の差分が小さくなりinfluence rewardがむしろ下がるために、そういった行動は安定にはならないとしている．
 
 #### [Learning Reciprocity in Complex Sequential Social Dilemmas](https://arxiv.org/abs/1903.08082)
+> [Joel Z. Leibo](../Authors/Joel%20Z.%20Leibo.md)
 
+[この論文](#inequity-aversion-improves-cooperation-in-intertemporal-social-dilemmas)と似ているが、あちらがエージェントの行動に対する因果的影響度を報酬として用いて学習するのに対し、これは互恵性(相手の行動パターンに応じて戦略を調整すること、自分の行動が相手の"報酬"にどれだけ影響を与えたか)を学習することを意図した論文．この論文の手法ではエージェントは環境報酬に加えて、互恵性に基づく内在報酬を得る．
+(読み途中)
 
 
 ### 2020
@@ -105,6 +113,9 @@ MARL及びMADRLに関する包括的なサーベイ．メルポは、ゲーム�
 #### [A Review of Cooperative Multi-Agent Deep Reinforcement Learning](https://arxiv.org/abs/1908.03963)
 MARLが扱う課題の多くはNP困難問題に分類される．このサーベイでは協調的な目標を持つ分散型問題に焦点を当てている．IL(Independent Learners)の限界を緩和するために提案された手法として、1パラメータ共有、2学習率・更新頻度の工夫、3役割分担(エージェント行動の固定/探索空間を削減)などがある．
 
+### 2023
+#### [A Review of Cooperation in Multi-agent Learning](https://arxiv.org/abs/2312.05162)
+> [Joel Z. Leibo](../Authors/Joel%20Z.%20Leibo.md), [Usman Islam](../Authors/Usman%20Islam.md), [Richard Willis](../Authors/Richard%20Willis.md), [Peter Sunehag](../Authors/Peter%20Sunehag.md)
 
 ### 2025
 #### A Comprehensive Survey on Multi-Agent Cooperative Decision-Making: Scenarios, Approaches, Challenges and Perspectives
