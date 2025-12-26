@@ -6,8 +6,8 @@
     - [Multiagent cooperation and competition with deep reinforcement learning(2017)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0172395)
     - [Maintaining cooperation in complex social dilemmas using deep reinforcement learning(2018)](https://arxiv.org/abs/1707.01068)
     - [Inequity aversion improves cooperation in intertemporal social dilemmas(2018)](https://arxiv.org/abs/1803.08884)
-    - [Exploration by Random Network Distillation(2018)](#exploration-by-random-network-distillation)
-    - [Social Influence as Intrinsic Motivation for Multi-Agent Deep Reinforcement Learning(2018)](#social-influence-as-intrinsic-motivation-for-multi-agent-deep-reinforcement-learning)
+    - **[Exploration by Random Network Distillation(2018)](#exploration-by-random-network-distillation)**
+    - **[Social Influence as Intrinsic Motivation for Multi-Agent Deep Reinforcement Learning(2018)](#social-influence-as-intrinsic-motivation-for-multi-agent-deep-reinforcement-learning)**
     - [Learning through Probing: a decentralized reinforcement learning architecture for social dilemmas(2018)](#learning-through-probing-a-decentralized-reinforcement-learning-architecture-for-social-dilemmas)
     - [Evolving intrinsic motivations for altruistic behavior(2018)](#evolving-intrinsic-motivations-for-altruistic-behavior)
     - [Agent Modeling as Auxiliary Task for Deep Reinforcement Learning(2019)](https://arxiv.org/abs/1907.09597)
@@ -26,12 +26,12 @@ Era(2020)](https://arxiv.org/abs/2006.02419)
     - [A Review of Cooperation in Multi-agent Learning(2023)](#a-review-of-cooperation-in-multi-agent-learning)
     - [A Comprehensive Survey on Multi-Agent Cooperative Decision-Making: Scenarios, Approaches, Challenges and Perspectives(2025)](https://arxiv.org/abs/2503.13415)
     - [OVERCOOKEDV2: RETHINKING OVERCOOKED FOR ZERO-SHOT COORDINATION(2025)](#overcookedv2-rethinking-overcooked-for-zero-shot-coordination)
-    - [SocialJax: An Evaluation Suite for Multi-agent Reinforcement Learning in Sequential Social Dilemmas(2025)](#socialjax-an-evaluation-suite-for-multi-agent-reinforcement-learning-in-sequential-social-dilemmas)
+    - **[SocialJax: An Evaluation Suite for Multi-agent Reinforcement Learning in Sequential Social Dilemmas(2025)](#socialjax-an-evaluation-suite-for-multi-agent-reinforcement-learning-in-sequential-social-dilemmas)**
 
 ## 論文メモ
 ### 2017
 #### [Multi-agent Reinforcement Learning in Sequential Social Dilemmas](https://arxiv.org/abs/1702.03037)
-> [Joel Z. Leibo](../Authors/JoelZ.Leibo.md)
+> [Joel Z. Leibo](../Authors/Joel%20Z.%20Leibo.md)
 
 従来のMGSDは1回の行動において"協力"か"裏切り"かの選択を迫る設定をしていたが、本論文ではその選択というのは短期的な行動選択ではなく、長期的な行動選択の方針(policy)として現れると主張している．それを県境するための枠組みとしてSequentialSocialDilemma(SSD)を提言する．これはMGSDの特徴を維持しつつも、時間的に拡張されたMarkovゲームとして定式化した社会ジレンマモデルである．SSDの特徴として協力の「度合い」も表現できる点がある．
 また、MGSDの利得行列上では同質に見えたとしても、SSDとして見ると本質的に異なるゲームがあることが判明した．
