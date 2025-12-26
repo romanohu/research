@@ -5,8 +5,8 @@
 
 
 ## Overseas researchers
-- [Joel Z. Leibo](JoelZ.Leibo.md)
-- [Janusz Marecki](JanuszMarecki.md)
+- [Joel Z. Leibo](./Joel%20Z.%20Leibo.md)
+- [Janusz Marecki](./Janusz%20Marecki.md)
 - [Marc Lanctot](./Marc%20Lanctot.md)
 - [Peter Sunehag](./Peter%20Sunehag.md)
 - [Richard Willis](./Richard%20Willis.md)
