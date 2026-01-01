@@ -50,9 +50,6 @@ When relevant content is found:
 
 Always respond in the following format:
 
-### Summary
-- Bullet-point summary of findings
-
 ### Evidence
 - File path:
 - Section / Page:
@@ -60,6 +57,9 @@ Always respond in the following format:
 
 ### Notes
 - Any uncertainty or limitation
+
+### Summary
+- Bullet-point summary of findings
 
 ---
 
