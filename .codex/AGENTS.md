@@ -255,10 +255,10 @@ This rule applies to both:
 
 ### Scope (Where to operate)
 Allowed directories:
-- ./dailymemo/
-- ./weeklymemo/
-- ./research/
-- ./study/
+- ./01_dailymemo/
+- ./02_weeklymemo/
+- ./03_research/
+- ./04_study/
 
 Disallowed:
 - ./outputs/
@@ -270,13 +270,9 @@ Only rewrite links within allowed directories.
 
 ---
 
-### Foam Link Formats to Support
-Treat these as valid links:
-- Wiki links: [[Page Name]] , [[path/to/file|Alias]]
-- Markdown links: [text](relative/path.md)
-- Embeds (if used): ![[Page Name]]
-
-Preserve aliases and display text whenever possible.
+### 　Wiki links ([[...]] / ![[...]]):
+- Are NOT allowed.
+- If found, convert them to Markdown links.
 
 ---
 
@@ -297,17 +293,31 @@ Preserve aliases and display text whenever possible.
    3) title match (H1)
    4) best unique candidate by similarity
 
-4. Rewrite links to the correct target:
-   - Prefer Foam wiki links: [[Resolved Note Name]]
-   - If link originally used a path or alias, preserve alias:
-     - [[new/path/to/file|Old Alias]]
-   - If multiple candidates exist (ambiguous), DO NOT rewrite;
-     instead list candidates in a report.
 
-5. Update references across all files in scope:
+4. Update references across all files in scope:
    - Replace old links with new ones
    - Do not touch code blocks
    - Do not touch YAML frontmatter unless it contains explicit links
+
+---
+
+### Resolution + Rewrite Policy
+
+1. Index all notes in scope (same as before).
+2. Detect broken links (targets missing).
+3. Resolve targets (path/basename/title matching).
+4. Rewrite to Markdown links using relative paths:
+
+- Always use a relative path from the source file:
+  [Label](../notes/target.md)
+
+- Preserve label text if present.
+- Preserve anchors (#...) if the target section still exists;
+  otherwise remove the anchor and report it.
+
+5. If a link is ambiguous (multiple candidates):
+- Do NOT rewrite
+- Report candidates
 
 ---
 
