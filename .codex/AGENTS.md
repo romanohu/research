@@ -259,6 +259,7 @@ Allowed directories:
 - ./02_weeklymemo/
 - ./03_research/
 - ./04_study/
+- ./research.md
 
 Disallowed:
 - ./outputs/
