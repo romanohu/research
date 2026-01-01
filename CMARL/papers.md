@@ -31,7 +31,7 @@ Era(2020)](https://arxiv.org/abs/2006.02419)
 ## 論文メモ
 ### 2017
 #### [Multi-agent Reinforcement Learning in Sequential Social Dilemmas](https://arxiv.org/abs/1702.03037)
-> [Joel Z. Leibo](../Authors/Joel%20Z.%20Leibo.md)
+> [Joel Z. Leibo](../Authors/JoelZ.Leibo.md)
 
 従来のMGSDは1回の行動において"協力"か"裏切り"かの選択を迫る設定をしていたが、本論文ではその選択というのは短期的な行動選択ではなく、長期的な行動選択の方針(policy)として現れると主張している．それを県境するための枠組みとしてSequentialSocialDilemma(SSD)を提言する．これはMGSDの特徴を維持しつつも、時間的に拡張されたMarkovゲームとして定式化した社会ジレンマモデルである．SSDの特徴として協力の「度合い」も表現できる点がある．
 また、MGSDの利得行列上では同質に見えたとしても、SSDとして見ると本質的に異なるゲームがあることが判明した．
@@ -115,7 +115,7 @@ MARLが扱う課題の多くはNP困難問題に分類される．このサー�
 
 ### 2023
 #### [A Review of Cooperation in Multi-agent Learning](https://arxiv.org/abs/2312.05162)
-> [Joel Z. Leibo](../Authors/JoelZ.Leibo.md), [Usman Islam](../Authors/Usman%20Islam.md), [Richard Willis](../Authors/Richard%20Willis.md), [Peter Sunehag](../Authors/Peter%20Sunehag.md)
+> [Joel Z. Leibo](../Authors/JoelZ.Leibo.md), [Usman Islam](../Authors/UsmanIslam.md), [Richard Willis](../Authors/RichardWillis.md), [Peter Sunehag](../Authors/PeterSunehag.md)
 
 ### 2025
 #### A Comprehensive Survey on Multi-Agent Cooperative Decision-Making: Scenarios, Approaches, Challenges and Perspectives
