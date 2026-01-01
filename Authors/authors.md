@@ -5,12 +5,12 @@
 
 
 ## Overseas researchers
-- [AntonAndreychuk](AntonAndreychuk.md)
-- [Joel Z. Leibo](JoelZ.Leibo.md)
-- [Janusz Marecki](JanuszMarecki.md)
-- [Marc Lanctot](MarcLanctot.md)
-- [Peter Sunehag](PeterSunehag.md)
-- [Richard Willis](RichardWillis.md)
-- [Thore Graepel](ThoreGraepel.md)
-- [Usman Islam](UsmanIslam.md)
-- [Vinicius Zambaldi](ViniciusZambaldi.md)
+- [AntonAndreychuk](overseas/AntonAndreychuk.md)
+- [Joel Z. Leibo](overseas/JoelZ.Leibo.md)
+- [Janusz Marecki](overseas/JanuszMarecki.md)
+- [Marc Lanctot](overseas/MarcLanctot.md)
+- [Peter Sunehag](overseas/PeterSunehag.md)
+- [Richard Willis](overseas/RichardWillis.md)
+- [Thore Graepel](overseas/ThoreGraepel.md)
+- [Usman Islam](overseas/UsmanIslam.md)
+- [Vinicius Zambaldi](overseas/ViniciusZambaldi.md)

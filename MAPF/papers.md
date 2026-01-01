@@ -1,22 +1,30 @@
 # MAPF 論文
 - 読んだ方が良い論文
     - [Priority Inheritance with Backtracking for Iterative Multi-agent Path Finding(2019)](https://arxiv.org/abs/1901.11282)
-    - [LaCAM: Search-Based Algorithm for Quick Multi-Agent Pathfinding(2022)](https://arxiv.org/abs/2211.13432)
-    - [Improving LaCAM for Scalable Eventually Optimal Multi-Agent Pathfinding(2023)](https://arxiv.org/abs/2305.03632)
+    - [LaCAM: Search-Based Algorithm for Quick Multi-Agent Pathfinding(2022)](#lacam-search-based-algorithm-for-quick-multi-agent-pathfinding2022)
+    - [Improving LaCAM for Scalable Eventually Optimal Multi-Agent Pathfinding(2023)](#improving-lacam-for-scalable-eventually-optimal-multi-agent-pathfinding2023)
     - [Traffic Flow Optimisation for Lifelong Multi-Agent Path Finding(2024)](https://arxiv.org/abs/2308.11234)
     - [Finding Optimal Solutions to Cooperative Pathfinding Problems(2010)](https://ojs.aaai.org/index.php/AAAI/article/view/7564)
     - [Lifelong Multi-Agent Path Finding in Large-Scale Warehouses(2021)](https://ojs.aaai.org/index.php/AAAI/article/view/17344)
     - [MAPF-LNS2: Fast Repairing for Multi-Agent Path Finding via Large Neighborhood Search(2022)](https://ojs.aaai.org/index.php/AAAI/article/view/21266)
     - [Section 3 "Planning",  A Comprehensive Review on Leveraging Machine Learning for Multi-Agent Path Finding](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10506521)
     - [MAPF-GPT: Imitation Learning for Multi-Agent Pathfinding at Scale(2024)](#mapf-gpt-imitation-learning-for-multi-agent-pathfinding-at-scale)
-    - [Graph Attention-Guided Search for Dense Multi-Agent Pathfinding(2025)](https://arxiv.org/abs/2510.17382)
+    - [Graph Attention-Guided Search for Dense Multi-Agent Pathfinding(2025)](#graph-attention-guided-search-for-dense-multi-agent-pathfinding2025)
 
 ## 論文メモ
+### 2022
+#### [LaCAM: Search-Based Algorithm for Quick Multi-Agent Pathfinding(2022)](https://arxiv.org/abs/2211.13432)
+
+### 2023
+#### [Improving LaCAM for Scalable Eventually Optimal Multi-Agent Pathfinding(2023)](https://arxiv.org/abs/2305.03632)
 
 ### 2024
 #### [MAPF-GPT: Imitation Learning for Multi-Agent Pathfinding at Scale](https://arxiv.org/abs/2409.00134)
-> [github, datasets, arxiv, notebook](https://sites.google.com/view/mapf-gpt/)
+> [リンク集](https://sites.google.com/view/mapf-gpt/)
 
-[AntonAndreychuk](../Authors/AntonAndreychuk.md)
+[AntonAndreychuk](../Authors/overseas/AntonAndreychuk.md)
 最適・準最適ソルバの解法データを学習データとし、トランスフォーマーベースのニューラルネットワークを活用した模倣学習によって構築される基盤モデル、MAPF-GPTを提案している．これは学習データセットに含まれていない新規のMAPF問題を開設する際にゼロショット学習能力を発揮する．
 まず個々のエージェントが知覚し得るあらゆる観測結果と実行可能なあらゆる行動を表現した語彙体系(トークン)を構築する．次にソルバの解法データをトークンで符号化された観測-行動ペアの系列に変換する．それを用いてトランスフォーマーベースの非自己回帰型ニューラルネットワークを用いて与えられた観測結果に対して適切な行動を予測する学習を行う．
+
+### 2025
+#### [Graph Attention-Guided Search for Dense Multi-Agent Pathfinding(2025)](https://arxiv.org/abs/2510.17382)
