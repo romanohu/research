@@ -2,7 +2,7 @@
 著者メモ置き場
 
 ## Japanese researchers
-
+- [奥村圭佑](japanese/奥村圭佑.md)
 
 ## Overseas researchers
 - [AntonAndreychuk](overseas/AntonAndreychuk.md)
