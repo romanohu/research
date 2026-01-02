@@ -11,6 +11,7 @@
 - [Marc Lanctot](overseas/MarcLanctot.md)
 - [Peter Sunehag](overseas/PeterSunehag.md)
 - [Richard Willis](overseas/RichardWillis.md)
+- [Rishabh Jain](overseas/RishabhJain.md)
 - [Thore Graepel](overseas/ThoreGraepel.md)
 - [Usman Islam](overseas/UsmanIslam.md)
 - [Vinicius Zambaldi](overseas/ViniciusZambaldi.md)
