@@ -1,9 +1,12 @@
 # 学術的興味（つまり勉強/研究していること)
 最近は、マルチエージェントを扱う分野に興味があります．
+> これ以下の内容はあくまでも私用のメモです
+
 - [論文読むときに使っているツール](research_read_method.md)
 - [論文探すときに使っているツール](research_explore_method.md)
 
 ## 研究
+
 - [Author list](03_research/Authors/authors.md)(著者メモ)
 
 ### MARL
