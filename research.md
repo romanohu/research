@@ -30,7 +30,7 @@
 ### C++
 最近、勉強せざるを得なくなった言語
 主に[ここ](https://github.com/romanohu/fighting_cpp)で勉強してる．
-- [学習メモ](04_study/Cpp/memo)
+- [学習メモ](04_study/Cpp/memo.md)
 
 
 --- 
