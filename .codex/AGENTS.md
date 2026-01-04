@@ -99,7 +99,7 @@ This rule applies to both:
 When Daily Memo Mode is triggered:
 
 1. Create a new markdown file under:
-   ./dailymemo/
+   ./01_dailymemo/
 
 2. File name format:
    yyyy-mm-dd.md
@@ -169,7 +169,7 @@ No user confirmation is required.
    that fall within the previous week.
 
 3. Create a new markdown file under:
-   ./weeklymemo/
+   ./02_weeklymemo/
 
 4. File name format:
    yyyy-WW.md
@@ -221,8 +221,8 @@ No user confirmation is required.
 The user has explicitly pre-authorized the following actions:
 
 - Creating new files under:
-  - ./dailymemo/
-  - ./weeklymemo/
+  - ./01_dailymemo/
+  - ./02_weeklymemo/
 
 - Appending content to existing files in those directories
 
@@ -259,7 +259,7 @@ Allowed directories:
 - ./02_weeklymemo/
 - ./03_research/
 - ./04_study/
-- ./research.md
+- ./index.md
 
 Disallowed:
 - ./outputs/
