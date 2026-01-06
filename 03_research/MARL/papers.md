@@ -5,7 +5,7 @@
     - **[Multi-agent Reinforcement Learning in Sequential Social Dilemmas(2017)](#multi-agent-reinforcement-learning-in-sequential-social-dilemmas)**
     - [Multiagent cooperation and competition with deep reinforcement learning(2017)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0172395)
     - [Maintaining cooperation in complex social dilemmas using deep reinforcement learning(2018)](https://arxiv.org/abs/1707.01068)
-    - [Inequity aversion improves cooperation in intertemporal social dilemmas(2018)](https://arxiv.org/abs/1803.08884)
+    - [Inequity aversion improves cooperation in intertemporal social dilemmas(2018)](#inequity-aversion-improves-cooperation-in-intertemporal-social-dilemmas)
     - **[Exploration by Random Network Distillation(2018)](#exploration-by-random-network-distillation)**
     - **[Social Influence as Intrinsic Motivation for Multi-Agent Deep Reinforcement Learning(2018)](#social-influence-as-intrinsic-motivation-for-multi-agent-deep-reinforcement-learning)**
     - [Learning through Probing: a decentralized reinforcement learning architecture for social dilemmas(2018)](#learning-through-probing-a-decentralized-reinforcement-learning-architecture-for-social-dilemmas)
@@ -30,8 +30,7 @@
 ## 論文メモ
 ### 2017
 #### [Multi-agent Reinforcement Learning in Sequential Social Dilemmas](https://arxiv.org/abs/1702.03037)
-> [Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.md)
-
+[Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.md)
 従来のMGSDは1回の行動において"協力"か"裏切り"かの選択を迫る設定をしていたが、本論文ではその選択というのは短期的な行動選択ではなく、長期的な行動選択の方針(policy)として現れると主張している．それを県境するための枠組みとしてSequentialSocialDilemma(SSD)を提言する．これはMGSDの特徴を維持しつつも、時間的に拡張されたMarkovゲームとして定式化した社会ジレンマモデルである．SSDの特徴として協力の「度合い」も表現できる点がある．
 また、MGSDの利得行列上では同質に見えたとしても、SSDとして見ると本質的に異なるゲームがあることが判明した．
 記述的(Descriptive)な立場で、どのような行動パターンが現れるのかを観察．
@@ -43,7 +42,8 @@ Pongゲーム環境において、報酬設定pを操作することで、協力
 ### 2018
 #### Maintaining cooperation in complex social dilemmas using deep reinforcement learning
 深層強化学習を用いてTFT(しっぺ返し戦略)みたいに協力できるエージェントを作るにはどうしたら良いかという問題に挑戦し、拡張版のamTFTを提起している．マルチエージェントではなく単一エージェントの設計を狙っている．
-#### Inequity aversion improves cooperation in intertemporal social dilemmas
+#### [Inequity aversion improves cooperation in intertemporal social dilemmas](https://arxiv.org/abs/1803.08884)
+[Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.md)
 SSD環境において、不公平嫌悪(inquity aversion)を報酬構造に組み込むことで、自己利益だけでなく社会的な協調を誘導できると主張．
 
 #### [Learning through Probing: a decentralized reinforcement learning architecture for social dilemmas](https://arxiv.org/abs/1809.10007?utm_source=chatgpt.com)
