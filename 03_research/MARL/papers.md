@@ -12,8 +12,7 @@
     - [Evolving intrinsic motivations for altruistic behavior(2018)](#evolving-intrinsic-motivations-for-altruistic-behavior)
     - [Agent Modeling as Auxiliary Task for Deep Reinforcement Learning(2019)](https://arxiv.org/abs/1907.09597)
     - [Learning Reciprocity in Complex Sequential Social Dilemmas(2019)](#learning-reciprocity-in-complex-sequential-social-dilemmas)
-    - [Emergent Multi-Agent Communication in the Deep Learning
-Era(2020)](https://arxiv.org/abs/2006.02419)
+    - [Emergent Multi-Agent Communication in the Deep Learning Era(2020)](https://arxiv.org/abs/2006.02419)
     - [Promoting Coordination through Policy Regularization in Multi-Agent Deep Reinforcement Learning(2020)](https://arxiv.org/abs/1908.02269)
     - [Sample Factory: Egocentric 3D Control from Pixels at 100000 FPS with Asynchronous Reinforcement Learning(2020)](https://arxiv.org/abs/2006.11751)
     - [The Surprising Effectiveness of PPO in Cooperative, Multi-Agent Games(2021)](https://arxiv.org/abs/2103.01955?utm_source=chatgpt.com)
