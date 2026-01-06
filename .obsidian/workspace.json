@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "config/templates/DailyNoteTemplate.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "DailyNoteTemplate"
             }
           }
         ]
@@ -191,11 +191,17 @@
       "templates:テンプレートを挿入": false,
       "command-palette:コマンドパレットを開く": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "7dee5c63039cd7fd",
+  "active": "9499c2f0b74b1714",
   "lastOpenFiles": [
-    "README.md"
+    "README.md",
+    "index.md",
+    "config/templates/DailyNoteTemplate.md",
+    "config/templates/DailyNoteTemplate",
+    "config/templates",
+    "config"
   ]
 }
