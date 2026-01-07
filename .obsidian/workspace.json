@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "config/templates/DailyNoteTemplate.md",
+                "file": "01_dailymemo/2026-01-07.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DailyNoteTemplate"
+              "title": "2026-01-07"
             }
           }
         ],
@@ -213,11 +213,12 @@
   },
   "active": "c01e3056ba9b5218",
   "lastOpenFiles": [
-    "01_dailymemo/2026-01-07.md",
-    "01_dailymemo/2026-01-06.md",
+    "config/templates/DailyNoteTemplate.md",
     "01_dailymemo/2026-01-04.md",
-    "01_dailymemo/2026-01-05.md",
+    "01_dailymemo/2026-01-06.md",
+    "01_dailymemo/2026-01-07.md",
     "03_research/MAPF/papers.md",
+    "01_dailymemo/2026-01-05.md",
     "03_research/MARL/papers.md",
     "03_research/index.md",
     "03_research/research_explore_method.md",
@@ -226,7 +227,6 @@
     "index.md",
     "README.md",
     "03_research/Authors/index.md",
-    "config/templates/DailyNoteTemplate.md",
     "config/templates/DailyNoteTemplate",
     "config/templates",
     "config"

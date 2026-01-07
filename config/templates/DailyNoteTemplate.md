@@ -1,4 +1,4 @@
-# Daily Memo — yyyy-mm-dd
+# Daily - <% tp.date.now() %>
 
 ## 🕘 Today at a Glance
 - Mood:
