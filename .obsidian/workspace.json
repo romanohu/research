@@ -25,14 +25,14 @@
             "id": "c01e3056ba9b5218",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "01_dailymemo/2026-01-08.md",
-                "mode": "source",
-                "source": false
+                "aFile": "01_dailymemo/2026-01-08.md",
+                "bFile": "01_dailymemo/2026-01-08.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "2026-01-08"
+              "icon": "diff",
+              "title": "Diff: 2026-01-08  (Working Tree)"
             }
           }
         ],
@@ -186,8 +186,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -195,8 +195,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -213,8 +212,8 @@
   },
   "active": "c01e3056ba9b5218",
   "lastOpenFiles": [
-    "01_dailymemo/2026-01-07.md",
     "01_dailymemo/2026-01-08.md",
+    "01_dailymemo/2026-01-07.md",
     "01_dailymemo/2026-01-02.md",
     "01_dailymemo/2026-01-04.md",
     "01_dailymemo/2026-01-05.md",
