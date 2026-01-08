@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_dailymemo/2026-01-06.md",
+                "file": "03_research/MARL/papers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-01-06"
-            }
-          },
-          {
-            "id": "c01e3056ba9b5218",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "01_dailymemo/2026-01-08.md",
-                "bFile": "01_dailymemo/2026-01-08.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: 2026-01-08  (Working Tree)"
+              "title": "papers"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -210,14 +195,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c01e3056ba9b5218",
+  "active": "fc7839f35af359d9",
   "lastOpenFiles": [
+    "01_dailymemo/2026-01-06.md",
     "01_dailymemo/2026-01-08.md",
     "01_dailymemo/2026-01-07.md",
     "01_dailymemo/2026-01-02.md",
     "01_dailymemo/2026-01-04.md",
     "01_dailymemo/2026-01-05.md",
-    "01_dailymemo/2026-01-06.md",
     "config/templates/DailyNoteTemplate.md",
     "README.md",
     "03_research/MAPF/papers.md",
