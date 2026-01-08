@@ -20,6 +20,7 @@
     - [Multi-agent deep reinforcement learning: a survey(2021)](https://link.springer.com/article/10.1007/s10462-021-09996-w?utm_source=chatgpt.com)
     - [Trust Region Policy Optimisation in Multi-Agent Reinforcement Learning(2022)](https://arxiv.org/abs/2109.11251?utm_source=chatgpt.com)
     - [A Review of Cooperative Multi-Agent Deep Reinforcement Learning(2019)](#a-review-of-cooperative-multi-agent-deep-reinforcement-learning)
+    - [Social diversity and social preferences in mixed-motive reinforcement learning(2020)](#social-diversity-and-social-preferences-in-mixed-motive-reinforcement-learning)
     - [RPM: Generalizable Behaviors for Multi-Agent Reinforcement Learning(2022)](https://arxiv.org/abs/2210.09646)
     - [Multi-Agent Reinforcement Learning is a Sequence Modeling Problem(2023)](https://arxiv.org/abs/2205.14953?utm_source=chatgpt.com)
     - [A Review of Cooperation in Multi-agent Learning(2023)](#a-review-of-cooperation-in-multi-agent-learning)
@@ -89,6 +90,10 @@ $$r^{inf}_t(t)=\sum_{j≠i} D(\pi_j(・|o_t,a^i_t)||\pi_j(・|o_t,a^{i,cf}_t))$$
 
 ### 2020
 #### Promoting Coordination through Policy Regularization in Multi-Agent Deep Reinforcement Learning
+
+#### [Social diversity and social preferences in mixed-motive reinforcement learning](https://arxiv.org/abs/2002.02325)
+[Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.md)
+
 
 ### 2021
 #### Multi-agent deep reinforcement learning: a survey
