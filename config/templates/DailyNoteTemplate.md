@@ -1,4 +1,3 @@
-# Daily - <% tp.date.now() %>
 
 ## 🕘 Today at a Glance
 - Mood:
