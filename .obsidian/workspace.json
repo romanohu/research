@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "f7137492542d7957",
+    "id": "ed8439ca3d10a6f5",
     "type": "split",
     "children": [
       {
-        "id": "5580d82bfa2bcd1c",
+        "id": "c6c3096375e459bc",
         "type": "tabs",
         "children": [
           {
-            "id": "fc7839f35af359d9",
+            "id": "2b4e168a01eab098",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03_research/MARL/papers.md",
+                "file": "01_dailymemo/2026-01-08.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "papers"
+              "title": "2026-01-08"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "0e879c0a6799cdae",
+    "id": "fb4ac67a6c151dcd",
     "type": "split",
     "children": [
       {
-        "id": "b379e3b3815e3049",
+        "id": "4ec6e162ea6d8227",
         "type": "tabs",
         "children": [
           {
-            "id": "9499c2f0b74b1714",
+            "id": "49cc8727afc285f9",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,11 +44,11 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "ファイルエクスプローラ"
             }
           },
           {
-            "id": "db819aa2b91ddd49",
+            "id": "77ce7df5fc761a07",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,17 +61,17 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "検索"
             }
           },
           {
-            "id": "8355605ef71f0910",
+            "id": "cb192e0de3a1606e",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "title": "ブックマーク"
             }
           }
         ]
@@ -81,20 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "4729c237a782e6ec",
+    "id": "8382996df184db2a",
     "type": "split",
     "children": [
       {
-        "id": "d58668f977664ebb",
+        "id": "743933148ed14203",
         "type": "tabs",
         "children": [
           {
-            "id": "8f3836ae3122cdfa",
+            "id": "76993df22e741070",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "01_dailymemo/2026-01-08.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for index"
+              "title": "2026-01-08へのバックリンク"
             }
           },
           {
-            "id": "7dbda15d33ddf8e1",
+            "id": "76c0df86898aee2a",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "01_dailymemo/2026-01-08.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from index"
+              "title": "2026-01-08からのアウトゴーイングリンク"
             }
           },
           {
-            "id": "c72431ceb8bc7081",
+            "id": "343cfa89c8429407",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -133,11 +133,11 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "タグ"
             }
           },
           {
-            "id": "125f7b3fa95dede4",
+            "id": "93cde0727b656fa4",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -147,26 +147,26 @@
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
-              "title": "All properties"
+              "title": "すべてのプロパティ"
             }
           },
           {
-            "id": "b8c54dd8a84811e6",
+            "id": "cf71c65781d878c6",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md",
+                "file": "01_dailymemo/2026-01-08.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "2026-01-08のアウトライン"
             }
           },
           {
-            "id": "7d5cb04839d8e311",
+            "id": "399208fce1aefc3c",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -180,41 +180,21 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:クイックスイッチャーを開く": false,
+      "graph:グラフビューを開く": false,
+      "canvas:新規キャンバスを作成": false,
+      "daily-notes:今日のデイリーノートを開く": false,
+      "templates:テンプレートを挿入": false,
+      "command-palette:コマンドパレットを開く": false,
       "bases:Create new base": false,
       "obsidian-git:Open Git source control": false,
       "templater-obsidian:Templater": false
     }
   },
-  "active": "fc7839f35af359d9",
-  "lastOpenFiles": [
-    "01_dailymemo/2026-01-06.md",
-    "01_dailymemo/2026-01-08.md",
-    "01_dailymemo/2026-01-07.md",
-    "01_dailymemo/2026-01-02.md",
-    "01_dailymemo/2026-01-04.md",
-    "01_dailymemo/2026-01-05.md",
-    "config/templates/DailyNoteTemplate.md",
-    "README.md",
-    "03_research/MAPF/papers.md",
-    "03_research/MARL/papers.md",
-    "03_research/index.md",
-    "03_research/research_explore_method.md",
-    "03_research/Authors/overseas/JoelZ.Leibo.md",
-    "03_research/MARL/index.md",
-    "index.md",
-    "03_research/Authors/index.md",
-    "config/templates/DailyNoteTemplate",
-    "config/templates",
-    "config"
-  ]
+  "active": "2b4e168a01eab098",
+  "lastOpenFiles": []
 }
