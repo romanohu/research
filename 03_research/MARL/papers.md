@@ -93,6 +93,7 @@ $$r^{inf}_t(t)=\sum_{j≠i} D(\pi_j(・|o_t,a^i_t)||\pi_j(・|o_t,a^{i,cf}_t))$$
 
 #### [Social diversity and social preferences in mixed-motive reinforcement learning](https://arxiv.org/abs/2002.02325)
 [Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.md)
+エージェントに社会的価値志向(Social Value Orientation:SVO)
 
 
 ### 2021
