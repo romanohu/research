@@ -94,7 +94,9 @@ $$r^{inf}_t(t)=\sum_{j≠i} D(\pi_j(・|o_t,a^i_t)||\pi_j(・|o_t,a^{i,cf}_t))$$
 #### [Social diversity and social preferences in mixed-motive reinforcement learning](https://arxiv.org/abs/2002.02325)
 [Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.md)
 エージェントに社会的価値志向(Social Value Orientation:SVO)という選考形式を付与することで、集団内の多様性を生み出すことが、相互依存理論(社会心理学の文脈)が示唆するのと同様の有意かつ複雑な行動パターンの多様性をエージェント間に生成することを明らかにした．
-SVOは内発的動機づけであり、自己と他者の間で特定の集団報酬分布を優先する傾向を指す．
+SVOは内発的動機づけであり、自己と他者の間で、どのような報酬分配を好むかを表す．それを表現するために報酬角(reward angle)という概念が導入されている．
+$$R=(r_1,...,r_n)$$
+$$報酬角:¥theta(R)= ¥arctan \left( \frac{\bar{r}-i}{r_i} \right)$$
 
 
 ### 2021
