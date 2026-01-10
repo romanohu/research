@@ -16,7 +16,7 @@
       },
       "format": {
         "enabled": true,
-        "format": "[[{{DATE}}]]"
+        "format": "[{{DATE}}]({{DATE:}})"
       },
       "insertAfter": {
         "enabled": false,

@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "config/templates/DailyNoteTemplate.md",
+                "file": "01_dailymemo/2026-01-10.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DailyNoteTemplate"
+              "title": "2026-01-10"
             }
           }
         ],
