@@ -1,11 +1,10 @@
 <%*
-// QuickAddで作成した「目次追記」などのアクション名を指定します
-const actionName = '目次追記'; 
-
+// 作成されたファイル名をリンクとして渡す
+const fileName = tp.file.title;
 const quickAddApi = app.plugins.plugins.quickadd.api;
+
 if (quickAddApi) {
-    await quickAddApi.executeChoice(actionName);
-} else {
-    new Notice("QuickAddプラグインが見つかりません");
+    // QuickAddのアクション（'自動リンク追加'）に、ファイル名を引数として渡す
+    await quickAddApi.executeChoice('freememo', {VALUE: fileName});
 }
 %>
