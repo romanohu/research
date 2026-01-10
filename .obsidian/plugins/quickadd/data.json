@@ -59,7 +59,7 @@
       },
       "format": {
         "enabled": true,
-        "format": "[{{VALUE}}](<{{VALUE}}>)"
+        "format": "[{{VALUE}}](<{{VALUE}}>.md)"
       },
       "insertAfter": {
         "enabled": false,
