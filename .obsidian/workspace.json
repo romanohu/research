@@ -195,7 +195,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -212,6 +213,8 @@
   },
   "active": "1776a3b259027a9d",
   "lastOpenFiles": [
+    "README.md",
+    "index.md",
     "01_dailymemo/2026-01-10.md",
     "02_freememo/wezterm.md",
     "conflict-files-obsidian-git.md",
