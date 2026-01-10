@@ -206,8 +206,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "4f862e308aaccf58",
+  "active": "399208fce1aefc3c",
   "lastOpenFiles": [
+    "research",
     "01_dailymemo/index.md",
     "01_dailymemo/2026-01-11.md",
     "config/templates/DailyNoteTemplate.md",
@@ -234,7 +235,6 @@
     "03_research/MAPF/index.md",
     "03_research/research_explore_method.md",
     "01_dailymemo/無題のファイル.base",
-    "無題のファイル.canvas",
-    "03_research/gameAI/papers.md"
+    "無題のファイル.canvas"
   ]
 }
