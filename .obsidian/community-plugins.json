@@ -4,5 +4,6 @@
   "quickadd",
   "obsidian-tasks-plugin",
   "dataview",
-  "calendar"
+  "calendar",
+  "obsidian-linter"
 ]
