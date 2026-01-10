@@ -1,4 +1,4 @@
-
+# <%* tp.date.now("YYYY-MM-DD") %>
 ## 🕘 Today at a Glance
 - Mood:
 - Focus:
