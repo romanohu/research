@@ -26,7 +26,7 @@
     {
       "id": "ojzp0zbufk",
       "platform_specific_commands": {
-        "default": "rsync -av --delete \"/Users/romanohu/project/memo/research\" \"/Users/romanohu/project/memo/kasushuku/maro/\""
+        "default": "rsync -av --delete \"/Users/romanohu/project/memo/research/\" \"/Users/romanohu/project/memo/kasushuku/maro/\""
       },
       "shells": {},
       "alias": "",
