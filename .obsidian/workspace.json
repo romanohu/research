@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3360ce4d6d2133b7",
+        "id": "68048e5660f1ebc5",
         "type": "tabs",
         "children": [
           {
-            "id": "9de4d21bdb92f4e0",
+            "id": "ca817e76e3a70942",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_dailymemo/2026-01-08.md",
+                "file": "04_study/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-01-08"
+              "title": "index"
             }
           }
         ]
@@ -206,34 +206,35 @@
       "notebook-navigator:ノートブックナビゲーター": false
     }
   },
-  "active": "9de4d21bdb92f4e0",
+  "active": "ca817e76e3a70942",
   "lastOpenFiles": [
-    "01_dailymemo/2026-01-09.md",
-    "01_dailymemo/2026-01-10.md",
+    "04_study/Python/index.md",
     "01_dailymemo/index.md",
+    "01_dailymemo/2026-01-10.md",
+    "03_research/MARL/papers.md",
+    "03_research/MARL/index.md",
+    "03_research/MAPF/papers.md",
+    "03_research/MAPF/index.md",
+    "02_freememo/wezterm.md",
+    "02_freememo/index.md",
+    "01_dailymemo/2026-01-06.md",
+    "01_dailymemo/2026-01-08.md",
+    "README.md",
+    "index.md",
+    "04_study/index.md",
+    "03_research/research_explore_method.md",
+    "03_research/index.md",
+    "01_dailymemo/2026-01-09.md",
     "01_dailymemo/無題のファイル.base",
     "無題のファイル.canvas",
-    "03_research/MAPF/papers.md",
     "03_research/Authors/japanese/奥村圭佑.md",
     "03_research/gameAI/papers.md",
     "03_research/gameAI/index.md",
     "config/templates/DailyNoteTemplate.md",
-    "index.md",
-    "03_research/MAPF/index.md",
-    "03_research/MARL/papers.md",
-    "02_freememo/index.md",
     "03_research/Authors/overseas/JoelZ.Leibo.md",
-    "03_research/MARL/index.md",
     "02_freememo/game.md",
     "config/templates/FreeMemoLinkAppend.md",
-    "02_freememo/wezterm.md",
     "02_freememo/無題のファイル.md",
-    "02_freememo/無題のファイル 1.md",
-    "02_freememo/無題のファイル 2.md",
-    "config/templates/無題のファイル.md",
-    "01_dailymemo/2026-01-08.md",
-    "01_dailymemo/2026-01-07.md",
-    "01_dailymemo/2026-01-06.md",
-    "01_dailymemo/2026-01-05.md"
+    "02_freememo/無題のファイル 1.md"
   ]
 }
