@@ -10,4 +10,7 @@
 ## 📝 Free Notes
 -
 
-{{VALUE:dailymemo}}
+<%*
+const quickAddApi = app.plugins.plugins.quickadd.api;
+await quickAddApi.executeChoice('dailymemo');
+%>
