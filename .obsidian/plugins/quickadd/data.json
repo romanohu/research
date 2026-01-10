@@ -1,23 +1,37 @@
 {
   "choices": [
     {
-      "id": "e19c06df-35ff-4f4e-8d91-ac4484f0e880",
-      "name": "01_dailymemo/index",
-      "type": "Template",
+      "id": "c2ce273c-f6ef-4d78-89c8-f984cb0e987c",
+      "name": "dailymemo",
+      "type": "Capture",
       "command": false,
-      "templatePath": "",
-      "fileNameFormat": {
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": false,
+      "activeFileWritePosition": "cursor",
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
         "enabled": false,
         "format": ""
       },
-      "folder": {
+      "insertAfter": {
         "enabled": false,
-        "folders": [],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false,
-        "chooseFromSubfolders": false
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
       },
-      "appendLink": false,
+      "newLineCapture": {
+        "enabled": false,
+        "direction": "below"
+      },
+      "prepend": false,
+      "task": false,
       "openFile": false,
       "fileOpening": {
         "location": "tab",
@@ -25,8 +39,9 @@
         "mode": "default",
         "focus": true
       },
-      "fileExistsMode": "Increment the file name",
-      "setFileExistsBehavior": false
+      "templater": {
+        "afterCapture": "none"
+      }
     }
   ],
   "inputPrompt": "single-line",
