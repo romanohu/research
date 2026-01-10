@@ -11,10 +11,14 @@
             "id": "4f862e308aaccf58",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "04_study/Cpp/index.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新規タブ"
+              "title": "index"
             }
           }
         ]
@@ -205,22 +209,23 @@
   },
   "active": "4f862e308aaccf58",
   "lastOpenFiles": [
+    "04_study/Python/index.md",
+    "index.md",
+    "README.md",
+    "01_dailymemo/2026-01-10.md",
+    "01_dailymemo/index.md",
+    "01_dailymemo/2026-01-04.md",
     "03_research/index.md",
     "03_research/MARL/index.md",
     "03_research/MARL/papers.md",
     "03_research/Authors/japanese/奥村圭佑.md",
     "04_study/index.md",
-    "04_study/Python/index.md",
-    "01_dailymemo/index.md",
-    "01_dailymemo/2026-01-10.md",
     "03_research/MAPF/papers.md",
     "03_research/MAPF/index.md",
     "02_freememo/wezterm.md",
     "02_freememo/index.md",
     "01_dailymemo/2026-01-06.md",
     "01_dailymemo/2026-01-08.md",
-    "README.md",
-    "index.md",
     "03_research/research_explore_method.md",
     "01_dailymemo/2026-01-09.md",
     "01_dailymemo/無題のファイル.base",
@@ -231,7 +236,6 @@
     "03_research/Authors/overseas/JoelZ.Leibo.md",
     "02_freememo/game.md",
     "config/templates/FreeMemoLinkAppend.md",
-    "02_freememo/無題のファイル.md",
-    "02_freememo/無題のファイル 1.md"
+    "02_freememo/無題のファイル.md"
   ]
 }
