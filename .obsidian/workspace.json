@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "01_dailymemo/2026-01-10.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "2026-01-10"
             }
           }
         ],
@@ -269,6 +269,7 @@
   },
   "active": "dbb40e2b6f27e7cd",
   "lastOpenFiles": [
+    "index.md",
     "02_freememo/index.md",
     "02_freememo/game.md",
     "config/templates/FreeMemoLinkAppend.md",
@@ -287,7 +288,6 @@
     "01_dailymemo/2026-01-05.md",
     "01_dailymemo/2026-01-04.md",
     "README.md",
-    "index.md",
     "conflict-files-obsidian-git.md",
     "03_research/MARL/papers.md"
   ]
