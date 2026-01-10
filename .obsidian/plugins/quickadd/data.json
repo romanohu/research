@@ -16,7 +16,7 @@
       },
       "format": {
         "enabled": true,
-        "format": "[{{DATE}}]({{DATE:}})"
+        "format": "[{{DATE}}]({{DATE:}})\n"
       },
       "insertAfter": {
         "enabled": false,
