@@ -62,9 +62,23 @@
               "icon": "lucide-file",
               "title": "index"
             }
+          },
+          {
+            "id": "8e6b62dccbbece63",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "config/templates/FreeMemoLinkAppend.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "FreeMemoLinkAppend"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -239,8 +253,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8bf8864f5623f6ea",
+  "active": "8e6b62dccbbece63",
   "lastOpenFiles": [
+    "config/templates/FreeMemoLinkAppend.md",
+    "02_freememo/無題のファイル 1.md",
+    "02_freememo/index.md",
     "01_dailymemo/index.md",
     "01_dailymemo/2026-01-10.md",
     "01_dailymemo/2026-01-09.md",
