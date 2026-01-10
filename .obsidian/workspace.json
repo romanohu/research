@@ -194,6 +194,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "local-backup:Run local backup": false,
       "switcher:クイックスイッチャーを開く": false,
       "graph:グラフビューを開く": false,
       "canvas:新規キャンバスを作成": false,
@@ -206,7 +207,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "399208fce1aefc3c",
+  "active": "4f862e308aaccf58",
   "lastOpenFiles": [
     "research",
     "01_dailymemo/index.md",

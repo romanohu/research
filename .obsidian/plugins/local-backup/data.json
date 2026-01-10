@@ -1,6 +1,6 @@
 {
   "versionValue": "0.2.0",
-  "startupBackupStatus": false,
+  "startupBackupStatus": true,
   "onquitBackupStatus": true,
   "lifecycleValue": "3",
   "backupsPerDayValue": "3",
