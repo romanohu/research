@@ -9,3 +9,5 @@
 
 ## 📝 Free Notes
 -
+
+{{VALUE:dailymemo}}

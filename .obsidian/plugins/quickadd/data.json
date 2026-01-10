@@ -6,7 +6,7 @@
       "type": "Capture",
       "command": false,
       "appendLink": false,
-      "captureTo": "",
+      "captureTo": "01_dailymemo/index.md",
       "captureToActiveFile": false,
       "activeFileWritePosition": "cursor",
       "createFileIfItDoesntExist": {
@@ -15,8 +15,8 @@
         "template": ""
       },
       "format": {
-        "enabled": false,
-        "format": ""
+        "enabled": true,
+        "format": "[[{{DATE}}]]"
       },
       "insertAfter": {
         "enabled": false,
