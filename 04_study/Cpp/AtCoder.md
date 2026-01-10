@@ -863,6 +863,7 @@ int main()
 ## C++の記法
 ### 参考
 - [python2cpp](https://github.com/kaityo256/python2cpp?tab=readme-ov-file)
+
 ### AtCoderよく使う記法
 テンプレート
 ```cpp
