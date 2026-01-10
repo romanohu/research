@@ -194,7 +194,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "local-backup:Run local backup": false,
+      "obsidian-shellcommands:Shell commands: Custom variables": false,
       "switcher:クイックスイッチャーを開く": false,
       "graph:グラフビューを開く": false,
       "canvas:新規キャンバスを作成": false,
