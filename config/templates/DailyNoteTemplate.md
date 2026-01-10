@@ -1,4 +1,4 @@
-
+# <%* {{DATE}} %>
 ## 🕘 Today at a Glance
 - Mood:
 - Focus:

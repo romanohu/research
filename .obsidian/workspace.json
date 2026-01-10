@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04_study/Cpp/index.md",
+                "file": "01_dailymemo/2026-01-10.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "2026-01-10"
             }
           }
         ]
@@ -209,12 +209,20 @@
   },
   "active": "4f862e308aaccf58",
   "lastOpenFiles": [
+    "01_dailymemo/2026-01-09.md",
+    "01_dailymemo/2026-01-08.md",
+    "01_dailymemo/2026-01-07.md",
+    "01_dailymemo/2026-01-06.md",
+    "01_dailymemo/2026-01-05.md",
+    "01_dailymemo/2026-01-04.md",
+    "01_dailymemo/2026-01-02.md",
+    "config/templates/DailyNoteTemplate.md",
+    "04_study/Cpp/index.md",
     "04_study/Python/index.md",
     "index.md",
     "README.md",
     "01_dailymemo/2026-01-10.md",
     "01_dailymemo/index.md",
-    "01_dailymemo/2026-01-04.md",
     "03_research/index.md",
     "03_research/MARL/index.md",
     "03_research/MARL/papers.md",
@@ -224,18 +232,10 @@
     "03_research/MAPF/index.md",
     "02_freememo/wezterm.md",
     "02_freememo/index.md",
-    "01_dailymemo/2026-01-06.md",
-    "01_dailymemo/2026-01-08.md",
     "03_research/research_explore_method.md",
-    "01_dailymemo/2026-01-09.md",
     "01_dailymemo/無題のファイル.base",
     "無題のファイル.canvas",
     "03_research/gameAI/papers.md",
-    "03_research/gameAI/index.md",
-    "config/templates/DailyNoteTemplate.md",
-    "03_research/Authors/overseas/JoelZ.Leibo.md",
-    "02_freememo/game.md",
-    "config/templates/FreeMemoLinkAppend.md",
-    "02_freememo/無題のファイル.md"
+    "03_research/gameAI/index.md"
   ]
 }
