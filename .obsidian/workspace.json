@@ -174,14 +174,23 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "703c772d485a545c",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
           }
         ],
         "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,7 +206,7 @@
       "notebook-navigator:ノートブックナビゲーター": false
     }
   },
-  "active": "a4b9f21d43f48e41",
+  "active": "49cc8727afc285f9",
   "lastOpenFiles": [
     "無題のファイル.canvas",
     "01_dailymemo/2026-01-10.md",
