@@ -37,7 +37,6 @@
 記述的(Descriptive)な立場で、どのような行動パターンが現れるのかを観察．
 それぞれのゲームの差異の他に、学習の際のハイパーパラメータにも着目している．
 
-
 #### Multiagent cooperation and competition with deep reinforcement learning
 Pongゲーム環境において、報酬設定pを操作することで、協力的/競争的な行動が創発する．また、固定方策AIを相手に学習するsingle-playerDQNよりも、固定方策AIを用いないmultiplayerDQNのほうが、より一般的でロバストな戦略が育つ．
 ### 2018
