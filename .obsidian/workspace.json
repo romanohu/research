@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4f862e308aaccf58",
+            "id": "8aaedcc02bfe806b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04_study/Cpp/index.md",
+                "file": "03_research/MARL/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -22,17 +22,17 @@
             }
           },
           {
-            "id": "6d2ff1b7dc834f90",
+            "id": "802be2032e3e779b",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "03_research/MARL/cmarl_papers.md",
-                "bFile": "03_research/MARL/cmarl_papers.md",
-                "aRef": ""
+                "file": "03_research/MARL/marl_papers.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: cmarl_papers  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "marl_papers"
             }
           }
         ],
@@ -225,16 +225,26 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "6d2ff1b7dc834f90",
+  "active": "802be2032e3e779b",
   "lastOpenFiles": [
-    "03_research/MAPF/papers.md",
     "03_research/MARL/cmarl_papers.md",
+    "03_research/MARL/marl_papers.md",
+    "03_research/MARL/index.md",
+    "03_research/research_read_method.md",
+    "03_research/MAPF/papers.md",
+    "03_research/MAPF/index.md",
+    "03_research/EmCom/papers.md",
+    "03_research/EmCom/index.md",
+    "03_research/Authors/index.md",
+    "03_research/Authors/overseas/AntonAndreychuk.md",
+    "03_research/Authors/overseas/RishabhJain.md",
+    "03_research/Authors/overseas/JoelZ.Leibo.md",
+    "04_study/Cpp/index.md",
     "03_research/MARL/papers.md",
     "03_research/MARL/marl-papers-presentation.md",
     "01_dailymemo/2026-01-11.md",
     "index.md",
     "04_study/Cpp/AtCoder.md",
-    "04_study/Cpp/index.md",
     "config/templates/DailyNoteTemplate.md",
     "01_dailymemo/index.md",
     "01_dailymemo/2026-01-10.md",
@@ -244,16 +254,6 @@
     "01_dailymemo/2026-01-09.md",
     "01_dailymemo/2026-01-05.md",
     "01_dailymemo/2026-01-07.md",
-    "02_freememo/index.md",
-    "01_dailymemo/2026-01-06.md",
-    "01_dailymemo/2026-01-04.md",
-    "01_dailymemo/2026-01-02.md",
-    "04_study/Python/index.md",
-    "README.md",
-    "03_research/index.md",
-    "03_research/MARL/index.md",
-    "03_research/Authors/japanese/奥村圭佑.md",
-    "04_study/index.md",
     "01_dailymemo/無題のファイル.base",
     "無題のファイル.canvas"
   ]
