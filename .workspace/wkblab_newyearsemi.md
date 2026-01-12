@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: freud
+theme: border
 paginate: true
 math: mathjax
 ---
@@ -12,3 +12,11 @@ klis3年 鈴木史麿
 # 紹介する論文
 - (MARL系)
 - Graph Attention-Guided Search for Dense Multi-Agent Pathfinding
+
+---
+
+(MARL)
+
+---
+
+<h1>a</h1>
