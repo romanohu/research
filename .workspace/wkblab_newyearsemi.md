@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: border
+theme: 
 paginate: true
 math: mathjax
 ---
