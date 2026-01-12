@@ -22,7 +22,7 @@ John Schulman, Filip Wolski, Prafulla Dhariwal, Alec Radford, Oleg Klimov
 
 #### 流れ
 
-- 強化学習（RL）の基礎を復習
+- 強化学習(RL)の基礎を復習
 - Policy Gradient と Actor-Critic の位置づけ
 - TRPO の課題を理解
 - PPO の目的関数を数式で理解する
@@ -201,7 +201,7 @@ $$
 
 → それ以上の改善・悪化を 打ち切る
 
-→ 方策を「近接（proximal）」に保つ
+→ 方策を「近接(proximal)」に保つ
 
 ---
 
@@ -252,10 +252,10 @@ $$
 
 ---
 
-#### 実験結果（論文）
+#### 実験結果(論文)
 
-- MuJoCo（連続制御）
-- Atari（離散制御）
+- MuJoCo(連続制御)
+- Atari(離散制御)
 - A2C / TRPO を多くのタスクで上回る
 
 ---
@@ -274,14 +274,14 @@ Rishabh Jain, Keisuke Okumura, Michael Amir, Amanda Prorok
 
 ---
 
-#### 背景：Multi-Agent Pathfinding（MAPF）
+#### 背景：Multi-Agent Pathfinding(MAPF)
 
 MAPF問題
 - 複数エージェントが
   - 同一セル占有なし
   - エッジ衝突なし
 - 各自のスタート → ゴールへ移動
-- 目的：総コスト（makespan / sum of costs）最小化
+- 目的：総コスト(makespan / sum of costs)最小化
 
 ---
 
@@ -295,7 +295,7 @@ MAPF問題
 #### MAPFの難しさ
 
 - エージェント数 $N$ に対して状態空間が 指数的
-- 特に 高密度（dense）環境では
+- 特に 高密度(dense)環境では
   - 局所的な衝突回避が全体最適を破壊
   - デッドロックが頻発
 
@@ -339,7 +339,7 @@ MAGATとは
 - Graph Attention により相互作用を学習
 
 出力
-- 各エージェントの行動分布（次の移動）
+- 各エージェントの行動分布(次の移動)
 
 課題
 - デッドロック
@@ -347,7 +347,7 @@ MAGATとは
 
 ---
 
-#### 問題意識（この論文の動機）
+#### 問題意識(この論文の動機)
 
 なぜ過去の「学習誘導探索」は失敗してきたのか？
 
@@ -419,8 +419,8 @@ LaGAT = LaCAM + GAT-based Heuristic
 - 狭い通路・ボトルネックあり
 
 比較手法
-- 純探索（LaCAM）
-- 純学習（MAGAT）
+- 純探索(LaCAM)
+- 純学習(MAGAT)
 
 ---
 
@@ -428,7 +428,7 @@ LaGAT = LaCAM + GAT-based Heuristic
 
 結果
 - LaGAT が最良性能
-  - 解の質（near-optimal）
+  - 解の質(near-optimal)
   - 成功率
   - 計算時間
 
