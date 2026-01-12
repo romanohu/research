@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: 
+theme: freud
 paginate: true
 math: mathjax
 ---
@@ -18,5 +18,4 @@ klis3年 鈴木史麿
 (MARL)
 
 ---
-
-<h1>a</h1>
+<!-- header:  -->
