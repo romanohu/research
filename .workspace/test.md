@@ -2,7 +2,7 @@
 marp: true
 theme: default
 paginate: true
-
+math: katex
 ---
 
 # Proximal Policy Optimization (PPO)
