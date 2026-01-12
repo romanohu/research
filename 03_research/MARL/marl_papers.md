@@ -1,6 +1,6 @@
 # MARL 論文
 - 読んだ方が良い論文
-	- [HyperMARL: Adaptive Hypernetworks for Multi-Agent RL(2024)]()
+	- [HyperMARL: Adaptive Hypernetworks for Multi-Agent RL(2024)](#hypermarl-adaptive-hypernetworks-for-multi-agent-rl)
 
 
 ## 論文メモ
