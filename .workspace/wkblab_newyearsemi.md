@@ -15,7 +15,7 @@ klis3年 鈴木史麿
 
 ---
 
-### Proximal Policy Optimization Algorithms(2017)
+### [Proximal Policy Optimization Algorithms(2017)](https://arxiv.org/abs/1707.06347)
 John Schulman, Filip Wolski, Prafulla Dhariwal, Alec Radford, Oleg Klimov
 
 ---
@@ -269,7 +269,7 @@ $$
 
 ---
 
-### Graph Attention-Guided Search for Dense Multi-Agent Pathfinding(2025)
+### [Graph Attention-Guided Search for Dense Multi-Agent Pathfinding(2025)](https://arxiv.org/abs/2510.17382)
 Rishabh Jain, Keisuke Okumura, Michael Amir, Amanda Prorok
 
 ---
@@ -308,18 +308,16 @@ MAPF問題
 ##### 探索ベース手法
 - 完備性・最適性保証
 - 例：CBS, LaCAM
-- 高密度では遅い
 
 ##### 学習ベース手法
-- 高速・スケーラブル
-- 例：GNN, Transformer
 - 完全性なし・失敗例あり
+- 例：GNN, Transformer
 
 →「学習で探索を導く」ハイブリッドが理想かもしれない
 
 ---
 
-#### LaCAM（Large-scale Conflict-Aware MAPF）
+#### LaCAM
 
 LaCAMの特徴
 - 探索ベース MAPF アルゴリズム
@@ -330,13 +328,9 @@ LaCAMの特徴
 - 完備性あり
 - 大規模問題に比較的強い
 
-弱み
-- 優先度探索が盲目的
-- 密集環境では near-optimal 解が遅い
-
 ---
 
-#### MAGAT（Message-Aware Graph Attention）
+#### MAGAT
 
 MAGATとは
 - MAPF専用の GNN ポリシー
@@ -348,9 +342,8 @@ MAGATとは
 - 各エージェントの行動分布（次の移動）
 
 課題
-- 単体では
-  - デッドロック
-  - グローバル整合性不足
+- デッドロック
+- グローバル整合性不足
 
 ---
 
