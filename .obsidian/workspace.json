@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03_research/MARL/papers.md",
+                "file": "03_research/MAPF/papers.md",
                 "mode": "source",
                 "source": false
               },
@@ -224,6 +224,7 @@
   },
   "active": "6d2ff1b7dc834f90",
   "lastOpenFiles": [
+    "03_research/MARL/papers.md",
     "03_research/MARL/marl-papers-presentation.md",
     "01_dailymemo/2026-01-11.md",
     "index.md",
@@ -246,7 +247,6 @@
     "README.md",
     "03_research/index.md",
     "03_research/MARL/index.md",
-    "03_research/MARL/papers.md",
     "03_research/Authors/japanese/奥村圭佑.md",
     "04_study/index.md",
     "03_research/MAPF/papers.md",
