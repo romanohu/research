@@ -2,7 +2,7 @@
 marp: true
 theme: default
 paginate: true
-math: katex
+math: mathjax
 ---
 
 # Proximal Policy Optimization (PPO)
@@ -13,25 +13,29 @@ math: katex
 
 ## 背景：強化学習の基本設定
 - エージェントが環境と相互作用
-- 状態 \(s_t\)、行動 \(a_t\)、報酬 \(r_t\)
-- 方策 \(\pi_\theta(a|s)\) を最適化
+- 状態 $s_t$、行動 $a_t$、報酬 $r_t$
+- 方策 $\pi_\theta(a|s)$ を最適化
 
 目的：
-\[
+
+$$
 \max_\theta \mathbb{E}\left[\sum_t \gamma^t r_t\right]
-\]
+$$
 
 ---
 
 ## 方策勾配法（Policy Gradient）
-- 方策を直接パラメータ \(\theta\) で最適化
+- 方策を直接パラメータ $\theta$ で最適化
 - 勾配：
-\[
-\nabla_\theta J(\theta)
-= \mathbb{E}[\nabla_\theta \log \pi_\theta(a_t|s_t) A_t]
-\]
 
-- **Advantage \(A_t\)**：
+$$
+\nabla_\theta J(\theta)
+= \mathbb{E}\left[
+\nabla_\theta \log \pi_\theta(a_t|s_t)\, A_t
+\right]
+$$
+
+- **Advantage $A_t$**：
   - 「その行動は平均よりどれだけ良かったか」
 
 ---
@@ -50,9 +54,15 @@ math: katex
 ## TRPO（Trust Region Policy Optimization）
 - 方策の更新幅を制限
 - KL距離で制約：
-\[
-D_{KL}(\pi_{\theta_{\text{old}}} || \pi_\theta) \le \delta
-\]
+
+$$
+D_{KL}\left(
+\pi_{\theta_{\text{old}}}
+\;\|\;
+\pi_\theta
+\right)
+\le \delta
+$$
 
 ### 問題点
 - 実装が複雑
@@ -84,11 +94,12 @@ D_{KL}(\pi_{\theta_{\text{old}}} || \pi_\theta) \le \delta
 ---
 
 ## Importance Sampling Ratio
-\[
+
+$$
 r_t(\theta)
 = \frac{\pi_\theta(a_t|s_t)}
        {\pi_{\theta_{\text{old}}}(a_t|s_t)}
-\]
+$$
 
 意味：
 - 「新しい方策が、過去の行動をどれだけ支持するか」
@@ -96,20 +107,21 @@ r_t(\theta)
 ---
 
 ## PPOのClipped Objective
-\[
-L^{CLIP}(\theta)
-= \mathbb{E}\left[
-\min(
+
+$$
+L^{\text{CLIP}}(\theta)
+= \mathbb{E}\Big[
+\min\Big(
 r_t(\theta) A_t,\;
-\text{clip}(r_t(\theta), 1-\epsilon, 1+\epsilon) A_t
-)
-\right]
-\]
+\text{clip}\big(r_t(\theta), 1-\epsilon, 1+\epsilon\big) A_t
+\Big)
+\Big]
+$$
 
 ---
 
 ## Clippingの直観
-- \(r_t\) が大きくなりすぎると
+- $r_t$ が大きくなりすぎると
   - 学習を「打ち切る」
 - → 急激な方策更新を防止
 
@@ -160,7 +172,5 @@ r_t(\theta) A_t,\;
 
 ## PPOの限界
 - 理論保証はTRPOより弱い
-- クリップ幅 \(\epsilon\) に依存
+- クリップ幅 $\epsilon$ に依存
 - オフポリシーには不向き
-
----
