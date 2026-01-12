@@ -18,4 +18,8 @@ klis3年 鈴木史麿
 (MARL)
 
 ---
-<!-- header:  -->
+
+### Graph Attention-Guided Search for Dense Multi-Agent Pathfinding(2025)
+Rishabh Jain, Keisuke Okumura, Michael Amir, Amanda Prorok
+
+---
