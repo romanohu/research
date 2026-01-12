@@ -9,13 +9,14 @@ math: mathjax
 klis3年 鈴木史麿
 
 ---
-# 紹介する論文
-- (MARL系)
+## 紹介する論文
+- Proximal Policy Optimization Algorithms
 - Graph Attention-Guided Search for Dense Multi-Agent Pathfinding
 
 ---
 
-(MARL)
+### Proximal Policy Optimization Algorithms(2017)
+John Schulman, Filip Wolski, Prafulla Dhariwal, Alec Radford, Oleg Klimov
 
 ---
 
