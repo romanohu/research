@@ -2,18 +2,12 @@
 marp: true
 theme: default
 paginate: true
+
 ---
 
 # Proximal Policy Optimization (PPO)
 ### Proximal Policy Optimization Algorithms
 #### Schulman et al., 2017
-
----
-
-## この発表のゴール
-- PPOとは何かを**直観と数式の両方**で理解する
-- なぜTRPOの代替として有効なのかを説明できる
-- PPOが「なぜ安定して学習できるのか」を説明できる
 
 ---
 
