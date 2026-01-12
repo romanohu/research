@@ -421,7 +421,6 @@ LaGAT = LaCAM + GAT-based Heuristic
 比較手法
 - 純探索（LaCAM）
 - 純学習（MAGAT）
-- 提案手法（LaGAT）
 
 ---
 
@@ -450,24 +449,8 @@ LaGAT = LaCAM + GAT-based Heuristic
 ---
 
 #### 本論文の貢献
-
-- Dense MAPF における
-  - 実用的な near-optimal 解法
 - 学習 × 探索の統合設計指針を提示
 - 「学習誘導探索は使える」ことを実証
-
----
-
-#### 限界と今後
-
-限界
-- 学習コスト
-- マップ依存性
-
-今後
-- 汎化性能の向上
-- 他の探索アルゴリズムへの応用
-- 実ロボット展開
 
 ---
 
