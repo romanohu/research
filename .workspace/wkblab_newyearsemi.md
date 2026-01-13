@@ -9,6 +9,15 @@ math: mathjax
 klis3年 鈴木史麿
 
 ---
+
+## 内容
+- 強化学習の基礎的なアルゴリズムの論文紹介
+→ 自分もあやふやだったので
+- MAPFの最新の論文の紹介
+→ AISTでやっていることを共有
+
+---
+
 ## 紹介する論文
 - Proximal Policy Optimization Algorithms
 - Graph Attention-Guided Search for Dense Multi-Agent Pathfinding
@@ -63,6 +72,9 @@ $$
 - $G_t$: 時刻 $t$ からの累積報酬
 - REINFORCE の基本式
 
+そしてパラメータ$\theta$を更新
+$$\theta \leftarrow \theta + \alpha \nabla_\theta J(\theta)$$
+
 ---
 
 #### 分散削減：Advantage 関数
@@ -109,6 +121,16 @@ $$
 
 ---
 
+ActorとCriticの更新
+- Actor
+$$\theta \leftarrow \theta + \alpha \nabla_\theta \log \pi_\theta(a_t \mid s_t)\, \delta_t$$
+- Critic
+$$\phi \leftarrow \phi - \beta \nabla_\phi \left( r_t + \gamma V_\phi(s_{t+1}) - V_\phi(s_t) \right)^2$$
+
+
+
+---
+
 #### Policy Gradient の課題
 
 - 学習が不安定
@@ -124,6 +146,7 @@ $$
 制約付き最適化問題：
 
 $$
+\max_\theta L(\theta) =
 \max_\theta
 \;
 \mathbb{E}
@@ -145,13 +168,15 @@ D_{KL}
 \le \delta
 $$
 
+→ 直接解くことは難しい(非線形・非凸であるからなど)
+→ そのため近似して解く
+
 ---
 
 #### TRPO の問題点
 
 - KL 制約の二次近似が必要
 - 共役勾配法など実装が複雑
-- ミニバッチ SGD が使いにくい
 
 → より簡単な trust region が必要
 
@@ -159,8 +184,8 @@ $$
 
 #### PPO の基本アイデア
 
-- TRPO の「安全な更新」を
-- 制約ではなく目的関数で実現
+TRPO の「安全な更新」を
+- KL制約ではなく目的関数で実現
 - ミニバッチで複数 epoch 更新可能
 
 ---
@@ -191,6 +216,8 @@ r_t(\theta) A_t,\;
 )
 \Big]
 $$
+
+→ 変化量が大きいとclip()で制限する
 
 ---
 
@@ -227,18 +254,27 @@ L^{\text{CLIP}}
 - c_1 (V_\phi(s_t) - V_t^{\text{target}})^2
 + c_2 \mathcal{H}(\pi_\theta)
 $$
+$$
+Acter - Critic + 探索
+$$
 
-- Value loss: Critic 学習
-- Entropy bonus: 探索の促進
+- $L(\theta)$を最大化したい
+- $c_1$と$c_2$はハイパラ
+- 探索
+$$\mathcal{H}(\pi_\theta) = -\mathbb{E}_{a \sim \pi_\theta(\cdot \mid s)}[\log \pi_\theta(a \mid s)]$$
+
+
 
 ---
 
 #### PPO アルゴリズム
 
 1. 方策 $\pi_{\theta_{\text{old}}}$ で軌道収集
+   - 軌道: tステップの集合
 2. Advantage を計算
 3. データをミニバッチ化
 4. $L^{\text{CLIP}}$ を複数 epoch 最適化
+   - clipがあるため複数回データを使いまわせる 
 5. 方策更新
 
 ---
@@ -248,7 +284,7 @@ $$
 - TRPO 並みの安定性
 - 実装が非常に簡単
 - Adam / SGD と相性良好
-- 実用 RL のデファクト
+- 実用 RL のデファクトスタンダード
 
 ---
 
@@ -285,6 +321,11 @@ MAPF問題
 
 ---
 
+<img scr="../../assets/images/mapf.svg" width="400" />
+
+<!-- _footer: pogema-toolboxを使用して作成  -->
+---
+
 応用例
 - 倉庫ロボット
 - 群ロボット
@@ -317,9 +358,9 @@ MAPF問題
 
 ---
 
-#### LaCAM
+#### [LaCAM(lazy constraints addition search for MAPF)](https://kei18.github.io/lacam/)
 
-LaCAMの特徴
+特徴
 - 探索ベース MAPF アルゴリズム
 - エージェントの優先度順序を探索
 - 局所的な衝突を抑えつつスケーラブル
@@ -356,6 +397,16 @@ MAGATとは
 - 密集環境で誤誘導 → 探索破綻
 
 → 慎重に設計された統合が必要
+
+---
+
+#### 経路計画のヒューリスティックとは？
+
+探索アルゴリズムが「目的地まであとどれくらいで着けそうか」や「この状況ではどちらに向かえばいいのか」を予測するための「目安」や「ヒント」
+- 例
+  - 直線距離
+  - cost-to-go(ゴールまでのコスト)
+  - **ニューラルネットの出力**
 
 ---
 
@@ -461,3 +512,31 @@ LaGAT = LaCAM + GAT-based Heuristic
   - 探索の強さ × 学習の直感
 - ハイブリッドは強力
 
+> AlphaZeroもハイブリッド
+
+---
+
+## 紹介した論文の振り返り
+- Proximal Policy Optimization Algorithms
+→ 学習の安定性を高めた、方策勾配型の強化学習アルゴリズム
+- Graph Attention-Guided Search for Dense Multi-Agent Pathfinding
+→ MAPFにおける探索 + 学習誘導 アルゴリズム
+
+---
+
+## 周辺の論文の紹介(リンクのみ)
+### RL, MARL
+- [Trust Region Policy Optimization](https://arxiv.org/abs/1502.05477)(2015)
+- [The Surprising Effectiveness of PPO in Cooperative, Multi-Agent Games
+](https://arxiv.org/abs/2103.01955)(2021)
+- [A Review of Cooperation in Multi-agent Learning](https://arxiv.org/abs/2312.05162)(2023)
+- [HyperMARL: Adaptive Hypernetworks for Multi-Agent RL](https://arxiv.org/abs/2412.04233)(2024)
+
+---
+
+## 周辺の論文の紹介(リンクのみ)
+### MAPF
+- [Priority Inheritance with Backtracking for Iterative Multi-agent Path Finding
+](https://arxiv.org/abs/1901.11282)(2019)
+- [LaCAM: Search-Based Algorithm for Quick Multi-Agent Pathfinding](https://arxiv.org/abs/2211.13432)(2022)
+- [MAPF-GPT: Imitation Learning for Multi-Agent Pathfinding at Scale](https://arxiv.org/abs/2409.00134)(2024)
