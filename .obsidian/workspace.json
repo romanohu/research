@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "2026-01-14"
             }
+          },
+          {
+            "id": "1ab9a056a1da0fa5",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.4"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -225,7 +237,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "802be2032e3e779b",
+  "active": "1ab9a056a1da0fa5",
   "lastOpenFiles": [
     "01_dailymemo/2026-01-13.md",
     "01_dailymemo/2026-01-14.md",
