@@ -62,7 +62,7 @@
 
 #### [A Comprehensive Review on Leveraging Machine Learning for Multi-Agent Path Finding](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10506521)
 MAPF分野におけるMLを利用した研究に注目してサーベイしている論文．計画手法に対して表現手法?と実行手法?に関する論文は少ないらしい．
-
+経路生成、動的障害配置が面白そう．
 
 
 ### 2025
