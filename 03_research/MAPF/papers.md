@@ -61,6 +61,7 @@
 出力は各エージェントが取り得る5種類の離散行動に対応した確率分布であり、即ち1ステップ先の行動である．(サイズは5)
 
 #### [A Comprehensive Review on Leveraging Machine Learning for Multi-Agent Path Finding](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10506521)
+MAPF分野におけるMLを利用した研究に注目してサーベイしている論文．計画手法に対して表現手法?と実行手法?に関する論文は少ないらしい．
 
 
 
