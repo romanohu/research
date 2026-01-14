@@ -62,6 +62,8 @@
 
 #### [A Comprehensive Review on Leveraging Machine Learning for Multi-Agent Path Finding](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10506521)
 
+
+
 ### 2025
 #### [Graph Attention-Guided Search for Dense Multi-Agent Pathfinding](https://arxiv.org/abs/2510.17382)
 [奥村圭佑](../Authors/japanese/奥村圭佑.md) [Rishabh Jain](../Authors/overseas/RishabhJain.md)
