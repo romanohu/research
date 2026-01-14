@@ -2,6 +2,7 @@
 - 読んだ方が良い論文
     - [Finding Optimal Solutions to Cooperative Pathfinding Problems(2010)](https://ojs.aaai.org/index.php/AAAI/article/view/7564)
     - [Priority Inheritance with Backtracking for Iterative Multi-agent Path Finding(2019)](https://arxiv.org/abs/1901.11282)
+    - [Message-Aware Graph Attention Networks for Large-Scale Multi-Robot Path Planning](#message-aware-graph-attention-networks-for-large-scale-multi-robot-path-planning)
     - [LaCAM: Search-Based Algorithm for Quick Multi-Agent Pathfinding(2022)](#lacam-search-based-algorithm-for-quick-multi-agent-pathfinding)
     - [Improving LaCAM for Scalable Eventually Optimal Multi-Agent Pathfinding(2023)](#improving-lacam-for-scalable-eventually-optimal-multi-agent-pathfinding)
     - [Traffic Flow Optimisation for Lifelong Multi-Agent Path Finding(2024)](https://arxiv.org/abs/2308.11234)
@@ -12,6 +13,10 @@
     - [Graph Attention-Guided Search for Dense Multi-Agent Pathfinding(2025)](#graph-attention-guided-search-for-dense-multi-agent-pathfinding)
 
 ## 論文メモ
+### 2021
+#### [Message-Aware Graph Attention Networks for Large-Scale Multi-Robot Path Planning](https://arxiv.org/abs/2011.13219)
+MAGAT
+
 ### 2022
 #### [LaCAM: Search-Based Algorithm for Quick Multi-Agent Pathfinding](https://arxiv.org/abs/2211.13432)
 [奥村圭佑](../Authors/japanese/奥村圭佑.md)
