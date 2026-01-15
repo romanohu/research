@@ -11,3 +11,4 @@
      - MAPFの文献やチュートリアル、会議情報が載っている
 - [OMRON：機械学習を活用した経路計画技術](https://www.omron.com/jp/ja/technology/omrontechnics/2021/20211119-taniai-yonetani.html)
 - [論文](papers.md)
+- [用語リスト](words)
