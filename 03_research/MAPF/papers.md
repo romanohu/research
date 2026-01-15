@@ -76,7 +76,47 @@ MAPF分野におけるMLを利用した研究に注目してサーベイして�
 経路生成、動的障害配置が面白そう．
 Open Question(未解決問題一覧)
 ```
+Open Question 1
+What can be beneficial criteria and reliable benchmarks for assessing the quality of environment representation?
 
+Open Question 2
+What are efficient transition mechanisms between offline and online environment optimization?
+
+Open Question 3
+What is the appropriate input instance representation for algorithm selection?
+
+Open Question 4
+What is the appropriate representation for MAPF on non-grid worlds?
+
+Open Question 5
+How can learning from experience be transferred from smaller to larger instances?
+
+Open Question 6
+How can we identify and extract effective features to maximize the performance of ML-assisted MAPF algorithms?
+
+Open Question 7
+Which benchmarking suite of environments and evaluation metrics would best reflect the performance of different techniques?
+
+Open Question 8
+Which communication strategy is most effective in real-world environments with their inherent challenges?
+
+Open Question 9
+How can effectively learned implicit communication minimize the need and overhead of explicit communication while achieving comparable outcomes?
+
+Open Question 10
+How could more advanced IL methods improve the performance of agent-based approaches beyond naive behavior cloning (BC)?
+
+Open Question 11
+How can we avoid reward shaping to eliminate human bias in the learning process?
+
+Open Question 12
+How can one construct a dataset of MAPF instances that progressively increases in difficulty?
+
+Open Question 13
+To what extent should the real-world agent dynamics captured by ML be reflected in MAPF?
+
+Open Question 14
+How can ML enhance the fault tolerance of MAPF systems?
 ```
 ### 2025
 #### [Graph Attention-Guided Search for Dense Multi-Agent Pathfinding](https://arxiv.org/abs/2510.17382)
