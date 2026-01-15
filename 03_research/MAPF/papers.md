@@ -1,7 +1,7 @@
 # MAPF 論文
 - 読んだ方が良い論文
     - [Finding Optimal Solutions to Cooperative Pathfinding Problems(2010)](https://ojs.aaai.org/index.php/AAAI/article/view/7564)
-    - [Conflict-based search for optimal multi-agent pathfinding(2015)]()
+    - [Conflict-based search for optimal multi-agent pathfinding(2015)](#conflict-based-search-for-optimal-multi-agent-pathfinding)
     - [Priority Inheritance with Backtracking for Iterative Multi-agent Path Finding(2019)](https://arxiv.org/abs/1901.11282)
     - [Message-Aware Graph Attention Networks for Large-Scale Multi-Robot Path Planning](#message-aware-graph-attention-networks-for-large-scale-multi-robot-path-planning)
     - [LaCAM: Search-Based Algorithm for Quick Multi-Agent Pathfinding(2022)](#lacam-search-based-algorithm-for-quick-multi-agent-pathfinding)
