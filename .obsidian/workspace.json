@@ -227,6 +227,9 @@
   },
   "active": "802be2032e3e779b",
   "lastOpenFiles": [
+    "03_research/Others/index.md",
+    "03_research/Others",
+    "03_research/Other",
     "03_research/EmCom/papers.md",
     "03_research/MARL/marl_papers.md",
     "03_research/MARL/cmarl_papers.md",
@@ -252,7 +255,6 @@
     "index.md",
     "04_study/Cpp/AtCoder.md",
     "config/templates/DailyNoteTemplate.md",
-    "01_dailymemo/2026-01-10.md",
     "research",
     "01_dailymemo/無題のファイル.base",
     "無題のファイル.canvas"
