@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_dailymemo/index.md",
+                "file": "03_research/MARL/marl_papers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "marl_papers"
             }
           }
         ],
@@ -227,8 +227,10 @@
   },
   "active": "802be2032e3e779b",
   "lastOpenFiles": [
-    "01_dailymemo/2026-01-15.md",
+    "03_research/MARL/cmarl_papers.md",
+    "03_research/MARL/index.md",
     "01_dailymemo/index.md",
+    "01_dailymemo/2026-01-15.md",
     "01_dailymemo/2026-01-14.md",
     "03_research/MAPF/words.md",
     "01_dailymemo/2026-01-13.md",
@@ -236,8 +238,6 @@
     "01_dailymemo/2026-01-11.md",
     "03_research/MAPF/papers.md",
     "03_research/MARL/marl_papers.md",
-    "03_research/MARL/cmarl_papers.md",
-    "03_research/MARL/index.md",
     "03_research/research_read_method.md",
     "03_research/MAPF/index.md",
     "03_research/EmCom/papers.md",
