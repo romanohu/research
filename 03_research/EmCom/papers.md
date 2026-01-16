@@ -9,6 +9,7 @@
     - [Emergent Communication of Generalizations(2021)](https://arxiv.org/abs/2106.02668)
     - [Emergent Communication: Generalization and Overfitting in Lewis Games(2022)](https://arxiv.org/abs/2209.15342)
     - [Emergent Communication at Scale(2022)](https://openreview.net/forum?id=AUGBfDIV9rL)
+    - [Linking Emergent and Natural Languages via Corpus Transfer(2022)](https://arxiv.org/abs/2203.13344)
     - [On the Word Boundaries of Emergent Languages Based on Harris's Articulation Scheme(2023)](https://openreview.net/forum?id=b4t9_XASt6G)
     - [One-to-Many Communication and Compositionality  in Emergent Communication(2024)](https://openreview.net/forum?id=mfgcxMm5aa)
     - [Speaking Your Language: Spatial Relationships in Interpretable Emergent Communication(2024)](https://arxiv.org/abs/2406.07277)
