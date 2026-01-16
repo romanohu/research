@@ -23,6 +23,11 @@ setrefゲームは教師が(単一の物体ではなく)とある概念に属す
 conceptゲームは、それに加えて教師と生徒が異なる入力を見る．
 これらはLewis型のシグナルゲームを集合へと拡張したものと捉えることができる．
 **後半の評価指標や数式への理解が足りないので、また読む**
+
+### 2022
+#### [Linking Emergent and Natural Languages via Corpus Transfer](https://arxiv.org/abs/2203.13344)
+創発言語と自然言語の接続．創発言語のコーパスを作り、それを自然言語と結びつきつかせようとしている．創発言語の評価を自然言語で行う．
+
 ### 2024
 #### One-to-Many Communication and Compositionality  in Emergent Communication
 多対一コミュニケーション環境における構成性の出現に着眼した論文．主張としては、リスナが「多」であることにより発生する環境的な圧力が、スピーカのメッセージの構成性を促進する．
