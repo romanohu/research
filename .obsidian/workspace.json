@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03_research/research_explore_method.md",
+                "file": "03_research/research_read_method.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "research_explore_method"
+              "title": "research_read_method"
             }
           }
         ],
@@ -227,6 +227,7 @@
   },
   "active": "802be2032e3e779b",
   "lastOpenFiles": [
+    "03_research/research_explore_method.md",
     "03_research/research_read_method.md",
     "01_dailymemo/index.md",
     "01_dailymemo/2026-01-15.md",
@@ -254,7 +255,6 @@
     "03_research/MARL/marl-papers-presentation.md",
     "index.md",
     "04_study/Cpp/AtCoder.md",
-    "config/templates/DailyNoteTemplate.md",
     "research",
     "01_dailymemo/無題のファイル.base",
     "無題のファイル.canvas"
