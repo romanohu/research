@@ -11,10 +11,14 @@
             "id": "4c940405d76cd4fe",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "01_dailymemo/2026-01-17.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新規タブ"
+              "title": "2026-01-17"
             }
           }
         ]
@@ -208,13 +212,14 @@
   },
   "active": "4c940405d76cd4fe",
   "lastOpenFiles": [
+    "01_dailymemo/index.md",
+    "01_dailymemo/2026-01-17.md",
+    "01_dailymemo/2026-01-15.md",
     "03_research/MARL/index.md",
     "03_research/index.md",
     "03_research/Others/index.md",
     "03_research/research_read_method.md",
     "03_research/research_explore_method.md",
-    "01_dailymemo/index.md",
-    "01_dailymemo/2026-01-15.md",
     "03_research/MARL/marl_papers.md",
     "03_research/Others",
     "03_research/Other",
@@ -235,7 +240,6 @@
     "04_study/Cpp/index.md",
     "03_research/MARL/papers.md",
     "03_research/MARL/marl-papers-presentation.md",
-    "index.md",
     "research",
     "01_dailymemo/無題のファイル.base",
     "無題のファイル.canvas"
