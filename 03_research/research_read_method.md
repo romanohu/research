@@ -5,6 +5,9 @@
 基本Drive上で見て、気になったところにコメントを付けていく．
 Geminiが邪魔
 
+## Goodnotes
+使おう
+
 ## [Plamo](https://app.translate.preferredai.jp/), [Plamo Chat](https://chat-demo.plamo.preferredai.jp/)
 めちゃめちゃ早いLLM翻訳機
 便利
