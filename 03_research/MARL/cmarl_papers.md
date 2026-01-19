@@ -95,6 +95,7 @@ $$r^{inf}_t(t)=\sum_{j≠i} D(\pi_j(・|o_t,a^i_t)||\pi_j(・|o_t,a^{i,cf}_t))$$
 SVOは内発的動機づけであり、自己と他者の間で、どのような報酬分配を好むかを表す．それを表現するために報酬角(reward angle)という概念が導入されている．
 $$R=(r_1,...,r_n)$$
 $$報酬角:\theta(R)= \arctan \left( \frac{\bar{r}-i}{r_i} \right)$$
+
 $$\bar{r}_{-i} = \frac{1}{n-1} \sum_{j \neq i} r_j$$
 $$
 r_i^{\text{SVO}} = \cos(\theta_i)\, r_i^{\text{env}} + \sin(\theta_i)\, \bar{r}_{-i}^{\text{env}}
