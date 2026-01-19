@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_dailymemo/2026-01-19.md",
+                "file": "03_research/MARL/cmarl_papers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-01-19"
+              "title": "cmarl_papers"
             }
           },
           {
@@ -227,9 +227,9 @@
   },
   "active": "fc7839f35af359d9",
   "lastOpenFiles": [
-    "01_dailymemo/index.md",
-    "01_dailymemo/2026-01-19.md",
     "03_research/MAPF/papers.md",
+    "01_dailymemo/2026-01-19.md",
+    "01_dailymemo/index.md",
     "01_dailymemo/2026-01-17.md",
     "01_dailymemo/2026-01-18.md",
     "01_dailymemo/2026-01-15.md",
