@@ -2,7 +2,7 @@ Rust製のめちゃ便利CLI
 処理に時間がかかる作業を待ち行列に入れて、裏で順番に回してくれる
 インストールはバイナリでもパッケージマネージャでも良い(Nixで入れられるからdevboxで管理できる!!!)
 
-タスクの追加(Add)
+タスクの追加
 ```sh
 pueue add -- uv run train.py
 ## ラベル付きで追加
@@ -25,4 +25,20 @@ pueue follow <task-id>
 pueue kill <task-id>
 # キューから削除
 pueue remove <task-id>
+```
+
+キューの操作
+```sh
+# 順番入れ替え
+pueue switch <task-id-1> <task-id-2>
+# 完了したタスクをリストから消去
+pueue clear
+```
+
+グループ管理
+```sh
+# グループを作成
+pueue group add parallel
+# グループを指定してタスクを追加
+pueue add --group
 ```
