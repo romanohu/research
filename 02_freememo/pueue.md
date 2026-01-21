@@ -25,6 +25,8 @@ pueue follow <task-id>
 pueue kill <task-id>
 # キューから削除
 pueue remove <task-id>
+## 全削除
+pueue reset
 ```
 
 キューの操作
@@ -38,7 +40,13 @@ pueue clear
 グループ管理
 ```sh
 # グループを作成
-pueue group add parallel
+pueue group add <group>
 # グループを指定してタスクを追加
-pueue add --group
+pueue add --group <group> uv run train.py
+```
+
+Tips
+```sh
+# 並列数の変更
+pueue parallel 2
 ```
