@@ -27,12 +27,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_dailymemo/2026-01-21.md",
+                "file": "02_freememo/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-01-21"
+              "title": "index"
+            }
+          },
+          {
+            "id": "61df8a46bcc03072",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02_freememo/pueue.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "pueue"
             }
           },
           {
@@ -50,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -240,10 +254,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ff8bd647fdcbdaea",
+  "active": "61df8a46bcc03072",
   "lastOpenFiles": [
-    "01_dailymemo/2026-01-20.md",
+    "config/templates/DailyNoteTemplate.md",
+    "02_freememo/pueue.md",
+    "02_freememo/index.md",
+    "02_freememo/wezterm.md",
     "01_dailymemo/2026-01-21.md",
+    "01_dailymemo/2026-01-20.md",
     "01_dailymemo/index.md",
     "01_dailymemo/2026-01-19.md",
     "03_research/MARL/cmarl_papers.md",
@@ -265,11 +283,7 @@
     "conflict-files-obsidian-git.md",
     "04_study/Cpp/AtCoder.md",
     "03_research/MARL/marl_papers.md",
-    "02_freememo/wezterm.md",
-    "02_freememo/index.md",
     "02_freememo",
-    "01_dailymemo/2026-01-13.md",
-    "01_dailymemo/2026-01-12.md",
     "config/templates/DailyNoteTemplate",
     "config/templates",
     "config"
