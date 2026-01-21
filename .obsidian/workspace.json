@@ -25,12 +25,14 @@
             "id": "ff8bd647fdcbdaea",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.11.5"
+                "file": "01_dailymemo/2026-01-21.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.5"
+              "icon": "lucide-file",
+              "title": "2026-01-21"
             }
           },
           {
