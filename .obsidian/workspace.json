@@ -13,12 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_dailymemo/2026-01-20.md",
+                "file": "01_dailymemo/2026-01-21.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-01-20"
+              "title": "2026-01-21"
+            }
+          },
+          {
+            "id": "ff8bd647fdcbdaea",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.5"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.5"
             }
           },
           {
@@ -35,7 +47,8 @@
               "title": "words"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -225,11 +238,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "fc7839f35af359d9",
+  "active": "ff8bd647fdcbdaea",
   "lastOpenFiles": [
+    "01_dailymemo/2026-01-20.md",
+    "01_dailymemo/2026-01-21.md",
     "01_dailymemo/index.md",
     "01_dailymemo/2026-01-19.md",
-    "01_dailymemo/2026-01-20.md",
     "03_research/MARL/cmarl_papers.md",
     "03_research/MAPF/papers.md",
     "01_dailymemo/2026-01-17.md",
@@ -254,7 +268,6 @@
     "02_freememo",
     "01_dailymemo/2026-01-13.md",
     "01_dailymemo/2026-01-12.md",
-    "01_dailymemo/2026-01-11.md",
     "config/templates/DailyNoteTemplate",
     "config/templates",
     "config"

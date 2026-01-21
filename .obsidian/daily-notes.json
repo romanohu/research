@@ -1,6 +1,5 @@
 {
   "format": "YYYY-MM-DD",
   "folder": "01_dailymemo",
-  "template": "config/templates/DailyNoteTemplate",
-  "autorun": true
+  "template": "config/templates/DailyNoteTemplate"
 }

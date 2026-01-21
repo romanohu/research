@@ -2,5 +2,6 @@
   "newFileLocation": "current",
   "attachmentFolderPath": "./",
   "useMarkdownLinks": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "openBehavior": "daily"
 }
