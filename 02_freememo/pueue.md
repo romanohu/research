@@ -2,6 +2,14 @@ Rust製のめちゃ便利CLI
 処理に時間がかかる作業を待ち行列に入れて、裏で順番に回してくれる
 インストールはバイナリでもパッケージマネージャでも良い(Nixで入れられるからdevboxで管理できる!!!)
 
+起動/終了
+```sh
+# 起動
+pueued -d
+# 終了
+pueue shutdown
+```
+
 タスクの追加
 ```sh
 pueue add -- uv run train.py
