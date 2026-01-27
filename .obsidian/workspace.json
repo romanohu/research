@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03_research/MAPF/papers.md",
+                "file": "04_study/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "papers"
+              "title": "index"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200.5
   },
   "right": {
     "id": "4729c237a782e6ec",
@@ -211,8 +211,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a1d5d6575ebc387b",
+  "active": "9499c2f0b74b1714",
   "lastOpenFiles": [
+    "04_study/English(research-based)",
+    "03_research/MAPF/papers.md",
     "03_research/MAPF/words.md",
     "02_freememo/wezterm.md",
     "02_freememo/pueue.md",
@@ -227,7 +229,6 @@
     "01_dailymemo/2026-01-25.md",
     "01_dailymemo/2026-01-23.md",
     "01_dailymemo/index.md",
-    "03_research/MAPF/papers.md",
     "01_dailymemo/2026-01-17.md",
     "03_research/Others/index.md",
     "03_research/Others",
@@ -240,7 +241,6 @@
     "03_research/MARL/marl_papers.md",
     "02_freememo",
     "01_dailymemo/2026-01-13.md",
-    "01_dailymemo/2026-01-12.md",
     "config/templates/DailyNoteTemplate",
     "config/templates",
     "config"
