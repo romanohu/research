@@ -1,2 +1,2 @@
 # English
-- [words]
+- [words](words/index)
