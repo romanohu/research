@@ -307,7 +307,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03_research/index.md",
+                "file": "01_dailymemo/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -508,9 +508,12 @@
   },
   "active": "80631fff881424ba",
   "lastOpenFiles": [
+    "01_dailymemo/2026-01-27.md",
+    "01_dailymemo/index.md",
+    "01_dailymemo/2026-01-25.md",
+    "03_research/index.md",
     "03_research/research_explore_method.md",
     "03_research/Others/index.md",
-    "03_research/index.md",
     "03_research/ML/papers.md",
     "03_research/MARL/marl_papers.md",
     "03_research/MAPF/papers.md",
@@ -532,9 +535,6 @@
     "04_study/English(research-based)/words/w.md",
     "04_study/English(research-based)/words/v.md",
     "04_study/English(research-based)/words/t.md",
-    "04_study/English(research-based)/words/s.md",
-    "04_study/English(research-based)/words/r.md",
-    "04_study/English(research-based)/words/q.md",
     "04_study/English(research-based)/words",
     "04_study/English(research-based)",
     "03_research/Others",
