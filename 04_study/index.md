@@ -8,7 +8,7 @@
 主に[ここ](https://github.com/romanohu/fighting_cpp)で勉強してる．
 - [学習メモ](Cpp/index.md)
 
-## 英語
+## English
 どうやって勉強すればいいか分からない
 おそらく会話は数をこなすしかない
-- [がくs]
+- [学習メモ](English(research-based)/index)
