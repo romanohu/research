@@ -62,7 +62,7 @@ pueue add --group <group> uv run train.py
 ```
 
 ---
-Tips
+tips1
 ```sh
 # 並列数の変更
 pueue parallel 2
