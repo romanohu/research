@@ -6,3 +6,4 @@
 | alleviate    | 緩和する    | to alleviate the burden(負担を軽減するために)                       |
 | address      | 対処する    |                                                           |
 | appropriate  | 適切な     |                                                           |
+| autonomous   | 自律的な    | autonomous driving(自動運転)                                  |
