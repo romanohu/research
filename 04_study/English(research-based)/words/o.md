@@ -1,4 +1,4 @@
-| word | meaning | example |
-| ---- | ------- | ------- |
-|      |         |         |
-|      |         |         |
+| word       | meaning | example |
+| ---------- | ------- | ------- |
+| outperform | 上回る     |         |
+|            |         |         |

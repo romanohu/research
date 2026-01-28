@@ -1,4 +1,4 @@
-| word | meaning | example |
-| ---- | ------- | ------- |
-|      |         |         |
-|      |         |         |
+| word     | meaning | example |
+| -------- | ------- | ------- |
+| mitigate | 緩和する    |         |
+|          |         |         |
