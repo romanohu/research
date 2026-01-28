@@ -13,7 +13,7 @@
     - [A Comprehensive Review on Leveraging Machine Learning for Multi-Agent Path Finding(2024)](#a-comprehensive-review-on-leveraging-machine-learning-for-multi-agent-path-finding)
     - [MAPF-GPT: Imitation Learning for Multi-Agent Pathfinding at Scale(2024)](#mapf-gpt-imitation-learning-for-multi-agent-pathfinding-at-scale)
     - [Graph Attention-Guided Search for Dense Multi-Agent Pathfinding(2025)](#graph-attention-guided-search-for-dense-multi-agent-pathfinding)
-    - []
+    - [Pairwise is Not Enough: Hypergraph Neural Networks for Multi-Agent Pathfinding(2025)](#pairwise-is-not-enough-hypergraph-neural-networks-for-multi-agent-pathfinding)
 
 ## 論文メモ
 ### 2015
@@ -129,3 +129,6 @@ LaGATの提案．LaGAT = LaCAM(Okumura 2023) + MAGAT+(MAGAT(Li et al 2021b)の�
 MAGAT+の事前学習としてlacam3が生成した準最適軌道を模倣学習．その後、対象のMapに対してFineTuningする．それをLaCAMの探索の中でヒューリスティックとして使用する．通常のLaCAM(の中のPIBT)がcost-to-goで候補行動vを決めるのに対して、MAGAT+を用いた場合は現在の観測に基づいた情報をもとに行動に対して確率を出力し、それをPIBTのpreferenceとして使用する．
 もしMAGAT+の誘導が反復や振動を引き起こしている場合に備えてデッドロック検出機構が備わっている．検出の基本アイディアは「最近のdステップ以内に同じ局所的状況に戻ってきたら異常」であり、LaCAMの探索木を使って過去の構成を遡り、エージェントごとに局所的な停滞を検出する．そして、その対処としてノードの制約を全消去し、Openリストに再挿入する．その後、通常のLaCAMアルゴリズムで探索をする．
 注意点としてMAGAT+によるガイドはエージェント単位で管理されており、一度通常に戻ったエージェントは二度とガイド付きには戻らない．つまり、ガイド付きで上手くいかない場合、最終的にはすべてのエージェントのガイドが外れて、通常のLaCAMと等しくなる．
+
+#### [Pairwise is Not Enough: Hypergraph Neural Networks for Multi-Agent Pathfinding](https://openreview.net/forum?id=WUbGQQ9C0E)
+[奥村圭佑](../Authors/japanese/奥村圭佑.md) [Rishabh Jain](../Authors/overseas/RishabhJain.md)
