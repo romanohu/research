@@ -6,3 +6,4 @@
 | incident       | 付随する    |                           |
 | incorporate    | 取り入れる   |                           |
 | implementation | 実施      |                           |
+| irrelevant     | 無関係な    |                           |
