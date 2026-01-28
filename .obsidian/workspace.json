@@ -307,16 +307,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_dailymemo/index.md",
+                "file": "01_dailymemo/2026-01-28.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "2026-01-28"
+            }
+          },
+          {
+            "id": "bf7eca25feef5ee1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01_dailymemo/2026-01-28.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-01-28"
             }
           }
         ],
-        "currentTab": 21
+        "currentTab": 22
       }
     ],
     "direction": "vertical"
@@ -506,10 +520,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "80631fff881424ba",
+  "active": "bf7eca25feef5ee1",
   "lastOpenFiles": [
-    "01_dailymemo/2026-01-27.md",
     "01_dailymemo/index.md",
+    "01_dailymemo/2026-01-28.md",
+    "01_dailymemo/2026-01-27.md",
     "01_dailymemo/2026-01-25.md",
     "03_research/index.md",
     "03_research/research_explore_method.md",
@@ -534,7 +549,6 @@
     "04_study/English(research-based)/words/x.md",
     "04_study/English(research-based)/words/w.md",
     "04_study/English(research-based)/words/v.md",
-    "04_study/English(research-based)/words/t.md",
     "04_study/English(research-based)/words",
     "04_study/English(research-based)",
     "03_research/Others",
