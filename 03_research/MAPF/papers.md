@@ -22,6 +22,8 @@
 
 ### 2021
 #### [Message-Aware Graph Attention Networks for Large-Scale Multi-Robot Path Planning](https://arxiv.org/abs/2011.13219)
+[Qingbiao Li](../Authors/overseas/QingbiaoLi.md)
+
 
 MAGAT
 
