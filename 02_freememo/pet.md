@@ -3,17 +3,23 @@
 
 ---
 コマンドを登録する
-Command: 保存したいコマンドを入力
-Description: 説明を入力
+<>で囲んだ部分は呼び出すときに入力できる
 ```sh
 pet new
-# <>で囲んだ部分は呼び出すときに入力できる
+# タグ付きにする
+pet new -t
 ```
 
 ---
 コマンドを編集する
 ```sh
 pet edit
+```
+
+---
+コマンドを検索して実行
+```
+pet search
 ```
 
 ---
@@ -59,5 +65,6 @@ tips2
 Gistで端末間でコマンドを共有できる
 ```sh
 pet configure
-# [Gist]のaccess_tokenに
+# [Gist]のaccess_tokenに https://gitlab.com/-/profile/personal_access_tokensで取得したトークンを入れる
+pet sync
 ```
