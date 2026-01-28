@@ -132,4 +132,4 @@ MAGAT+の事前学習としてlacam3が生成した準最適軌道を模倣学�
 
 #### [Pairwise is Not Enough: Hypergraph Neural Networks for Multi-Agent Pathfinding](https://openreview.net/forum?id=WUbGQQ9C0E)
 [奥村圭佑](../Authors/japanese/奥村圭佑.md) [Rishabh Jain](../Authors/overseas/RishabhJain.md)
-既存の学習ベースのMAPFポリシーは、GNNsやTransformerを用いるものが挙げられるが、それらはどれもエージェント間の情報表現をペアワイズ(2体間)で行う．この制約は注意の希薄(attention dilution)化や高次
+既存の学習ベースのMAPFポリシーは、GNNsやTransformerを用いるものが挙げられるが、それらはどれもエージェント間の情報表現をペアワイズ(2体間)で行う．しかし、この制約は注意の希薄(attention dilution)化や高次相互作用(3体以上のグループの動きなど)の欠如などをもたらす．そこでより高次の情報を捉えるためにHyperGraphを基盤としたHMAGATという手法を提案している．

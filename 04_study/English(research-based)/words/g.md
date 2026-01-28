@@ -1,4 +1,4 @@
-| word | meaning | example |
-| ---- | ------- | ------- |
-|      |         |         |
-|      |         |         |
+| word           | meaning | example |
+| -------------- | ------- | ------- |
+| generalisation | 一般化     |         |
+|                |         |         |
