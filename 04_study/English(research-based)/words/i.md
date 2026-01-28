@@ -7,3 +7,4 @@
 | incorporate    | 取り入れる   |                           |
 | implementation | 実施      |                           |
 | irrelevant     | 無関係な    |                           |
+| intuitive      | 直感的な    |                           |

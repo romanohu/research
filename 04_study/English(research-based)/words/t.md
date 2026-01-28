@@ -1,4 +1,4 @@
-| word | meaning | example |
-| ---- | ------- | ------- |
-|      |         |         |
-|      |         |         |
+| word    | meaning | example |
+| ------- | ------- | ------- |
+| trivial | 容易      |         |
+|         |         |         |
