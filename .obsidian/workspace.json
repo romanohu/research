@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03_research/MAPF/words.md",
+                "file": "04_study/English(research-based)/words/e.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "words"
+              "title": "e"
             }
           }
         ]
@@ -213,6 +213,10 @@
   },
   "active": "bf7eca25feef5ee1",
   "lastOpenFiles": [
+    "03_research/MARL/marl_papers.md",
+    "03_research/MAPF/words.md",
+    "04_study/English(research-based)/words/l.md",
+    "04_study/English(research-based)/words/n.md",
     "03_research/MAPF/papers.md",
     "04_study/English(research-based)/words/a.md",
     "04_study/English(research-based)/words/h.md",
@@ -226,8 +230,6 @@
     "04_study/English(research-based)/index.md",
     "01_dailymemo/2026-01-28.md",
     "04_study/index.md",
-    "03_research/MAPF/words.md",
-    "03_research/MARL/marl_papers.md",
     "01_dailymemo/index.md",
     "01_dailymemo/2026-01-27.md",
     "01_dailymemo/2026-01-25.md",
@@ -238,8 +240,6 @@
     "03_research/ML/index.md",
     "03_research/MAPF/index.md",
     "03_research/ML",
-    "04_study/English(research-based)/words/f.md",
-    "04_study/English(research-based)/words/z.md",
     "04_study/English(research-based)/words",
     "04_study/English(research-based)",
     "03_research/Others",
