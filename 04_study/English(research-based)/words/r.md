@@ -1,4 +1,4 @@
-| word | meaning | example |
-| ---- | ------- | ------- |
-|      |         |         |
-|      |         |         |
+| word       | meaning | example                    |
+| ---------- | ------- | -------------------------- |
+| respective | それぞれの   | respective goals(それぞれのゴール) |
+|            |         |                            |
