@@ -7,3 +7,5 @@
 | address      | 対処する    |                                                           |
 | appropriate  | 適切な     |                                                           |
 | autonomous   | 自律的な    | autonomous driving(自動運転)                                  |
+| adjacent     | 隣接した    |                                                           |
+| appealing    | 魅力的な    |                                                           |
