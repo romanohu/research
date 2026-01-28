@@ -24,7 +24,7 @@ pet search
 
 ---
 tips1
-以下を.zshrcに貼り付けるとCtrl+sで呼び出せる
+以下を.zshrcに貼り付けるとCtrl+sで```pet search```を呼び出せる(zsh)
 ```zshrc
 function pet-select() {
   BUFFER=$(pet search --query "$LBUFFER")
@@ -62,7 +62,7 @@ bindkey '^n' _pet_move_cursor_to_next_parameter
 
 ---
 tips2
-Gistで端末間でコマンドを共有できる
+Gistを使って端末間でコマンドを共有できる
 ```sh
 pet configure
 # [Gist]のaccess_tokenに https://gitlab.com/-/profile/personal_access_tokensで取得したトークンを入れる
