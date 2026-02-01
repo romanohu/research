@@ -2,3 +2,4 @@
 [pueue](pueue.md)
 [Astronvim](Astronvim.md)
 [pet](pet.md)
+[gi]
