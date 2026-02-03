@@ -20,7 +20,7 @@ Shahil Shaik, Jonathon M. Smereka, Yue Wang
 
 ---
 
-#### Introduction
+### Introduction
 
 - 近年のMARLの手法
 → 如何に非定常性を和らげるか
@@ -33,6 +33,15 @@ Shahil Shaik, Jonathon M. Smereka, Yue Wang
 ---
 
 #### 「局所観測 + 近傍のpeer-to-peer通信だけ」で協調を学ぶ分散型MARL手法が必要
+
+---
+
+#### 提案① D-GATs
+
+---
+
+#### 提案② DG-MAPPO
+
 
 ---
 
