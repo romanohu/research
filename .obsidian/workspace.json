@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_dailymemo/2026-02-04.md",
+                "file": "03_research/ML/papers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-02-04"
+              "title": "papers"
             }
           }
         ]
@@ -212,11 +212,13 @@
   },
   "active": "939ac4b5d8d9a63b",
   "lastOpenFiles": [
+    "03_research/ML/index.md",
+    "03_research/ML/papers.md",
+    "01_dailymemo/2026-02-04.md",
     "01_dailymemo/2026-02-01.md",
     "01_dailymemo/2026-01-31.md",
     "01_dailymemo/2026-02-02.md",
     "01_dailymemo/2026-02-03.md",
-    "01_dailymemo/2026-02-04.md",
     "03_research/MARL/cmarl_papers.md",
     "04_study/English(research-based)/words/p.md",
     "04_study/English(research-based)/words/r.md",
@@ -236,8 +238,6 @@
     "03_research/MAPF/words.md",
     "index.md",
     "README.md",
-    "02_freememo/pet.md",
-    "02_freememo/git.md",
     "03_research/ML",
     "04_study/English(research-based)/words",
     "04_study/English(research-based)",
