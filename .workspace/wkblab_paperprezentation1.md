@@ -27,6 +27,9 @@ Shahil Shaik, Jonathon M. Smereka, Yue Wang
   - CTDE手法を使うことが多い
 
 しかしCTDEには学習時にグローバル情報が必要であるために、実運用上では現実的な制約により学習を上手くできない可能性がある
+- スケーラビリティの低さ
+- 一般化性能の低さ
+- ロバストでない
 
 → 問題提起：「グローバル情報に依存しない学習枠組みが必要である」
 
@@ -36,11 +39,11 @@ Shahil Shaik, Jonathon M. Smereka, Yue Wang
 
 ---
 
-#### 提案① D-GATs
+#### 提案① D-GATs(Distributed Graph Attention Networks)
 
 ---
 
-#### 提案② DG-MAPPO
+#### 提案② DG-MAPPO(Distributed Graph-attention MAPPO)
 
 
 ---
