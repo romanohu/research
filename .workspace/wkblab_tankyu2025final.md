@@ -44,6 +44,7 @@ klis3年 鈴木史麿
 ### clean_up
 
 
+
 ---
 <!-- _header: cleanupゲームにおけるippo, mappo, svoそれぞれの学習結果について -->
 
