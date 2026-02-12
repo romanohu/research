@@ -191,25 +191,39 @@ env_kwargs:
 ---
 <!-- _header: cleanupゲームの難易度緩和について -->
 ### dirtSpawnProbability(汚れの発生確率)
-- default
+- 変化量 : $0.5→ 〜0.30$ 結果としてほとんど変わらなかった
+```
+2026-02-13 05:18:59 | INFO | update=238 | env_step=7798784 | reward_mean=0.0002
+2026-02-13 05:19:02 | INFO | update=239 | env_step=7831552 | reward_mean=0.0000
+2026-02-13 05:19:05 | INFO | update=240 | env_step=7864320 | reward_mean=0.0000
+2026-02-13 05:19:07 | INFO | update=241 | env_step=7897088 | reward_mean=0.0000
+2026-02-13 05:19:10 | INFO | update=242 | env_step=7929856 | reward_mean=0.0015
+2026-02-13 05:19:13 | INFO | update=243 | env_step=7962624 | reward_mean=0.0017
 ```
 
-```
 
 ---
 <!-- _header: cleanupゲームの難易度緩和について -->
 ### thresholdDepletion(リンゴが育たなくなる川の汚染度の閾値)
 - 通常よりも少し報酬が上がる(0.005 ~ 0.05)
+```
+
+```
 
 
 ---
 <!-- _header: cleanupゲームの難易度緩和について -->
 ### map_ASCII(マップ形状の変更)
 - 通常よりも少し報酬が上がる(0.005 ~ 0.05)
+```
 
+```
 
 ---
 
+
+
+---
 
 ## 4.
 
