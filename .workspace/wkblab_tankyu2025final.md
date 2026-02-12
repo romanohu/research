@@ -78,12 +78,19 @@ klis3年 鈴木史麿
 2026-02-08 02:58:29 | INFO | update=6614 | env_step=27090944 | reward_mean=0.3245
 2026-02-08 02:58:29 | INFO | update=6615 | env_step=27095040 | reward_mean=0.1199
 ```
-- 川を掃除する個体とリンゴ畑で収穫を待つ個体、中間エリアで呆然とする個体、全てに同じ報酬が与えられるのでフリーライダー問題(Free-rider)/
+- 川を掃除する個体とリンゴ畑で収穫を待つ個体、中間エリアで呆然とする個体、全てに同じ報酬が与えられる
+→ フリーライダー問題(Free-rider)/怠慢なエージェント問題(Lazy Agent Problem)/負の影響回避(Negative Impact Avoidance)
+
+---
+<!-- _header: cleanupゲームにおけるippo, mappo, svoそれぞれの学習結果について -->
+
+![MAPPO demo]()
 
 ---
 <!-- _header: cleanupゲームにおけるippo, mappo, svoそれぞれの学習結果について -->
 
 ### SVO(Social Value Orientation)
+SVOにおけるエージェントの報酬 : $r_i^{SVO} = \cos(\theta_i) r_i + sin(theta_i) r_-i$
 
 
 ---
