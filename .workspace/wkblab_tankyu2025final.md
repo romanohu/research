@@ -63,9 +63,22 @@ klis3年 鈴木史麿
 ---
 <!-- _header: cleanupゲームにおけるippo, mappo, svoそれぞれの学習結果について -->
 
-### MAPPO(Multi-Agent PPO)
-- IPPOよりは報酬が発生する
+![IPPO demo]()
 
+---
+<!-- _header: cleanupゲームにおけるippo, mappo, svoそれぞれの学習結果について -->
+
+### MAPPO(Multi-Agent PPO)
+- IPPOよりは報酬が発生する(0.01 ~ 0.5)
+```
+2026-02-08 02:58:26 | INFO | update=6610 | env_step=27074560 | reward_mean=0.2605
+2026-02-08 02:58:27 | INFO | update=6611 | env_step=27078656 | reward_mean=0.1917
+2026-02-08 02:58:27 | INFO | update=6612 | env_step=27082752 | reward_mean=0.1763
+2026-02-08 02:58:28 | INFO | update=6613 | env_step=27086848 | reward_mean=0.2192
+2026-02-08 02:58:29 | INFO | update=6614 | env_step=27090944 | reward_mean=0.3245
+2026-02-08 02:58:29 | INFO | update=6615 | env_step=27095040 | reward_mean=0.1199
+```
+- 川を掃除する個体とリンゴ畑で収穫を待つ個体、中間エリアで呆然とする個体、全てに同じ報酬が与えられるのでフリーライダー問題(Free-rider)/
 
 ---
 <!-- _header: cleanupゲームにおけるippo, mappo, svoそれぞれの学習結果について -->
