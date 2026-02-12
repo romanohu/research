@@ -24,14 +24,14 @@ klis3年 鈴木史麿
 ---
 <!-- _header: MeltingPot → SocialJax -->
 
-### [MeltingPot](https://github.com/google-deepmind/meltingpot)<small>([論文](https://arxiv.org/abs/2211.13746))</small>
+### [MeltingPot](https://github.com/google-deepmind/meltingpot)<sub> ([paper](https://arxiv.org/abs/2211.13746))</sub>
 
 
 
 ---
 <!-- _header: MeltingPot → SocialJax -->
 
-### [SocialJax](https://github.com/cooperativex/SocialJax)
+### [SocialJax](https://github.com/cooperativex/SocialJax)<sub> ([paper](https://arxiv.org/abs/2503.14576))</sub>
 
 
 ---
