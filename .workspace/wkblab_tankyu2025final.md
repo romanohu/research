@@ -53,6 +53,7 @@ klis3年 鈴木史麿
 
 ### cleanupゲームに焦点を当てた理由
 - 報酬が自然発生しない(最初の数十ステップを除いて)
+→ common_harvestやmashroomでは
 
 ---
 <!-- _header: cleanupゲームにおけるippo, mappo, svoそれぞれの学習結果について -->
