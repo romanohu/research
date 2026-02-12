@@ -14,7 +14,7 @@ klis3年 鈴木史麿
 1. MeltingPot → SocialJax
 2. cleanupゲームにおけるippo, mappo, svoそれぞれの学習結果について
 3. cleanupゲームの難易度緩和について
-4. ( )
+4. 今後の展望・課題
 5. 知的探求の世界まとめ & 反省
 
 ---
@@ -207,13 +207,11 @@ env_kwargs:
 ### thresholdDepletion(リンゴが育たなくなる川の汚染度の閾値)
 - 通常よりも少し報酬が上がる(0.01 ~ 0.07)
 ```
-2026-02-13 05:25:16 | INFO | update=8 | env_step=262144 | reward_mean=0.0613
-2026-02-13 05:25:18 | INFO | update=9 | env_step=294912 | reward_mean=0.0600
-2026-02-13 05:25:21 | INFO | update=10 | env_step=327680 | reward_mean=0.0591
-2026-02-13 05:25:24 | INFO | update=11 | env_step=360448 | reward_mean=0.0606
-2026-02-13 05:25:26 | INFO | update=12 | env_step=393216 | reward_mean=0.0577
-2026-02-13 05:25:29 | INFO | update=13 | env_step=425984 | reward_mean=0.0575
-2026-02-13 05:25:32 | INFO | update=14 | env_step=458752 | reward_mean=0.0565
+2026-02-13 05:38:37 | INFO | update=301 | env_step=9863168 | reward_mean=0.0658
+2026-02-13 05:38:39 | INFO | update=302 | env_step=9895936 | reward_mean=0.0674
+2026-02-13 05:38:42 | INFO | update=303 | env_step=9928704 | reward_mean=0.0681
+2026-02-13 05:38:45 | INFO | update=304 | env_step=9961472 | reward_mean=0.0704
+2026-02-13 05:38:47 | INFO | update=305 | env_step=9994240 | reward_mean=0.0667
 ```
 
 
@@ -228,7 +226,12 @@ env_kwargs:
 ---
 <!-- _header: cleanupゲームの難易度緩和について -->
 
+<video>map_ASCII 1</video>
 
+---
+<!-- _header: cleanupゲームの難易度緩和について -->
+
+<video>map_ASCII 2</video>
 
 ---
 <!-- _header: cleanupゲームの難易度緩和について -->
@@ -237,6 +240,7 @@ env_kwargs:
 2. thresholdDepletion(リンゴが育たなくなる川の汚染度の閾値)
 
 → 初期の数十ステップで得られるリンゴの量が増加しているだけ
+→ (おそらくrndも同じような理由)
 
 3. map_ASCII(マップ形状の変更)
 
@@ -246,7 +250,7 @@ env_kwargs:
 
 ---
 
-## 4.
+## 4. 今後の展望・課題
 
 
 ---
