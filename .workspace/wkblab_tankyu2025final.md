@@ -41,6 +41,16 @@ klis3年 鈴木史麿
 ---
 <!-- _header: cleanupゲームにおけるippo, mappo, svoそれぞれの学習結果について -->
 
+1. IPPO
+   - 
+2. MAPPO
+3. SVO
+
+
+
+---
+<!-- _header: cleanupゲームにおけるippo, mappo, svoそれぞれの学習結果について -->
+
 ### cleanup
 報酬のためには、個人はリンゴの収穫を優先しなければならない一方で、汚染されるとリンゴが育たなくなる川を(報酬なしで)掃除する必要があるという社会ジレンマを模したゲーム．
 
@@ -111,7 +121,41 @@ SVOにおけるエージェントの報酬 : $r_i^{SVO} = \cos(\theta_i) r_i + \
 ---
 
 ## 3. cleanupゲームの難易度緩和について
+1. dirtSpawnProbability(汚れの発生確率)
 
+---
+> clean_up.yaml(一部省略)
+```
+env_kwargs:
+  num_agents: 7
+  shared_rewards: false
+  maxAppleGrowthRate: 0.05
+  thresholdDepletion: 0.4
+  thresholdRestoration: 0.0
+  dirtSpawnProbability: 0.5
+  delayStartOfDirtSpawning: 0
+  observe_others_rewards: false
+  map_ASCII:
+    - "HFFFHFFHFHFHFHFHFHFHHFHFFFHF"
+    - "HFHFHFFHFHFHFHFHFHFHHFHFFFHF"
+    - "HFFHFFHHFHFHFHFHFHFHHFHFFFHF"
+    - "HFHFHFFHFHFHFHFHFHFHHFHFFFHF"
+    - "HFFFFFFHFHFHFHFHFHFHHFHFFFHF"
+    - "==============+~FHHHHHHf===="
+    - "   P    P  P   ===+~SSf     "
+    - "     P     P   P  <~Sf  P   "
+    - "             P   P<~S>      "
+    - "   P    P         <~S>   P  "
+    - "               P  <~S>P     "
+    - "     P           P<~S>      "
+    - "           P      <~S> P    "
+    - "  P   P   P     P <~S>      "
+    - "^T^T^T^T^T^T^T^T^T;~S,^T^T^T"
+    - "BBBBBBBBBBBBBBBBBBBssBBBBBBB"
+    - "BBBBBBBBBBBBBBBBBBBBBBBBBBBB"
+    - "BBBBBBBBBBBBBBBBBBBBBBBBBBBB"
+    - "BBBBBBBBBBBBBBBBBBBBBBBBBBBB"
+```
 
 ---
 
