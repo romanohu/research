@@ -38,6 +38,7 @@ klis3年 鈴木史麿
 
 ## 2. cleanupゲームにおけるippo, mappo, svoそれぞれの学習結果について
 
+<!-- _footer: 家のネットが死んだためグラフが無いです……  -->
 ---
 
 <!-- _header: cleanupゲームにおけるippo, mappo, svoそれぞれの学習結果について -->
@@ -110,7 +111,7 @@ klis3年 鈴木史麿
 ```
 - 川を掃除する個体とリンゴ畑で収穫を待つ個体、中間エリアで呆然とする個体、全てに同じ報酬が与えられる
 → フリーライダー問題(Free-rider)/怠慢なエージェント問題(Lazy Agent Problem)/負の影響回避(Negative Impact Avoidance)
-- 社会ジレンマと言えるのだろうか？
+- 社会ジレンマを扱っていると言えるのだろうか？
 
 ---
 <!-- _header: cleanupゲームにおけるippo, mappo, svoそれぞれの学習結果について -->
@@ -129,7 +130,7 @@ SVOにおけるエージェントの報酬 : $r_i^{SVO} = \cos(\theta_i) r_i + \
 ```
 - 報酬角によって他者の報酬が流入するため、擬似報酬共有状態になる
 - エージェントの振る舞いが報酬角によって分化する
-- 社会ジレンマと言えるのだろうか？
+- 社会ジレンマを扱っていると言えるのだろうか？
 
 ---
 <!-- _header: cleanupゲームにおけるippo, mappo, svoそれぞれの学習結果について -->
@@ -179,6 +180,10 @@ env_kwargs:
     - "BBBBBBBBBBBBBBBBBBBBBBBBBBBB"
     - "BBBBBBBBBBBBBBBBBBBBBBBBBBBB"
 ```
+---
+
+
+
 
 ---
 
