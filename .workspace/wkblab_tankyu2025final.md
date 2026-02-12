@@ -41,12 +41,15 @@ klis3年 鈴木史麿
 ---
 <!-- _header: cleanupゲームにおけるippo, mappo, svoそれぞれの学習結果について -->
 
+### 検証動機
+
 1. IPPO
-   - 
+   - defalt
 2. MAPPO
+   - cleanupゲームがあまりにも難しいため……
 3. SVO
-
-
+   - cleanupゲームがあまりにも難しいため……
+   - DTDEにて(何かしらの文脈で説明可能な)報酬形状の変更を取り入れることで何かしら変化があるのかを確かめるため
 
 ---
 <!-- _header: cleanupゲームにおけるippo, mappo, svoそれぞれの学習結果について -->
@@ -122,6 +125,8 @@ SVOにおけるエージェントの報酬 : $r_i^{SVO} = \cos(\theta_i) r_i + \
 
 ## 3. cleanupゲームの難易度緩和について
 1. dirtSpawnProbability(汚れの発生確率)
+2. thresholdDepletion(リンゴが育たなくなる川の汚染度の閾値)
+3. map_ASCII(マップ形状の変更)
 
 ---
 > clean_up.yaml(一部省略)
