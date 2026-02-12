@@ -48,7 +48,7 @@ klis3年 鈴木史麿
 <!-- _header: cleanupゲームにおけるippo, mappo, svoそれぞれの学習結果について -->
 
 ### IPPO(Independent PPO)
-- 報酬はほとんど発生しない(0.000 ~ 0.0005)
+- 報酬はほとんど発生しない(0.000 ~ 0.005)
 ```
 2026-02-12 22:43:11 | INFO | update=25 | env_step=819200 | reward_mean=0.0001
 2026-02-12 22:43:15 | INFO | update=26 | env_step=851968 | reward_mean=0.0000
@@ -80,6 +80,7 @@ klis3年 鈴木史麿
 ```
 - 川を掃除する個体とリンゴ畑で収穫を待つ個体、中間エリアで呆然とする個体、全てに同じ報酬が与えられる
 → フリーライダー問題(Free-rider)/怠慢なエージェント問題(Lazy Agent Problem)/負の影響回避(Negative Impact Avoidance)
+- 社会ジレンマと言えるのだろうか？
 
 ---
 <!-- _header: cleanupゲームにおけるippo, mappo, svoそれぞれの学習結果について -->
@@ -92,6 +93,11 @@ klis3年 鈴木史麿
 ### SVO(Social Value Orientation)
 SVOにおけるエージェントの報酬 : $r_i^{SVO} = \cos(\theta_i) r_i + \sin(\theta_i) r_{-i}$
 → $\theta$が大きいほどエージェント$i$が受け取る報酬における他者依存の割合が大きくなる
+- 報酬角の設定によってはMAPPOよりも報酬が発生する
+```
+
+```
+- 報酬角によって他者の報酬が流入するため、擬似MAPPO状態になる
 - 
 
 ---
