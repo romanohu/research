@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "2026-02-12"
             }
-          },
-          {
-            "id": "9aa9f1d0cfaee3d4",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.11.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.7"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -57,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "ファイルエクスプローラ"
             }
           },
           {
@@ -207,26 +194,27 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "switcher:クイックスイッチャーを開く": false,
+      "graph:グラフビューを開く": false,
+      "canvas:新規キャンバスを作成": false,
+      "daily-notes:今日のデイリーノートを開く": false,
+      "templates:テンプレートを挿入": false,
+      "command-palette:コマンドパレットを開く": false,
       "omnisearch:Omnisearch": false,
       "obsidian-shellcommands:Shell commands: Custom variables": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "obsidian-git:Open Git source control": false,
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9aa9f1d0cfaee3d4",
+  "active": "939ac4b5d8d9a63b",
   "lastOpenFiles": [
-    "01_dailymemo/2026-02-10.md",
+    "2026-02-13.md",
     "01_dailymemo/2026-02-09.md",
+    "01_dailymemo/2026-02-10.md",
     "01_dailymemo/2026-02-12.md",
     "01_dailymemo/2026-02-05.md",
     "03_research/ML/papers.md",
@@ -250,7 +238,6 @@
     "04_study/English(research-based)/words/a.md",
     "03_research/index.md",
     "03_research/MAPF/papers.md",
-    "03_research/MAPF/index.md",
     "03_research/ML",
     "04_study/English(research-based)/words",
     "04_study/English(research-based)",
