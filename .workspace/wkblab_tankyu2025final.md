@@ -41,9 +41,8 @@ klis3年 鈴木史麿
 ---
 <!-- _header: cleanupゲームにおけるippo, mappo, svoそれぞれの学習結果について -->
 
-### clean_up
-
-
+### cleanup
+報酬のためには、個人はリンゴの収穫を優先しなければならない一方で、川の汚染を防ぐために(報酬が得られない)掃除
 
 ---
 <!-- _header: cleanupゲームにおけるippo, mappo, svoそれぞれの学習結果について -->
