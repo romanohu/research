@@ -53,7 +53,10 @@ klis3年 鈴木史麿
 
 ### cleanupゲームに焦点を当てた理由
 - 報酬が自然発生しない(最初の数十ステップを除いて)
-→ common_harvestやmashroomでは
+
+→ 他ゲームとの性質の違いが顕著
+- common_harvest, mashroom :「どうすれば既存の報酬を枯らさずに維持し続けることができるのか」
+- cleanup : 「どうすれば持続可能な収穫サイクルを確立できるのか」
 
 ---
 <!-- _header: cleanupゲームにおけるippo, mappo, svoそれぞれの学習結果について -->
