@@ -205,22 +205,37 @@ env_kwargs:
 ---
 <!-- _header: cleanupゲームの難易度緩和について -->
 ### thresholdDepletion(リンゴが育たなくなる川の汚染度の閾値)
-- 通常よりも少し報酬が上がる(0.005 ~ 0.05)
+- 通常よりも少し報酬が上がる(0.01 ~ 0.07)
 ```
-
+2026-02-13 05:25:16 | INFO | update=8 | env_step=262144 | reward_mean=0.0613
+2026-02-13 05:25:18 | INFO | update=9 | env_step=294912 | reward_mean=0.0600
+2026-02-13 05:25:21 | INFO | update=10 | env_step=327680 | reward_mean=0.0591
+2026-02-13 05:25:24 | INFO | update=11 | env_step=360448 | reward_mean=0.0606
+2026-02-13 05:25:26 | INFO | update=12 | env_step=393216 | reward_mean=0.0577
+2026-02-13 05:25:29 | INFO | update=13 | env_step=425984 | reward_mean=0.0575
+2026-02-13 05:25:32 | INFO | update=14 | env_step=458752 | reward_mean=0.0565
 ```
 
 
 ---
 <!-- _header: cleanupゲームの難易度緩和について -->
 ### map_ASCII(マップ形状の変更)
-- 通常よりも少し報酬が上がる(0.005 ~ 0.05)
+- 通常よりも少し報酬が上がる(0.01 ~ 0.1)
 ```
 
 ```
 
 ---
+<!-- _header: cleanupゲームの難易度緩和について -->
+### 難易度緩和による効果
+1. dirtSpawnProbability(汚れの発生確率)
+2. thresholdDepletion(リンゴが育たなくなる川の汚染度の閾値)
 
+→ 初期の数十ステップで得られるリンゴの量が増加しているだけ
+
+3. map_ASCII(マップ形状の変更)
+
+→ 川とリンゴの
 
 
 ---
