@@ -148,6 +148,7 @@ cleanupのdefault設定の難度が高いことがネックになっているの
 3. map_ASCII(マップ形状の変更)
 
 ---
+<!-- _header: cleanupゲームの難易度緩和について -->
 > clean_up.yaml(一部省略)
 ```
 env_kwargs:
@@ -181,8 +182,20 @@ env_kwargs:
     - "BBBBBBBBBBBBBBBBBBBBBBBBBBBB"
 ```
 ---
+<!-- _header: cleanupゲームの難易度緩和について -->
+### dirtSpawnProbability(汚れの発生確率)
+```
+
+```
+
+---
+<!-- _header: cleanupゲームの難易度緩和について -->
+### thresholdDepletion(リンゴが育たなくなる川の汚染度の閾値)
 
 
+---
+<!-- _header: cleanupゲームの難易度緩和について -->
+### map_ASCII(マップ形状の変更)
 
 
 ---
