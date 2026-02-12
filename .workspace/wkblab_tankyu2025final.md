@@ -38,7 +38,7 @@ klis3年 鈴木史麿
 
 ## 2. cleanupゲームにおけるippo, mappo, svoそれぞれの学習結果について
 
-<!-- _footer: 家のネットが死んだためグラフが無いです……  -->
+<!-- _footer: 家のネットが死んだためほとんどグラフが無いです……  -->
 ---
 
 <!-- _header: cleanupゲームにおけるippo, mappo, svoそれぞれの学習結果について -->
@@ -134,6 +134,13 @@ SVOにおけるエージェントの報酬 : $r_i^{SVO} = \cos(\theta_i) r_i + \
 
 ---
 <!-- _header: cleanupゲームにおけるippo, mappo, svoそれぞれの学習結果について -->
+> 川掃除専門家
+
+![]
+
+
+---
+<!-- _header: cleanupゲームにおけるippo, mappo, svoそれぞれの学習結果について -->
 
 ![SVO demo]()
 
@@ -184,6 +191,7 @@ env_kwargs:
 ---
 <!-- _header: cleanupゲームの難易度緩和について -->
 ### dirtSpawnProbability(汚れの発生確率)
+- 通常よりも少し報酬が上がる
 ```
 
 ```
