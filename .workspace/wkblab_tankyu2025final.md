@@ -59,3 +59,19 @@ klis3年 鈴木史麿
 <!-- _header: cleanupゲームにおけるippo, mappo, svoそれぞれの学習結果について -->
 
 ### SVO(Social Value Orientation)
+
+
+---
+
+## 3. cleanupゲームの難易度緩和について
+
+
+---
+
+
+## 4.
+
+
+---
+
+## 5. 知的探求の世界まとめ & 反省
