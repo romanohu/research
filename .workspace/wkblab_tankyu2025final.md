@@ -92,6 +92,7 @@ klis3年 鈴木史麿
 ### SVO(Social Value Orientation)
 SVOにおけるエージェントの報酬 : $r_i^{SVO} = \cos(\theta_i) r_i + \sin(\theta_i) r_{-i}$
 → $\theta$が大きいほどエージェント$i$が受け取る報酬における他者依存の割合が大きくなる
+- 
 
 ---
 
