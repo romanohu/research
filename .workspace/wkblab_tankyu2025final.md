@@ -102,9 +102,10 @@ klis3年 鈴木史麿
 ### MAPPO(Multi-Agent PPO)
 - IPPOよりは報酬が発生する(0.01 ~ 0.5)
 ```
-2026-02-08 02:58:26 | INFO | update=6610 | env_step=27074560 | reward_mean=0.2605
-2026-02-08 02:58:27 | INFO | update=6611 | env_step=27078656 | reward_mean=0.1917
-2026-02-08 02:58:27 | INFO | update=6612 | env_step=27082752 | reward_mean=0.1763
+2026-02-08 01:52:56 | INFO | update=22 | env_step=90112 | reward_mean=0.0000
+2026-02-08 01:52:57 | INFO | update=23 | env_step=94208 | reward_mean=0.0000
+2026-02-08 01:52:57 | INFO | update=24 | env_step=98304 | reward_mean=0.0002
+
 2026-02-08 02:58:28 | INFO | update=6613 | env_step=27086848 | reward_mean=0.2192
 2026-02-08 02:58:29 | INFO | update=6614 | env_step=27090944 | reward_mean=0.3245
 2026-02-08 02:58:29 | INFO | update=6615 | env_step=27095040 | reward_mean=0.1199
@@ -218,9 +219,15 @@ env_kwargs:
 ---
 <!-- _header: cleanupゲームの難易度緩和について -->
 ### map_ASCII(マップ形状の変更)
-- 通常よりも少し報酬が上がる(0.01 ~ 0.1)
+- 通常よりも少し報酬が上がる(0.01 ~ 0.4)
 ```
+2026-02-13 00:35:53 | INFO | update=1 | env_step=32768 | reward_mean=0.0421
+2026-02-13 00:35:56 | INFO | update=2 | env_step=65536 | reward_mean=0.0002
+2026-02-13 00:35:58 | INFO | update=3 | env_step=98304 | reward_mean=0.0000
 
+2026-02-13 00:46:58 | INFO | update=280 | env_step=9175040 | reward_mean=0.4254
+2026-02-13 00:47:00 | INFO | update=281 | env_step=9207808 | reward_mean=0.4485
+2026-02-13 00:47:02 | INFO | update=282 | env_step=9240576 | reward_mean=0.3858
 ```
 
 ---
@@ -267,4 +274,5 @@ env_kwargs:
 ---
 
 ## 5. 知的探求の世界まとめ & 反省
-
+1.  MARLやその具体的な問題設定であるSSDや協調課題などについて、それらの概観を学ぶことができた
+2. MLにおけ
