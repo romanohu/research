@@ -25,13 +25,10 @@ klis3年 鈴木史麿
 <!-- _header: MeltingPot → SocialJax -->
 
 ### [MeltingPot](https://github.com/google-deepmind/meltingpot)<sub> ([paper](https://arxiv.org/abs/2211.13746))</sub>
+- 観測が画像(RGB)
 
-
-
----
-<!-- _header: MeltingPot → SocialJax -->
-
-### [SocialJax](https://github.com/cooperativex/SocialJax)<sub> ([paper](https://arxiv.org/abs/2503.14576))</sub>
+[SocialJax](https://github.com/cooperativex/SocialJax)<sub> ([paper](https://arxiv.org/abs/2503.14576))</sub>
+- 観測が文字
 
 
 ---
@@ -277,4 +274,4 @@ env_kwargs:
 1.  MARLやその具体的な問題設定であるSSDや協調課題などについて、それらの概観を学ぶことができた
 2. MLの様々な要素(ハイパラ, エンコーダ, 実験方法など)について実装を元に学ぶことができた
 3. しかし、(少なくとも自分が行えたことは) 既存の研究の確認・再現に留まってしまった
-4. スケジュール管理や自分の実装能力など至らぬ点が多かった
+4. スケジュール管理や自分の実装能力、(ネットワーク環境) など至らぬ点が多かった
