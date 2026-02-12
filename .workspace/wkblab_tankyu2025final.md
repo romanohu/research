@@ -48,7 +48,7 @@ klis3年 鈴木史麿
 <!-- _header: cleanupゲームにおけるippo, mappo, svoそれぞれの学習結果について -->
 
 ### IPPO(Independent PPO)
-- 報酬はほとんど発生しない
+- 報酬はほとんど発生しない(0.000 ~ 0.0005)
 ```
 2026-02-12 22:43:11 | INFO | update=25 | env_step=819200 | reward_mean=0.0001
 2026-02-12 22:43:15 | INFO | update=26 | env_step=851968 | reward_mean=0.0000
@@ -64,7 +64,7 @@ klis3年 鈴木史麿
 <!-- _header: cleanupゲームにおけるippo, mappo, svoそれぞれの学習結果について -->
 
 ### MAPPO(Multi-Agent PPO)
-- 
+- IPPOよりは報酬が発生する
 
 
 ---
