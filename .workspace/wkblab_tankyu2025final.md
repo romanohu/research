@@ -24,7 +24,7 @@ klis3年 鈴木史麿
 ---
 <!-- _header: MeltingPot → SocialJax -->
 
-### [MeltingPot](https://github.com/google-deepmind/meltingpot)
+### [MeltingPot](https://github.com/google-deepmind/meltingpot)<small>([論文](https://arxiv.org/abs/2211.13746))</small>
 
 
 
@@ -97,8 +97,14 @@ SVOにおけるエージェントの報酬 : $r_i^{SVO} = \cos(\theta_i) r_i + \
 ```
 (ログ取れていなかった……)
 ```
-- 報酬角によって他者の報酬が流入するため、擬似共有報酬状態になる
-- 
+- 報酬角によって他者の報酬が流入するため、擬似報酬共有状態になる
+- エージェントの振る舞いが報酬角によって分化する
+- 社会ジレンマと言えるのだろうか？
+
+---
+<!-- _header: cleanupゲームにおけるippo, mappo, svoそれぞれの学習結果について -->
+
+![SVO demo]()
 
 ---
 
