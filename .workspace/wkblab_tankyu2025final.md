@@ -124,6 +124,9 @@ SVOにおけるエージェントの報酬 : $r_i^{SVO} = \cos(\theta_i) r_i + \
 ---
 
 ## 3. cleanupゲームの難易度緩和について
+### 検証動機
+cleanupのdefault設定の難度が高いことがネックになっているのではないか？
+
 1. dirtSpawnProbability(汚れの発生確率)
 2. thresholdDepletion(リンゴが育たなくなる川の汚染度の閾値)
 3. map_ASCII(マップ形状の変更)
