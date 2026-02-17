@@ -146,5 +146,10 @@ SSDに対するMARLの評価基盤として、SocialJaxという実装スイー�
 
 ### 2026
 #### [MULTI-AGENT DEEP REINFORCEMENT LEARNING UNDER CONSTRAINED COMMUNICATIONS](https://www.arxiv.org/abs/2601.17069)
-
 [プレゼン](https://romanohu.github.io/pages/prezentation/wkblab_paperprezentation2.html#1)
+
+本論文は、マルチエージェント深層強化学習（MARL）において主流である「中央集権的学習・分散実行（CTDE）」の限界を打破することを目的としている．CTDEは学習時にグローバル情報を必要とするため、スケーラビリティの低下や、未知の環境に対するロバスト性の欠如といった実運用上の課題を抱えていた．
+
+著者らは、グローバルな観測可能性に依存せず、局所観測と近傍間のピア・ツー・ピア通信のみで協調を学習する分散型MARLフレームワークDG-MAPPOを提案した．この手法の核となる**D-GATs（Distributed Graph Attention Networks）**は、GATv2と分散SGDを組み合わせたものであり、エージェントはマルチホップのメッセージパッシングを通じて、自身の局所観測からグローバルな状態表現を近似的に推定する．
+
+学習プロセスでは、各エージェントがD-GATsによる推定状態と自己の局所観測を統合し、共有報酬（平均報酬）をもとに独立して方策および価値関数を更新する．StarCraft II（SMAC）やGoogle Research Footballなどの複雑なタスクを用いた実験の結果、提案手法は中央集権的な機構を持つ従来のMAPPOやHAPPOと同等、あるいはそれらを上回る性能と一般化能力を示すことが実証された．
