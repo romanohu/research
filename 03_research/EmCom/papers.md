@@ -1,22 +1,24 @@
 # EmCom 論文
-- 読んだ方が良い論文
-    - [Multi-Agent Cooperation and the Emergence of (Natural) Language(2016)](https://arxiv.org/abs/1612.07182)
-    - [Multi-agent Reinforcement Learning in Sequential Social Dilemmas(2017)](https://arxiv.org/abs/1702.03037)
-    - [Capacity, Bandwidth, and Compositionality in Emergent Language Learning(2019)](https://arxiv.org/abs/1910.11424)
-    - [Anti-efficient encoding in emergent communication(2019)](#anti-efficient-encoding-in-emergent-communication)
-    - [Compositionality and Generalization in Emergent Languages(2020)](https://arxiv.org/abs/2004.09124)
-    - [On the interaction between supervision and self-play in emergent communication(2020)](https://arxiv.org/abs/2002.01093)
-    - [Emergent Multi-Agent Communication in the Deep Learning  Era(2020)](https://arxiv.org/abs/2006.02419)
-    - [Emergent Communication of Generalizations(2021)](https://arxiv.org/abs/2106.02668)
-    - [Emergent Communication: Generalization and Overfitting in Lewis Games(2022)](https://arxiv.org/abs/2209.15342)
-    - [Emergent Communication at Scale(2022)](https://openreview.net/forum?id=AUGBfDIV9rL)
-    - [Linking Emergent and Natural Languages via Corpus Transfer(2022)](https://arxiv.org/abs/2203.13344)
-    - [On the Word Boundaries of Emergent Languages Based on Harris's Articulation Scheme(2023)](https://openreview.net/forum?id=b4t9_XASt6G)
-    - [One-to-Many Communication and Compositionality  in Emergent Communication(2024)](https://openreview.net/forum?id=mfgcxMm5aa)
-    - [Speaking Your Language: Spatial Relationships in Interpretable Emergent Communication(2024)](https://arxiv.org/abs/2406.07277)
-    - [言語とコミュニケーションの創発に関する構成論的研究の展開(2024)](https://www.jstage.jst.go.jp/article/jcss/31/1/31_2023.073/_article/-char/ja/)
-    - [Knowledge Distillation from Language-Oriented to Emergent Communication for Multi-Agent Remote Control(2024)](#knowledge-distillation-from-language-oriented-to-emergent-communication-for-multi-agent-remote-control)
-    - [Emergent language: a survey and taxonomy(2025)](#emergent-language-a-survey-and-taxonomy)
+- [Multi-Agent Cooperation and the Emergence of (Natural) Language(2016)](https://arxiv.org/abs/1612.07182)
+- [Capacity, Bandwidth, and Compositionality in Emergent Language Learning(2019)](https://arxiv.org/abs/1910.11424)
+- [Anti-efficient encoding in emergent communication(2019)](#anti-efficient-encoding-in-emergent-communication)
+- [Compositionality and Generalization in Emergent Languages(2020)](https://arxiv.org/abs/2004.09124)
+- [On the interaction between supervision and self-play in emergent communication(2020)](https://arxiv.org/abs/2002.01093)
+- [Emergent Multi-Agent Communication in the Deep Learning  Era(2020)](https://arxiv.org/abs/2006.02419)
+- [Emergent Communication of Generalizations(2021)](https://arxiv.org/abs/2106.02668)
+- [Emergent Communication: Generalization and Overfitting in Lewis Games(2022)](https://arxiv.org/abs/2209.15342)
+- [Emergent Communication at Scale(2022)](https://openreview.net/forum?id=AUGBfDIV9rL)
+- [Linking Emergent and Natural Languages via Corpus Transfer(2022)](https://arxiv.org/abs/2203.13344)
+- [On the Word Boundaries of Emergent Languages Based on Harris's Articulation Scheme(2023)](https://openreview.net/forum?id=b4t9_XASt6G)
+- [One-to-Many Communication and Compositionality  in Emergent Communication(2024)](https://openreview.net/forum?id=mfgcxMm5aa)
+- [Speaking Your Language: Spatial Relationships in Interpretable Emergent Communication(2024)](https://arxiv.org/abs/2406.07277)
+- [Knowledge Distillation from Language-Oriented to Emergent Communication for Multi-Agent Remote Control(2024)](#knowledge-distillation-from-language-oriented-to-emergent-communication-for-multi-agent-remote-control)
+
+## サーベイ
+- [言語とコミュニケーションの創発に関する構成論的研究の展開(2024)](https://www.jstage.jst.go.jp/article/jcss/31/1/31_2023.073/_article/-char/ja/)
+- [Emergent language: a survey and taxonomy(2025)](#emergent-language-a-survey-and-taxonomy)
+
+---
 
 ## 論文メモ
 ### 2019

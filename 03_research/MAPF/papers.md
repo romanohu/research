@@ -1,19 +1,29 @@
 # MAPF 論文
-- 読んだ方が良い論文
-    - [Finding Optimal Solutions to Cooperative Pathfinding Problems(2010)](https://ojs.aaai.org/index.php/AAAI/article/view/7564)
-    - [Conflict-based search for optimal multi-agent pathfinding(2015)](#conflict-based-search-for-optimal-multi-agent-pathfinding)
-    - [Priority Inheritance with Backtracking for Iterative Multi-agent Path Finding(2019)](https://arxiv.org/abs/1901.11282)
-    - [Message-Aware Graph Attention Networks for Large-Scale Multi-Robot Path Planning](#message-aware-graph-attention-networks-for-large-scale-multi-robot-path-planning)
-    - [LaCAM: Search-Based Algorithm for Quick Multi-Agent Pathfinding(2022)](#lacam-search-based-algorithm-for-quick-multi-agent-pathfinding)
-    - [Improving LaCAM for Scalable Eventually Optimal Multi-Agent Pathfinding(2023)](#improving-lacam-for-scalable-eventually-optimal-multi-agent-pathfinding)
-    - [Traffic Flow Optimisation for Lifelong Multi-Agent Path Finding(2024)](https://arxiv.org/abs/2308.11234)
-    - [Lifelong Multi-Agent Path Finding in Large-Scale Warehouses(2021)](https://ojs.aaai.org/index.php/AAAI/article/view/17344)
-    - [MAPF-LNS2: Fast Repairing for Multi-Agent Path Finding via Large Neighborhood Search(2022)](https://ojs.aaai.org/index.php/AAAI/article/view/21266)
-    - [SCRIMP: Scalable Communication for Reinforcement- and Imitation-Learning-Based Multi-Agent Pathfinding](https://ieeexplore.ieee.org/document/10342305?denied=)
-    - [A Comprehensive Review on Leveraging Machine Learning for Multi-Agent Path Finding(2024)](#a-comprehensive-review-on-leveraging-machine-learning-for-multi-agent-path-finding)
-    - [MAPF-GPT: Imitation Learning for Multi-Agent Pathfinding at Scale(2024)](#mapf-gpt-imitation-learning-for-multi-agent-pathfinding-at-scale)
-    - [Graph Attention-Guided Search for Dense Multi-Agent Pathfinding(2025)](#graph-attention-guided-search-for-dense-multi-agent-pathfinding)
-    - [Pairwise is Not Enough: Hypergraph Neural Networks for Multi-Agent Pathfinding(2025)](#pairwise-is-not-enough-hypergraph-neural-networks-for-multi-agent-pathfinding)
+## Solver(search)
+- [Finding Optimal Solutions to Cooperative Pathfinding Problems(2010)](https://ojs.aaai.org/index.php/AAAI/article/view/7564)
+- [Conflict-based search for optimal multi-agent pathfinding(2015)](#conflict-based-search-for-optimal-multi-agent-pathfinding)
+- [Priority Inheritance with Backtracking for Iterative Multi-agent Path Finding(2019)](https://arxiv.org/abs/1901.11282)
+- [Lifelong Multi-Agent Path Finding in Large-Scale Warehouses(2021)](https://ojs.aaai.org/index.php/AAAI/article/view/17344)
+- [MAPF-LNS2: Fast Repairing for Multi-Agent Path Finding via Large Neighborhood Search(2022)](https://ojs.aaai.org/index.php/AAAI/article/view/21266)
+- [LaCAM: Search-Based Algorithm for Quick Multi-Agent Pathfinding(2022)](#lacam-search-based-algorithm-for-quick-multi-agent-pathfinding)
+- [Improving LaCAM for Scalable Eventually Optimal Multi-Agent Pathfinding(2023)](#improving-lacam-for-scalable-eventually-optimal-multi-agent-pathfinding)
+- [Traffic Flow Optimisation for Lifelong Multi-Agent Path Finding(2024)](https://arxiv.org/abs/2308.11234)
+
+## Solver(machine learning)
+- [Message-Aware Graph Attention Networks for Large-Scale Multi-Robot Path Planning](#message-aware-graph-attention-networks-for-large-scale-multi-robot-path-planning)
+- [SCRIMP: Scalable Communication for Reinforcement- and Imitation-Learning-Based Multi-Agent Pathfinding](https://ieeexplore.ieee.org/document/10342305?denied=)
+- [MAPF-GPT: Imitation Learning for Multi-Agent Pathfinding at Scale(2024)](#mapf-gpt-imitation-learning-for-multi-agent-pathfinding-at-scale)
+- [Graph Attention-Guided Search for Dense Multi-Agent Pathfinding(2025)](#graph-attention-guided-search-for-dense-multi-agent-pathfinding)
+- [Pairwise is Not Enough: Hypergraph Neural Networks for Multi-Agent Pathfinding(2025)](#pairwise-is-not-enough-hypergraph-neural-networks-for-multi-agent-pathfinding)
+
+## Obstacle Relocation Plan
+- [From Agent Centric to Obstacle Centric Planning: A Makespan-OptimalAlgorithm for the Multi-Agent Warehouse Rearrangement Problem(2025)](#from-agent-centric-to-obstacle-centric-planning-a-makespan-optimalalgorithm-for-the-multi-agent-warehouse-rearrangement-problem)
+
+## サーベイ
+- [A Comprehensive Review on Leveraging Machine Learning for Multi-Agent Path Finding(2024)](#a-comprehensive-review-on-leveraging-machine-learning-for-multi-agent-path-finding)
+
+
+---
 
 ## 論文メモ
 ### 2015
@@ -135,3 +145,5 @@ MAGAT+の事前学習としてlacam3が生成した準最適軌道を模倣学�
 #### [Pairwise is Not Enough: Hypergraph Neural Networks for Multi-Agent Pathfinding](https://openreview.net/forum?id=WUbGQQ9C0E)
 [奥村圭佑](../Authors/japanese/奥村圭佑.md) [Rishabh Jain](../Authors/overseas/RishabhJain.md)
 既存の学習ベースのMAPFポリシーは、GNNsやTransformerを用いるものが挙げられるが、それらはどれもエージェント間の情報表現をペアワイズ(2体間)で行う．しかし、この制約は注意の希薄(attention dilution)化や高次相互作用(3体以上のグループの動きなど)の欠如などをもたらす．そこでより高次の情報を捉えるためにHyperGraphを基盤としたHMAGATという手法を提案している．
+
+#### [From Agent Centric to Obstacle Centric Planning: A Makespan-OptimalAlgorithm for the Multi-Agent Warehouse Rearrangement Problem](https://ojs.aaai.org/index.php/SOCS/article/view/35985/38140)
