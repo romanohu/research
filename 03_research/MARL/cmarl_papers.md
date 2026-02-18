@@ -1,10 +1,8 @@
 # CMARL　論文
 ## 協調(Cooperation)
-- [Multiagent cooperation and competition with deep reinforcement learning(2017)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0172395)
-- [Maintaining cooperation in complex social dilemmas using deep reinforcement learning(2018)](https://arxiv.org/abs/1707.01068)
+- [Maintaining cooperation in complex social dilemmas using deep reinforcement learning(2018)](#maintaining-cooperation-in-complex-social-dilemmas-using-deep-reinforcement-learning)
 - [Learning through Probing: a decentralized reinforcement learning architecture for social dilemmas(2018)](#learning-through-probing-a-decentralized-reinforcement-learning-architecture-for-social-dilemmas)
 - [Agent Modeling as Auxiliary Task for Deep Reinforcement Learning(2019)](https://arxiv.org/abs/1907.09597)
-- [Emergent Multi-Agent Communication in the Deep Learning Era(2020)](https://arxiv.org/abs/2006.02419)
 - [Promoting Coordination through Policy Regularization in Multi-Agent Deep Reinforcement Learning(2020)](#promoting-coordination-through-policy-regularization-in-multi-agent-deep-reinforcement-learning)
 - [The Surprising Effectiveness of PPO in Cooperative, Multi-Agent Games(2021)](https://arxiv.org/abs/2103.01955?utm_source=chatgpt.com)
 - [Birds of a Feather Flock Together: A Close Look at Cooperation Emergence via Multi-Agent RL](#birds-of-a-feather-flock-together-a-close-look-at-cooperation-emergence-via-multi-agent-rl)
@@ -28,7 +26,9 @@
 - **[SocialJax: An Evaluation Suite for Multi-agent Reinforcement Learning in Sequential Social Dilemmas(2025)](#socialjax-an-evaluation-suite-for-multi-agent-reinforcement-learning-in-sequential-social-dilemmas)**
 
 ## サーベイ
+
 - [A Review of Cooperative Multi-Agent Deep Reinforcement Learning(2019)](#a-review-of-cooperative-multi-agent-deep-reinforcement-learning)
+- [Emergent Multi-Agent Communication in the Deep Learning Era(2020)](https://arxiv.org/abs/2006.02419)
 - [Multi-agent deep reinforcement learning: a survey(2021)](https://link.springer.com/article/10.1007/s10462-021-09996-w?utm_source=chatgpt.com)
 - [A Review of Cooperation in Multi-agent Learning(2023)](#a-review-of-cooperation-in-multi-agent-learning)
 - [A Comprehensive Survey on Multi-Agent Cooperative Decision-Making: Scenarios, Approaches, Challenges and Perspectives(2025)](#a-comprehensive-survey-on-multi-agent-cooperative-decision-making-scenarios-approaches-challenges-and-perspectives)
@@ -46,11 +46,13 @@
 
 #### Multiagent cooperation and competition with deep reinforcement learning
 Pongゲーム環境において、報酬設定pを操作することで、協力的/競争的な行動が創発する．また、固定方策AIを相手に学習するsingle-playerDQNよりも、固定方策AIを用いないmultiplayerDQNのほうが、より一般的でロバストな戦略が育つ．
+
 ### 2018
 #### Maintaining cooperation in complex social dilemmas using deep reinforcement learning
 深層強化学習を用いてTFT(しっぺ返し戦略)みたいに協力できるエージェントを作るにはどうしたら良いかという問題に挑戦し、拡張版のamTFTを提起している．マルチエージェントではなく単一エージェントの設計を狙っている．
 #### [Inequity aversion improves cooperation in intertemporal social dilemmas](https://arxiv.org/abs/1803.08884)
 [Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.md)
+#Unread
 SSD環境において、不公平嫌悪(inquity aversion)を報酬構造に組み込むことで、自己利益だけでなく社会的な協調を誘導できると主張．
 
 #### [Learning through Probing: a decentralized reinforcement learning architecture for social dilemmas](https://arxiv.org/abs/1809.10007?utm_source=chatgpt.com)
@@ -81,6 +83,7 @@ SSD環境において、不公平嫌悪(inquity aversion)を報酬構造に組�
 深層強化学習における探索問題において有効な内的報酬の設計手法であるRandomNetworkDistillation(RND)を提案している．構造はかなりシンプルでエージェントが受け取る報酬に環境からのものに加えて独自の機構から出力される内的報酬を含めている．その機構には次状態の観測$o_(t+1)$を受け取る2つのニューラルネットで構成されている．片方のニューラルネットはパラメータを固定してあり、もう片方のニューラルネットが、その出力を予測するようにパラメータを学習する．そして内的報酬は、その予測誤差である．これにより、未知の状態に対しては学習が進んでいないため、予測が上手くいかず、結果として報酬が大きくなり、既知の状態に対しては、報酬が小さくなる．さらにRNDは、予測対象を環境依存の遷移ではなく固定されたランダム関数にすることで、確率的遷移に起因する noisy-TV 問題を回避しており、内的報酬は状態訪問密度の proxy として振る舞う．また内的報酬は非定常であるため、論文では外的報酬と価値関数を分離して学習している．
 #### [Social Influence as Intrinsic Motivation for Multi-Agent Deep Reinforcement Learning](https://arxiv.org/abs/1810.08647?utm_source=chatgpt.com)
 [Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.md)
+#Unread
 [Leibo(2017)](#multi-agent-reinforcement-learning-in-sequential-social-dilemmas)のSSDに対応した上で、報酬項に変更を加えた．各エージェントiの報酬を以下のように定義．
 $$r_i(t)=r^{ext}_i(t)+Br^{inf}_i(t)$$
 $$r^{inf}_t(t)=\sum_{j≠i} D(\pi_j(・|o_t,a^i_t)||\pi_j(・|o_t,a^{i,cf}_t))$$
@@ -88,14 +91,16 @@ $$r^{inf}_t(t)=\sum_{j≠i} D(\pi_j(・|o_t,a^i_t)||\pi_j(・|o_t,a^{i,cf}_t))$$
 
 ### 2019
 #### [Learning Reciprocity in Complex Sequential Social Dilemmas](https://arxiv.org/abs/1903.08082)
-> [Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.md)
+[Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.md)
 
+#Unread
 [この論文](#inequity-aversion-improves-cooperation-in-intertemporal-social-dilemmas)と似ているが、あちらがエージェントの行動に対する因果的影響度を報酬として用いて学習するのに対し、これは互恵性(相手の行動パターンに応じて戦略を調整すること、自分の行動が相手の"報酬"にどれだけ影響を与えたか)を学習することを意図した論文．この論文の手法ではエージェントは環境報酬に加えて、互恵性に基づく内在報酬を得る．
 (読み途中)
 
 
 ### 2020
 #### [Promoting Coordination through Policy Regularization in Multi-Agent Deep Reinforcement Learning](https://arxiv.org/abs/1908.02269)
+#Unread
 
 #### [Social diversity and social preferences in mixed-motive reinforcement learning](https://arxiv.org/abs/2002.02325)
 [Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.md)
@@ -132,9 +137,11 @@ MARLが扱う課題の多くはNP困難問題に分類される．このサー�
 ### 2023
 #### [A Review of Cooperation in Multi-agent Learning](https://arxiv.org/abs/2312.05162)
 > [Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.md)
+#Unread
 
 ### 2025
 #### [A Comprehensive Survey on Multi-Agent Cooperative Decision-Making: Scenarios, Approaches, Challenges and Perspectives](https://arxiv.org/abs/2503.13415)
+#Unread
 
 
 #### [OVERCOOKEDV2: RETHINKING OVERCOOKED FOR ZERO-SHOT COORDINATION](https://arxiv.org/html/2503.17821v1)

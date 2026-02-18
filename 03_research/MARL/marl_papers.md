@@ -2,6 +2,7 @@
 ## モデル
 - [Planning Problems for Sophisticated Agents with Present Bias(2016)](https://arxiv.org/abs/1603.08177)
 - [Learning Multiagent Communication with Backpropagation(2016)](https://arxiv.org/abs/1605.07736)
+- [Multiagent cooperation and competition with deep reinforcement learning(2017)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0172395)
 - [Trust Region Policy Optimisation in Multi-Agent Reinforcement Learning(2018)](https://arxiv.org/abs/2109.11251?utm_source=chatgpt.com)
 - [The Surprising Effectiveness of PPO in Cooperative, Multi-Agent Games(2021)](https://arxiv.org/abs/2103.01955?utm_source=chatgpt.com)
 - [HyperMARL: Adaptive Hypernetworks for Multi-Agent RL(2024)](#hypermarl-adaptive-hypernetworks-for-multi-agent-rl)
