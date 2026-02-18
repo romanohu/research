@@ -1,31 +1,40 @@
 # CMARL　論文
-- 読んだ方が良い論文
-    - [Planning Problems for Sophisticated Agents with Present Bias(2016)](https://arxiv.org/abs/1603.08177)
-    - **[Multi-agent Reinforcement Learning in Sequential Social Dilemmas(2017)](#multi-agent-reinforcement-learning-in-sequential-social-dilemmas)**
-    - [Multiagent cooperation and competition with deep reinforcement learning(2017)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0172395)
-    - [Maintaining cooperation in complex social dilemmas using deep reinforcement learning(2018)](https://arxiv.org/abs/1707.01068)
-    - [Inequity aversion improves cooperation in intertemporal social dilemmas(2018)](#inequity-aversion-improves-cooperation-in-intertemporal-social-dilemmas)
-    - **[Exploration by Random Network Distillation(2018)](#exploration-by-random-network-distillation)**
-    - **[Social Influence as Intrinsic Motivation for Multi-Agent Deep Reinforcement Learning(2018)](#social-influence-as-intrinsic-motivation-for-multi-agent-deep-reinforcement-learning)**
-    - [Learning through Probing: a decentralized reinforcement learning architecture for social dilemmas(2018)](#learning-through-probing-a-decentralized-reinforcement-learning-architecture-for-social-dilemmas)
-    - [Evolving intrinsic motivations for altruistic behavior(2018)](#evolving-intrinsic-motivations-for-altruistic-behavior)
-    - [Agent Modeling as Auxiliary Task for Deep Reinforcement Learning(2019)](https://arxiv.org/abs/1907.09597)
-    - [Learning Reciprocity in Complex Sequential Social Dilemmas(2019)](#learning-reciprocity-in-complex-sequential-social-dilemmas)
-    - [Emergent Multi-Agent Communication in the Deep Learning Era(2020)](https://arxiv.org/abs/2006.02419)
-    - [Promoting Coordination through Policy Regularization in Multi-Agent Deep Reinforcement Learning(2020)](https://arxiv.org/abs/1908.02269)
-    - [Sample Factory: Egocentric 3D Control from Pixels at 100000 FPS with Asynchronous Reinforcement Learning(2020)](https://arxiv.org/abs/2006.11751)
-    - [The Surprising Effectiveness of PPO in Cooperative, Multi-Agent Games(2021)](https://arxiv.org/abs/2103.01955?utm_source=chatgpt.com)
-    - [Birds of a Feather Flock Together: A Close Look at Cooperation Emergence via Multi-Agent RL](#birds-of-a-feather-flock-together-a-close-look-at-cooperation-emergence-via-multi-agent-rl)
-    - [Multi-agent deep reinforcement learning: a survey(2021)](https://link.springer.com/article/10.1007/s10462-021-09996-w?utm_source=chatgpt.com)
-    - [Trust Region Policy Optimisation in Multi-Agent Reinforcement Learning(2022)](https://arxiv.org/abs/2109.11251?utm_source=chatgpt.com)
-    - [A Review of Cooperative Multi-Agent Deep Reinforcement Learning(2019)](#a-review-of-cooperative-multi-agent-deep-reinforcement-learning)
-    - [Social diversity and social preferences in mixed-motive reinforcement learning(2020)](#social-diversity-and-social-preferences-in-mixed-motive-reinforcement-learning)
-    - [RPM: Generalizable Behaviors for Multi-Agent Reinforcement Learning(2022)](https://arxiv.org/abs/2210.09646)
-    - [Multi-Agent Reinforcement Learning is a Sequence Modeling Problem(2023)](https://arxiv.org/abs/2205.14953?utm_source=chatgpt.com)
-    - [A Review of Cooperation in Multi-agent Learning(2023)](#a-review-of-cooperation-in-multi-agent-learning)
-    - [A Comprehensive Survey on Multi-Agent Cooperative Decision-Making: Scenarios, Approaches, Challenges and Perspectives(2025)](https://arxiv.org/abs/2503.13415)
-    - [OVERCOOKEDV2: RETHINKING OVERCOOKED FOR ZERO-SHOT COORDINATION(2025)](#overcookedv2-rethinking-overcooked-for-zero-shot-coordination)
-    - **[SocialJax: An Evaluation Suite for Multi-agent Reinforcement Learning in Sequential Social Dilemmas(2025)](#socialjax-an-evaluation-suite-for-multi-agent-reinforcement-learning-in-sequential-social-dilemmas)**
+## 協調(Cooperation)
+- [Planning Problems for Sophisticated Agents with Present Bias(2016)](https://arxiv.org/abs/1603.08177)
+- [Multiagent cooperation and competition with deep reinforcement learning(2017)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0172395)
+- [Maintaining cooperation in complex social dilemmas using deep reinforcement learning(2018)](https://arxiv.org/abs/1707.01068)
+- [Learning through Probing: a decentralized reinforcement learning architecture for social dilemmas(2018)](#learning-through-probing-a-decentralized-reinforcement-learning-architecture-for-social-dilemmas)
+- [Agent Modeling as Auxiliary Task for Deep Reinforcement Learning(2019)](https://arxiv.org/abs/1907.09597)
+- [Emergent Multi-Agent Communication in the Deep Learning Era(2020)](https://arxiv.org/abs/2006.02419)
+- [Promoting Coordination through Policy Regularization in Multi-Agent Deep Reinforcement Learning(2020)](#promoting-coordination-through-policy-regularization-in-multi-agent-deep-reinforcement-learning)
+- [The Surprising Effectiveness of PPO in Cooperative, Multi-Agent Games(2021)](https://arxiv.org/abs/2103.01955?utm_source=chatgpt.com)
+- [Birds of a Feather Flock Together: A Close Look at Cooperation Emergence via Multi-Agent RL](#birds-of-a-feather-flock-together-a-close-look-at-cooperation-emergence-via-multi-agent-rl)
+- [RPM: Generalizable Behaviors for Multi-Agent Reinforcement Learning(2022)](https://arxiv.org/abs/2210.09646)
+- [Multi-Agent Reinforcement Learning is a Sequence Modeling Problem(2023)](https://arxiv.org/abs/2205.14953?utm_source=chatgpt.com)
+
+## SSD(Sequential Social Dilemmas)
+- **[Multi-agent Reinforcement Learning in Sequential Social Dilemmas(2017)](#multi-agent-reinforcement-learning-in-sequential-social-dilemmas)**
+- [Learning Reciprocity in Complex Sequential Social Dilemmas(2019)](#learning-reciprocity-in-complex-sequential-social-dilemmas)
+
+## 内発的報酬(Intrinsic Reward)
+- **[Exploration by Random Network Distillation(2018)](#exploration-by-random-network-distillation)**
+- [Evolving intrinsic motivations for altruistic behavior(2018)](#evolving-intrinsic-motivations-for-altruistic-behavior)
+- [Inequity aversion improves cooperation in intertemporal social dilemmas(2018)](#inequity-aversion-improves-cooperation-in-intertemporal-social-dilemmas)
+- **[Social Influence as Intrinsic Motivation for Multi-Agent Deep Reinforcement Learning(2018)](#social-influence-as-intrinsic-motivation-for-multi-agent-deep-reinforcement-learning)**
+- [Social diversity and social preferences in mixed-motive reinforcement learning(2020)](#social-diversity-and-social-preferences-in-mixed-motive-reinforcement-learning)
+
+## 環境・ベンチマーク・フレームワーク
+- [Sample Factory: Egocentric 3D Control from Pixels at 100000 FPS with Asynchronous Reinforcement Learning(2020)](https://arxiv.org/abs/2006.11751)
+- [OVERCOOKEDV2: RETHINKING OVERCOOKED FOR ZERO-SHOT COORDINATION(2025)](#overcookedv2-rethinking-overcooked-for-zero-shot-coordination)
+- **[SocialJax: An Evaluation Suite for Multi-agent Reinforcement Learning in Sequential Social Dilemmas(2025)](#socialjax-an-evaluation-suite-for-multi-agent-reinforcement-learning-in-sequential-social-dilemmas)**
+
+## サーベイ
+- [A Review of Cooperative Multi-Agent Deep Reinforcement Learning(2019)](#a-review-of-cooperative-multi-agent-deep-reinforcement-learning)
+- [Multi-agent deep reinforcement learning: a survey(2021)](https://link.springer.com/article/10.1007/s10462-021-09996-w?utm_source=chatgpt.com)
+- [A Review of Cooperation in Multi-agent Learning(2023)](#a-review-of-cooperation-in-multi-agent-learning)
+- [A Comprehensive Survey on Multi-Agent Cooperative Decision-Making: Scenarios, Approaches, Challenges and Perspectives(2025)](#a-comprehensive-survey-on-multi-agent-cooperative-decision-making-scenarios-approaches-challenges-and-perspectives)
+
+---
 
 ## 論文メモ
 ### 2017
@@ -87,7 +96,7 @@ $$r^{inf}_t(t)=\sum_{j≠i} D(\pi_j(・|o_t,a^i_t)||\pi_j(・|o_t,a^{i,cf}_t))$$
 
 
 ### 2020
-#### Promoting Coordination through Policy Regularization in Multi-Agent Deep Reinforcement Learning
+#### [Promoting Coordination through Policy Regularization in Multi-Agent Deep Reinforcement Learning](https://arxiv.org/abs/1908.02269)
 
 #### [Social diversity and social preferences in mixed-motive reinforcement learning](https://arxiv.org/abs/2002.02325)
 [Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.md)
@@ -123,10 +132,10 @@ MARLが扱う課題の多くはNP困難問題に分類される．このサー�
 
 ### 2023
 #### [A Review of Cooperation in Multi-agent Learning](https://arxiv.org/abs/2312.05162)
-> [Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.md), [Usman Islam](../Authors/overseas/UsmanIslam.md), [Richard Willis](../Authors/overseas/RichardWillis.md), [Peter Sunehag](../Authors/overseas/PeterSunehag.md)
+> [Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.md)
 
 ### 2025
-#### A Comprehensive Survey on Multi-Agent Cooperative Decision-Making: Scenarios, Approaches, Challenges and Perspectives
+#### [A Comprehensive Survey on Multi-Agent Cooperative Decision-Making: Scenarios, Approaches, Challenges and Perspectives](https://arxiv.org/abs/2503.13415)
 
 
 #### [OVERCOOKEDV2: RETHINKING OVERCOOKED FOR ZERO-SHOT COORDINATION](https://arxiv.org/html/2503.17821v1)
