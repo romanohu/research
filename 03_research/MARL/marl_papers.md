@@ -5,6 +5,8 @@
 - [Multiagent cooperation and competition with deep reinforcement learning(2017)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0172395)
 - [Trust Region Policy Optimisation in Multi-Agent Reinforcement Learning(2018)](https://arxiv.org/abs/2109.11251?utm_source=chatgpt.com)
 - [The Surprising Effectiveness of PPO in Cooperative, Multi-Agent Games(2021)](https://arxiv.org/abs/2103.01955?utm_source=chatgpt.com)
+- [RPM: Generalizable Behaviors for Multi-Agent Reinforcement Learning(2022)](https://arxiv.org/abs/2210.09646)
+- [Multi-Agent Reinforcement Learning is a Sequence Modeling Problem(2023)](https://arxiv.org/abs/2205.14953?utm_source=chatgpt.com)
 - [HyperMARL: Adaptive Hypernetworks for Multi-Agent RL(2024)](#hypermarl-adaptive-hypernetworks-for-multi-agent-rl)
 
 ## 環境・ベンチマーク・フレームワーク
