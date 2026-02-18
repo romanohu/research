@@ -16,7 +16,14 @@
 - [Evolving intrinsic motivations for altruistic behavior(2018)](#evolving-intrinsic-motivations-for-altruistic-behavior)
 - [Inequity aversion improves cooperation in intertemporal social dilemmas(2018)](#inequity-aversion-improves-cooperation-in-intertemporal-social-dilemmas)
 - **[Social Influence as Intrinsic Motivation for Multi-Agent Deep Reinforcement Learning(2018)](#social-influence-as-intrinsic-motivation-for-multi-agent-deep-reinforcement-learning)**
+- [Coordinated Exploration via Intrinsic Rewards for Multi-Agent Reinforcement Learning(2019)](#coordinated-exploration-via-intrinsic-rewards-for-multi-agent-reinforcement-learning)
+- [Influence-Based Multi-Agent Exploration(2019)](#influence-based-multi-agent-exploration)
 - [Social diversity and social preferences in mixed-motive reinforcement learning(2020)](#social-diversity-and-social-preferences-in-mixed-motive-reinforcement-learning)
+- [Discovering Diverse Multi-Agent Strategic Behavior via Reward Randomization(2021)](#discovering-diverse-multi-agent-strategic-behavior-via-reward-randomization)
+- [LJIR: Learning Joint-Action Intrinsic Reward in cooperative multi-agent reinforcement learning(2023)](#ljir-learning-joint-action-intrinsic-reward-in-cooperative-multi-agent-reinforcement-learning)
+- [Two Heads are Better Than One: A Simple Exploration Framework for Efficient Multi-Agent Reinforcement Learning(2023)](#two-heads-are-better-than-one-a-simple-exploration-framework-for-efficient-multi-agent-reinforcement-learning)
+- [Situation-Dependent Causal Influence-Based Cooperative Multi-agent Reinforcement Learning(2023)](#situation-dependent-causal-influence-based-cooperative-multi-agent-reinforcement-learning)
+- [MESA: Cooperative Meta-Exploration in Multi-Agent Learning through Exploiting State-Action Space Structure](#mesa-cooperative-meta-exploration-in-multi-agent-learning-through-exploiting-state-action-space-structure)
 
 ## 環境・ベンチマーク・フレームワーク
 - [Sample Factory: Egocentric 3D Control from Pixels at 100000 FPS with Asynchronous Reinforcement Learning(2020)](https://arxiv.org/abs/2006.11751)
@@ -88,12 +95,17 @@ $$r^{inf}_t(t)=\sum_{j≠i} D(\pi_j(・|o_t,a^i_t)||\pi_j(・|o_t,a^{i,cf}_t))$$
 第２項の部分はinfluence reward(内初的報酬)であり、この論文の文脈では、「自分の行動が他者の将来行動分布をどれだけ変えたか」を測る指標である．この部部では自分の観測と行動が入力信号として入り、しゅつりょくに相手の次行動の分布を出す行動予測モデルを学習している．そこで教師信号として相手の行動を(環境情報ではなく学習中のログを)使っている．この内初的報酬は「自分の行動が相手の行動分布を変えたと推定されたとき」である．これは暴力的・支配的な行動(例えばビームを打つなど)を助長しないかという疑問があるが、短期的なrewardが上がるが長期的には相手の行動分布の差分が小さくなりinfluence rewardがむしろ下がるために、そういった行動は安定にはならないとしている．
 
 ### 2019
+#### [Influence-Based Multi-Agent Exploration](https://arxiv.org/abs/1910.05512)
+#Unread
+
 #### [Learning Reciprocity in Complex Sequential Social Dilemmas](https://arxiv.org/abs/1903.08082)
 [Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.md)
 
 #Unread
 [この論文](#inequity-aversion-improves-cooperation-in-intertemporal-social-dilemmas)と似ているが、あちらがエージェントの行動に対する因果的影響度を報酬として用いて学習するのに対し、これは互恵性(相手の行動パターンに応じて戦略を調整すること、自分の行動が相手の"報酬"にどれだけ影響を与えたか)を学習することを意図した論文．この論文の手法ではエージェントは環境報酬に加えて、互恵性に基づく内在報酬を得る．
 (読み途中)
+
+#### [Coordinated Exploration via Intrinsic Rewards for Multi-Agent Reinforcement Learning](https://arxiv.org/abs/1905.12127)
 
 
 ### 2020
@@ -129,6 +141,8 @@ MARL及びMADRLに関する包括的なサーベイ．メルポは、ゲーム�
   - インセンティブを与えるにはコストがかかる
   - 他者がインセンティブを出してくれるなら、自分は出さない方が得
 
+#### [Discovering Diverse Multi-Agent Strategic Behavior via Reward Randomization](https://arxiv.org/abs/2103.04564)
+#Unread
 
 ### 2022
 #### [A Review of Cooperative Multi-Agent Deep Reinforcement Learning](https://arxiv.org/abs/1908.03963)
@@ -137,6 +151,19 @@ MARLが扱う課題の多くはNP困難問題に分類される．このサー�
 ### 2023
 #### [A Review of Cooperation in Multi-agent Learning](https://arxiv.org/abs/2312.05162)
 [Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.md)
+#Unread
+
+#### [LJIR: Learning Joint-Action Intrinsic Reward in cooperative multi-agent reinforcement learning](https://www.sciencedirect.com/science/article/abs/pii/S0893608023004355)
+#Unread
+
+#### [Two Heads are Better Than One: A Simple Exploration Framework for Efficient Multi-Agent Reinforcement Learning](https://openreview.net/forum?id=AYLlZMmUbo&noteId=sIoIRG6uqi)
+#Unread
+
+#### [Situation-Dependent Causal Influence-Based Cooperative Multi-agent Reinforcement Learning](https://arxiv.org/abs/2312.09539)
+#Unread
+
+### 2024
+#### [MESA: Cooperative Meta-Exploration in Multi-Agent Learning through Exploiting State-Action Space Structure](https://arxiv.org/abs/2405.00902)
 #Unread
 
 ### 2025
