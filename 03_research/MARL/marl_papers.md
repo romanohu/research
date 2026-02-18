@@ -1,5 +1,6 @@
 # MARL 論文
 ## モデル
+- [Planning Problems for Sophisticated Agents with Present Bias(2016)](https://arxiv.org/abs/1603.08177)
 - [Learning Multiagent Communication with Backpropagation(2016)](https://arxiv.org/abs/1605.07736)
 - [Trust Region Policy Optimisation in Multi-Agent Reinforcement Learning(2018)](https://arxiv.org/abs/2109.11251?utm_source=chatgpt.com)
 - [The Surprising Effectiveness of PPO in Cooperative, Multi-Agent Games(2021)](https://arxiv.org/abs/2103.01955?utm_source=chatgpt.com)
