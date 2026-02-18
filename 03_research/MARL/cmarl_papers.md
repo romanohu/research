@@ -136,7 +136,7 @@ MARLが扱う課題の多くはNP困難問題に分類される．このサー�
 
 ### 2023
 #### [A Review of Cooperation in Multi-agent Learning](https://arxiv.org/abs/2312.05162)
-> [Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.md)
+[Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.md)
 #Unread
 
 ### 2025
