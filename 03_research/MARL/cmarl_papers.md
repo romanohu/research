@@ -50,17 +50,20 @@
 それぞれのゲームの差異の他に、学習の際のハイパーパラメータにも着目している．
 
 #### Multiagent cooperation and competition with deep reinforcement learning
+[Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.md)
 Pongゲーム環境において、報酬設定pを操作することで、協力的/競争的な行動が創発する．また、固定方策AIを相手に学習するsingle-playerDQNよりも、固定方策AIを用いないmultiplayerDQNのほうが、より一般的でロバストな戦略が育つ．
 
 ### 2018
 #### Maintaining cooperation in complex social dilemmas using deep reinforcement learning
+[Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.md)
 深層強化学習を用いてTFT(しっぺ返し戦略)みたいに協力できるエージェントを作るにはどうしたら良いかという問題に挑戦し、拡張版のamTFTを提起している．マルチエージェントではなく単一エージェントの設計を狙っている．
 #### [Inequity aversion improves cooperation in intertemporal social dilemmas](https://arxiv.org/abs/1803.08884)
-[Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.md)
+[Edward Hughes](../Authors/overseas/EdwardHughes.md) [Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.md)
 #Unread
 SSD環境において、不公平嫌悪(inquity aversion)を報酬構造に組み込むことで、自己利益だけでなく社会的な協調を誘導できると主張．
 
 #### [Learning through Probing: a decentralized reinforcement learning architecture for social dilemmas](https://arxiv.org/abs/1809.10007?utm_source=chatgpt.com)
+[Jakob N. Foerster](../Authors/overseas/JakobNFoerster.md)
 > [Leibo(2017)](#multi-agent-reinforcement-learning-in-sequential-social-dilemmas)のSSDに沿っているものではない
 
 本論文は、社会的ジレンマ環境におけるマルチエージェント強化学習に対して、「相手の行動が将来どのように変化するか」を学習過程に明示的に取り込む、新しい分散型学習アーキテクチャ Learning through Probing(LTP)を提案した研究である．従来の多くの MARL 手法では、各エージェントは自分が得た即時的・割引累積的な報酬に基づいて方策を更新するが、LTP ではそれに加えて「ある行動を取った結果、相手の学習・行動方針がどう変わったか」という相互作用の二次的効果を評価対象に含める点が特徴である．特に本研究は、社会的相互作用を「解くべきゲーム」ではなく、「学習主体同士が適応し続ける社会的プロセス」として捉え直す立場を明確にしている．
@@ -74,6 +77,7 @@ SSD環境において、不公平嫌悪(inquity aversion)を報酬構造に組�
 一方で、議論の余地や限界も明確に存在する．第一に、本手法は相手が学習する存在であることを暗黙に前提としており、完全に非適応的、あるいは非常に高速に変化する相手に対してどの程度有効かは十分に検証されていない．第二に、η の設定は結果に大きく影響するが、その理論的な決定指針は与えられておらず、現状では経験的調整に依存している．さらに、評価環境は基本的に IPD に限定されており、より高次元・部分観測・多人数の社会的ジレンマ環境にどこまでスケールするかは未解決である．ただし、これらの点は同時に、本研究が「協調の出現を説明・分析するための概念的枠組み」を提示した論文であることを示しており、社会的相互作用を扱う MARL 研究への重要な問題提起として位置づけられる．
 
 #### [Evolving intrinsic motivations for altruistic behavior](https://arxiv.org/abs/1811.05931?utm_source=chatgpt.com)
+[Edward Hughes](../Authors/overseas/EdwardHughes.md)
 内初的報酬に関する研究の1つ．
 本論文は，利他的・協力的行動がどのようにして自己利益を追求するエージェント集団から自然に生じうるのかという，進化理論とマルチエージェント強化学習(MARL)の両分野に共通する根源的な問いに取り組んだ研究である．特に，短期的な個人利益と長期的な集団利益が鋭く対立する intertemporal social dilemma(ISD) を対象に，協力行動が「外から設計された報酬」ではなく，エージェント自身の内発的動機として学習・進化されうることを示す点に特徴がある．
 
@@ -85,9 +89,10 @@ SSD環境において、不公平嫌悪(inquity aversion)を報酬構造に組�
 
 もっとも，本論文にはいくつかの議論すべき点も存在する．第一に，進化的選択は環境設計や集団評価指標に依存するため，どの程度まで一般的な協力原理を獲得しているのかは慎重に解釈する必要がある．第二に，計算コストやスケールの問題から，現実的な大規模MARLへの直接適用には課題が残る．また，進化された内発的動機の「解釈可能性」は限定的であり，それが人間的な倫理や社会規範とどこまで対応しているかは未解決である．ただし，これらの制約を踏まえても，本研究は協力・利他性を“設計する”のではなく，“進化させる”という発想を，深層強化学習の枠組みで具体化した点で，理論的にも方法論的にも大きな意義を持つ．
 #### [Exploration by Random Network Distillation](https://arxiv.org/abs/1810.12894)
+[Yuri Burda](../Authors/overseas/YuriBurda.md)
 深層強化学習における探索問題において有効な内的報酬の設計手法であるRandomNetworkDistillation(RND)を提案している．構造はかなりシンプルでエージェントが受け取る報酬に環境からのものに加えて独自の機構から出力される内的報酬を含めている．その機構には次状態の観測$o_(t+1)$を受け取る2つのニューラルネットで構成されている．片方のニューラルネットはパラメータを固定してあり、もう片方のニューラルネットが、その出力を予測するようにパラメータを学習する．そして内的報酬は、その予測誤差である．これにより、未知の状態に対しては学習が進んでいないため、予測が上手くいかず、結果として報酬が大きくなり、既知の状態に対しては、報酬が小さくなる．さらにRNDは、予測対象を環境依存の遷移ではなく固定されたランダム関数にすることで、確率的遷移に起因する noisy-TV 問題を回避しており、内的報酬は状態訪問密度の proxy として振る舞う．また内的報酬は非定常であるため、論文では外的報酬と価値関数を分離して学習している．
 #### [Social Influence as Intrinsic Motivation for Multi-Agent Deep Reinforcement Learning](https://arxiv.org/abs/1810.08647?utm_source=chatgpt.com)
-[Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.md)
+[Alex Sasha Vezhnevets](../Authors/overseas/AlexSashaVezhnevets.md) [Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.md)
 #Unread
 [Leibo(2017)](#multi-agent-reinforcement-learning-in-sequential-social-dilemmas)のSSDに対応した上で、報酬項に変更を加えた．各エージェントiの報酬を以下のように定義．
 $$r_i(t)=r^{ext}_i(t)+Br^{inf}_i(t)$$
@@ -96,24 +101,27 @@ $$r^{inf}_t(t)=\sum_{j≠i} D(\pi_j(・|o_t,a^i_t)||\pi_j(・|o_t,a^{i,cf}_t))$$
 
 ### 2019
 #### [Influence-Based Multi-Agent Exploration](https://arxiv.org/abs/1910.05512)
+[Ryan Lowe](../Authors/overseas/RyanLowe.md)
 #Unread
 
 #### [Learning Reciprocity in Complex Sequential Social Dilemmas](https://arxiv.org/abs/1903.08082)
-[Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.md)
+[Tom Eccles](../Authors/overseas/TomEccles.md)
 
 #Unread
 [この論文](#inequity-aversion-improves-cooperation-in-intertemporal-social-dilemmas)と似ているが、あちらがエージェントの行動に対する因果的影響度を報酬として用いて学習するのに対し、これは互恵性(相手の行動パターンに応じて戦略を調整すること、自分の行動が相手の"報酬"にどれだけ影響を与えたか)を学習することを意図した論文．この論文の手法ではエージェントは環境報酬に加えて、互恵性に基づく内在報酬を得る．
 (読み途中)
 
 #### [Coordinated Exploration via Intrinsic Rewards for Multi-Agent Reinforcement Learning](https://arxiv.org/abs/1905.12127)
+[Ying Wen](../Authors/overseas/YingWen.md)
 
 
 ### 2020
 #### [Promoting Coordination through Policy Regularization in Multi-Agent Deep Reinforcement Learning](https://arxiv.org/abs/1908.02269)
+[Philip S. Thomas](../Authors/overseas/PhilipSThomas.md)
 #Unread
 
 #### [Social diversity and social preferences in mixed-motive reinforcement learning](https://arxiv.org/abs/2002.02325)
-[Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.md)
+[Edward Hughes](../Authors/overseas/EdwardHughes.md)
 エージェントに社会的価値志向(Social Value Orientation:SVO)という選考形式を付与することで、集団内の多様性を生み出すことが、相互依存理論(社会心理学の文脈)が示唆するのと同様の有意かつ複雑な行動パターンの多様性をエージェント間に生成することを明らかにした．
 SVOは内発的動機づけであり、自己と他者の間で、どのような報酬分配を好むかを表す．それを表現するために報酬角(reward angle)という概念が導入されている．
 $$R=(r_1,...,r_n)$$
@@ -127,11 +135,14 @@ $$
 この論文ではエージェントごとに固有の理想SVO値を設定することで「多様性があることで生まれる効用」を図ろうとしている．
 ### 2021
 #### Multi-agent deep reinforcement learning: a survey
+[Lu Dong](../Authors/overseas/LuDong.md)
 MARL及びMADRLに関する包括的なサーベイ．メルポは、ゲーム設定が混合設定(一般和ゲーム)で、エージェントは独立学習者で、環境はPOMGな実験ということか．p11の分散訓練分散実行(DTDE)の詳細がかなり分かりやすい．Leibo(2017)も出てきているので、他の登場した文献も読んでおきたい．
 
 #### [The Surprising Effectiveness of PPO in Cooperative, Multi-Agent Games](https://arxiv.org/abs/2103.01955?utm_source=chatgpt.com)
+[Chao Yu](../Authors/overseas/ChaoYu.md)
 
 #### [Birds of a Feather Flock Together: A Close Look at Cooperation Emergence via Multi-Agent RL](https://arxiv.org/abs/2104.11455?utm_source=chatgpt.com)
+[Edward Hughes](../Authors/overseas/EdwardHughes.md)
 協調分散MARLに関してのこれの先行研究では、エージェントの行動に影響するインセンティブ(他のエージェントに報酬/罰を与える)を学習させることで協調を促進してきたが、それでは安定せず、協力と裏切りの間で周期的に変動する脆弱(ロバストでない)挙動が観察されたとしている．それを解決するための方法として同類志向(homophily)を導入した学習枠組みを提案している．
 本研究は、この不安定性がインセンティブ行動自体が利己的になり得る「第二次社会的ジレンマ」に起因することを理論的に分析した点が大きな貢献である．さらに、人間社会で広く観察される同類志向(homophily)に着目し、エージェント同士が似たインセンティブを与えるよう学習を誘導する homophilic incentives を提案した．これにより学習ダイナミクスが安定化し、協調行動が持続的に維持される．提案手法は、Public Goods や Tragedy of the Commons といった代表的な逐次的社会的ジレンマ環境で検証され、従来手法と比べて高く安定した協調水準を達成することが示された．一方で、同質性を促す設計が異質性を必要とするタスクに与える影響や、大規模・複雑な環境への一般化可能性については今後の課題として議論の余地がある．
 - 第1次的社会的ジレンマ
@@ -142,36 +153,44 @@ MARL及びMADRLに関する包括的なサーベイ．メルポは、ゲーム�
   - 他者がインセンティブを出してくれるなら、自分は出さない方が得
 
 #### [Discovering Diverse Multi-Agent Strategic Behavior via Reward Randomization](https://arxiv.org/abs/2103.04564)
+[Max Rudolph](../Authors/overseas/MaxRudolph.md)
 #Unread
 
 ### 2022
 #### [A Review of Cooperative Multi-Agent Deep Reinforcement Learning](https://arxiv.org/abs/1908.03963)
+[Lu Dong](../Authors/overseas/LuDong.md)
 MARLが扱う課題の多くはNP困難問題に分類される．このサーベイでは協調的な目標を持つ分散型問題に焦点を当てている．IL(Independent Learners)の限界を緩和するために提案された手法として、1パラメータ共有、2学習率・更新頻度の工夫、3役割分担(エージェント行動の固定/探索空間を削減)などがある．
 
 ### 2023
 #### [A Review of Cooperation in Multi-agent Learning](https://arxiv.org/abs/2312.05162)
-[Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.md)
+[Minh Anh Ngo](../Authors/overseas/MinhAnhNgo.md)
 #Unread
 
 #### [LJIR: Learning Joint-Action Intrinsic Reward in cooperative multi-agent reinforcement learning](https://www.sciencedirect.com/science/article/abs/pii/S0893608023004355)
+[Ting Zhu](../Authors/overseas/TingZhu.md)
 #Unread
 
 #### [Two Heads are Better Than One: A Simple Exploration Framework for Efficient Multi-Agent Reinforcement Learning](https://openreview.net/forum?id=AYLlZMmUbo&noteId=sIoIRG6uqi)
+[Linxuan Xu](../Authors/overseas/LinxuanXu.md)
 #Unread
 
 #### [Situation-Dependent Causal Influence-Based Cooperative Multi-agent Reinforcement Learning](https://arxiv.org/abs/2312.09539)
+[Kun Wang](../Authors/overseas/KunWang.md)
 #Unread
 
 ### 2024
 #### [MESA: Cooperative Meta-Exploration in Multi-Agent Learning through Exploiting State-Action Space Structure](https://arxiv.org/abs/2405.00902)
+[Xiaoteng Ma](../Authors/overseas/XiaotengMa.md)
 #Unread
 
 ### 2025
 #### [A Comprehensive Survey on Multi-Agent Cooperative Decision-Making: Scenarios, Approaches, Challenges and Perspectives](https://arxiv.org/abs/2503.13415)
+[Lu Zhang](../Authors/overseas/LuZhang.md)
 #Unread
 
 
 #### [OVERCOOKEDV2: RETHINKING OVERCOOKED FOR ZERO-SHOT COORDINATION](https://arxiv.org/html/2503.17821v1)
+[Roman Olkhovskyi](../Authors/overseas/RomanOlkhovskyi.md)
 - MARLにおいてZSC(Zero-Shot Coordination)を上手く達成するにはどうすればいいのかは重大な課題
     - SP-XP gap：selfplayとcrossplayでの性能の差．
         - ZSCにおける「協調の失敗」を示す指標
@@ -182,12 +201,14 @@ MARLが扱う課題の多くはNP困難問題に分類される．このサー�
     - 既存のZSC手法でもZSC性能を向上させることが確認できたが、テスト時に適応を要求されるシナリオでは苦戦している?ことが確認できた
 
 #### [SocialJax: An Evaluation Suite for Multi-agent Reinforcement Learning in Sequential Social Dilemmas](https://arxiv.org/abs/2503.14576v2)
+[Cameron Hickert](../Authors/overseas/CameronHickert.md) [Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.md)
 SSDに対するMARLの評価基盤として、SocialJaxという実装スイートを提案している．エージェントは観測として、MeltingPotのように2D画像を受け取るのではなく、環境設計として数理的に利害構造が埋め込まれる、つまりかなり抽象的な表現を受け取る．
 より具体的にはMeltingPotが持っているRGBピクセル観測は存在せず、11×11のグリッドで環境が構成されており、CNN等で「何が見えているか」を学習する必要は無い．
 > [サイト？](https://sites.google.com/view/socialjax/home)、[github](https://github.com/cooperativex/SocialJax)
 
 ### 2026
 #### [MULTI-AGENT DEEP REINFORCEMENT LEARNING UNDER CONSTRAINED COMMUNICATIONS](https://www.arxiv.org/abs/2601.17069)
+[Roman Olkhovskyi](../Authors/overseas/RomanOlkhovskyi.md)
 [プレゼン](https://romanohu.github.io/pages/prezentation/wkblab_paperprezentation2.html#1)
 
 本論文は、マルチエージェント深層強化学習（MARL）において主流である「中央集権的学習・分散実行（CTDE）」の限界を打破することを目的としている．CTDEは学習時にグローバル情報を必要とするため、スケーラビリティの低下や、未知の環境に対するロバスト性の欠如といった実運用上の課題を抱えていた．

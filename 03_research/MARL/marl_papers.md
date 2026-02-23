@@ -20,6 +20,8 @@
 ## 論文メモ
 ### 2024
 #### [HyperMARL: Adaptive Hypernetworks for Multi-Agent RL](https://arxiv.org/abs/2412.04233?utm_source=chatgpt.com)
+[Tessera Kale-ab Abebe](../Authors/overseas/TesseraKaleabAbebe.md)
 
 
 #### [An Introduction to Centralized Training for Decentralized Execution in Cooperative Multi-Agent Reinforcement Learning](https://arxiv.org/pdf/2409.03052)
+[Christopher Amato](../Authors/overseas/ChristopherAmato.md)

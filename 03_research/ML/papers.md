@@ -11,7 +11,9 @@
 ## 論文メモ
 ### 2022
 #### [Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity](https://arxiv.org/abs/2101.03961)
+[William Fedus](../Authors/overseas/WilliamFedus.md)
 
 
 ### 2023
 #### [GraphCast:Learning skillful medium-range global weather forecasting](https://arxiv.org/abs/2212.12794)
+[Remi Lam](../Authors/overseas/RemiLam.md)
