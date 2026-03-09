@@ -58,12 +58,12 @@ Pongゲーム環境において、報酬設定pを操作することで、協力
 [Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.md)
 深層強化学習を用いてTFT(しっぺ返し戦略)みたいに協力できるエージェントを作るにはどうしたら良いかという問題に挑戦し、拡張版のamTFTを提起している．マルチエージェントではなく単一エージェントの設計を狙っている．
 #### [Inequity aversion improves cooperation in intertemporal social dilemmas](https://arxiv.org/abs/1803.08884)
-[Edward Hughes](../Authors/overseas/EdwardHughes.md) [Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.md)
+[Edward Hughes](../Authors/overseas/EdwardHughes.md) [Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.md) [Matthew Phillips](../Authors/overseas/MatthewPhillips.md) [Karl Tuyls](../Authors/overseas/KarlTuyls.md) [Edgar A. Duenez-Guzman](../Authors/overseas/EdgarDuenezGuzman.md) [Antonio García Castañeda](../Authors/overseas/AntonioGarciaCastaneda.md) [Iain Dunning](../Authors/overseas/IainDunning.md) [Tina Zhu](../Authors/overseas/TinaZhu.md) [Kevin McKee](../Authors/overseas/KevinMcKee.md) [Raphael Koster](../Authors/overseas/RaphaelKoster.md) [Heather Roff](../Authors/overseas/HeatherRoff.md) [Thore Graepel](../Authors/overseas/ThoreGraepel.md)
 #Unread
 SSD環境において、不公平嫌悪(inquity aversion)を報酬構造に組み込むことで、自己利益だけでなく社会的な協調を誘導できると主張．
 
 #### [Learning through Probing: a decentralized reinforcement learning architecture for social dilemmas](https://arxiv.org/abs/1809.10007?utm_source=chatgpt.com)
-[Jakob N. Foerster](../Authors/overseas/JakobNFoerster.md)
+[Nicolas Anastassacos](../Authors/overseas/NicolasAnastassacos.md) [Mirco Musolesi](../Authors/overseas/MircoMusolesi.md)
 > [Leibo(2017)](#multi-agent-reinforcement-learning-in-sequential-social-dilemmas)のSSDに沿っているものではない
 
 本論文は、社会的ジレンマ環境におけるマルチエージェント強化学習に対して、「相手の行動が将来どのように変化するか」を学習過程に明示的に取り込む、新しい分散型学習アーキテクチャ Learning through Probing(LTP)を提案した研究である．従来の多くの MARL 手法では、各エージェントは自分が得た即時的・割引累積的な報酬に基づいて方策を更新するが、LTP ではそれに加えて「ある行動を取った結果、相手の学習・行動方針がどう変わったか」という相互作用の二次的効果を評価対象に含める点が特徴である．特に本研究は、社会的相互作用を「解くべきゲーム」ではなく、「学習主体同士が適応し続ける社会的プロセス」として捉え直す立場を明確にしている．
@@ -77,7 +77,7 @@ SSD環境において、不公平嫌悪(inquity aversion)を報酬構造に組�
 一方で、議論の余地や限界も明確に存在する．第一に、本手法は相手が学習する存在であることを暗黙に前提としており、完全に非適応的、あるいは非常に高速に変化する相手に対してどの程度有効かは十分に検証されていない．第二に、η の設定は結果に大きく影響するが、その理論的な決定指針は与えられておらず、現状では経験的調整に依存している．さらに、評価環境は基本的に IPD に限定されており、より高次元・部分観測・多人数の社会的ジレンマ環境にどこまでスケールするかは未解決である．ただし、これらの点は同時に、本研究が「協調の出現を説明・分析するための概念的枠組み」を提示した論文であることを示しており、社会的相互作用を扱う MARL 研究への重要な問題提起として位置づけられる．
 
 #### [Evolving intrinsic motivations for altruistic behavior](https://arxiv.org/abs/1811.05931?utm_source=chatgpt.com)
-[Edward Hughes](../Authors/overseas/EdwardHughes.md)
+[Jane X. Wang](../Authors/overseas/JaneXWang.md) [Edward Hughes](../Authors/overseas/EdwardHughes.md) [Chrisantha Fernando](../Authors/overseas/ChrisanthaFernando.md) [Wojciech M. Czarnecki](../Authors/overseas/WojciechMCzarnecki.md) [Edgar A. Duenez-Guzman](../Authors/overseas/EdgarDuenezGuzman.md) [Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.md)
 内初的報酬に関する研究の1つ．
 本論文は，利他的・協力的行動がどのようにして自己利益を追求するエージェント集団から自然に生じうるのかという，進化理論とマルチエージェント強化学習(MARL)の両分野に共通する根源的な問いに取り組んだ研究である．特に，短期的な個人利益と長期的な集団利益が鋭く対立する intertemporal social dilemma(ISD) を対象に，協力行動が「外から設計された報酬」ではなく，エージェント自身の内発的動機として学習・進化されうることを示す点に特徴がある．
 
@@ -121,7 +121,7 @@ $$r^{inf}_t(t)=\sum_{j≠i} D(\pi_j(・|o_t,a^i_t)||\pi_j(・|o_t,a^{i,cf}_t))$$
 #Unread
 
 #### [Social diversity and social preferences in mixed-motive reinforcement learning](https://arxiv.org/abs/2002.02325)
-[Edward Hughes](../Authors/overseas/EdwardHughes.md)
+[Kevin R. McKee](../Authors/overseas/KevinMcKee.md) [Ian Gemp](../Authors/overseas/IanGemp.md) [Brian McWilliams](../Authors/overseas/BrianMcWilliams.md) [Edgar A. Duenez-Guzman](../Authors/overseas/EdgarDuenezGuzman.md) [Edward Hughes](../Authors/overseas/EdwardHughes.md) [Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.md)
 エージェントに社会的価値志向(Social Value Orientation:SVO)という選考形式を付与することで、集団内の多様性を生み出すことが、相互依存理論(社会心理学の文脈)が示唆するのと同様の有意かつ複雑な行動パターンの多様性をエージェント間に生成することを明らかにした．
 SVOは内発的動機づけであり、自己と他者の間で、どのような報酬分配を好むかを表す．それを表現するために報酬角(reward angle)という概念が導入されている．
 $$R=(r_1,...,r_n)$$
@@ -142,7 +142,7 @@ MARL及びMADRLに関する包括的なサーベイ．メルポは、ゲーム�
 [Chao Yu](../Authors/overseas/ChaoYu.md)
 
 #### [Birds of a Feather Flock Together: A Close Look at Cooperation Emergence via Multi-Agent RL](https://arxiv.org/abs/2104.11455?utm_source=chatgpt.com)
-[Edward Hughes](../Authors/overseas/EdwardHughes.md)
+[Heng Dong](../Authors/overseas/HengDong.md) [Tonghan Wang](../Authors/overseas/TonghanWang.md) [Jiayuan Liu](../Authors/overseas/JiayuanLiu.md) [Chi Han](../Authors/overseas/ChiHan.md) [Chongjie Zhang](../Authors/overseas/ChongjieZhang.md)
 協調分散MARLに関してのこれの先行研究では、エージェントの行動に影響するインセンティブ(他のエージェントに報酬/罰を与える)を学習させることで協調を促進してきたが、それでは安定せず、協力と裏切りの間で周期的に変動する脆弱(ロバストでない)挙動が観察されたとしている．それを解決するための方法として同類志向(homophily)を導入した学習枠組みを提案している．
 本研究は、この不安定性がインセンティブ行動自体が利己的になり得る「第二次社会的ジレンマ」に起因することを理論的に分析した点が大きな貢献である．さらに、人間社会で広く観察される同類志向(homophily)に着目し、エージェント同士が似たインセンティブを与えるよう学習を誘導する homophilic incentives を提案した．これにより学習ダイナミクスが安定化し、協調行動が持続的に維持される．提案手法は、Public Goods や Tragedy of the Commons といった代表的な逐次的社会的ジレンマ環境で検証され、従来手法と比べて高く安定した協調水準を達成することが示された．一方で、同質性を促す設計が異質性を必要とするタスクに与える影響や、大規模・複雑な環境への一般化可能性については今後の課題として議論の余地がある．
 - 第1次的社会的ジレンマ

@@ -9,6 +9,10 @@
 - [Maintaining cooperation in complex social dilemmas using deep reinforcement learning](../../MARL/cmarl_papers.md#maintaining-cooperation-in-complex-social-dilemmas-using-deep-reinforcement-learning)
 - [Inequity aversion improves cooperation in intertemporal social dilemmas](../../MARL/cmarl_papers.md#inequity-aversion-improves-cooperation-in-intertemporal-social-dilemmas)
 - [Social Influence as Intrinsic Motivation for Multi-Agent Deep Reinforcement Learning](../../MARL/cmarl_papers.md#social-influence-as-intrinsic-motivation-for-multi-agent-deep-reinforcement-learning)
+- [Evolving intrinsic motivations for altruistic behavior](../../MARL/cmarl_papers.md#evolving-intrinsic-motivations-for-altruistic-behavior)
+
+### 2020
+- [Social diversity and social preferences in mixed-motive reinforcement learning](../../MARL/cmarl_papers.md#social-diversity-and-social-preferences-in-mixed-motive-reinforcement-learning)
 
 ### 2025
 - [SocialJax: An Evaluation Suite for Multi-agent Reinforcement Learning in Sequential Social Dilemmas](../../MARL/cmarl_papers.md#socialjax-an-evaluation-suite-for-multi-agent-reinforcement-learning-in-sequential-social-dilemmas)

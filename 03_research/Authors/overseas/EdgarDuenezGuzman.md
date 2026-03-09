@@ -1,4 +1,4 @@
-# Edward Hughes
+# Edgar A. Duenez-Guzman
 
 ## 論文
 ### 2018

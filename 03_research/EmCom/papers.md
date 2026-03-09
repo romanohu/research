@@ -50,4 +50,4 @@ conceptゲームは、それに加えて教師と生徒が異なる入力を見�
 
 ### 2025
 #### [Emergent language: a survey and taxonomy](https://arxiv.org/abs/2409.02645)
-[Jannik Peters](../Authors/overseas/JannikPeters.md)
+[Jannik Peters](../Authors/overseas/JannikPeters.md) [Constantin Waubert de Puiseau](../Authors/overseas/ConstantinWaubertDePuiseau.md) [Hasan Tercan](../Authors/overseas/HasanTercan.md) [Arya Gopikrishnan](../Authors/overseas/AryaGopikrishnan.md) [Gustavo Adolpho Lucas De Carvalho](../Authors/overseas/GustavoAdolphoLucasDeCarvalho.md) [Christian Bitter](../Authors/overseas/ChristianBitter.md) [Tobias Meisen](../Authors/overseas/TobiasMeisen.md)
