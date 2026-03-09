@@ -28,26 +28,26 @@
 ## 論文メモ
 ### 2010
 #### [Finding Optimal Solutions to Cooperative Pathfinding Problems(2010)](https://ojs.aaai.org/index.php/AAAI/article/view/7564)
-[著者: Trevor Standley](../Authors/overseas/TrevorStandley.md)
+[Trevor Standley](../Authors/overseas/TrevorStandley.md)
 #Unread
 
 ### 2015
 #### [Conflict-based search for optimal multi-agent pathfinding](https://www.sciencedirect.com/science/article/pii/S0004370214001386)
-[著者: Guni Sharon](../Authors/overseas/GuniSharon.md)
+[Guni Sharon](../Authors/overseas/GuniSharon.md) [Roni Stern](../Authors/overseas/RoniStern.md) [Ariel Felner](../Authors/overseas/ArielFelner.md) [Nathan R. Sturtevant](../Authors/overseas/NathanRSturtevant.md)
 #Unread
 
 ### 2019
 #### [Priority Inheritance with Backtracking for Iterative Multi-agent Path Finding(2019)](https://arxiv.org/abs/1901.11282)
-[著者: 奥村圭佑](../Authors/japanese/奥村圭佑.md)
+[奥村圭佑](../Authors/japanese/奥村圭佑.md) [Manao Machida](../Authors/overseas/ManaoMachida.md) [Xavier Défago](../Authors/overseas/XavierDefago.md) [Yasumasa Tamura](../Authors/overseas/YasumasaTamura.md)
 #Unread
 
 
 ### 2021
 #### [Message-Aware Graph Attention Networks for Large-Scale Multi-Robot Path Planning](https://arxiv.org/abs/2011.13219)
-[Qingbiao Li](../Authors/overseas/QingbiaoLi.md)
+[Qingbiao Li](../Authors/overseas/QingbiaoLi.md) [Weizhe Lin](../Authors/overseas/WeizheLin.md) [Zhe Liu](../Authors/overseas/ZheLiu.md) [Amanda Prorok](../Authors/overseas/AmandaProrok.md)
 
 #### [Lifelong Multi-Agent Path Finding in Large-Scale Warehouses(2021)](https://ojs.aaai.org/index.php/AAAI/article/view/17344)
-[著者: Jiaoyang Li](../Authors/overseas/JiaoyangLi.md)
+[Jiaoyang Li](../Authors/overseas/JiaoyangLi.md) [Andrew Tinka](../Authors/overseas/AndrewTinka.md) [Scott Kiesel](../Authors/overseas/ScottKiesel.md) [Joseph W. Durham](../Authors/overseas/JosephWDurham.md) [T. K. Satish Kumar](../Authors/overseas/TKSatishKumar.md) [Sven Koenig](../Authors/overseas/SvenKoenig.md)
 #Unread
 
 
@@ -55,7 +55,7 @@ MAGAT
 
 ### 2022
 #### [MAPF-LNS2: Fast Repairing for Multi-Agent Path Finding via Large Neighborhood Search(2022)](https://ojs.aaai.org/index.php/AAAI/article/view/21266)
-[著者: Jiaoyang Li](../Authors/overseas/JiaoyangLi.md)
+[Jiaoyang Li](../Authors/overseas/JiaoyangLi.md) [Zhe Chen](../Authors/overseas/ZheChen.md) [Daniel Harabor](../Authors/overseas/DanielHarabor.md) [Peter J. Stuckey](../Authors/overseas/PeterJStuckey.md) [Sven Koenig](../Authors/overseas/SvenKoenig.md)
 #Unread
 
 #### [LaCAM: Search-Based Algorithm for Quick Multi-Agent Pathfinding](https://arxiv.org/abs/2211.13432)
@@ -94,14 +94,14 @@ MAGAT
 また、本論文では低レベル探索そのものの振る舞いも改善されている．元のLaCAMでは、制約は幅優先的に追加されるため完全性は保たれるものの、初期段階ではconnectedな構成に結びつきにくい制約も同列に扱われていた．本論文では、衝突を起こしやすいエージェントや、構成生成の失敗に直接関与しやすい割当を優先的に制約として導入することで、制約木の初期成長をより解に近い方向へ誘導している．この結果、高レベル探索において有効な後続構成が早い段階で得られ、anytimeアルゴリズムとして重要な「まず動く解を返す」性能が大きく向上している．
 
 #### [SCRIMP: Scalable Communication for Reinforcement- and Imitation-Learning-Based Multi-Agent Pathfinding](https://ieeexplore.ieee.org/document/10342305?denied=)
-[著者: Yutong Wang](../Authors/overseas/YutongWang.md)
+[Yutong Wang](../Authors/overseas/YutongWang.md) [Bairan Xiang](../Authors/overseas/BairanXiang.md) [Shinan Huang](../Authors/overseas/ShinanHuang.md) [Guillaume Sartoretti](../Authors/overseas/GuillaumeSartoretti.md)
 #Unread
 
 ### 2024
 #### [MAPF-GPT: Imitation Learning for Multi-Agent Pathfinding at Scale](https://arxiv.org/abs/2409.00134)
 > [リンク集](https://sites.google.com/view/mapf-gpt/)
 
-[AntonAndreychuk](../Authors/overseas/AntonAndreychuk.md) 
+[Anton Andreychuk](../Authors/overseas/AntonAndreychuk.md) [Konstantin Yakovlev](../Authors/overseas/KonstantinYakovlev.md) [Aleksandr Panov](../Authors/overseas/AleksandrPanov.md) [Alexey Skrynnik](../Authors/overseas/AlexeySkrynnik.md)
 最適・準最適ソルバの解法データを学習データとし、トランスフォーマーベースのニューラルネットワークを活用した模倣学習によって構築される基盤モデル、MAPF-GPTを提案している．これは学習データセットに含まれていない新規のMAPF問題を開設する際にゼロショット学習能力を発揮する．結論として「純粋な模倣学習だけで強力な学習型MAPFソルバを作ることは可能か」という問いに対して、明確に肯定的な答えを与える．
 まず個々のエージェントが知覚し得るあらゆる観測結果と実行可能なあらゆる行動を表現した語彙体系(トークン)を構築する．次にソルバの解法データをトークンで符号化された観測-行動ペアの系列に変換する．それを用いてトランスフォーマーベースの非自己回帰型ニューラルネットワークを用いて与えられた観測結果に対して適切な行動を予測する学習を行う．非自己回帰型(NAR)は過去に自分が出した出力に依存させずに予測するモデルである．(そのまんまやった)
 入力トークンは固定長で「 地形 + cost-to-go + 自分と近傍エージェントの状態 」が含まれる．cost-to-goにはゴールを始点としたマップ全体の最短距離マップを作り、次の行動との距離の差分を利用する．(生成はBFS/Dijkstra)
@@ -109,11 +109,11 @@ MAGAT
 出力は各エージェントが取り得る5種類の離散行動に対応した確率分布であり、即ち1ステップ先の行動である．(サイズは5)
 
 #### [Traffic Flow Optimisation for Lifelong Multi-Agent Path Finding(2024)](https://arxiv.org/abs/2308.11234)
-[著者: Zhe Chen](../Authors/overseas/ZheChen.md)
+[Zhe Chen](../Authors/overseas/ZheChen.md) [Daniel Harabor](../Authors/overseas/DanielHarabor.md) [Jiaoyang Li](../Authors/overseas/JiaoyangLi.md) [Peter J. Stuckey](../Authors/overseas/PeterJStuckey.md)
 #Unread
 
 #### [A Comprehensive Review on Leveraging Machine Learning for Multi-Agent Path Finding](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10506521)
-[著者: Jean-Marc Alkazzi](../Authors/overseas/JeanMarcAlkazzi.md)
+[Jean-Marc Alkazzi](../Authors/overseas/JeanMarcAlkazzi.md) [奥村圭佑](../Authors/japanese/奥村圭佑.md)
 MAPF分野におけるMLを利用した研究に注目してサーベイしている論文．計画手法に対して表現手法?と実行手法?に関する論文は少ないらしい．
 経路生成、動的障害配置が面白そう．
 模倣学習および強化学習
@@ -164,15 +164,15 @@ How can ML enhance the fault tolerance of MAPF systems?
 ```
 ### 2025
 #### [Graph Attention-Guided Search for Dense Multi-Agent Pathfinding](https://arxiv.org/abs/2510.17382)
-[奥村圭佑](../Authors/japanese/奥村圭佑.md) [Rishabh Jain](../Authors/overseas/RishabhJain.md)
+[Rishabh Jain](../Authors/overseas/RishabhJain.md) [奥村圭佑](../Authors/japanese/奥村圭佑.md) [Michael Amir](../Authors/overseas/MichaelAmir.md) [Amanda Prorok](../Authors/overseas/AmandaProrok.md)
 LaGATの提案．LaGAT = LaCAM(Okumura 2023) + MAGAT+(MAGAT(Li et al 2021b)の改良版)
 MAGAT+の事前学習としてlacam3が生成した準最適軌道を模倣学習．その後、対象のMapに対してFineTuningする．それをLaCAMの探索の中でヒューリスティックとして使用する．通常のLaCAM(の中のPIBT)がcost-to-goで候補行動vを決めるのに対して、MAGAT+を用いた場合は現在の観測に基づいた情報をもとに行動に対して確率を出力し、それをPIBTのpreferenceとして使用する．
 もしMAGAT+の誘導が反復や振動を引き起こしている場合に備えてデッドロック検出機構が備わっている．検出の基本アイディアは「最近のdステップ以内に同じ局所的状況に戻ってきたら異常」であり、LaCAMの探索木を使って過去の構成を遡り、エージェントごとに局所的な停滞を検出する．そして、その対処としてノードの制約を全消去し、Openリストに再挿入する．その後、通常のLaCAMアルゴリズムで探索をする．
 注意点としてMAGAT+によるガイドはエージェント単位で管理されており、一度通常に戻ったエージェントは二度とガイド付きには戻らない．つまり、ガイド付きで上手くいかない場合、最終的にはすべてのエージェントのガイドが外れて、通常のLaCAMと等しくなる．
 
 #### [Pairwise is Not Enough: Hypergraph Neural Networks for Multi-Agent Pathfinding](https://openreview.net/forum?id=WUbGQQ9C0E)
-[奥村圭佑](../Authors/japanese/奥村圭佑.md) [Rishabh Jain](../Authors/overseas/RishabhJain.md)
+[Rishabh Jain](../Authors/overseas/RishabhJain.md) [奥村圭佑](../Authors/japanese/奥村圭佑.md) [Michael Amir](../Authors/overseas/MichaelAmir.md) [Pietro Lio](../Authors/overseas/PietroLio.md) [Amanda Prorok](../Authors/overseas/AmandaProrok.md)
 既存の学習ベースのMAPFポリシーは、GNNsやTransformerを用いるものが挙げられるが、それらはどれもエージェント間の情報表現をペアワイズ(2体間)で行う．しかし、この制約は注意の希薄(attention dilution)化や高次相互作用(3体以上のグループの動きなど)の欠如などをもたらす．そこでより高次の情報を捉えるためにHyperGraphを基盤としたHMAGATという手法を提案している．
 
 #### [From Agent Centric to Obstacle Centric Planning: A Makespan-OptimalAlgorithm for the Multi-Agent Warehouse Rearrangement Problem](https://ojs.aaai.org/index.php/SOCS/article/view/35985/38140)
-[著者: Yaakov Sherma](../Authors/overseas/YaakovSherma.md)
+[Yaakov Sherma](../Authors/overseas/YaakovSherma.md) [Eyal Weiss](../Authors/overseas/EyalWeiss.md) [Oren Salzman](../Authors/overseas/OrenSalzman.md)
