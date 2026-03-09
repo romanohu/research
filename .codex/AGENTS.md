@@ -1,45 +1,84 @@
-# fill Author 運用指示書
+# `fill Author` Operational Guide
 
-## 目的
-ユーザーが `fill Author`（または同義の短い指示）を出したときに、`03_research/*` の論文メモへ著者情報を追記し、`03_research/Authors/*` に著者ページを追加・更新し、相互リンクを通す作業を一括で再現する。
+## Purpose
+When the user issues `fill Author` (or a short equivalent instruction with the same intent), perform the full workflow in one pass:
 
-## トリガー
-- ユーザーが `fill Author` と指示したとき
-- または「論文メモから著者を埋めて Authors へリンクして」の意図が明確なとき
+- append author information to paper notes under `03_research/*`
+- create or update author pages under `03_research/Authors/*`
+- add/update cross-links between paper notes and author pages
+- A task is not complete if only the first author has been added for a multi-author paper.
 
-## 対象範囲
-- 論文メモ: `03_research/**/papers.md` と `03_research/MARL/*_papers.md`
-- 著者ページ: `03_research/Authors/japanese/*.md`, `03_research/Authors/overseas/*.md`
-- 著者一覧: `03_research/Authors/index.md`
+## Trigger
+Run this workflow when:
 
-## 実施手順
-1. `papers.md` から論文エントリを収集する。優先対象は `####` 見出しの論文。
-2. 各論文の公式ページ（arXiv / 出版社 / OpenReview / 学会ページ）をWeb検索し、著者名を確認する。
-3. 取得できた著者データに複数著者が含まれる場合は、第一著者のみで止めず全員を追記する。
-4. 各論文見出しの直下に著者行を追記する。
-   - 形式: `[Name](../Authors/overseas/NameFile.md) [Name2](../Authors/overseas/Name2File.md) ...`
-   - 日本語名: `[氏名](../Authors/japanese/氏名.md)`
-   - `著者:` のプレフィックスは付けない。
-5. 著者ページを作成/更新する。
-   - テンプレート:
+- the user explicitly says `fill Author`
+- or the user clearly intends something like “fill author information from paper notes and link them to Authors”
+
+## Scope
+- Paper notes:
+  - `03_research/**/papers.md`
+  - `03_research/MARL/*_papers.md`
+- Author pages:
+  - `03_research/Authors/japanese/*.md`
+  - `03_research/Authors/overseas/*.md`
+- Author index:
+  - `03_research/Authors/index.md`
+
+## Required Workflow
+1. Collect paper entries from `papers.md`.
+   - Prioritize papers under `####` headings.
+
+2. For each paper, identify the official source page and confirm the author list.
+   - Prefer official sources such as arXiv, publisher pages, OpenReview, or conference/workshop websites.
+   - Do not rely on guesswork when an official source is available.
+
+3. Extract and record the authors.
+   - **If multiple authors are available from the source, you MUST include all of them.**
+   - **Never stop at the first author only.**
+   - **This rule is mandatory and must be followed strictly.**
+
+4. Add an author line immediately below each paper heading.
+   - Format:
+     - Overseas authors:
+       - `[Name](../Authors/overseas/NameFile.md) [Name2](../Authors/overseas/Name2File.md) ...`
+     - Japanese authors:
+       - `[氏名](../Authors/japanese/氏名.md)`
+   - Do **not** add a `著者:` prefix.
+
+5. Create or update author pages.
+   - Template:
      - `# 著者名`
      - `## 論文`
      - `### 年`
      - `- [論文タイトル](../../<分野>/papers.md#アンカー)`
-6. `03_research/Authors/index.md` に著者リンクを追加する。
-   - Japanese / Overseas の区分を守る。
-   - 既存エントリは消さず、重複のみ回避する。
-7. 相互リンクを検証する。
-   - `papers.md` 側の `../Authors/...` が実ファイルを指すこと
-   - `Authors/*.md` 側の `../../.../papers.md#...` が実在する論文アンカーを指すこと
 
-## 記法ルール
-- 既存ファイルの書式（見出しレベル、全角/半角、リンク相対パス）を壊さない。
-- 既存にある著者行を上書きしない。必要なら追記・修正のみ行う。
-- 迷った場合は新規の表記ゆれを作らず、既存ファイル名に合わせる。
+6. Add author links to `03_research/Authors/index.md`.
+   - Preserve the Japanese / Overseas classification.
+   - Do not delete existing entries.
+   - Avoid duplicates only.
 
-## 完了条件
-- 追加された論文に著者行がある
-- 対応する著者ページが存在する
-- `Authors/index.md` から辿れる
-- 主要なリンク切れがない
+7. Verify cross-links.
+   - Confirm that links from `papers.md` to `../Authors/...` point to real files.
+   - Confirm that links from `Authors/*.md` to `../../.../papers.md#...` point to existing paper anchors.
+
+## Formatting Rules
+- Do not break the existing file style.
+  - Preserve heading levels, full-width / half-width character usage, and relative link style.
+- Do not overwrite an existing author line unnecessarily.
+  - If needed, only append or correct it.
+- If there is ambiguity, do not introduce new naming variations.
+  - Reuse existing filenames and notation whenever possible.
+
+## Non-Negotiable Rule for Author Coverage
+- When author information is found, **all listed authors must be added**.
+- Adding only the first author is არას acceptable.
+- Even if the paper has many authors, do not truncate the list unless the source itself is incomplete.
+- If the available source is incomplete, use the best official source you can find and record as many confirmed authors as possible.
+
+## Completion Criteria
+Completion is achieved only when:
+
+- the target paper entries have author lines
+- the corresponding author pages exist
+- the authors are reachable from `Authors/index.md`
+- there are no major broken links in the main cross-reference paths
