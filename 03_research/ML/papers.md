@@ -2,6 +2,7 @@
 ## MoE
 - [Adaptive Mixtures of Local Experts(1991)](#adaptive-mixtures-of-local-experts)
 - [Learning Factored Representations in a Deep Mixture of Experts(2013)](#learning-factored-representations-in-a-deep-mixture-of-experts)
+- [Ensemble Learning for Multi-Source Neural Machine Translation(2016)](#ensemble-learning-for-multi-source-neural-machine-translation)
 - [Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer(2017)](#outrageously-large-neural-networks-the-sparsely-gated-mixture-of-experts-layer)
 - [GShard: Scaling Giant Models with Conditional Computation and Automatic Sharding(2020)](#gshard-scaling-giant-models-with-conditional-computation-and-automatic-sharding)
 - [Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity(2022)](#switch-transformers-scaling-to-trillion-parameter-models-with-simple-and-efficient-sparsity)
@@ -24,10 +25,17 @@
 [David Eigen](../Authors/overseas/DavidEigen.md) [Marc'Aurelio Ranzato](../Authors/overseas/MarcAurelioRanzato.md) [Ilya Sutskever](../Authors/overseas/IlyaSutskever.md)
 #Unread
 
+### 2016
+#### [Ensemble Learning for Multi-Source Neural Machine Translation](https://aclanthology.org/C16-1133/)
+#Unread
+
 ### 2017
 #### [Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer](https://arxiv.org/abs/1701.06538)
 [Noam Shazeer](../Authors/overseas/NoamShazeer.md) [Azalia Mirhoseini](../Authors/overseas/AzaliaMirhoseini.md) [Krzysztof Maziarz](../Authors/overseas/KrzysztofMaziarz.md) [Andy Davis](../Authors/overseas/AndyDavis.md) [Quoc Le](../Authors/overseas/QuocLe.md) [Geoffrey Hinton](../Authors/overseas/GeoffreyEHinton.md) [Jeff Dean](../Authors/overseas/JeffDean.md)
 #Unread
+
+ニューラルネットワークが情報を吸収できる能力は、そのパラメータ数によって制限される．本論文では、最大数千個の順伝播型サブネットワークから構成されるスパースゲート型混合エキスパート層（MoE）を提案する．学習可能なゲートネットワークが各事例ごとに、これらのエキスパートを疎結合する組み合わせを決定する．
+
 
 ### 2020
 #### [GShard: Scaling Giant Models with Conditional Computation and Automatic Sharding](https://arxiv.org/abs/2006.16668)
