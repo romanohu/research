@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_dailymemo/2026-03-12.md",
+                "file": "01_dailymemo/2026-03-14.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-03-12"
+              "title": "2026-03-14"
             }
           }
         ]
@@ -212,8 +212,9 @@
   },
   "active": "57dde4b518e1e7fb",
   "lastOpenFiles": [
-    "01_dailymemo/2026-03-11.md",
     "01_dailymemo/2026-03-12.md",
+    "01_dailymemo/2026-03-14.md",
+    "01_dailymemo/2026-03-11.md",
     "01_dailymemo/2026-03-09.md",
     "03_research/MAPF/papers.md",
     "01_dailymemo/2026-02-12.md",
@@ -237,7 +238,6 @@
     "04_study/English(research-based)/words/p.md",
     "04_study/English(research-based)/words/r.md",
     "04_study/English(research-based)/words/s.md",
-    "04_study/English(research-based)/words/q.md",
     "03_research/ML",
     "04_study/English(research-based)/words",
     "04_study/English(research-based)",
