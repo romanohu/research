@@ -31,15 +31,21 @@
 [Trevor Standley](../Authors/overseas/TrevorStandley.md)
 #Unread
 
+協調経路探索を最初に実用的な完全最適解として解く手法を提示．ジョイント状態A*の分岐爆発を抑えるoperator decompositionと独立部分問題検出を組み合わせ，大規模問題でもミリ秒で最適解を返すことを実証．
+
 ### 2015
 #### [Conflict-based search for optimal multi-agent pathfinding](https://www.sciencedirect.com/science/article/pii/S0004370214001386)
 [Guni Sharon](../Authors/overseas/GuniSharon.md) [Roni Stern](../Authors/overseas/RoniStern.md) [Ariel Felner](../Authors/overseas/ArielFelner.md) [Nathan R. Sturtevant](../Authors/overseas/NathanRSturtevant.md)
 #Unread
 
+局所衝突のみを二分木の制約として追加し，高レベルで制約木探索，低レベルで各エージェントの最短経路を計算するCBSを提案．衝突が少ないインスタンスで従来最適ソルバより桁違いに高速かつ最適性を保証する．
+
 ### 2019
 #### [Priority Inheritance with Backtracking for Iterative Multi-agent Path Finding(2019)](https://arxiv.org/abs/1901.11282)
 [奥村圭佑](../Authors/japanese/奥村圭佑.md) [Manao Machida](../Authors/overseas/ManaoMachida.md) [Xavier Défago](../Authors/overseas/XavierDefago.md) [Yasumasa Tamura](../Authors/overseas/YasumasaTamura.md)
 #Unread
+
+オンラインかつ多数エージェント向けに，優先度を動的継承しつつ手詰まり時にバックトラックするPIBTを提案．全隣接がサイクルを含むグラフでは有限時間で到達を保証し，倉庫シナリオで既存手法より高速に衝突回避経路を生成．
 
 
 ### 2021
@@ -50,6 +56,8 @@
 [Jiaoyang Li](../Authors/overseas/JiaoyangLi.md) [Andrew Tinka](../Authors/overseas/AndrewTinka.md) [Scott Kiesel](../Authors/overseas/ScottKiesel.md) [Joseph W. Durham](../Authors/overseas/JosephWDurham.md) [T. K. Satish Kumar](../Authors/overseas/TKSatishKumar.md) [Sven Koenig](../Authors/overseas/SvenKoenig.md)
 #Unread
 
+自動倉庫のような終わりのないタスクを扱うLifelong MAPFを定式化し，短期窓で衝突を解決するRHCRを提案．1000体規模のベンチで従来より大幅に高速かつスムーズな搬送を実現．
+
 
 MAGAT
 
@@ -57,6 +65,8 @@ MAGAT
 #### [MAPF-LNS2: Fast Repairing for Multi-Agent Path Finding via Large Neighborhood Search(2022)](https://ojs.aaai.org/index.php/AAAI/article/view/21266)
 [Jiaoyang Li](../Authors/overseas/JiaoyangLi.md) [Zhe Chen](../Authors/overseas/ZheChen.md) [Daniel Harabor](../Authors/overseas/DanielHarabor.md) [Peter J. Stuckey](../Authors/overseas/PeterJStuckey.md) [Sven Koenig](../Authors/overseas/SvenKoenig.md)
 #Unread
+
+大規模MAPFを高速に修復するLNS2を提案．制約違反エージェント群だけをサンプリングして大域的に再計画することで，5分以内に困難ベンチの80％超を解き，CBSより桁違いに高速で高品質な解を得る．
 
 #### [LaCAM: Search-Based Algorithm for Quick Multi-Agent Pathfinding](https://arxiv.org/abs/2211.13432)
 [奥村圭佑](../Authors/japanese/奥村圭佑.md)
@@ -97,6 +107,8 @@ MAGAT
 [Yutong Wang](../Authors/overseas/YutongWang.md) [Bairan Xiang](../Authors/overseas/BairanXiang.md) [Shinan Huang](../Authors/overseas/ShinanHuang.md) [Guillaume Sartoretti](../Authors/overseas/GuillaumeSartoretti.md)
 #Unread
 
+ローカル視野だけを持つエージェント間で通信メッセージを学習するSCRIMPを提案．強化学習と模倣学習を併用し，通信コストを抑えつつ渋滞を解消する振る舞いを獲得し，大規模グリッドでも既存RLベースMAPFを上回る成功率を達成．
+
 ### 2024
 #### [MAPF-GPT: Imitation Learning for Multi-Agent Pathfinding at Scale](https://arxiv.org/abs/2409.00134)
 > [リンク集](https://sites.google.com/view/mapf-gpt/)
@@ -112,6 +124,7 @@ MAGAT
 [Zhe Chen](../Authors/overseas/ZheChen.md) [Daniel Harabor](../Authors/overseas/DanielHarabor.md) [Jiaoyang Li](../Authors/overseas/JiaoyangLi.md) [Peter J. Stuckey](../Authors/overseas/PeterJStuckey.md)
 #Unread
 
+終わりのない搬送での渋滞を抑えるため，混雑度推定に基づき経路を動的にリランクする交通流最適化フレームワークを提案．倉庫シミュレーションで搬送完了数を大きく伸ばし，既存Lifelong MAPF手法を一貫して上回る．
 #### [A Comprehensive Review on Leveraging Machine Learning for Multi-Agent Path Finding](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10506521)
 [Jean-Marc Alkazzi](../Authors/overseas/JeanMarcAlkazzi.md) [奥村圭佑](../Authors/japanese/奥村圭佑.md)
 MAPF分野におけるMLを利用した研究に注目してサーベイしている論文．計画手法に対して表現手法?と実行手法?に関する論文は少ないらしい．

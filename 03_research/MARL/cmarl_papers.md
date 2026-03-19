@@ -104,6 +104,8 @@ $$r^{inf}_t(t)=\sum_{j≠i} D(\pi_j(・|o_t,a^i_t)||\pi_j(・|o_t,a^{i,cf}_t))$$
 [Ryan Lowe](../Authors/overseas/RyanLowe.md)
 #Unread
 
+他エージェントの行動分布に与える影響を情報ボトルネック風の報酬として定義し，影響度が高い行動を探索させることで協調的な状態空間のカバレッジを高める．StarCraft IIの協力タスクで従来探索報酬より高速に学習．
+
 #### [Learning Reciprocity in Complex Sequential Social Dilemmas](https://arxiv.org/abs/1903.08082)
 [Tom Eccles](../Authors/overseas/TomEccles.md)
 
@@ -119,6 +121,8 @@ $$r^{inf}_t(t)=\sum_{j≠i} D(\pi_j(・|o_t,a^i_t)||\pi_j(・|o_t,a^{i,cf}_t))$$
 #### [Promoting Coordination through Policy Regularization in Multi-Agent Deep Reinforcement Learning](https://arxiv.org/abs/1908.02269)
 [Philip S. Thomas](../Authors/overseas/PhilipSThomas.md)
 #Unread
+
+集中度の違う方策を正則化で束ねるPCR（Policy Regularization）を提案．各エージェントの方策が均質になるようKL項を追加しつつ価値最大化を行うことで，分散実行でも協調行動が安定し，SMACなどで勝率を改善．
 
 #### [Social diversity and social preferences in mixed-motive reinforcement learning](https://arxiv.org/abs/2002.02325)
 [Kevin R. McKee](../Authors/overseas/KevinMcKee.md) [Ian Gemp](../Authors/overseas/IanGemp.md) [Brian McWilliams](../Authors/overseas/BrianMcWilliams.md) [Edgar A. Duenez-Guzman](../Authors/overseas/EdgarDuenezGuzman.md) [Edward Hughes](../Authors/overseas/EdwardHughes.md) [Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.md)
@@ -156,6 +160,8 @@ MARL及びMADRLに関する包括的なサーベイ．メルポは、ゲーム�
 [Max Rudolph](../Authors/overseas/MaxRudolph.md)
 #Unread
 
+報酬関数をエピソードごとにランダム化し，獲得した多様な方策を事後に蒸留することで戦略のモード崩壊を防ぐ手法を提案．Matrix gamesや粒子環境で既存MARLより頑健な協調・競合戦略のレパートリを獲得．
+
 ### 2022
 #### [A Review of Cooperative Multi-Agent Deep Reinforcement Learning](https://arxiv.org/abs/1908.03963)
 [Lu Dong](../Authors/overseas/LuDong.md)
@@ -166,28 +172,39 @@ MARLが扱う課題の多くはNP困難問題に分類される．このサー�
 [Minh Anh Ngo](../Authors/overseas/MinhAnhNgo.md)
 #Unread
 
+協調を要するMARLを網羅的に整理し，インセンティブ設計・通信・役割分担・社会的選好モデリングの4軸で手法を比較したサーベイ．協調を測るベンチや評価指標の欠如を課題として挙げる．
+
 #### [LJIR: Learning Joint-Action Intrinsic Reward in cooperative multi-agent reinforcement learning](https://www.sciencedirect.com/science/article/abs/pii/S0893608023004355)
 [Ting Zhu](../Authors/overseas/TingZhu.md)
 #Unread
+
+共同行動に対する内発的報酬を学習するLJIRを提案．混合観測下での因果効果推定を通じて「全員に有益な行動」を強化し，SMACでのサンプル効率と最終勝率を向上させた．
 
 #### [Two Heads are Better Than One: A Simple Exploration Framework for Efficient Multi-Agent Reinforcement Learning](https://openreview.net/forum?id=AYLlZMmUbo&noteId=sIoIRG6uqi)
 [Linxuan Xu](../Authors/overseas/LinxuanXu.md)
 #Unread
 
+方策ヘッドを探索用と活用用の2本に分け，共有バックボーンで切り替える枠組みを提案．探索ヘッドにはノイズと楽観的価値を入れて多様な挙動を誘発し，SMACで少ないステップで高勝率に到達．
+
 #### [Situation-Dependent Causal Influence-Based Cooperative Multi-agent Reinforcement Learning](https://arxiv.org/abs/2312.09539)
 [Kun Wang](../Authors/overseas/KunWang.md)
 #Unread
+
+状態ごとに因果影響の重みを調整するSD-CICを導入し，他者への影響が大きい状況だけ追加報酬を与えることで過度な干渉を抑制．SMACやHanabiで標準CICより安定した協調を実現．
 
 ### 2024
 #### [MESA: Cooperative Meta-Exploration in Multi-Agent Learning through Exploiting State-Action Space Structure](https://arxiv.org/abs/2405.00902)
 [Xiaoteng Ma](../Authors/overseas/XiaotengMa.md)
 #Unread
 
+状態‐行動空間の構造をメタ学習で推定し，探索ノイズをタスクに適応させるMESAを提案．協調グリッドゲームで既存探索強化手法より高速に高性能方策へ収束．
+
 ### 2025
 #### [A Comprehensive Survey on Multi-Agent Cooperative Decision-Making: Scenarios, Approaches, Challenges and Perspectives](https://arxiv.org/abs/2503.13415)
 [Lu Zhang](../Authors/overseas/LuZhang.md)
 #Unread
 
+協調型意思決定をシナリオ（交通・ロボティクス・ゲーム）別に整理し，CTDE/分散学習・通信・信用割当の最新手法を網羅するサーベイ．安全性・公平性・スケーラビリティを今後の主要課題として挙げる．
 
 #### [OVERCOOKEDV2: RETHINKING OVERCOOKED FOR ZERO-SHOT COORDINATION](https://arxiv.org/html/2503.17821v1)
 [Roman Olkhovskyi](../Authors/overseas/RomanOlkhovskyi.md)
