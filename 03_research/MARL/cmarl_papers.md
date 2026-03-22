@@ -3,8 +3,7 @@
 - [Maintaining cooperation in complex social dilemmas using deep reinforcement learning(2018)](#maintaining-cooperation-in-complex-social-dilemmas-using-deep-reinforcement-learning)
 - [Learning through Probing: a decentralized reinforcement learning architecture for social dilemmas(2018)](#learning-through-probing-a-decentralized-reinforcement-learning-architecture-for-social-dilemmas)
 - [Agent Modeling as Auxiliary Task for Deep Reinforcement Learning(2019)](https://arxiv.org/abs/1907.09597)
-- [Promoting Coordination through Policy Regularization in Multi-Agent Deep Reinforcement Learning(2020)]
-(#promoting-coordination-through-policy-regularization-in-multi-agent-deep-reinforcement-learning)
+- [Promoting Coordination through Policy Regularization in Multi-Agent Deep Reinforcement Learning(2020)](#promoting-coordination-through-policy-regularization-in-multi-agent-deep-reinforcement-learning)
 - [Partner Selection for the Emergence of Cooperation in Multi-Agent Systems Using Reinforcement Learning(2020)](#partner-selection-for-the-emergence-of-cooperation-in-multi-agent-systems-using-reinforcement-learning)
 - [The Surprising Effectiveness of PPO in Cooperative, Multi-Agent Games(2021)](#the-surprising-effectiveness-of-ppo-in-cooperative-multi-agent-games)
 - [Birds of a Feather Flock Together: A Close Look at Cooperation Emergence via Multi-Agent RL](#birds-of-a-feather-flock-together-a-close-look-at-cooperation-emergence-via-multi-agent-rl)
