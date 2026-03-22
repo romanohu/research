@@ -3,9 +3,12 @@
 - [Maintaining cooperation in complex social dilemmas using deep reinforcement learning(2018)](#maintaining-cooperation-in-complex-social-dilemmas-using-deep-reinforcement-learning)
 - [Learning through Probing: a decentralized reinforcement learning architecture for social dilemmas(2018)](#learning-through-probing-a-decentralized-reinforcement-learning-architecture-for-social-dilemmas)
 - [Agent Modeling as Auxiliary Task for Deep Reinforcement Learning(2019)](https://arxiv.org/abs/1907.09597)
-- [Promoting Coordination through Policy Regularization in Multi-Agent Deep Reinforcement Learning(2020)](#promoting-coordination-through-policy-regularization-in-multi-agent-deep-reinforcement-learning)
+- [Promoting Coordination through Policy Regularization in Multi-Agent Deep Reinforcement Learning(2020)]
+(#promoting-coordination-through-policy-regularization-in-multi-agent-deep-reinforcement-learning)
+- [Partner Selection for the Emergence of Cooperation in Multi-Agent Systems Using Reinforcement Learning(2020)](#partner-selection-for-the-emergence-of-cooperation-in-multi-agent-systems-using-reinforcement-learning)
 - [The Surprising Effectiveness of PPO in Cooperative, Multi-Agent Games(2021)](#the-surprising-effectiveness-of-ppo-in-cooperative-multi-agent-games)
 - [Birds of a Feather Flock Together: A Close Look at Cooperation Emergence via Multi-Agent RL](#birds-of-a-feather-flock-together-a-close-look-at-cooperation-emergence-via-multi-agent-rl)
+- [Learning Partner Selection Rules that Sustain Cooperation in Social Dilemmas with the Option of Opting Out(2024)](#learning-partner-selection-rules-that-sustain-cooperation-in-social-dilemmas-with-the-option-of-opting-out)
 
 ## SSD(Sequential Social Dilemmas)
 - **[Multi-agent Reinforcement Learning in Sequential Social Dilemmas(2017)](#multi-agent-reinforcement-learning-in-sequential-social-dilemmas)**
@@ -137,6 +140,12 @@ r_i^{\text{SVO}} = \cos(\theta_i)\, r_i^{\text{env}} + \sin(\theta_i)\, \bar{r}_
 $$
 つまりプレイヤーiとそれ以外の全プレイヤーとの報酬分配が1つのスカラー角度で表されている．これはハイパラとして理想的な報酬分配が与えられ、観測との差異に基づいて内在的報酬が定義される．
 この論文ではエージェントごとに固有の理想SVO値を設定することで「多様性があることで生まれる効用」を図ろうとしている．
+
+#### [Partner Selection for the Emergence of Cooperation in Multi-Agent Systems Using Reinforcement Learning](https://arxiv.org/abs/1902.03185)
+
+#Unread
+
+
 ### 2021
 #### Multi-agent deep reinforcement learning: a survey
 [Lu Dong](../Authors/overseas/LuDong.md)
@@ -198,6 +207,10 @@ MARLが扱う課題の多くはNP困難問題に分類される．このサー�
 #Unread
 
 状態‐行動空間の構造をメタ学習で推定し，探索ノイズをタスクに適応させるMESAを提案．協調グリッドゲームで既存探索強化手法より高速に高性能方策へ収束．
+
+#### [Learning Partner Selection Rules that Sustain Cooperation in Social Dilemmas with the Option of Opting Out](https://dl.acm.org/doi/10.5555/3635637.3662967)
+
+#Unread
 
 ### 2025
 #### [A Comprehensive Survey on Multi-Agent Cooperative Decision-Making: Scenarios, Approaches, Challenges and Perspectives](https://arxiv.org/abs/2503.13415)
