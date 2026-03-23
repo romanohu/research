@@ -6,3 +6,8 @@ src = "book_src"
 
 [build]
 build-dir = "mdbook_output"
+
+[output.html.fold]
+enable = true
+# 1=トップ階層は開いたまま、2階層目から折りたたみ可。必要に応じて0〜nで調整。
+level = 1

@@ -77,7 +77,7 @@ def build_tree(directory: Path, root: Path) -> Optional[dict]:
     for entry in entries:
         if entry.is_dir():
             node = build_tree(entry, root)
-            if node and node.get("children"):
+            if node:
                 children.append(node)
         else:
             if entry.suffix != ".md":
