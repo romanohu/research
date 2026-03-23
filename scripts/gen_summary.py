@@ -21,6 +21,7 @@ EXCLUDE_DIRS = [
     ".git",
     ".codex",
     ".workspace",
+    "01_dailymemo",
     "target",
     "node_modules",
     "__pycache__",
