@@ -42,7 +42,7 @@
 
 ### 2019
 #### [Priority Inheritance with Backtracking for Iterative Multi-agent Path Finding(2019)](https://arxiv.org/abs/1901.11282)
-[奥村圭佑](../Authors/japanese/奥村圭佑.md) [Manao Machida](../Authors/overseas/ManaoMachida.md) [Xavier Défago](../Authors/overseas/XavierDefago.md) [Yasumasa Tamura](../Authors/overseas/YasumasaTamura.md)
+[奥村圭佑](../Authors/japanese/KeisukeOkumura.md) [Manao Machida](../Authors/overseas/ManaoMachida.md) [Xavier Défago](../Authors/overseas/XavierDefago.md) [Yasumasa Tamura](../Authors/overseas/YasumasaTamura.md)
 #Unread
 
 オンラインかつ多数エージェント向けに，優先度を動的継承しつつ手詰まり時にバックトラックするPIBTを提案．全隣接がサイクルを含むグラフでは有限時間で到達を保証し，倉庫シナリオで既存手法より高速に衝突回避経路を生成．
@@ -69,7 +69,7 @@ MAGAT
 大規模MAPFを高速に修復するLNS2を提案．制約違反エージェント群だけをサンプリングして大域的に再計画することで，5分以内に困難ベンチの80％超を解き，CBSより桁違いに高速で高品質な解を得る．
 
 #### [LaCAM: Search-Based Algorithm for Quick Multi-Agent Pathfinding](https://arxiv.org/abs/2211.13432)
-[奥村圭佑](../Authors/japanese/奥村圭佑.md)
+[奥村圭佑](../Authors/japanese/KeisukeOkumura.md)
 二層探索．高レベル探索では構成（configuration）の列を探索し、低レベル探索では次の構成に対する制約（constraints）を段階的に生成する．重要な考えとして、制約は最初から全部作らず「必要になった時だけ」追加するという設計（Lazy Constraints）がある．ここでいう制約とは「次の構成でエージェント i は頂点 v にいる」という局所的なものである．通常の非 Lazy な構成生成では、全エージェントに対する衝突の起こらない割当を全探索するため計算量が指数爆発するのに対し、LaCAM では制約を課さない状態から「connected な構成を生成できるかをまず試し」、失敗した場合にのみ制約を追加する．この操作を繰り返すことで、必要最小限の制約のみを扱いながら探索を進め、計算量を大きく削減している．
 さらに重要なのは、LaCAM では一つの高レベル構成に対して低レベル探索を一度だけ行うのではなく、低レベル探索が尽きるまで同一の高レベルノードを保持し続け、制約集合を変えながら複数の後続構成を段階的に生成する点である．このため、高レベル探索におけるノード展開は「一度で完結する操作」ではなく、制約木の成長に応じて繰り返し呼び出される操作となる．また、制約は衝突を直接禁止する形では与えられず、制約を満たした上で connected な構成が生成できるかどうかを試す過程で、衝突は構成生成の失敗として間接的に検出される．低レベル探索は幅優先で制約を追加していくため、最終的には全エージェントに対する割当を網羅し、lazy な制約生成でありながら探索の完全性は保たれる．さらに、ある高レベル構成から到達可能なすべての connected な構成が生成し尽くされた時点で、その高レベルノードは破棄されるため、探索空間の重複展開も抑制されている．
 簡単な流れ(論文中の例)
@@ -99,7 +99,7 @@ MAGAT
 
 ### 2023
 #### [Improving LaCAM for Scalable Eventually Optimal Multi-Agent Pathfinding](https://arxiv.org/abs/2305.03632)
-[奥村圭佑](../Authors/japanese/奥村圭佑.md)
+[奥村圭佑](../Authors/japanese/KeisukeOkumura.md)
 本論文ではLaCAMを拡張し、探索の進め方に理論的な裏付けと実用上の改良を加えている．まず、高レベル探索において各構成遷移に明示的なコストを割り当て、構成列全体の累積コストに基づいて探索順序を管理することで、探索全体を anytimeアルゴリズムとして再定式化している．これにより、探索の初期段階では制約の少ない粗い構成遷移を用いて低コストの近似解を素早く得ることができ、探索を継続するにつれて、より多くの制約を考慮した高コストな遷移が段階的に展開される．低レベル探索で制約が追加されることは、高レベル探索における遷移コストの増加として自然に解釈できるため、lazyに制約を生成するという設計を保ったまま、時間を十分に与えれば最終的に最適な構成列に必ず到達することが保証される．
 また、本論文では低レベル探索そのものの振る舞いも改善されている．元のLaCAMでは、制約は幅優先的に追加されるため完全性は保たれるものの、初期段階ではconnectedな構成に結びつきにくい制約も同列に扱われていた．本論文では、衝突を起こしやすいエージェントや、構成生成の失敗に直接関与しやすい割当を優先的に制約として導入することで、制約木の初期成長をより解に近い方向へ誘導している．この結果、高レベル探索において有効な後続構成が早い段階で得られ、anytimeアルゴリズムとして重要な「まず動く解を返す」性能が大きく向上している．
 
@@ -126,7 +126,7 @@ MAGAT
 
 終わりのない搬送での渋滞を抑えるため，混雑度推定に基づき経路を動的にリランクする交通流最適化フレームワークを提案．倉庫シミュレーションで搬送完了数を大きく伸ばし，既存Lifelong MAPF手法を一貫して上回る．
 #### [A Comprehensive Review on Leveraging Machine Learning for Multi-Agent Path Finding](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10506521)
-[Jean-Marc Alkazzi](../Authors/overseas/JeanMarcAlkazzi.md) [奥村圭佑](../Authors/japanese/奥村圭佑.md)
+[Jean-Marc Alkazzi](../Authors/overseas/JeanMarcAlkazzi.md) [奥村圭佑](../Authors/japanese/KeisukeOkumura.md)
 MAPF分野におけるMLを利用した研究に注目してサーベイしている論文．計画手法に対して表現手法?と実行手法?に関する論文は少ないらしい．
 経路生成、動的障害配置が面白そう．
 模倣学習および強化学習
@@ -177,14 +177,14 @@ How can ML enhance the fault tolerance of MAPF systems?
 ```
 ### 2025
 #### [Graph Attention-Guided Search for Dense Multi-Agent Pathfinding](https://arxiv.org/abs/2510.17382)
-[Rishabh Jain](../Authors/overseas/RishabhJain.md) [奥村圭佑](../Authors/japanese/奥村圭佑.md) [Michael Amir](../Authors/overseas/MichaelAmir.md) [Amanda Prorok](../Authors/overseas/AmandaProrok.md)
+[Rishabh Jain](../Authors/overseas/RishabhJain.md) [奥村圭佑](../Authors/japanese/KeisukeOkumura.md) [Michael Amir](../Authors/overseas/MichaelAmir.md) [Amanda Prorok](../Authors/overseas/AmandaProrok.md)
 LaGATの提案．LaGAT = LaCAM(Okumura 2023) + MAGAT+(MAGAT(Li et al 2021b)の改良版)
 MAGAT+の事前学習としてlacam3が生成した準最適軌道を模倣学習．その後、対象のMapに対してFineTuningする．それをLaCAMの探索の中でヒューリスティックとして使用する．通常のLaCAM(の中のPIBT)がcost-to-goで候補行動vを決めるのに対して、MAGAT+を用いた場合は現在の観測に基づいた情報をもとに行動に対して確率を出力し、それをPIBTのpreferenceとして使用する．
 もしMAGAT+の誘導が反復や振動を引き起こしている場合に備えてデッドロック検出機構が備わっている．検出の基本アイディアは「最近のdステップ以内に同じ局所的状況に戻ってきたら異常」であり、LaCAMの探索木を使って過去の構成を遡り、エージェントごとに局所的な停滞を検出する．そして、その対処としてノードの制約を全消去し、Openリストに再挿入する．その後、通常のLaCAMアルゴリズムで探索をする．
 注意点としてMAGAT+によるガイドはエージェント単位で管理されており、一度通常に戻ったエージェントは二度とガイド付きには戻らない．つまり、ガイド付きで上手くいかない場合、最終的にはすべてのエージェントのガイドが外れて、通常のLaCAMと等しくなる．
 
 #### [Pairwise is Not Enough: Hypergraph Neural Networks for Multi-Agent Pathfinding](https://openreview.net/forum?id=WUbGQQ9C0E)
-[Rishabh Jain](../Authors/overseas/RishabhJain.md) [奥村圭佑](../Authors/japanese/奥村圭佑.md) [Michael Amir](../Authors/overseas/MichaelAmir.md) [Pietro Lio](../Authors/overseas/PietroLio.md) [Amanda Prorok](../Authors/overseas/AmandaProrok.md)
+[Rishabh Jain](../Authors/overseas/RishabhJain.md) [奥村圭佑](../Authors/japanese/KeisukeOkumura.md) [Michael Amir](../Authors/overseas/MichaelAmir.md) [Pietro Lio](../Authors/overseas/PietroLio.md) [Amanda Prorok](../Authors/overseas/AmandaProrok.md)
 既存の学習ベースのMAPFポリシーは、GNNsやTransformerを用いるものが挙げられるが、それらはどれもエージェント間の情報表現をペアワイズ(2体間)で行う．しかし、この制約は注意の希薄(attention dilution)化や高次相互作用(3体以上のグループの動きなど)の欠如などをもたらす．そこでより高次の情報を捉えるためにHyperGraphを基盤としたHMAGATという手法を提案している．
 
 #### [From Agent Centric to Obstacle Centric Planning: A Makespan-OptimalAlgorithm for the Multi-Agent Warehouse Rearrangement Problem](https://ojs.aaai.org/index.php/SOCS/article/view/35985/38140)
