@@ -1,0 +1,8 @@
+[book]
+title = "research"
+authors = ["romanohu"]
+language = "en"
+src = "book_src"
+
+[build]
+build-dir = "mdbook_output"
