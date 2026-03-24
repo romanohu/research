@@ -139,15 +139,8 @@ Chin-wing Leung, Paolo Turrini (Warwick)
 
 ---
 
-### パラメータ感度
-- loner報酬 $L$ が高すぎると退出濫用で協力低下
-- 再マッチ待ち時間や確率を変えると退出方策の積極性が滑らかに変化
-- 観測を複数手に広げると協力立ち上がりが早まる傾向
-
----
-
 ### 課題と展望
-- 2人PDに限定。公共財ゲームやネットワーク上の多人数設定は未検証
+- 2人PDに限定．公共財ゲームやネットワーク上の多人数設定は未検証
 - loner報酬設計に強く依存し、環境デザイン次第で協力が崩れる
 - 今後: マッチング市場での退出権と評判共有の併用、部分観測・大規模環境への拡張
 
@@ -158,10 +151,3 @@ Chin-wing Leung, Paolo Turrini (Warwick)
 - 必要な観測: 全員の直前行動 / 現相手のみ
 - 協力を守る仕組み: 選ばれない罰 / 関係解消の権利
 - 学習方式: 2本のQ-learning分離 / 行動と退出を同時に方策勾配
-- 想定応用: 評判共有がある組織・コミュニティ / プラットフォームやマッチング市場
-
----
-
-## 参考
-- AAAI20: Partner Selection for the Emergence of Cooperation in Multi-Agent Systems Using RL
-- AAMAS24: Learning Partner Selection Rules that Sustain Cooperation in SD with Opt-Out
