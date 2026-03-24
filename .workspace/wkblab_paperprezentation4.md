@@ -16,15 +16,24 @@ klis3年 鈴木史麿
 
 ---
 
-### Partner Selection for the Emergence of Cooperation in Multi-Agent Systems Using Reinforcement Learning
+### [Partner Selection for the Emergence of Cooperation in Multi-Agent Systems Using Reinforcement Learning](https://arxiv.org/abs/1902.03185)
 Nicolas Anastassacos, Stephen Hailes, Mirco Musolesi (UCL/Turing)
 
 ---
 
 ### 背景と問い
-- 社会的ジレンマで協力を安定させる鍵は「誰と組むか」
+- 社会的ジレンマで協力を安定させる鍵は「誰と組むか」なのではないか
 - 従来は報酬設計や中央集権的制御で協力を誘導
-- 自律的なパートナー選択だけで協力は創発するか
+- 自律的なパートナー選択だけで協力は創発/促進するのか
+
+→ パートナー選択
+
+---
+
+### パートナー選択
+The capability for an individual to freely choose who they want to interact with has been thought to have a prominent role in determining the structure of a population and the competitive and collaborative relationships that form between members of society (Santos, Santos, and Pacheco 2008).
+個人が自由に相互作用する相手を選択できる能力は，集団の構造や社会のメンバー間に形成される競争的および協力的関係を決定する上で重要な役割を持つと考えられている（Santos, Santos, and Pacheco 2008）.
+
 
 ---
 
@@ -72,6 +81,12 @@ Nicolas Anastassacos, Stephen Hailes, Mirco Musolesi (UCL/Turing)
 
 ---
 
+### 学習の遷移
+What facilitates the transition to the next stage is the following: (1) agents who cooperate are selected to play more frequently than defecting agents (and, therefore, are given the opportunity to potentially receive rewards); and (2) with enough exploration, cooperation can be sufficiently rewarded and agents can start to learn to punish agents who would try to exploit them.
+次の段階への移行を促進する要因は次の通りである：(1) 協力するエージェントは裏切るエージェントよりも頻繁に選択され（したがって報酬を得る機会が増える），(2) 十分な探索があれば協力は十分に報酬化され，エージェントは自分を搾取しようとするエージェントを罰することを学習し始める.
+
+---
+
 ### 実験観察 (学習が進む順序)
 1. 全員D: 初期は利己的裏切り
 2. 搾取期: 協力者を選んで一方的に得する戦略が台頭
@@ -94,7 +109,7 @@ Nicolas Anastassacos, Stephen Hailes, Mirco Musolesi (UCL/Turing)
 
 ---
 
-### Learning Partner Selection Rules that Sustain Cooperation in Social Dilemmas with the Option of Opting Out
+### [Learning Partner Selection Rules that Sustain Cooperation in Social Dilemmas with the Option of Opting Out](https://dl.acm.org/doi/10.5555/3635637.3662967)
 Chin-wing Leung, Paolo Turrini (Warwick)
 
 ---
