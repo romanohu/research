@@ -13,6 +13,7 @@
 - [One-to-Many Communication and Compositionality  in Emergent Communication(2024)](https://openreview.net/forum?id=mfgcxMm5aa)
 - [Speaking Your Language: Spatial Relationships in Interpretable Emergent Communication(2024)](https://arxiv.org/abs/2406.07277)
 - [Knowledge Distillation from Language-Oriented to Emergent Communication for Multi-Agent Remote Control(2024)](#knowledge-distillation-from-language-oriented-to-emergent-communication-for-multi-agent-remote-control)
+- [Unsupervised Translation of Emergent Communication](#unsupervised-translation-of-emergent-communication)
 
 ## サーベイ
 - [言語とコミュニケーションの創発に関する構成論的研究の展開(2024)](https://www.jstage.jst.go.jp/article/jcss/31/1/31_2023.073/_article/-char/ja/)
@@ -51,3 +52,5 @@ conceptゲームは、それに加えて教師と生徒が異なる入力を見�
 ### 2025
 #### [Emergent language: a survey and taxonomy](https://arxiv.org/abs/2409.02645)
 [Jannik Peters](../Authors/overseas/JannikPeters.md) [Constantin Waubert de Puiseau](../Authors/overseas/ConstantinWaubertDePuiseau.md) [Hasan Tercan](../Authors/overseas/HasanTercan.md) [Arya Gopikrishnan](../Authors/overseas/AryaGopikrishnan.md) [Gustavo Adolpho Lucas De Carvalho](../Authors/overseas/GustavoAdolphoLucasDeCarvalho.md) [Christian Bitter](../Authors/overseas/ChristianBitter.md) [Tobias Meisen](../Authors/overseas/TobiasMeisen.md)
+
+#### [Unsupervised Translation of Emergent Communication](https://arxiv.org/abs/2502.07552)
