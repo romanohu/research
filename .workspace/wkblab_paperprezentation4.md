@@ -11,143 +11,295 @@ klis3年 鈴木史麿
 ---
 
 ## 紹介する論文
-- Partner Selection for the Emergence of Cooperation in Multi-Agent Systems Using Reinforcement Learning (AAAI 2020)
-- Learning Partner Selection Rules that Sustain Cooperation in Social Dilemmas with the Option of Opting Out (AAMAS 2024)
+- Birds of a Feather Flock Together: A Close Look at
+Cooperation Emergence via Multi-Agent RL
 
 ---
 
-### [Partner Selection for the Emergence of Cooperation in Multi-Agent Systems Using Reinforcement Learning](https://arxiv.org/abs/1902.03185)
-Nicolas Anastassacos, Stephen Hailes, Mirco Musolesi (UCL/Turing)
-
----
-
-### 背景と問い
-- 社会的ジレンマで協力を安定させる鍵は「誰と組むか」なのではないか
-- 従来は報酬設計や中央集権的制御で協力を誘導
-- 自律的なパートナー選択だけで協力は創発/促進するのか
-
-→ パートナー選択
-
----
-
-### パートナー選択
-The capability for an individual to freely choose who they want to interact with has been thought to have a prominent role in determining the structure of a population and the competitive and collaborative relationships that form between members of society (Santos, Santos, and Pacheco 2008).
-個人が自由に相互作用する相手を選択できる能力は，集団の構造や社会のメンバー間に形成される競争的および協力的関係を決定する上で重要な役割を持つと考えられている（Santos, Santos, and Pacheco 2008）.
+## [Birds of a Feather Flock Together: A Close Look at Cooperation Emergence via Multi-Agent RL](https://arxiv.org/abs/2104.11455?utm_source=chatgpt.com)
+Heng Dong, Tonghan Wang, Jiayuan Liu, Chi Han, Chongjie Zhang
 
 
 ---
 
-### 環境設定
-- 集団サイズ $N$ のエージェントが反復PDをプレイ
-- 各ラウンド
-  1. 過去1手の履歴を見て相手を指名
-  2. 指名された相手と1回のPD (行動: C / D)
-- 目的は自己利得のみ最大化 (利他的報酬なし)
+### Introduction①
+
+協力行動の創発は進化生物学・経済学・AIなど多くの分野で研究されている重要な問題
+
+特に 社会的ジレンマ(Social Dilemma) では
+
+- 個人の合理的行動
+- 集団全体の利益
+
+が衝突する
+
+例：
+
+- Public Goods
+- Tragedy of the Commons
 
 ---
 
-### 囚人のジレンマの利得例
-|        | 相手 C          | 相手 D          |
-|--------|-----------------|-----------------|
-| 自分 C | (R, R) = (3,3)  | (S, T) = (0,4)  |
-| 自分 D | (T, S) = (4,0)  | (P, P) = (1,1)  |
+### Introduction②
 
-- T > R > P > S かつ 2R > T + S を満たすときPD
+従来研究により以下のような利他的インセンティブを与えることで協力が生まれることが知られている(環境行動ではない)
 
----
-
-### 状態と行動
-- 選択Qの状態: 他全員の直前行動ベクトル (C/D)
-- 選択Qの行動: 指名する相手 (1エージェントを選ぶ)
-- 行動Qの状態: 現パートナーの直前行動のみ
-- 行動Qの行動: C か D を出す
+- reward
+- punishment
 
 ---
 
-### 報酬設計
-- 報酬はPD1回分の利得のみ
-- 誰にも指名されないと報酬0 (社会的罰として働く)
-- 選択Qは「指名後に得たPD報酬」を遡及して更新
-- 使う履歴情報は直前1手だけ
+### 既存研究の問題
+
+最近のMARL研究ではエージェントが
+
+- 環境行動
+- 他エージェントへのインセンティブ
+
+を同時に学習することで協力を促すが、それでは協力レベルが安定しないという問題がある
+
+---
+
+### 観察された現象
+
+学習中の協力率
+
+協力 → 裏切り → 協力 → 裏切り
+
+
+のように行動方針が周期的に振動してしまい安定した協力に収束しない
+
+---
+
+### 原因：Second-order Social Dilemma
+
+協力を維持するためには
+
+- 罰
+- 報酬
+
+などの利他的インセンティブが必要であるが、しかし、そのインセンティブ自体にもコストがある
+
+---
+
+### Second-order Free Rider
+
+例：
+Agent A : punish
+Agent B : punish
+Agent C : punishしない
+
+しかしCは他エージェントのインセンティブ行動によって生まれた恩恵だけ受ける
+→ フリーライダー化
+
+---
+
+### 結果
+punisher 減少
+↓
+インセンティブ崩壊
+↓
+協力崩壊
+
+
+---
+
+### 論文のアイデア
+
+人間社会では
+
+**Homophily(同類性)**
+
+と呼ばれる性質が知られている
+
+> 似た者同士は集まる
+> *Birds of a Feather Flock Together*
+
+この論文ではその性質を マルチエージェント強化学習に応用する
+
+---
+
+### Homophily
+
+環境で似た行動をとるエージェントは似たインセンティブ行動をとるように学習させる
+
+これにより
+
+- 協力するエージェント同士が互いに支援する
+- フリーライダーが利益を得にくくなる
+
+という構造を作る
+
+---
+
+### 提案手法 : Homophily-based Incentive Learning
+
+各エージェントは次の2つの方策を学習する
+
+① 環境行動policy
+(環境内でどの行動をとるか)
+
+② インセンティブpolicy
+(他エージェントに reward / punish / none を与えるか)
+
+この2つを同時に学習することで協力関係の形成を目指す
 
 ---
 
 ### 学習構造
-- 2つの独立Q-learning
-  - 選択Q: 相手指名方策
-  - 行動Q: PDでのC/D方策
-- $\epsilon$-greedy 探索
-- 選択Qの更新は「指名後に得たPD報酬」を遡及的に使用
+
+エージェントの学習の流れ
+
+観測
+↓
+環境行動 Q-function(環境内での行動を決定)
+↓
+環境行動
+↓
+インセンティブ Q-function(他エージェントへのインセンティブを決定)
+↓
+他エージェントへreward / punish を与える
 
 ---
 
-### 学習の遷移
-What facilitates the transition to the next stage is the following: (1) agents who cooperate are selected to play more frequently than defecting agents (and, therefore, are given the opportunity to potentially receive rewards); and (2) with enough exploration, cooperation can be sufficiently rewarded and agents can start to learn to punish agents who would try to exploit them.
-次の段階への移行を促進する要因は次の通りである：(1) 協力するエージェントは裏切るエージェントよりも頻繁に選択され（したがって報酬を得る機会が増える），(2) 十分な探索があれば協力は十分に報酬化され，エージェントは自分を搾取しようとするエージェントを罰することを学習し始める.
+### Homophily Loss
+
+同類性を実現するためにHomophily Lossを導入する
+
+$$
+L_{homo,i}(\phi_i)
+=
+\mathbb{E}_D
+\left[
+-
+\sum_{j \ne i}
+S_{env}(i,j)\,S_{inc}(i,j;\phi_i)
+\right]
+$$
+
+環境行動が似ているエージェント同士のインセンティブ行動も似るように学習する
+
+最終的な目的関数
+
+$$
+L_i =
+L_{env}
++
+\lambda_{inc}L_{inc}
++
+\lambda_{homo}L_{homo}
+$$
 
 ---
 
-### 実験観察 (学習が進む順序)
-1. 全員D: 初期は利己的裏切り
-2. 搾取期: 協力者を選んで一方的に得する戦略が台頭
-3. 報復期: 協力者が減少し、TFT的応報が登場
-4. 協力定着: TFT/ALLCが主流となり、裏切り者は指名されず孤立
+### 直感
+
+Homophily が無い場合
+
+協力エージェントがフリーライダーに利用されてしまう
+
+A 協力 → reward
+B 協力 → reward
+C 非協力 → rewardしない
+
+しかしCはrewardの恩恵だけ受ける
+↓
+Second-order free rider
 
 ---
 
-### 成果と示唆
-- 選ばれないことが罰となり、外的懲罰なしで協力が安定
-- 観測は1手履歴でも評判の代替になる
-- マッチングをランダムに戻すと協力が崩壊 → 指名権が本質
+### Homophilyあり
+
+Homophilyにより似た行動のエージェント同士が結びつく
+協力グループ
+AとBはreward を与え合う
+
+非協力
+C
+
+↓
+
+協力者同士が互いに支援する構造が生まれる
 
 ---
 
-### 制約と今後
-- 全員の直前行動を観測できる前提は大規模・部分観測で非現実的
-- 指名を拒否する仕組みがなく合意形成型環境への一般化は未検証
-- 今後: 部分観測、拒否権付き指名、多人数公共財ゲームへの拡張
+### 実験環境
+
+Sequential Social Dilemmas を用いて評価
+
+代表的な2種類の社会的ジレンマ
+
+- Cleanup(Public Goods)
+- Harvest(Tragedy of the Commons)
 
 ---
 
-### [Learning Partner Selection Rules that Sustain Cooperation in Social Dilemmas with the Option of Opting Out](https://dl.acm.org/doi/10.5555/3635637.3662967)
-Chin-wing Leung, Paolo Turrini (Warwick)
+### Cleanup
+
+Public Goods 型のジレンマ
+
+環境には
+
+- ゴミ
+- りんご
+
+が存在する
+
+ゴミを掃除するとりんごが生えるようになる
+
+しかし掃除自体には個人の直接報酬がないため誰かが掃除する必要がある
 
 ---
 
-### 研究の狙い
-- 固定ルールに頼らず、行動方策と退出方策を同時に学習すると何が生まれるか
-- 現相手の前手のみという情報制約下で協力を維持できるか
-- Out-for-Tatのような退出規則を自発的に再発見できるか
+### Harvest
+Tragedy of the Commons 型のジレンマ
+
+エージェントはりんごを収穫して報酬を得る
+
+しかし取りすぎるとりんごが再生しなくなる
+↓
+短期利益
+→ すぐ収穫
+
+長期利益
+→ 資源を残す
 
 ---
 
-### 環境・行動空間
-- 2人反復PDに Opt-Out 行動を追加
-  - Stay: 同じ相手と次ラウンドへ
-  - Opt-Out: 無作為再マッチ + loner報酬 $L$
-- 観測: 相手の直前行動のみ (全体履歴や評判共有なし)
-- 方策: 行動と退出を1つのネットワークで同時学習 (方策勾配)
+### 結果
+
+Homophilyなし
+
+- 協力率が振動
+- 安定した協力が形成されない
+
+Homophilyあり
+
+- 協力が安定して維持される
+- チーム報酬も高くなる
+- 協力エージェントに対して他のエージェントがrewardを放出(cleanup)
 
 ---
 
-### 学習で現れた規則
-- Tit-for-Tatに近い応報を獲得
-- Out-for-Tat (Dされたら退出) を自発的に再発見
-- 追加観測された挙動
-  - 協力相手には滞在、疑わしい相手は一度試して離脱
-  - 序盤のみDで様子見し、反応を見て協力へ移るハジング的行動
+### まとめ
+
+この論文の主な貢献
+
+1. 協力が崩壊する原因として
+   Second-order Social Dilemmaを分析
+
+2. Homophily を利用した新しいインセンティブ学習手法を提案
+
+3. MARL環境において安定した協力の形成を実証
 
 ---
 
-### 課題と展望
-- 2人PDに限定．公共財ゲームやネットワーク上の多人数設定は未検証
-- loner報酬設計に強く依存し、環境デザイン次第で協力が崩れる
-- 今後: マッチング市場での退出権と評判共有の併用、部分観測・大規模環境への拡張
+### 所感
+
+- second-order dilemma の分析が興味深い
+- 社会学の概念(homophily)をMARLに導入している点が特徴的
+- 社会的ジレンマ研究への応用が期待できる
+- ただ環境とは別軸で報酬rewardをエージェントに与える都合上、エージェント毎に役割が固定化されることが多そう
+
 
 ---
-
-### 補足: 2つの研究の違い
-- 相手選定の自由度: 指名制 (拒否なし) / 退出制 (再マッチ)
-- 必要な観測: 全員の直前行動 / 現相手のみ
-- 協力を守る仕組み: 選ばれない罰 / 関係解消の権利
-- 学習方式: 2本のQ-learning分離 / 行動と退出を同時に方策勾配
