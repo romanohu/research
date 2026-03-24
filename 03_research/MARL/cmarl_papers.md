@@ -141,6 +141,7 @@ $$
 この論文ではエージェントごとに固有の理想SVO値を設定することで「多様性があることで生まれる効用」を図ろうとしている．
 
 #### [Partner Selection for the Emergence of Cooperation in Multi-Agent Systems Using Reinforcement Learning](https://arxiv.org/abs/1902.03185)
+[Nicolas Anastassacos](../Authors/overseas/NicolasAnastassacos.md) [Stephen Hailes](../Authors/overseas/StephenHailes.md) [Mirco Musolesi](../Authors/overseas/MircoMusolesi.md)
 
 #Unread
 
@@ -210,6 +211,7 @@ MARLが扱う課題の多くはNP困難問題に分類される．このサー�
 状態‐行動空間の構造をメタ学習で推定し，探索ノイズをタスクに適応させるMESAを提案．協調グリッドゲームで既存探索強化手法より高速に高性能方策へ収束．
 
 #### [Learning Partner Selection Rules that Sustain Cooperation in Social Dilemmas with the Option of Opting Out](https://dl.acm.org/doi/10.5555/3635637.3662967)
+[Chin-Wing Leung](../Authors/overseas/ChinWingLeung.md) [Paolo Turrini](../Authors/overseas/PaoloTurrini.md)
 
 #Unread
 

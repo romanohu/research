@@ -33,6 +33,7 @@
 
 ### 2016
 #### [Ensemble Learning for Multi-Source Neural Machine Translation](https://aclanthology.org/C16-1133/)
+[Ekaterina Garmash](../Authors/overseas/EkaterinaGarmash.md) [Christof Monz](../Authors/overseas/ChristofMonz.md)
 
 #Unread
 

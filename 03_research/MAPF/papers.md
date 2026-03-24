@@ -111,9 +111,9 @@ MAGAT
 
 ### 2024
 #### [MAPF-GPT: Imitation Learning for Multi-Agent Pathfinding at Scale](https://arxiv.org/abs/2409.00134)
+[Anton Andreychuk](../Authors/overseas/AntonAndreychuk.md) [Konstantin Yakovlev](../Authors/overseas/KonstantinYakovlev.md) [Aleksandr Panov](../Authors/overseas/AleksandrPanov.md) [Alexey Skrynnik](../Authors/overseas/AlexeySkrynnik.md)
 > [リンク集](https://sites.google.com/view/mapf-gpt/)
 
-[Anton Andreychuk](../Authors/overseas/AntonAndreychuk.md) [Konstantin Yakovlev](../Authors/overseas/KonstantinYakovlev.md) [Aleksandr Panov](../Authors/overseas/AleksandrPanov.md) [Alexey Skrynnik](../Authors/overseas/AlexeySkrynnik.md)
 最適・準最適ソルバの解法データを学習データとし、トランスフォーマーベースのニューラルネットワークを活用した模倣学習によって構築される基盤モデル、MAPF-GPTを提案している．これは学習データセットに含まれていない新規のMAPF問題を開設する際にゼロショット学習能力を発揮する．結論として「純粋な模倣学習だけで強力な学習型MAPFソルバを作ることは可能か」という問いに対して、明確に肯定的な答えを与える．
 まず個々のエージェントが知覚し得るあらゆる観測結果と実行可能なあらゆる行動を表現した語彙体系(トークン)を構築する．次にソルバの解法データをトークンで符号化された観測-行動ペアの系列に変換する．それを用いてトランスフォーマーベースの非自己回帰型ニューラルネットワークを用いて与えられた観測結果に対して適切な行動を予測する学習を行う．非自己回帰型(NAR)は過去に自分が出した出力に依存させずに予測するモデルである．(そのまんまやった)
 入力トークンは固定長で「 地形 + cost-to-go + 自分と近傍エージェントの状態 」が含まれる．cost-to-goにはゴールを始点としたマップ全体の最短距離マップを作り、次の行動との距離の差分を利用する．(生成はBFS/Dijkstra)
