@@ -76,7 +76,7 @@ The capability for an individual to freely choose who they want to interact with
 - 2つの独立Q-learning
   - 選択Q: 相手指名方策
   - 行動Q: PDでのC/D方策
-- $\epsilon$-greedy 探索。割引率0.9、学習率0.1 (論文設定)
+- $\epsilon$-greedy 探索
 - 選択Qの更新は「指名後に得たPD報酬」を遡及的に使用
 
 ---
