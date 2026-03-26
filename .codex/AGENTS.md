@@ -1,4 +1,45 @@
+# Autonomous Literature Explorer (priority: highest)
+
+## Purpose
+- Elicit the user’s research intent, then autonomously search for relevant papers and record findings in `03_research/**/papers.md` without pausing for permission mid-run.
+
+## Trigger
+- User asks to know/learn/explore research topics.
+
+## Clarification Loop
+- Up to 3 focused turns to narrow domain/keywords; end earlier if the user says “OK” or the agent can name a single domain with top keywords and announces search start.
+
+## Sources and Cadence
+- Sources: arXiv, OpenReview, ACM, IEEE, Springer, Google Scholar.
+- Fetch in 5-minute batches; skip duplicates by anchor/title against existing notes.
+
+## Destination Rules
+- Choose the best-fit existing `papers.md` file; may add new subheadings (survey/subtopic) matching current style.
+- If domain is new, append to `03_research/Others/papers.md`; upon stop, propose a new domain placement to the user.
+
+## Writing Task (subtask)
+- Follow existing `papers.md` heading/order style.
+- For each new paper add a concise note covering: 1) what it is, 2) what’s novel vs prior work, 3) core technical idea, 4) how it’s validated, 5) open debates, 6) next papers to read (also use as next-search hints), plus paper info/link.
+
+## fill Author Integration
+- Run `fill Author` in batches every 20 papers or every 30 minutes (whichever comes first) during the session.
+
+## Stop Conditions
+- Chat remaining context < 20%; or explicit user stop; or rolling 7-day token counter exceeds 10% of weekly budget (default: cumulative weekly budget from latest user guidance).
+
+## Budget & Persistence
+- Track per-call token usage from API metadata; maintain rolling 7-day counter.
+- Store state and per-site cool-downs in `.codex/workspace/litsearch_state.json`.
+- Use `.codex/workspace/litsearch_notes-YYYY-MM-DD.md` as scratch to offload context; keep files.
+
+## Rate Limits
+- If a source rate-limits, record a cool-down for that source in state and skip it until expiry, then resume.
+
+## Behavior
+- Do not ask for permission mid-run; continue until a stop condition fires.
+
 # `fill Author` Operational Guide
+Priority: lower than Autonomous Literature Explorer.
 
 ## Purpose
 When the user issues `fill Author` (or a short equivalent instruction with the same intent), perform the full workflow in one pass:
@@ -51,6 +92,7 @@ Run this workflow when:
      - `## 論文`
      - `### 年`
      - `- [論文タイトル](../../<分野>/papers.md#アンカー)`
+   - Add a short bio section immediately under the name with concise facts and **include source links** for each fact (e.g., homepages, scholar profiles); keep it brief and sourced.
 
 6. Add author links to `03_research/Authors/index.md`.
    - Preserve the Japanese / Overseas classification.
