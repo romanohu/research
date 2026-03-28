@@ -2,17 +2,27 @@
 ## Solver(search)
 - [Finding Optimal Solutions to Cooperative Pathfinding Problems(2010)](#finding-optimal-solutions-to-cooperative-pathfinding-problems2010)
 - [Conflict-based search for optimal multi-agent pathfinding(2015)](#conflict-based-search-for-optimal-multi-agent-pathfinding)
+- [Multi-agent RRT*: Sampling-based Cooperative Pathfinding (Extended Abstract)(2013)](#multi-agent-rrt-sampling-based-cooperative-pathfinding-extended-abstract2013)
 - [Priority Inheritance with Backtracking for Iterative Multi-agent Path Finding(2019)](#priority-inheritance-with-backtracking-for-iterative-multi-agent-path-finding2019)
+- [Disjoint Splitting for Multi-Agent Path Finding with Conflict-Based Search(2019)](#disjoint-splitting-for-multi-agent-path-finding-with-conflict-based-search2019)
+- [Improved Heuristics for Multi-Agent Path Finding with Conflict-Based Search(2019)](#improved-heuristics-for-multi-agent-path-finding-with-conflict-based-search2019)
+- [Searching with Consistent Prioritization for Multi-Agent Path Finding(2019)](#searching-with-consistent-prioritization-for-multi-agent-path-finding2019)
+- [Cooperative Pathfinding based on Memory-Efficient Multi-Agent RRT*(2020)](#cooperative-pathfinding-based-on-memory-efficient-multi-agent-rrt2020)
 - [Lifelong Multi-Agent Path Finding in Large-Scale Warehouses(2021)](#lifelong-multi-agent-path-finding-in-large-scale-warehouses2021)
+- [EECBS: A Bounded-Suboptimal Search for Multi-Agent Path Finding(2021)](#eecbs-a-bounded-suboptimal-search-for-multi-agent-path-finding2021)
 - [MAPF-LNS2: Fast Repairing for Multi-Agent Path Finding via Large Neighborhood Search(2022)](#mapf-lns2-fast-repairing-for-multi-agent-path-finding-via-large-neighborhood-search2022)
 - [LaCAM: Search-Based Algorithm for Quick Multi-Agent Pathfinding(2022)](#lacam-search-based-algorithm-for-quick-multi-agent-pathfinding)
 - [Improving LaCAM for Scalable Eventually Optimal Multi-Agent Pathfinding(2023)](#improving-lacam-for-scalable-eventually-optimal-multi-agent-pathfinding)
+- [Double-Deck Multi-Agent Pickup and Delivery: Multi-Robot Rearrangement in Large-Scale Warehouses(2023)](#double-deck-multi-agent-pickup-and-delivery-multi-robot-rearrangement-in-large-scale-warehouses2023)
 - [Traffic Flow Optimisation for Lifelong Multi-Agent Path Finding(2024)](#traffic-flow-optimisation-for-lifelong-multi-agent-path-finding2024)
 
 ## Solver(machine learning)
 - [Message-Aware Graph Attention Networks for Large-Scale Multi-Robot Path Planning](#message-aware-graph-attention-networks-for-large-scale-multi-robot-path-planning)
+- [PRIMAL: Pathfinding via Reinforcement and Imitation Multi-Agent Learning(2019)](#primal-pathfinding-via-reinforcement-and-imitation-multi-agent-learning2019)
+- [Learning to Resolve Conflicts for Multi-Agent Path Finding with Conflict-Based Search(2021)](#learning-to-resolve-conflicts-for-multi-agent-path-finding-with-conflict-based-search2021)
 - [SCRIMP: Scalable Communication for Reinforcement- and Imitation-Learning-Based Multi-Agent Pathfinding(2023)](#scrimp-scalable-communication-for-reinforcement--and-imitation-learning-based-multi-agent-pathfinding)
 - [MAPF-GPT: Imitation Learning for Multi-Agent Pathfinding at Scale(2024)](#mapf-gpt-imitation-learning-for-multi-agent-pathfinding-at-scale)
+- [LNS2+RL: Combining Multi-agent Reinforcement Learning with Large Neighborhood Search in Multi-agent Path Finding(2025)](#lns2rl-combining-multi-agent-reinforcement-learning-with-large-neighborhood-search-in-multi-agent-path-finding2025)
 - [Graph Attention-Guided Search for Dense Multi-Agent Pathfinding(2025)](#graph-attention-guided-search-for-dense-multi-agent-pathfinding)
 - [Pairwise is Not Enough: Hypergraph Neural Networks for Multi-Agent Pathfinding(2025)](#pairwise-is-not-enough-hypergraph-neural-networks-for-multi-agent-pathfinding)
 
@@ -20,7 +30,11 @@
 - [From Agent Centric to Obstacle Centric Planning: A Makespan-OptimalAlgorithm for the Multi-Agent Warehouse Rearrangement Problem(2025)](#from-agent-centric-to-obstacle-centric-planning-a-makespan-optimalalgorithm-for-the-multi-agent-warehouse-rearrangement-problem)
 
 ## サーベイ
+- [Multi-Agent Path Finding - An Overview(2019)](#multi-agent-path-finding---an-overview2019)
+- [Problem Compilation for Multi-Agent Path Finding: a Survey(2022)](#problem-compilation-for-multi-agent-path-finding-a-survey2022)
 - [A Comprehensive Review on Leveraging Machine Learning for Multi-Agent Path Finding(2024)](#a-comprehensive-review-on-leveraging-machine-learning-for-multi-agent-path-finding)
+- [A review of graph-based multi-agent pathfinding solvers: From classical to beyond classical(2024)](#a-review-of-graph-based-multi-agent-pathfinding-solvers-from-classical-to-beyond-classical2024)
+- [Where Paths Collide: A Comprehensive Survey of Classic and Learning-Based Multi-Agent Pathfinding(2025)](#where-paths-collide-a-comprehensive-survey-of-classic-and-learning-based-multi-agent-pathfinding2025)
 
 
 ---
@@ -32,6 +46,12 @@
 #Unread
 
 協調経路探索を最初に実用的な完全最適解として解く手法を提示．ジョイント状態A*の分岐爆発を抑えるoperator decompositionと独立部分問題検出を組み合わせ，大規模問題でもミリ秒で最適解を返すことを実証．
+
+### 2013
+#### [Multi-agent RRT*: Sampling-based Cooperative Pathfinding (Extended Abstract)(2013)](https://arxiv.org/abs/1302.2828)
+#Unread
+
+MAPFを連続空間サンプリング系に拡張した初期代表で，RRT*をマルチエージェント設定に持ち込んだ点が新規性である．高次元合同空間に木を伸ばしつつ衝突回避軌道を漸近最適に改善し，疎で大規模な環境では古典探索系よりスケールし得ることを実験で示した一方，密環境での効率低下とサンプル効率が主な論点として残る．
 
 ### 2015
 #### [Conflict-based search for optimal multi-agent pathfinding](https://www.sciencedirect.com/science/article/pii/S0004370214001386)
@@ -47,6 +67,37 @@
 
 オンラインかつ多数エージェント向けに，優先度を動的継承しつつ手詰まり時にバックトラックするPIBTを提案．全隣接がサイクルを含むグラフでは有限時間で到達を保証し，倉庫シナリオで既存手法より高速に衝突回避経路を生成．
 
+#### [Disjoint Splitting for Multi-Agent Path Finding with Conflict-Based Search(2019)](https://ojs.aaai.org/index.php/ICAPS/article/view/3487)
+#Unread
+
+CBSの衝突分割で生じる重複探索を減らすため，互いに素な制約集合を生成するdisjoint splittingを導入した改良である．従来splitより制約木の重なりを抑えつつ最適性を保ち，標準ベンチマークで展開ノード数と計算時間を削減する効果を示しているが，衝突種類に応じた分割戦略の使い分けが引き続き議論点となる．
+
+#### [Improved Heuristics for Multi-Agent Path Finding with Conflict-Based Search(2019)](https://www.ijcai.org/proceedings/2019/63)
+#Unread
+
+CBS高レベル探索のために依存グラフに基づく情報量の高いヒューリスティクスを提案し，従来推定より衝突解消優先度を的確に付ける点が新しい．低レベル計画との整合を保ったまま展開順を改善し，大規模インスタンスで解決率と速度向上を報告している一方，ヒューリスティクス計算自体のコスト増とのトレードオフが残る．
+
+#### [Searching with Consistent Prioritization for Multi-Agent Path Finding(2019)](https://doi.org/10.1609/aaai.v33i01.33017643)
+#Unread
+
+固定優先度に依存する従来優先度計画を拡張し，部分順序そのものを探索するPriority-Based Searchを提示した論文である．衝突駆動で順序制約を追加して探索空間を系統的に絞り込み，解品質と成功率の改善を実験で示したが，密集問題では順序分岐が増えるためスケーリング特性の設計が引き続き重要となる．
+
+#### [PRIMAL: Pathfinding via Reinforcement and Imitation Multi-Agent Learning(2019)](https://doi.org/10.1109/LRA.2019.2903261)
+#Unread
+
+分散実行可能なMAPF方策を学習するため，模倣学習と強化学習を組み合わせた学習フレームワークを提示した初期の代表研究である．局所観測と共有方策で衝突回避行動を獲得し，数百体規模まで拡張可能な推論速度を示す一方，訓練分布外の環境一般化と最適性保証の欠如が主要な未解決点として残る．
+
+#### [Multi-Agent Path Finding - An Overview(2019)](https://doi.org/10.1007/978-3-030-33274-7_6)
+#Unread
+
+MAPFの問題定義，目的関数，古典解法の系統を短く統一整理した概説で，分野全体の共通土台を与える点に価値がある．不完全法から最適法までを定義差分とともに比較し，研究参入時の用語整備に有用だが，近年の学習系や実環境制約までの網羅は限定的で更新的サーベイと併読が前提となる．
+
+### 2020
+#### [Cooperative Pathfinding based on Memory-Efficient Multi-Agent RRT*(2020)](https://doi.org/10.1109/ACCESS.2020.3023200)
+#Unread
+
+MA-RRT*のメモリ使用量が増大する課題に対し，固定ノード数で木を維持するMA-RRT*FNを提案した実装寄り改良である．不要ノードを戦略的に削除して省メモリ性を確保しつつ解品質劣化を抑え，リソース制約環境での有効性を示したが，削除方針による探索の偏りと最適収束速度の低下が論点となる．
+
 
 ### 2021
 #### [Message-Aware Graph Attention Networks for Large-Scale Multi-Robot Path Planning](https://arxiv.org/abs/2011.13219)
@@ -57,6 +108,16 @@
 #Unread
 
 自動倉庫のような終わりのないタスクを扱うLifelong MAPFを定式化し，短期窓で衝突を解決するRHCRを提案．1000体規模のベンチで従来より大幅に高速かつスムーズな搬送を実現．
+
+#### [EECBS: A Bounded-Suboptimal Search for Multi-Agent Path Finding(2021)](https://doi.org/10.1609/aaai.v35i14.17466)
+#Unread
+
+ECBSにExplicit Estimation Searchを導入し，許容誤差付きで高速に良質解を得るbounded-suboptimalソルバを構築した研究である．高レベル節点の推定評価を強化して展開効率を高め，複数ベンチで既存準最適法より高速化を示した一方，重み設定や学習推定の安定性が性能を左右する点は実運用時の検討課題となる．
+
+#### [Learning to Resolve Conflicts for Multi-Agent Path Finding with Conflict-Based Search(2021)](https://doi.org/10.1609/aaai.v35i13.17341)
+#Unread
+
+CBSの衝突解消順序を学習で補助し，どの衝突を先に処理すべきかをデータ駆動で予測するハイブリッド設計を提案した．既存CBSに大きな構造変更なしで組み込め，制約木サイズと計算時間の削減を実験で示したが，学習器の分布外一般化と説明可能性が今後の重要論点である．
 
 
 MAGAT
@@ -97,6 +158,11 @@ MAGAT
 - ノードの破棄
   - ハイレベルノードから派生する全てのローレベルノードを調べ尽くしても次へ進めない場合にそのハイレベルノードは破棄される．
 
+#### [Problem Compilation for Multi-Agent Path Finding: a Survey(2022)](https://www.ijcai.org/proceedings/2022/783)
+#Unread
+
+SAT/SMT/CSP/MIPなどへの問題コンパイル系MAPFを体系化し，探索ベース手法とは異なる設計空間を整理したサーベイである．定式化，制約生成，ソルバ特性を横断比較し，どの問題条件でコンパイル系が強いかを示す一方，動的環境やlifelong設定への拡張余地が明確な課題として示される．
+
 ### 2023
 #### [Improving LaCAM for Scalable Eventually Optimal Multi-Agent Pathfinding](https://arxiv.org/abs/2305.03632)
 [奥村圭佑](../Authors/japanese/KeisukeOkumura.md)
@@ -108,6 +174,11 @@ MAGAT
 #Unread
 
 ローカル視野だけを持つエージェント間で通信メッセージを学習するSCRIMPを提案．強化学習と模倣学習を併用し，通信コストを抑えつつ渋滞を解消する振る舞いを獲得し，大規模グリッドでも既存RLベースMAPFを上回る成功率を達成．
+
+#### [Double-Deck Multi-Agent Pickup and Delivery: Multi-Robot Rearrangement in Large-Scale Warehouses(2023)](https://arxiv.org/abs/2304.14309)
+#Unread
+
+棚の持ち上げ・再配置を含むDD-MAPDを新たに定式化し，MAPFとMAPDを分解的に連携させるMAPF-DECOMPを提案した．障害物配置そのものを変える倉庫再編を扱える点が新規性で，千棚規模で高品質解を短時間生成できることを示したが，完全性保証はwell-formed条件に依存するため一般条件での理論保証が今後の課題である．
 
 ### 2024
 #### [MAPF-GPT: Imitation Learning for Multi-Agent Pathfinding at Scale](https://arxiv.org/abs/2409.00134)
@@ -175,7 +246,17 @@ To what extent should the real-world agent dynamics captured by ML be reflected 
 Open Question 14
 How can ML enhance the fault tolerance of MAPF systems?
 ```
+
+#### [A review of graph-based multi-agent pathfinding solvers: From classical to beyond classical(2024)](https://doi.org/10.1016/j.knosys.2023.111121)
+#Unread
+
+グラフベースMAPFソルバを古典設定から実用拡張まで一貫して整理し，モデル仮定と評価軸の違いを明確化したレビューである．古典ベンチだけでは見えない現実制約（非同質性，動的性，実機制約）への適用課題を整理しており，アルゴリズム選定の観点で有用だが，最新学習系の急速な更新に対して継続的補完が必要となる．
 ### 2025
+#### [LNS2+RL: Combining Multi-agent Reinforcement Learning with Large Neighborhood Search in Multi-agent Path Finding](https://doi.org/10.1609/AAAI.V39I22.34501)
+#Unread
+
+LNS2の破壊・修復ループにMARLを統合し，再計画の局所戦略を学習的に最適化することで品質と速度の両立を狙った手法である．探索ベースの堅牢性を維持しつつ難所で学習方策を活用し，複数マップで改善を示す一方，訓練コストと設定依存性が導入障壁として残る．
+
 #### [Graph Attention-Guided Search for Dense Multi-Agent Pathfinding](https://arxiv.org/abs/2510.17382)
 [Rishabh Jain](../Authors/overseas/RishabhJain.md) [奥村圭佑](../Authors/japanese/KeisukeOkumura.md) [Michael Amir](../Authors/overseas/MichaelAmir.md) [Amanda Prorok](../Authors/overseas/AmandaProrok.md)
 LaGATの提案．LaGAT = LaCAM(Okumura 2023) + MAGAT+(MAGAT(Li et al 2021b)の改良版)
@@ -189,3 +270,8 @@ MAGAT+の事前学習としてlacam3が生成した準最適軌道を模倣学�
 
 #### [From Agent Centric to Obstacle Centric Planning: A Makespan-OptimalAlgorithm for the Multi-Agent Warehouse Rearrangement Problem](https://ojs.aaai.org/index.php/SOCS/article/view/35985/38140)
 [Yaakov Sherma](../Authors/overseas/YaakovSherma.md) [Eyal Weiss](../Authors/overseas/EyalWeiss.md) [Oren Salzman](../Authors/overseas/OrenSalzman.md)
+
+#### [Where Paths Collide: A Comprehensive Survey of Classic and Learning-Based Multi-Agent Pathfinding(2025)](https://arxiv.org/abs/2505.19219)
+#Unread
+
+古典探索系，コンパイル系，学習系を同一フレームで比較し，評価指標・ベンチマーク・未解決課題を横断整理した包括サーベイである．理論保証と実運用要件のギャップを明示して今後の研究方向を提示しており，導入文献として有用だが，急速に更新される最新成果は都度追補が必要となる．
