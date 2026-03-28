@@ -1,7 +1,3 @@
-book
-book_build/*
-mdbook_output
-
 # OSゴミファイル
 .DS_Store
 Thumbs.db
