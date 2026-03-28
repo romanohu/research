@@ -24,7 +24,7 @@
 ## 論文メモ
 ### 2019
 #### [Anti-efficient encoding in emergent communication](https://arxiv.org/abs/1905.12561)
-[Rahma Chaabouni](../Authors/overseas/RahmaChaabouni.md)
+[Rahma Chaabouni](../Authors/overseas/RahmaChaabouni.md) [Eugene Kharitonov](../Authors/overseas/EugeneKharitonov.md) [Emmanuel Dupoux](../Authors/overseas/EmmanuelDupoux.md) [Marco Baroni](../Authors/overseas/MarcoBaroni.md)
 ### 2021
 #### Emergent Communication of Generalizations
 [Jesse Mu](../Authors/overseas/JesseMu.md)
@@ -36,7 +36,7 @@ conceptゲームは、それに加えて教師と生徒が異なる入力を見�
 
 ### 2022
 #### [Linking Emergent and Natural Languages via Corpus Transfer](https://arxiv.org/abs/2203.13344)
-[Shunyu Yao](../Authors/overseas/ShunyuYao.md)
+[Shunyu Yao](../Authors/overseas/ShunyuYao.md) [Mo Yu](../Authors/overseas/MoYu.md) [Yang Zhang](../Authors/overseas/YangZhang.md) [Karthik R Narasimhan](../Authors/overseas/KarthikRNarasimhan.md) [Joshua B. Tenenbaum](../Authors/overseas/JoshuaBTenenbaum.md) [Chuang Gan](../Authors/overseas/ChuangGan.md)
 創発言語と自然言語の接続．創発言語のコーパスを作り、それを自然言語と結びつきつかせようとしている．創発言語の評価を自然言語で行う．
 
 ### 2024
@@ -47,7 +47,7 @@ conceptゲームは、それに加えて教師と生徒が異なる入力を見�
 環境的圧力2:メッセージが複数のリスナに同時に処理されるという協調圧力によって、スピーカは「メッセージを誰が受け取っても分かるような形に」構成する?
 
 #### [Knowledge Distillation from Language-Oriented to Emergent Communication for Multi-Agent Remote Control](https://arxiv.org/abs/2401.12624)
-[Yongjun Kim](../Authors/overseas/YongjunKim.md)
+[Yongjun Kim](../Authors/overseas/YongjunKim.md) [Sejin Seo](../Authors/overseas/SejinSeo.md) [Jihong Park](../Authors/overseas/JihongPark.md) [Mehdi Bennis](../Authors/overseas/MehdiBennis.md) [Seong-Lyun Kim](../Authors/overseas/SeongLyunKim.md) [Junil Choi](../Authors/overseas/JunilChoi.md)
 
 ### 2025
 #### [Emergent language: a survey and taxonomy](https://arxiv.org/abs/2409.02645)

@@ -21,7 +21,7 @@
 ## 論文メモ
 ### 2024
 #### [HyperMARL: Adaptive Hypernetworks for Multi-Agent RL](https://arxiv.org/abs/2412.04233?utm_source=chatgpt.com)
-[Tessera Kale-ab Abebe](../Authors/overseas/TesseraKaleabAbebe.md)
+[Kale-ab Abebe Tessera](../Authors/overseas/TesseraKaleabAbebe.md) [Arrasy Rahman](../Authors/overseas/ArrasyRahman.md) [Amos Storkey](../Authors/overseas/AmosStorkey.md) [Stefano V. Albrecht](../Authors/overseas/StefanoVAlbrecht.md)
 
 #### [Mixture of Experts in a Mixture of RL settings](https://arxiv.org/abs/2406.18420)
 [Timon Willi](../Authors/overseas/TimonWilli.md) [Johan Obando-Ceron](../Authors/overseas/JohanObandoCeron.md) [Jakob Foerster](../Authors/overseas/JakobNFoerster.md) [Karolina Dziugaite](../Authors/overseas/KarolinaDziugaite.md) [Pablo Samuel Castro](../Authors/overseas/PabloSamuelCastro.md)
