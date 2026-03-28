@@ -8,6 +8,7 @@
 - [RPM: Generalizable Behaviors for Multi-Agent Reinforcement Learning(2022)](https://arxiv.org/abs/2210.09646)
 - [Multi-Agent Reinforcement Learning is a Sequence Modeling Problem(2023)](https://arxiv.org/abs/2205.14953?utm_source=chatgpt.com)
 - [HyperMARL: Adaptive Hypernetworks for Multi-Agent RL(2024)](#hypermarl-adaptive-hypernetworks-for-multi-agent-rl)
+- [Mixture of Experts in a Mixture of RL settings(2024)](#mixture-of-experts-in-a-mixture-of-rl-settings)
 
 ## 環境・ベンチマーク・フレームワーク
 - [Playing Atari with Deep Reinforcement Learning(2013)](https://arxiv.org/abs/1312.5602)
@@ -21,6 +22,12 @@
 ### 2024
 #### [HyperMARL: Adaptive Hypernetworks for Multi-Agent RL](https://arxiv.org/abs/2412.04233?utm_source=chatgpt.com)
 [Tessera Kale-ab Abebe](../Authors/overseas/TesseraKaleabAbebe.md)
+
+#### [Mixture of Experts in a Mixture of RL settings](https://arxiv.org/abs/2406.18420)
+
+#Unread
+
+強い非定常性をもつRL条件でMoEの構成要素（routing, expert specialization, regularization）が学習安定性と最終性能にどう効くかを分解評価した研究．複数のRL設定で有効性を示し，マルチエージェント系に適用する際には「どの経験データをどのexpertへ送るか」というrouter学習データ分配が主要論点になることを示唆している．
 
 
 #### [An Introduction to Centralized Training for Decentralized Execution in Cooperative Multi-Agent Reinforcement Learning](https://arxiv.org/pdf/2409.03052)
