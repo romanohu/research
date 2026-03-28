@@ -54,3 +54,4 @@ conceptゲームは、それに加えて教師と生徒が異なる入力を見�
 [Jannik Peters](../Authors/overseas/JannikPeters.md) [Constantin Waubert de Puiseau](../Authors/overseas/ConstantinWaubertDePuiseau.md) [Hasan Tercan](../Authors/overseas/HasanTercan.md) [Arya Gopikrishnan](../Authors/overseas/AryaGopikrishnan.md) [Gustavo Adolpho Lucas De Carvalho](../Authors/overseas/GustavoAdolphoLucasDeCarvalho.md) [Christian Bitter](../Authors/overseas/ChristianBitter.md) [Tobias Meisen](../Authors/overseas/TobiasMeisen.md)
 
 #### [Unsupervised Translation of Emergent Communication](https://arxiv.org/abs/2502.07552)
+[Ido Levy](../Authors/overseas/IdoLevy.md) [Orr Paradise](../Authors/overseas/OrrParadise.md) [Boaz Carmeli](../Authors/overseas/BoazCarmeli.md) [Ron Meir](../Authors/overseas/RonMeir.md) [Shafi Goldwasser](../Authors/overseas/ShafiGoldwasser.md) [Yonatan Belinkov](../Authors/overseas/YonatanBelinkov.md)

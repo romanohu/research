@@ -70,6 +70,7 @@ XLA拡張と注釈APIで自動シャーディングを行うGShardを提案し�
 
 ### 2021
 #### [BASE Layers: Simplifying Training of Large, Sparse Models](https://proceedings.mlr.press/v139/lewis21a.html)
+[Mike Lewis](../Authors/overseas/MikeLewis.md) [Shruti Bhosale](../Authors/overseas/ShrutiBhosale.md) [Tim Dettmers](../Authors/overseas/TimDettmers.md) [Naman Goyal](../Authors/overseas/NamanGoyal.md) [Luke Zettlemoyer](../Authors/overseas/LukeZettlemoyer.md)
 
 #Unread
 
@@ -91,6 +92,7 @@ MoEのルータをTop-1に単純化したSwitch routingで通信と計算を削�
 Switch系で課題だった不安定さと転移性能を改善する設計指針を提示．正規化・初期化・負荷分散損失を調整し，269BパラメータのST-MoE-32Bが32B密モデルと同等の計算量で多様な下流タスク（SuperGLUE，XSum等）でSOTAを達成した．
 
 #### [Mixture-of-Experts with Expert Choice Routing](https://arxiv.org/abs/2202.09368)
+[Yanqi Zhou](../Authors/overseas/YanqiZhou.md) [Tao Lei](../Authors/overseas/TaoLei.md) [Hanxiao Liu](../Authors/overseas/HanxiaoLiu.md) [Nan Du](../Authors/overseas/NanDu.md) [Yanping Huang](../Authors/overseas/YanpingHuang.md) [Vincent Zhao](../Authors/overseas/VincentZhao.md) [Andrew Dai](../Authors/overseas/AndrewDai.md) [Zhifeng Chen](../Authors/overseas/ZhifengChen.md) [Quoc Le](../Authors/overseas/QuocLe.md) [James Laudon](../Authors/overseas/JamesLaudon.md)
 
 #Unread
 
@@ -106,12 +108,14 @@ tokenがexpertを選ぶ従来のTop-k routerと逆に，expert側が受け取る
 GNNで全球0.25度格子の大気状態を6時間刻みでオートレグレッシブ予測するGraphCastを提案．DeepMindの実装は10日先までの227変数を60秒未満で生成し，ECMWF HRESを約89％の指標で上回る精度を示した．
 
 #### [Graph Mixture of Experts: Learning on Large-Scale Graphs with Explicit Diversity Modeling](https://arxiv.org/abs/2304.02806)
+[Haotao Wang](../Authors/overseas/HaotaoWang.md) [Ziyu Jiang](../Authors/overseas/ZiyuJiang.md) [Yuning You](../Authors/overseas/YuningYou.md) [Yan Han](../Authors/overseas/YanHan.md) [Gaowen Liu](../Authors/overseas/GaowenLiu.md) [Jayanth Srinivasa](../Authors/overseas/JayanthSrinivasa.md) [Ramana Rao Kompella](../Authors/overseas/RamanaRaoKompella.md) [Zhangyang Wang](../Authors/overseas/ZhangyangWang.md)
 
 #Unread
 
 大規模グラフで過平滑化と表現の同質化を避けるため，複数expertの出力をrouterで選択統合しつつ，expert間の多様性を明示的に促進するGraph MoEを提案．ノード分類設定で性能改善を示し，routing粒度をnode側に置いたときの多様性制約の効き方が主要論点となっている．
 
 #### [GraphMETRO: Mitigating Complex Distribution Shifts in GNNs via Mixture of Aligned Experts](https://openreview.net/forum?id=ofIAlQ0FPy)
+[Shirley Wu](../Authors/overseas/ShirleyWu.md) [Kaidi Cao](../Authors/overseas/KaidiCao.md) [Bruno Ribeiro](../Authors/overseas/BrunoRibeiro.md) [James Zou](../Authors/overseas/JamesZou.md) [Jure Leskovec](../Authors/overseas/JureLeskovec.md)
 
 #Unread
 
@@ -119,6 +123,7 @@ OODグラフ学習で複数の分布シフト要因を分解的に扱うため�
 
 ### 2024
 #### [Node-wise Filtering in Graph Neural Networks: A Mixture of Experts Approach](https://arxiv.org/abs/2406.03464)
+[Haoyu Han](../Authors/overseas/HaoyuHan.md) [Juanhui Li](../Authors/overseas/JuanhuiLi.md) [Wei Huang](../Authors/overseas/WeiHuang.md) [Xianfeng Tang](../Authors/overseas/XianfengTang.md) [Hanqing Lu](../Authors/overseas/HanqingLu.md) [Chen Luo](../Authors/overseas/ChenLuo.md) [Hui Liu](../Authors/overseas/HuiLiu.md) [Jiliang Tang](../Authors/overseas/JiliangTang.md)
 
 #Unread
 
@@ -126,6 +131,7 @@ OODグラフ学習で複数の分布シフト要因を分解的に扱うため�
 
 ### 2026
 #### [Diverse and Sparse Mixture-of-Experts for Causal Subgraph-Based Out-of-Distribution Graph Learning](https://openreview.net/forum?id=4XVczusV2K)
+[Jerry Sun](../Authors/overseas/JerrySun.md) [Mohamed Abubakr Hassan](../Authors/overseas/MohamedAbubakrHassan.md) [Yaoyu Zhang](../Authors/overseas/YaoyuZhang.md) [Wanying Zhang](../Authors/overseas/WanyingZhang.md) [Chi-Guhn Lee](../Authors/overseas/ChiGuhnLee.md)
 
 #Unread
 

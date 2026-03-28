@@ -24,6 +24,7 @@
 [Tessera Kale-ab Abebe](../Authors/overseas/TesseraKaleabAbebe.md)
 
 #### [Mixture of Experts in a Mixture of RL settings](https://arxiv.org/abs/2406.18420)
+[Timon Willi](../Authors/overseas/TimonWilli.md) [Johan Obando-Ceron](../Authors/overseas/JohanObandoCeron.md) [Jakob Foerster](../Authors/overseas/JakobNFoerster.md) [Karolina Dziugaite](../Authors/overseas/KarolinaDziugaite.md) [Pablo Samuel Castro](../Authors/overseas/PabloSamuelCastro.md)
 
 #Unread
 
