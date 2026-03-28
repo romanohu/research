@@ -9,4 +9,6 @@
 ## [勉強](04_study/index.md)
 とにかくやるしかない2
 
+---
+
 > [repo](https://github.com/romanohu/research)
