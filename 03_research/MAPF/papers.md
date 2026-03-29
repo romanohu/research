@@ -8,6 +8,9 @@
 - [Improved Heuristics for Multi-Agent Path Finding with Conflict-Based Search(2019)](#improved-heuristics-for-multi-agent-path-finding-with-conflict-based-search2019)
 - [Searching with Consistent Prioritization for Multi-Agent Path Finding(2019)](#searching-with-consistent-prioritization-for-multi-agent-path-finding2019)
 - [Cooperative Pathfinding based on Memory-Efficient Multi-Agent RRT*(2020)](#cooperative-pathfinding-based-on-memory-efficient-multi-agent-rrt2020)
+- [Lifelong Multi-Agent Path Finding for Online Pickup and Delivery Tasks(2017)](#lifelong-multi-agent-path-finding-for-online-pickup-and-delivery-tasks2017)
+- [Task and Path Planning for Multi-Agent Pickup and Delivery(2019)](#task-and-path-planning-for-multi-agent-pickup-and-delivery2019)
+- [Lifelong Path Planning with Kinematic Constraints for Multi-Agent Pickup and Delivery(2019)](#lifelong-path-planning-with-kinematic-constraints-for-multi-agent-pickup-and-delivery2019)
 - [Lifelong Multi-Agent Path Finding in Large-Scale Warehouses(2021)](#lifelong-multi-agent-path-finding-in-large-scale-warehouses2021)
 - [EECBS: A Bounded-Suboptimal Search for Multi-Agent Path Finding(2021)](#eecbs-a-bounded-suboptimal-search-for-multi-agent-path-finding2021)
 - [MAPF-LNS2: Fast Repairing for Multi-Agent Path Finding via Large Neighborhood Search(2022)](#mapf-lns2-fast-repairing-for-multi-agent-path-finding-via-large-neighborhood-search2022)
@@ -15,6 +18,9 @@
 - [Improving LaCAM for Scalable Eventually Optimal Multi-Agent Pathfinding(2023)](#improving-lacam-for-scalable-eventually-optimal-multi-agent-pathfinding)
 - [Double-Deck Multi-Agent Pickup and Delivery: Multi-Robot Rearrangement in Large-Scale Warehouses(2023)](#double-deck-multi-agent-pickup-and-delivery-multi-robot-rearrangement-in-large-scale-warehouses2023)
 - [Traffic Flow Optimisation for Lifelong Multi-Agent Path Finding(2024)](#traffic-flow-optimisation-for-lifelong-multi-agent-path-finding2024)
+- [Task assignment strategies for capacitated agents engaged in lifelong pickup and delivery tasks(2025)](#task-assignment-strategies-for-capacitated-agents-engaged-in-lifelong-pickup-and-delivery-tasks2025)
+- [Improvement of PIBT-based Solution Method for Lifelong MAPD Problems to Extend Applicable Graphs(2025)](#improvement-of-pibt-based-solution-method-for-lifelong-mapd-problems-to-extend-applicable-graphs2025)
+- [Prioritized Path Planning for Multi-agent Pickup and Delivery with Multi-item Packing Problem(2025)](#prioritized-path-planning-for-multi-agent-pickup-and-delivery-with-multi-item-packing-problem2025)
 
 ## Solver(machine learning)
 - [Message-Aware Graph Attention Networks for Large-Scale Multi-Robot Path Planning](#message-aware-graph-attention-networks-for-large-scale-multi-robot-path-planning)
@@ -63,6 +69,12 @@ MAPFを連続空間サンプリング系に拡張した初期代表で，RRT*を
 
 局所衝突のみを二分木の制約として追加し，高レベルで制約木探索，低レベルで各エージェントの最短経路を計算するCBSを提案．衝突が少ないインスタンスで従来最適ソルバより桁違いに高速かつ最適性を保証する．
 
+### 2017
+#### [Lifelong Multi-Agent Path Finding for Online Pickup and Delivery Tasks(2017)](https://arxiv.org/abs/1705.10868)
+#Unread
+
+オンライン到着する搬送要求を扱うMAPDを定式化し，Token Passing（TP）とToken Passing with Task Swaps（TPTS）で継続運用時の割当と経路計画を同時に扱う基礎研究である．MAPFからMAPDへの拡張で何が難しくなるかを明確化し，大規模倉庫設定でのスループット比較を通じて有効性を示す一方，最適性保証と高密度時の性能劣化が論点として残る．
+
 ### 2019
 #### [Priority Inheritance with Backtracking for Iterative Multi-agent Path Finding(2019)](https://arxiv.org/abs/1901.11282)
 [奥村圭佑](../Authors/japanese/KeisukeOkumura.md) [Manao Machida](../Authors/overseas/ManaoMachida.md) [Xavier Défago](../Authors/overseas/XavierDefago.md) [Yasumasa Tamura](../Authors/overseas/YasumasaTamura.md)
@@ -94,6 +106,16 @@ CBS高レベル探索のために依存グラフに基づく情報量の高い�
 #Unread
 
 MAPFの問題定義，目的関数，古典解法の系統を短く統一整理した概説で，分野全体の共通土台を与える点に価値がある．不完全法から最適法までを定義差分とともに比較し，研究参入時の用語整備に有用だが，近年の学習系や実環境制約までの網羅は限定的で更新的サーベイと併読が前提となる．
+
+#### [Task and Path Planning for Multi-Agent Pickup and Delivery(2019)](https://par.nsf.gov/biblio/10107498-task-path-planning-multi-agent-pickup-delivery)
+#Unread
+
+MAPDにおいてタスク割当と経路計画を分離せず統合的に最適化する枠組みを提示し，割当の局所最適が全体渋滞を誘発する問題を抑える点が新規性である．倉庫型ベンチマークで完了タスク数や遅延指標の改善を示す一方，厳密最適より実用性能を重視した設計のため理論保証の範囲が限定される点が議論点となる．
+
+#### [Lifelong Path Planning with Kinematic Constraints for Multi-Agent Pickup and Delivery(2019)](https://idm-lab.org/bib/abstracts/Koen19m.html)
+#Unread
+
+連続時間と速度・旋回などの運動学制約を含むlifelong MAPDを扱うため，SIPPwRTを組み込んだTP系アルゴリズムへ拡張した研究である．離散グリッド前提を超えて実機に近い制約下での計画を可能にし，実運用寄りシナリオで有効性を示す一方，計算コスト増と制約モデル依存のチューニングが課題として残る．
 
 ### 2020
 #### [Cooperative Pathfinding based on Memory-Efficient Multi-Agent RRT*(2020)](https://doi.org/10.1109/ACCESS.2020.3023200)
@@ -264,6 +286,21 @@ How can ML enhance the fault tolerance of MAPF systems?
 #Unread
 
 LNS2の破壊・修復ループにMARLを統合し，再計画の局所戦略を学習的に最適化することで品質と速度の両立を狙った手法である．探索ベースの堅牢性を維持しつつ難所で学習方策を活用し，複数マップで改善を示す一方，訓練コストと設定依存性が導入障壁として残る．
+
+#### [Task assignment strategies for capacitated agents engaged in lifelong pickup and delivery tasks(2025)](https://doi.org/10.1016/j.knosys.2025.114281)
+#Unread
+
+容量制約を持つ搬送ロボットのlifelong MAPDに対して，割当戦略の違いが搬送効率へ与える影響を体系比較した研究である．単純な最短距離割当では生じる偏りを抑え，タスク完了率と遅延のバランス改善を実験で示しているが，環境構造や需要分布が変わる際の汎化性能が今後の論点となる．
+
+#### [Improvement of PIBT-based Solution Method for Lifelong MAPD Problems to Extend Applicable Graphs(2025)](https://doi.org/10.5220/0013243800003890)
+#Unread
+
+PIBT系のlifelong MAPDソルバにswap操作を導入して，従来は解けなかったグラフ構造まで適用範囲を拡張した改良手法である．行き詰まり状態の解消能力を高めて実行可能性を改善する実験結果を示す一方，swapの発動条件と局所探索コストが性能を左右するため設定依存性の整理が課題として残る．
+
+#### [Prioritized Path Planning for Multi-agent Pickup and Delivery with Multi-item Packing Problem(2025)](https://doi.org/10.1007/978-3-032-07638-0_8)
+#Unread
+
+MAPDに複数アイテム同時積載（MAPD-MP）を導入し，搬送状態を含めた優先度付き経路計画で実務的な倉庫運用を近似した研究である．単一荷物前提よりタスク効率を高める拡張を示す一方，積載制約と経路混雑の相互作用で探索空間が増大するため，スケーラブルな優先度更新則が継続課題となる．
 
 #### [Graph Attention-Guided Search for Dense Multi-Agent Pathfinding](https://arxiv.org/abs/2510.17382)
 [Rishabh Jain](../Authors/overseas/RishabhJain.md) [奥村圭佑](../Authors/japanese/KeisukeOkumura.md) [Michael Amir](../Authors/overseas/MichaelAmir.md) [Amanda Prorok](../Authors/overseas/AmandaProrok.md)
