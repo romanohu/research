@@ -9,6 +9,16 @@
     - 面白い
 - [mapf.info](https://mapf.info/index.php/Main/HomePage)
      - MAPFの文献やチュートリアル、会議情報が載っている
+- [mapf.info Publications](https://mapf.info/index.php/Main/Publications)
+    - MAPF関連論文の一覧とBibTeXがまとまっている
+- [mapf.info Tutorials](https://mapf.info/index.php/Main/Tutorials)
+    - MAPF概要資料とチュートリアル動画の導線
+- [MovingAI MAPF Benchmarks](https://movingai.com/benchmarks/mapf/index.html)
+    - MAPF標準ベンチマーク（マップ・シナリオ）
+- [League of Robot Runners](https://leagueofrobotrunners.org/)
+    - MAPF実践寄りの競技サイト
 - [OMRON：機械学習を活用した経路計画技術](https://www.omron.com/jp/ja/technology/omrontechnics/2021/20211119-taniai-yonetani.html)
+- [Sven Koenig: MAPF Talk (ICAPS 2022)](https://www.youtube.com/watch?v=BX4U5B_vx5c)
+    - mapf.infoのTutorialsページで紹介されている講演動画
 - [論文](papers.md)
 - [用語リスト](words)

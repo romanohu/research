@@ -28,6 +28,9 @@
 
 ## Obstacle Relocation Plan
 - [From Agent Centric to Obstacle Centric Planning: A Makespan-OptimalAlgorithm for the Multi-Agent Warehouse Rearrangement Problem(2025)](#from-agent-centric-to-obstacle-centric-planning-a-makespan-optimalalgorithm-for-the-multi-agent-warehouse-rearrangement-problem)
+- [Conflict-Based Search and Prioritized Planning for Multi-Agent Path Finding Among Movable Obstacles(2025)](#conflict-based-search-and-prioritized-planning-for-multi-agent-path-finding-among-movable-obstacles2025)
+- [Cooperative Multi-Robot Path Finding with Removable Obstacles for Autonomous Environment Modification(2025)](#cooperative-multi-robot-path-finding-with-removable-obstacles-for-autonomous-environment-modification2025)
+- [Imagine All Objects Are Robots: A Multi-Agent Pathfinding Perspective on Manipulation Among Movable Objects(2023)](#imagine-all-objects-are-robots-a-multi-agent-pathfinding-perspective-on-manipulation-among-movable-objects2023)
 
 ## サーベイ
 - [Multi-Agent Path Finding - An Overview(2019)](#multi-agent-path-finding---an-overview2019)
@@ -180,6 +183,11 @@ SAT/SMT/CSP/MIPなどへの問題コンパイル系MAPFを体系化し，探索�
 
 棚の持ち上げ・再配置を含むDD-MAPDを新たに定式化し，MAPFとMAPDを分解的に連携させるMAPF-DECOMPを提案した．障害物配置そのものを変える倉庫再編を扱える点が新規性で，千棚規模で高品質解を短時間生成できることを示したが，完全性保証はwell-formed条件に依存するため一般条件での理論保証が今後の課題である．
 
+#### [Imagine All Objects Are Robots: A Multi-Agent Pathfinding Perspective on Manipulation Among Movable Objects(2023)](https://www.ri.cmu.edu/app/uploads/2023/09/Paper_11.pdf)
+#Unread
+
+Manipulation Among Movable ObjectsをMAPF視点へ写像し，可動物体を「仮想エージェント」とみなして再配置計画を行うM4Mを提案する．MAPFレイヤで再配置順序を探索しつつ，物理シミュレーションを伴うアーム動作計画を分離して反復する設計で，障害物再配置を伴う計画の計算負荷を抑えながら実ロボット評価まで示している点が新しい．
+
 ### 2024
 #### [MAPF-GPT: Imitation Learning for Multi-Agent Pathfinding at Scale](https://arxiv.org/abs/2409.00134)
 [Anton Andreychuk](../Authors/overseas/AntonAndreychuk.md) [Konstantin Yakovlev](../Authors/overseas/KonstantinYakovlev.md) [Aleksandr Panov](../Authors/overseas/AleksandrPanov.md) [Alexey Skrynnik](../Authors/overseas/AlexeySkrynnik.md)
@@ -270,6 +278,16 @@ MAGAT+の事前学習としてlacam3が生成した準最適軌道を模倣学�
 
 #### [From Agent Centric to Obstacle Centric Planning: A Makespan-OptimalAlgorithm for the Multi-Agent Warehouse Rearrangement Problem](https://ojs.aaai.org/index.php/SOCS/article/view/35985/38140)
 [Yaakov Sherma](../Authors/overseas/YaakovSherma.md) [Eyal Weiss](../Authors/overseas/EyalWeiss.md) [Oren Salzman](../Authors/overseas/OrenSalzman.md)
+
+#### [Conflict-Based Search and Prioritized Planning for Multi-Agent Path Finding Among Movable Obstacles(2025)](https://arxiv.org/abs/2509.26050)
+#Unread
+
+M-PAMO（可動障害物付きMAPF）を定式化し，CBSおよび優先度計画にPAMO*を統合した複数解法を比較検証している．従来MAPFの衝突解消だけでなく障害物移動の時空間相互作用を扱う点が本質であり，障害物再配置計画を伴うMAPFの基準系として有用だが，状態空間増大に対するスケーラビリティ改善が継続課題となる．
+
+#### [Cooperative Multi-Robot Path Finding with Removable Obstacles for Autonomous Environment Modification(2025)](https://doi.org/10.1109/IROS60139.2025.11246671)
+#Unread
+
+除去可能障害物を明示的に扱い，経路探索そのものに環境改変アクションを組み込む協調計画を提案したIROS論文である．障害物を避けるだけでなく必要に応じて除去して可到達性を高める実運用寄り設定を扱っており，倉庫や高密度環境におけるMAPF障害物再配置計画の応用方向を示す．
 
 #### [Where Paths Collide: A Comprehensive Survey of Classic and Learning-Based Multi-Agent Pathfinding(2025)](https://arxiv.org/abs/2505.19219)
 #Unread
