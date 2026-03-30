@@ -38,6 +38,9 @@
 - [Cooperative Multi-Robot Path Finding with Removable Obstacles for Autonomous Environment Modification(2025)](#cooperative-multi-robot-path-finding-with-removable-obstacles-for-autonomous-environment-modification2025)
 - [Imagine All Objects Are Robots: A Multi-Agent Pathfinding Perspective on Manipulation Among Movable Objects(2023)](#imagine-all-objects-are-robots-a-multi-agent-pathfinding-perspective-on-manipulation-among-movable-objects2023)
 
+## Collision Resolution
+
+
 ## サーベイ
 - [Multi-Agent Path Finding - An Overview(2019)](#multi-agent-path-finding---an-overview2019)
 - [Problem Compilation for Multi-Agent Path Finding: a Survey(2022)](#problem-compilation-for-multi-agent-path-finding-a-survey2022)

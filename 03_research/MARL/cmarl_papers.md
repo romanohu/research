@@ -9,9 +9,17 @@
 - [Birds of a Feather Flock Together: A Close Look at Cooperation Emergence via Multi-Agent RL](#birds-of-a-feather-flock-together-a-close-look-at-cooperation-emergence-via-multi-agent-rl)
 - [Learning Partner Selection Rules that Sustain Cooperation in Social Dilemmas with the Option of Opting Out(2024)](#learning-partner-selection-rules-that-sustain-cooperation-in-social-dilemmas-with-the-option-of-opting-out)
 
+## SD(Social Dilemmas)
+- [A multi-agent reinforcement learning model of common-pool resource appropriation(2017)](#a-multi-agent-reinforcement-learning-model-of-common-pool-resource-appropriation)
+- [Formal contracts mitigate social dilemmas in multi-agent reinforcement learning(2024)](#formal-contracts-mitigate-social-dilemmas-in-multi-agent-reinforcement-learning)
+- [Resolving social dilemmas with minimal reward transfer(2024)](#resolving-social-dilemmas-with-minimal-reward-transfer)
+
 ## SSD(Sequential Social Dilemmas)
 - **[Multi-agent Reinforcement Learning in Sequential Social Dilemmas(2017)](#multi-agent-reinforcement-learning-in-sequential-social-dilemmas)**
 - [Learning Reciprocity in Complex Sequential Social Dilemmas(2019)](#learning-reciprocity-in-complex-sequential-social-dilemmas)
+- [Inducing Cooperative behaviour in Sequential-Social dilemmas through Multi-Agent Reinforcement Learning using Status-Quo Loss(2020)](#inducing-cooperative-behaviour-in-sequential-social-dilemmas-through-multi-agent-reinforcement-learning-using-status-quo-loss)
+- [Exploring the Impact of Tunable Agents in Sequential Social Dilemmas(2021)](#exploring-the-impact-of-tunable-agents-in-sequential-social-dilemmas)
+- [Cooperative Foraging Behaviour Through Multi-Agent Reinforcement Learning with Graph-Based Communication(2023)](#cooperative-foraging-behaviour-through-multi-agent-reinforcement-learning-with-graph-based-communication)
 
 ## 内発的報酬(Intrinsic Reward)
 - **[Exploration by Random Network Distillation(2018)](#exploration-by-random-network-distillation)**
@@ -54,6 +62,10 @@
 #### Multiagent cooperation and competition with deep reinforcement learning
 [Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.md)
 Pongゲーム環境において、報酬設定pを操作することで、協力的/競争的な行動が創発する．また、固定方策AIを相手に学習するsingle-playerDQNよりも、固定方策AIを用いないmultiplayerDQNのほうが、より一般的でロバストな戦略が育つ．
+
+#### [A multi-agent reinforcement learning model of common-pool resource appropriation](https://arxiv.org/abs/1707.06600)
+Paper: NeurIPS 2017 (arXiv preprint)
+共有資源の過剰利用を伴う社会的ジレンマを部分観測Markov gameとして定式化し、独立に学習する複数エージェントがどの条件で協力・乱獲・格差へ収束するかを分析した研究．新規性は「資源動態」と「学習ダイナミクス」を同時に扱った点で、検証は資源再生率や環境難易度を変えたシミュレーション比較により行われ、独立学習だけでは持続的協力が崩れやすいという示唆が残る．
 
 ### 2018
 #### Maintaining cooperation in complex social dilemmas using deep reinforcement learning
@@ -145,6 +157,9 @@ $$
 
 #Unread
 
+#### [Inducing Cooperative behaviour in Sequential-Social dilemmas through Multi-Agent Reinforcement Learning using Status-Quo Loss](https://arxiv.org/abs/2001.05458)
+Paper: arXiv 2020
+SSDにおいて独立学習エージェントが短期利得に偏って協力崩壊しやすい問題に対し、現状からの急激な逸脱を抑えるStatus-Quo Lossを導入して協調安定化を狙う手法．追加損失で方策更新を制御する点が新規で、Gathering系環境で協力率や報酬を比較評価しており、損失重みの調整依存が残る点は今後の議論ポイント．
 
 
 ### 2021
@@ -171,6 +186,10 @@ MARL及びMADRLに関する包括的なサーベイ．メルポは、ゲーム�
 #Unread
 
 報酬関数をエピソードごとにランダム化し，獲得した多様な方策を事後に蒸留することで戦略のモード崩壊を防ぐ手法を提案．Matrix gamesや粒子環境で既存MARLより頑健な協調・競合戦略のレパートリを獲得．
+
+#### [Exploring the Impact of Tunable Agents in Sequential Social Dilemmas](https://arxiv.org/abs/2101.11967)
+Paper: AAMAS 2021 Extended Abstract / arXiv
+SSDで協力志向と利己志向を連続的に調整できるTunable Agentを導入し、独立に動くエージェント集団へ混在させたときの集団ダイナミクスを評価した研究．方策そのものではなく行動傾向パラメータを操作して社会的帰結を制御するのが新規点で、複数割合の混成実験で全体効率と公平性を測定している一方、環境依存の一般化は未解決．
 
 ### 2022
 #### [A Review of Cooperative Multi-Agent Deep Reinforcement Learning](https://arxiv.org/abs/1908.03963)
@@ -202,6 +221,10 @@ MARLが扱う課題の多くはNP困難問題に分類される．このサー�
 
 状態ごとに因果影響の重みを調整するSD-CICを導入し，他者への影響が大きい状況だけ追加報酬を与えることで過度な干渉を抑制．SMACやHanabiで標準CICより安定した協調を実現．
 
+#### [Cooperative Foraging Behaviour Through Multi-Agent Reinforcement Learning with Graph-Based Communication](https://openreview.net/forum?id=epzrEgNNSWL)
+Paper: EWRL 2023 (OpenReview)
+Sequential social dilemmasを対象に、エージェント間通信をグラフ構造で学習する枠組みを導入して協力的採餌行動を改善した研究．新規性は通信相手の選択と情報集約を同時学習する点で、SSDベンチマーク上で独立実行系ベースラインより協調指標を改善したが、通信コストやスケーリングの評価は今後の論点．
+
 ### 2024
 #### [MESA: Cooperative Meta-Exploration in Multi-Agent Learning through Exploiting State-Action Space Structure](https://arxiv.org/abs/2405.00902)
 [Zhicheng Zhang](../Authors/overseas/ZhichengZhang.md) [Yancheng Liang](../Authors/overseas/YanchengLiang.md) [Yi Wu](../Authors/overseas/YiWu.md) [Fei Fang](../Authors/overseas/FeiFang.md)
@@ -213,6 +236,14 @@ MARLが扱う課題の多くはNP困難問題に分類される．このサー�
 [Chin-Wing Leung](../Authors/overseas/ChinWingLeung.md) [Paolo Turrini](../Authors/overseas/PaoloTurrini.md)
 
 #Unread
+
+#### [Formal contracts mitigate social dilemmas in multi-agent reinforcement learning](https://link.springer.com/article/10.1007/s10458-024-09682-5)
+Paper: Autonomous Agents and Multi-Agent Systems (2024)
+社会的ジレンマにおいて、エージェント間に形式的契約を導入して逸脱行動を抑える制度設計をMARLに統合した研究．環境内インセンティブだけでなく契約遵守コストまで含めて学習させる点が新規で、複数の社会的ジレンマ設定で協力水準の改善を示す一方、契約仕様を誰がどう設計するかは実運用上の未解決課題として残る．
+
+#### [Resolving social dilemmas with minimal reward transfer](https://link.springer.com/article/10.1007/s10458-024-09675-4)
+Paper: Autonomous Agents and Multi-Agent Systems (2024)
+エージェント間の報酬移転を最小限に抑えつつ協調均衡へ誘導するメカニズムを提案し、独立に報酬最大化する主体のまま社会的損失を減らせるかを検証した研究．新規性は必要最小移転量を明示的に最適化対象にした点で、標準的なジレンマ環境で効率と公平性のトレードオフを評価しているが、大規模連続制御への拡張は今後の課題．
 
 ### 2025
 #### [A Comprehensive Survey on Multi-Agent Cooperative Decision-Making: Scenarios, Approaches, Challenges and Perspectives](https://arxiv.org/abs/2503.13415)
