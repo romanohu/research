@@ -11,6 +11,7 @@
 
 ## SD(Social Dilemmas)
 - [A multi-agent reinforcement learning model of common-pool resource appropriation(2017)](#a-multi-agent-reinforcement-learning-model-of-common-pool-resource-appropriation)
+- [Learning Partner Selection Rules that Sustain Cooperation in Social Dilemmas with the Option of Opting Out(2024)](https://www.ifaamas.org/Proceedings/aamas2024/pdfs/p1110.pdf)
 - [Formal contracts mitigate social dilemmas in multi-agent reinforcement learning(2024)](#formal-contracts-mitigate-social-dilemmas-in-multi-agent-reinforcement-learning)
 - [Resolving social dilemmas with minimal reward transfer(2024)](#resolving-social-dilemmas-with-minimal-reward-transfer)
 
@@ -244,6 +245,11 @@ Paper: Autonomous Agents and Multi-Agent Systems (2024)
 #### [Resolving social dilemmas with minimal reward transfer](https://link.springer.com/article/10.1007/s10458-024-09675-4)
 Paper: Autonomous Agents and Multi-Agent Systems (2024)
 エージェント間の報酬移転を最小限に抑えつつ協調均衡へ誘導するメカニズムを提案し、独立に報酬最大化する主体のまま社会的損失を減らせるかを検証した研究．新規性は必要最小移転量を明示的に最適化対象にした点で、標準的なジレンマ環境で効率と公平性のトレードオフを評価しているが、大規模連続制御への拡張は今後の課題．
+
+#### [Learning Partner Selection Rules that Sustain Cooperation in Social Dilemmas with the Option of Opting Out](https://www.ifaamas.org/Proceedings/aamas2024/pdfs/p1110.pdf)
+Paper: AAMAS 2024, Chin-wing Leung, Paolo Turrini
+
+繰り返しPDに「opting out（関係解消して再マッチ）」を入れた社会的ジレンマで，行動選択とパートナー選択規則を同時に学習させた研究．新規性は，Out-for-Tatのような規則を事前固定せずに協調維持ルールが創発する点で，手法はMulti-agent Q-learning（Boltzmann探索）による集団シミュレーション，検証は協調率と戦略分布の遷移で行う．議論点として，観測情報が極端に限定される設定から現実的な不完全観測へ拡張したときの頑健性が残る．
 
 ### 2025
 #### [A Comprehensive Survey on Multi-Agent Cooperative Decision-Making: Scenarios, Approaches, Challenges and Perspectives](https://arxiv.org/abs/2503.13415)
