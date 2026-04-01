@@ -10,3 +10,6 @@ Yali Du は King’s College London の Senior Lecturer (Associate Professor) �
 ## 論文
 ### 2023
 - [A Review of Cooperation in Multi-agent Learning](../../MARL/cmarl_papers.md#a-review-of-cooperation-in-multi-agent-learning)
+
+### 2024
+- [Resolving social dilemmas with minimal reward transfer](../../MARL/cmarl_papers.md#resolving-social-dilemmas-with-minimal-reward-transfer)

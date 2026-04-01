@@ -40,18 +40,21 @@
 
 ### 2025
 #### [Investigating the impact of direct punishment on the emergence of cooperation in multi-agent reinforcement learning systems](https://doi.org/10.1007/s10458-025-09698-5)
+[Nayana Dasgupta](../Authors/overseas/NayanaDasgupta.md) [Mirco Musolesi](../Authors/overseas/MircoMusolesi.md)
 Paper: Autonomous Agents and Multi-Agent Systems (Springer), 2025, Anastassacos et al.
 
 MARL社会的ジレンマにおいて，直接罰・第三者罰・評判・パートナー選択が協調創発へ与える寄与を比較した研究．新規性は単一メカニズム評価ではなく制度設計の組み合わせ効果を同一枠組みで検証した点で，手法は反復ゲーム環境での強化学習エージェント比較実験，検証は協調率と社会厚生の時系列評価が中心．未解決論点は，罰のコスト設定や情報可視性の違いで得られる結論の外的妥当性である．
 
 ### 2021
 #### [Cooperation and Reputation Dynamics with Reinforcement Learning](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p115.pdf)
+[Julian Garcia](../Authors/overseas/JulianGarcia.md) [Nicolas Anastassacos](../Authors/overseas/NicolasAnastassacos.md) [Stephen Hailes](../Authors/overseas/StephenHailes.md) [Mirco Musolesi](../Authors/overseas/MircoMusolesi.md)
 Paper: AAMAS 2021, Julian García, Nicolas Anastassacos, Stephen Hailes, Mirco Musolesi
 
 評判形成が協調維持に効く条件を，MARLエージェントが社会規範を学習する過程として分析した研究．新規性は「評判メカニズム自体の学習ダイナミクス」に踏み込んだ点で，手法は社会的ジレンマ設定でのRLシミュレーションと規範パターン解析，検証は協調率・評判信号の安定性・制度条件比較で行う．論点は，評判ノイズや誤報が大きい環境での制度脆弱性と，partner selectionとの相互依存の切り分けである．
 
 ### 2020
 #### [Partner Selection for the Emergence of Cooperation in Multi-Agent Systems Using Reinforcement Learning](https://arxiv.org/abs/1902.03185)
+[Nicolas Anastassacos](../Authors/overseas/NicolasAnastassacos.md) [Stephen Hailes](../Authors/overseas/StephenHailes.md) [Mirco Musolesi](../Authors/overseas/MircoMusolesi.md)
 Paper: AAAI 2020, Nicolas Anastassacos, Stephen Hailes, Mirco Musolesi
 
 社会的ジレンマにおける協調創発を，行動選択に加えて「誰と相互作用するか」を学習対象に含めて検証した基盤研究．新規性は，自己利得最大化エージェントでもパートナーセレクション機構により協調クラスタが形成されうることを示した点で，手法は反復PD系設定でのMARL（行動＋相手選択の二重意思決定）である．検証は協調率・報酬分布・選択行動の推移で実施し，未解決点はスケール拡大時や部分観測下での再現性にある．

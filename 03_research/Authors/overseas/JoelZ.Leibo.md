@@ -1,5 +1,12 @@
 # Joel Z. Leibo
 
+
+Joel Z. Leibo は関連論文の著者として確認できる研究者。([source](https://arxiv.org/abs/1707.06600))
+
+## 調査
+- 主要研究領域: 対象論文に基づくと MARL / social dilemmas 関連。([source](https://arxiv.org/abs/1707.06600))
+- 身元確認: 名前ベースの追加調査中（同姓同名の可能性あり）。
+
 ## 論文
 ### 2017
 - [Multi-agent Reinforcement Learning in Sequential Social Dilemmas](../../MARL/cmarl_papers.md#multi-agent-reinforcement-learning-in-sequential-social-dilemmas)
@@ -22,3 +29,7 @@
 
 ### 2023
 - [A Review of Cooperation in Multi-agent Learning](../../MARL/cmarl_papers.md#a-review-of-cooperation-in-multi-agent-learning)
+
+- [A multi-agent reinforcement learning model of common-pool resource appropriation](../../MARL/cmarl_papers.md#a-multi-agent-reinforcement-learning-model-of-common-pool-resource-appropriation)
+### 2024
+- [Resolving social dilemmas with minimal reward transfer](../../MARL/cmarl_papers.md#resolving-social-dilemmas-with-minimal-reward-transfer)
