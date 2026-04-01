@@ -8,12 +8,18 @@
 - [The Surprising Effectiveness of PPO in Cooperative, Multi-Agent Games(2021)](#the-surprising-effectiveness-of-ppo-in-cooperative-multi-agent-games)
 - [Birds of a Feather Flock Together: A Close Look at Cooperation Emergence via Multi-Agent RL](#birds-of-a-feather-flock-together-a-close-look-at-cooperation-emergence-via-multi-agent-rl)
 - [Learning Partner Selection Rules that Sustain Cooperation in Social Dilemmas with the Option of Opting Out(2024)](#learning-partner-selection-rules-that-sustain-cooperation-in-social-dilemmas-with-the-option-of-opting-out)
+- [Bottom-Up Reputation Promotes Cooperation with Multi-Agent Reinforcement Learning(2025)](https://www.ifaamas.org/Proceedings/aamas2025/pdfs/p1745.pdf)
+- [Reputation-Filtered Reward Reshaping: Encouraging Cooperation in High-Dimensional Semi-Cooperative Multi-agent Settings(2025)](https://www.ifaamas.org/Proceedings/aamas2025/pdfs/p1736.pdf)
+- [Achieving collective welfare in multi-agent reinforcement learning via suggestion sharing(2025)](https://link.springer.com/article/10.1007/s10994-025-06823-z)
 
 ## SD(Social Dilemmas)
 - [A multi-agent reinforcement learning model of common-pool resource appropriation(2017)](#a-multi-agent-reinforcement-learning-model-of-common-pool-resource-appropriation)
 - [Learning Partner Selection Rules that Sustain Cooperation in Social Dilemmas with the Option of Opting Out(2024)](https://www.ifaamas.org/Proceedings/aamas2024/pdfs/p1110.pdf)
 - [Formal contracts mitigate social dilemmas in multi-agent reinforcement learning(2024)](#formal-contracts-mitigate-social-dilemmas-in-multi-agent-reinforcement-learning)
 - [Resolving social dilemmas with minimal reward transfer(2024)](#resolving-social-dilemmas-with-minimal-reward-transfer)
+- [Multi-agent Reinforcement Learning in the All-or-Nothing Public Goods game on Networks(2025)](https://www.ifaamas.org/Proceedings/aamas2025/pdfs/p1492.pdf)
+- [Evolutionary multi-agent reinforcement learning in group social dilemmas(2025)](https://doi.org/10.1063/5.0246332)
+- [Defection at First Sight: Learning Partner Selection in Optional Social Dilemmas without Prior Information(2026)](https://openreview.net/forum?id=yGPJMcNPSI)
 
 ## SSD(Sequential Social Dilemmas)
 - **[Multi-agent Reinforcement Learning in Sequential Social Dilemmas(2017)](#multi-agent-reinforcement-learning-in-sequential-social-dilemmas)**
@@ -21,6 +27,8 @@
 - [Inducing Cooperative behaviour in Sequential-Social dilemmas through Multi-Agent Reinforcement Learning using Status-Quo Loss(2020)](#inducing-cooperative-behaviour-in-sequential-social-dilemmas-through-multi-agent-reinforcement-learning-using-status-quo-loss)
 - [Exploring the Impact of Tunable Agents in Sequential Social Dilemmas(2021)](#exploring-the-impact-of-tunable-agents-in-sequential-social-dilemmas)
 - [Cooperative Foraging Behaviour Through Multi-Agent Reinforcement Learning with Graph-Based Communication(2023)](#cooperative-foraging-behaviour-through-multi-agent-reinforcement-learning-with-graph-based-communication)
+- [Learning Optimal "Pigovian Tax" in Sequential Social Dilemmas(2023)](https://openreview.net/forum?id=zbO1OOEKey)
+- [Environment Complexity and Nash Equilibria in a Sequential Social Dilemma(2024)](https://openreview.net/forum?id=Re59h4ew9o)
 
 ## 内発的報酬(Intrinsic Reward)
 - **[Exploration by Random Network Distillation(2018)](#exploration-by-random-network-distillation)**
@@ -226,6 +234,10 @@ MARLが扱う課題の多くはNP困難問題に分類される．このサー�
 Paper: EWRL 2023 (OpenReview)
 Sequential social dilemmasを対象に、エージェント間通信をグラフ構造で学習する枠組みを導入して協力的採餌行動を改善した研究．新規性は通信相手の選択と情報集約を同時学習する点で、SSDベンチマーク上で独立実行系ベースラインより協調指標を改善したが、通信コストやスケーリングの評価は今後の論点．
 
+#### [Learning Optimal "Pigovian Tax" in Sequential Social Dilemmas](https://openreview.net/forum?id=zbO1OOEKey)
+Paper: CoRR 2023 / OpenReview, Yun Hua et al.
+SSDにおける外部性を経済学のPigovian Taxとして内部化し，自己利得追求で崩れやすい協調を回復することを狙った研究．新規性は，補助的なtax agentが税・補助の配分方策を学習して個別報酬を再整形する点で，Escape RoomとCleanupで社会厚生を既存法より改善している．一方で，税制設計を担う追加主体の情報要件や，制度が操作される場合の頑健性は未解決の論点として残る．
+
 ### 2024
 #### [MESA: Cooperative Meta-Exploration in Multi-Agent Learning through Exploiting State-Action Space Structure](https://arxiv.org/abs/2405.00902)
 [Zhicheng Zhang](../Authors/overseas/ZhichengZhang.md) [Yancheng Liang](../Authors/overseas/YanchengLiang.md) [Yi Wu](../Authors/overseas/YiWu.md) [Fei Fang](../Authors/overseas/FeiFang.md)
@@ -251,6 +263,10 @@ Paper: AAMAS 2024, Chin-wing Leung, Paolo Turrini
 
 繰り返しPDに「opting out（関係解消して再マッチ）」を入れた社会的ジレンマで，行動選択とパートナー選択規則を同時に学習させた研究．新規性は，Out-for-Tatのような規則を事前固定せずに協調維持ルールが創発する点で，手法はMulti-agent Q-learning（Boltzmann探索）による集団シミュレーション，検証は協調率と戦略分布の遷移で行う．議論点として，観測情報が極端に限定される設定から現実的な不完全観測へ拡張したときの頑健性が残る．
 
+#### [Environment Complexity and Nash Equilibria in a Sequential Social Dilemma](https://openreview.net/forum?id=Re59h4ew9o)
+Paper: EWRL17 2024 (OpenReview), Mustafa Yasir et al.
+一般和ゲームでのMARL協調が環境複雑性の増加でどう崩れるかを，SSD化したgridworld Stag Huntで検証した研究．新規性は，行列ゲームの社会的ジレンマを時空間的に拡張した設定で，均衡選択の変化を直接比較した点にあり，複雑化に伴って準最適なrisk-dominant戦略へ収束しやすいことを報告する．ただし，この傾向が他のSSDタスクやアルゴリズム群にも一般化するかは今後の検証課題である．
+
 ### 2025
 #### [A Comprehensive Survey on Multi-Agent Cooperative Decision-Making: Scenarios, Approaches, Challenges and Perspectives](https://arxiv.org/abs/2503.13415)
 [Weiqiang Jin](../Authors/overseas/WeiqiangJin.md) [Hongyang Du](../Authors/overseas/HongyangDu.md) [Biao Zhao](../Authors/overseas/BiaoZhao.md) [Xingwu Tian](../Authors/overseas/XingwuTian.md) [Bohang Shi](../Authors/overseas/BohangShi.md) [Guang Yang](../Authors/overseas/GuangYang.md)
@@ -275,6 +291,26 @@ SSDに対するMARLの評価基盤として、SocialJaxという実装スイー�
 より具体的にはMeltingPotが持っているRGBピクセル観測は存在せず、11×11のグリッドで環境が構成されており、CNN等で「何が見えているか」を学習する必要は無い．
 > [サイト？](https://sites.google.com/view/socialjax/home)、[github](https://github.com/cooperativex/SocialJax)
 
+#### [Bottom-Up Reputation Promotes Cooperation with Multi-Agent Reinforcement Learning](https://www.ifaamas.org/Proceedings/aamas2025/pdfs/p1745.pdf)
+Paper: AAMAS 2025, Tianyu Ren et al.
+社会的ジレンマで評判メカニズムを使って協調を維持するMARL研究で，既存の事前定義ノルム依存を避けるためにbottom-upな評判学習（LR2）を導入している．新規性は，dilemma policyとevaluation policyの二方策で評判付与と行動選択を同時学習し，中央集権や固定規範なしに局所観測のみで報酬再整形する点にある．空間的社会的ジレンマで協調安定化と戦略クラスタリングを示す一方，偏った社会情報やノイズ下での頑健性は引き続き重要な検討点である．
+
+#### [Reputation-Filtered Reward Reshaping: Encouraging Cooperation in High-Dimensional Semi-Cooperative Multi-agent Settings](https://www.ifaamas.org/Proceedings/aamas2025/pdfs/p1736.pdf)
+Paper: AAMAS 2025, Hassan Raissouni et al.
+半協調環境で「全員と等価に協力する」非効率を避けるため，評判フィルタと報酬再整形を組み合わせた協調促進手法を提案した研究．新規性は，信頼できる相手への寄与を強める仕組みと，観測空間内の密度に基づくPotential-Based Reward Shapingを統合した点で，PED-DQNやIndependent Q-Learnersとの比較で性能向上を報告している．ただし，評判推定の誤差が大きい設定やタスク分布が大きく変わる場合の転移性能は今後の論点である．
+
+#### [Multi-agent Reinforcement Learning in the All-or-Nothing Public Goods game on Networks](https://www.ifaamas.org/Proceedings/aamas2025/pdfs/p1492.pdf)
+Paper: AAMAS 2025, Benedikt Valentin Meylahn
+all-or-nothing型Public Goods Gameをネットワーク上のMARLとして扱い，信頼形成と協調崩壊の条件を解析した研究．新規性は，指数移動平均に基づく学習ルールで長時間極限の収束を理論化しつつ，複雑ネットワークでは収束前のメタ安定状態が実質的に持続しうる点を示したところにある．シミュレーションではネットワーク密度上昇で寄与率低下が観測される一方，深層方策や連続行動系への拡張可能性は今後の課題である．
+
+#### [Achieving collective welfare in multi-agent reinforcement learning via suggestion sharing](https://link.springer.com/article/10.1007/s10994-025-06823-z)
+Paper: Machine Learning 114, 190 (2025), Yue Jin et al.
+個別報酬下で社会厚生を高めるため，報酬や方策そのものではなく行動suggestionを交換して協調を誘導するSS法を提案した研究．新規性は，個人情報に近い内部信号共有を抑えつつ，理論的な下界に基づく最適化目的で集団目標と個別目標のずれを縮小する設計にある．Sequential social dilemmasやtragedy of the commonsを含む実験で既存の共有型手法と競合性能を示すが，通信遅延・誤報・敵対的提案がある設定での頑健性は未解決である．
+
+#### [Evolutionary multi-agent reinforcement learning in group social dilemmas](https://doi.org/10.1063/5.0246332)
+Paper: Chaos 35(2):023140 (2025), Brian Mintz, Feng Fu
+Public GoodsゲームにおけるQ-learning集団を対象に，進化圧と学習ダイナミクスを同時に扱って協調の創発条件を調べた研究．新規性は，進化ゲーム理論とMARLの中間的枠組みを構成し，シミュレーションと極限微分方程式の双方で探索率進化の相図を解析した点である．高探索・低探索の双方が選択される条件を示した一方，表現能力の高い関数近似器や非定常環境への一般化は今後の論点として残る．
+
 ### 2026
 #### [MULTI-AGENT DEEP REINFORCEMENT LEARNING UNDER CONSTRAINED COMMUNICATIONS](https://www.arxiv.org/abs/2601.17069)
 [Shahil Shaik](../Authors/overseas/ShahilShaik.md) [Jonathon M. Smereka](../Authors/overseas/JonathonMSmereka.md) [Yue Wang](../Authors/overseas/YueWang.md)
@@ -285,3 +321,7 @@ SSDに対するMARLの評価基盤として、SocialJaxという実装スイー�
 著者らは、グローバルな観測可能性に依存せず、局所観測と近傍間のピア・ツー・ピア通信のみで協調を学習する分散型MARLフレームワークDG-MAPPOを提案した．この手法の核となる**D-GATs（Distributed Graph Attention Networks）**は、GATv2と分散SGDを組み合わせたものであり、エージェントはマルチホップのメッセージパッシングを通じて、自身の局所観測からグローバルな状態表現を近似的に推定する．
 
 学習プロセスでは、各エージェントがD-GATsによる推定状態と自己の局所観測を統合し、共有報酬（平均報酬）をもとに独立して方策および価値関数を更新する．StarCraft II（SMAC）やGoogle Research Footballなどの複雑なタスクを用いた実験の結果、提案手法は中央集権的な機構を持つ従来のMAPPOやHAPPOと同等、あるいはそれらを上回る性能と一般化能力を示すことが実証された．
+
+#### [Defection at First Sight: Learning Partner Selection in Optional Social Dilemmas without Prior Information](https://openreview.net/forum?id=yGPJMcNPSI)
+Paper: AAMAS 2026 Full (OpenReview), Benedict Russell et al.
+全エージェントの過去行動が既知という仮定を外したoptional social dilemmaで，パートナー選択と協調創発をMARLで検証した研究．新規性は，対戦履歴長に依存する方策で初期情報なしの意思決定を扱い，固定的なトリガー機構なしに協調規則が学習されることを示した点にある．実験では初期defection（hazing period）からTit-for-Tat系やOut-for-Tat系へ遷移して協調維持に至る挙動を報告する一方，マッチング制度や観測欠損の変化に対する安定性評価は今後の課題である．
