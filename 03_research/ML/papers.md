@@ -12,13 +12,23 @@
 - [Graph Mixture of Experts: Learning on Large-Scale Graphs with Explicit Diversity Modeling(2023)](#graph-mixture-of-experts-learning-on-large-scale-graphs-with-explicit-diversity-modeling)
 - [GraphMETRO: Mitigating Complex Distribution Shifts in GNNs via Mixture of Aligned Experts(2023)](#graphmetro-mitigating-complex-distribution-shifts-in-gnns-via-mixture-of-aligned-experts)
 - [Node-wise Filtering in Graph Neural Networks: A Mixture of Experts Approach(2024)](#node-wise-filtering-in-graph-neural-networks-a-mixture-of-experts-approach)
+- [Mixture of Weak and Strong Experts on Graphs(2024)](#mixture-of-weak-and-strong-experts-on-graphs)
+- [Mixture of Decoupled Message Passing Experts with Entropy Constraint for General Node Classification(2025)](#mixture-of-decoupled-message-passing-experts-with-entropy-constraint-for-general-node-classification)
+- [MoLE-GNN: Parameter-Efficient Fine-Tuning of Graph Neural Networks with Mixture-of-Experts(2025)](#mole-gnn-parameter-efficient-fine-tuning-of-graph-neural-networks-with-mixture-of-experts)
 - [Diverse and Sparse Mixture-of-Experts for Causal Subgraph-Based Out-of-Distribution Graph Learning(2026)](#diverse-and-sparse-mixture-of-experts-for-causal-subgraph-based-out-of-distribution-graph-learning)
 
 ## GNN
+- [Neural Message Passing for Quantum Chemistry(2017)](#neural-message-passing-for-quantum-chemistry)
+- [Principal Neighbourhood Aggregation for Graph Nets(2020)](#principal-neighbourhood-aggregation-for-graph-nets)
+- [Learning How to Propagate Messages in Graph Neural Networks(2021)](#learning-how-to-propagate-messages-in-graph-neural-networks)
 - [GraphCast:Learning skillful medium-range global weather forecasting(2023)](#graphcastlearning-skillful-medium-range-global-weather-forecasting)
+- [Hierarchical message-passing graph neural networks(2023)](#hierarchical-message-passing-graph-neural-networks)
 - [Graph Mixture of Experts: Learning on Large-Scale Graphs with Explicit Diversity Modeling(2023)](#graph-mixture-of-experts-learning-on-large-scale-graphs-with-explicit-diversity-modeling)
 - [GraphMETRO: Mitigating Complex Distribution Shifts in GNNs via Mixture of Aligned Experts(2023)](#graphmetro-mitigating-complex-distribution-shifts-in-gnns-via-mixture-of-aligned-experts)
 - [Node-wise Filtering in Graph Neural Networks: A Mixture of Experts Approach(2024)](#node-wise-filtering-in-graph-neural-networks-a-mixture-of-experts-approach)
+- [Mixture of Weak and Strong Experts on Graphs(2024)](#mixture-of-weak-and-strong-experts-on-graphs)
+- [Mixture of Decoupled Message Passing Experts with Entropy Constraint for General Node Classification(2025)](#mixture-of-decoupled-message-passing-experts-with-entropy-constraint-for-general-node-classification)
+- [MoLE-GNN: Parameter-Efficient Fine-Tuning of Graph Neural Networks with Mixture-of-Experts(2025)](#mole-gnn-parameter-efficient-fine-tuning-of-graph-neural-networks-with-mixture-of-experts)
 - [Diverse and Sparse Mixture-of-Experts for Causal Subgraph-Based Out-of-Distribution Graph Learning(2026)](#diverse-and-sparse-mixture-of-experts-for-causal-subgraph-based-out-of-distribution-graph-learning)
 
 
@@ -50,6 +60,13 @@
 複数ソース言語のエンコーダを並列に持つNMTを重み付きアンサンブルする手法を比較し，ゲート付き線形結合が単一ソースや単純平均より有効で，独独→英などで最大+2.2 BLEU向上．マルチソース設定でMoE的な入力選択が有効であることを示した．
 
 ### 2017
+#### [Neural Message Passing for Quantum Chemistry](https://arxiv.org/abs/1704.01212)
+Justin Gilmer, Samuel S. Schoenholz, Patrick F. Riley, Oriol Vinyals, George E. Dahl
+
+#Unread
+
+メッセージ関数と更新関数を分離したMPNN枠組みを提示し，既存の分子グラフ向け手法を統一的に記述可能にした．量子化学ベンチマークで高精度を示し，核心は「エッジ特徴付きメッセージ設計」を一般化した点にある．開放論点は，タスク依存でmessage/update/readoutのどこが性能ボトルネックになるかをどう切り分けるかである．
+
 #### [Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer](https://arxiv.org/abs/1701.06538)
 [Noam Shazeer](../Authors/overseas/NoamShazeer.md) [Azalia Mirhoseini](../Authors/overseas/AzaliaMirhoseini.md) [Krzysztof Maziarz](../Authors/overseas/KrzysztofMaziarz.md) [Andy Davis](../Authors/overseas/AndyDavis.md) [Quoc Le](../Authors/overseas/QuocLe.md) [Geoffrey Hinton](../Authors/overseas/GeoffreyEHinton.md) [Jeff Dean](../Authors/overseas/JeffDean.md)
 
@@ -61,6 +78,13 @@
 
 
 ### 2020
+#### [Principal Neighbourhood Aggregation for Graph Nets](https://arxiv.org/abs/2004.05718)
+Gabriele Corso, Luca Cavalleri, Dominique Beaini, Pietro Lio, Petar Velickovic
+
+#Unread
+
+PNAは平均や最大など複数の集約器と次数スケーラを組み合わせ，連続特徴空間での識別力低下を補うmessage passing設計を提案する．分子回帰を中心とした評価でGIN系を上回る性能を報告し，noveltyは「次数統計を明示的に取り込む汎用集約ブロック」にある．今後の論点は，計算コスト増と表現力向上のトレードオフをどの程度許容するかである．
+
 #### [GShard: Scaling Giant Models with Conditional Computation and Automatic Sharding](https://arxiv.org/abs/2006.16668)
 [Dmitry Lepikhin](../Authors/overseas/DmitryLepikhin.md) [HyoukJoong Lee](../Authors/overseas/HyoukJoongLee.md) [Yuanzhong Xu](../Authors/overseas/YuanzhongXu.md) [Dehao Chen](../Authors/overseas/DehaoChen.md) [Orhan Firat](../Authors/overseas/OrhanFirat.md) [Yanping Huang](../Authors/overseas/YanpingHuang.md) [Maxim Krikun](../Authors/overseas/MaximKrikun.md) [Noam Shazeer](../Authors/overseas/NoamShazeer.md) [Zhifeng Chen](../Authors/overseas/ZhifengChen.md)
 
@@ -69,6 +93,13 @@
 XLA拡張と注釈APIで自動シャーディングを行うGShardを提案し，MoEを含む多言語Transformerを600B超にスケール．2048 TPU v3で4日学習し，100言語→英翻訳で従来を上回るBLEUを達成．条件付き計算とデータ／モデル並列を一貫した記述で両立させた．
 
 ### 2021
+#### [Learning How to Propagate Messages in Graph Neural Networks](https://doi.org/10.1145/3447548.3467451)
+Teng Xiao, Zhengyu Chen, Donglin Wang, Suhang Wang
+
+#Unread
+
+ノードごとに最適な伝播ステップを潜在変数として学習するLTPフレームワークを提案し，固定層数・固定k-hopの制約を緩和した．変分EMで伝播戦略と予測器を同時最適化し，複数ノード分類ベンチマークで精度向上を示す．主な論点は，推論時の計算コストと学習された伝播戦略の解釈可能性をどう両立するかである．
+
 #### [BASE Layers: Simplifying Training of Large, Sparse Models](https://proceedings.mlr.press/v139/lewis21a.html)
 [Mike Lewis](../Authors/overseas/MikeLewis.md) [Shruti Bhosale](../Authors/overseas/ShrutiBhosale.md) [Tim Dettmers](../Authors/overseas/TimDettmers.md) [Naman Goyal](../Authors/overseas/NamanGoyal.md) [Luke Zettlemoyer](../Authors/overseas/LukeZettlemoyer.md)
 
@@ -107,6 +138,13 @@ tokenがexpertを選ぶ従来のTop-k routerと逆に，expert側が受け取る
 
 GNNで全球0.25度格子の大気状態を6時間刻みでオートレグレッシブ予測するGraphCastを提案．DeepMindの実装は10日先までの227変数を60秒未満で生成し，ECMWF HRESを約89％の指標で上回る精度を示した．
 
+#### [Hierarchical message-passing graph neural networks](https://link.springer.com/article/10.1007/s10618-022-00890-9)
+Zhiqiang Zhong, Cheng-Te Li, Jun Pang
+
+#Unread
+
+階層的に構成したsuper graph間でbottom-up / within-level / top-downの3種類の伝播を行うHMGNNを提案し，長距離依存と高次近傍情報を同時に扱う．リンク予測・ノード分類・コミュニティ検出で既存flat message passingより高い性能を報告した．未解決点は，階層生成品質への依存が強く，構造化前処理の設計が性能を大きく左右する点である．
+
 #### [Graph Mixture of Experts: Learning on Large-Scale Graphs with Explicit Diversity Modeling](https://arxiv.org/abs/2304.02806)
 [Haotao Wang](../Authors/overseas/HaotaoWang.md) [Ziyu Jiang](../Authors/overseas/ZiyuJiang.md) [Yuning You](../Authors/overseas/YuningYou.md) [Yan Han](../Authors/overseas/YanHan.md) [Gaowen Liu](../Authors/overseas/GaowenLiu.md) [Jayanth Srinivasa](../Authors/overseas/JayanthSrinivasa.md) [Ramana Rao Kompella](../Authors/overseas/RamanaRaoKompella.md) [Zhangyang Wang](../Authors/overseas/ZhangyangWang.md)
 
@@ -122,12 +160,34 @@ GNNで全球0.25度格子の大気状態を6時間刻みでオートレグレッ
 OODグラフ学習で複数の分布シフト要因を分解的に扱うため，shift要因に整合したexpert群とゲートを組み合わせるGraphMETROを提案．複数ベンチマークで頑健性向上を示し，routerが何を条件にexpertを選ぶべきかを「ラベル予測」以外の目的（shift同定）で学習する設計が争点になる．
 
 ### 2024
+#### [Mixture of Weak and Strong Experts on Graphs](https://openreview.net/forum?id=wYvuY60SdD)
+Hanqing Zeng, Hanjia Lyu, Diyi Hu, Yinglong Xia, Jiebo Luo
+
+#Unread
+
+Mowstは弱いMLP expertと強いGNN expertをゲートで混合し，ノードごとに「自己特徴中心か隣接構造中心か」を切り替えるMoE設計を示す．homophilyとheterophilyが混在するデータで精度改善を示し，core methodは信頼度に基づくnode-wise routingである．議論点は，ゲートがデータ分布変化時に安定に機能するかと，expert間の役割分担が再現可能かである．
+
 #### [Node-wise Filtering in Graph Neural Networks: A Mixture of Experts Approach](https://arxiv.org/abs/2406.03464)
 [Haoyu Han](../Authors/overseas/HaoyuHan.md) [Juanhui Li](../Authors/overseas/JuanhuiLi.md) [Wei Huang](../Authors/overseas/WeiHuang.md) [Xianfeng Tang](../Authors/overseas/XianfengTang.md) [Hanqing Lu](../Authors/overseas/HanqingLu.md) [Chen Luo](../Authors/overseas/ChenLuo.md) [Hui Liu](../Authors/overseas/HuiLiu.md) [Jiliang Tang](../Authors/overseas/JiliangTang.md)
 
 #Unread
 
 ノードごとの局所構造差を吸収するため，複数のフィルタexpertからnode-wiseに選択するMoE型GNNを提案．ノード分類タスクで一様フィルタより高精度を報告し，routing単位をgraph全体でなくnode単位に細分化したときの計算コストと専門化のトレードオフを明確化している．
+
+### 2025
+#### [Mixture of Decoupled Message Passing Experts with Entropy Constraint for General Node Classification](https://openreview.net/forum?id=yVuxtcI8XO)
+Xuanze Chen, Jiajun Zhou, Jinsong Chen, Shanqing Yu, Qi Xuan
+
+#Unread
+
+異なるmessage passing演算を独立expertとして持ち，soft/hard gatingとエントロピー制約でノード単位の割当を学習するDecoupled MP-Expertsを提案する．複数のノード分類ベンチマークでhomophily/heterophily双方への汎化を検証し，noveltyはroutingの偏りを制御しつつexpert specializationを促す点にある．論点は，制約強度のチューニングがデータごとに必要で，実運用での頑健設定が難しいことである．
+
+#### [MoLE-GNN: Parameter-Efficient Fine-Tuning of Graph Neural Networks with Mixture-of-Experts](https://openreview.net/forum?id=MynAEqF9Nc)
+Shrimon Mukherjee, Madhusudan Ghosh, Partha Basuchowdhuri
+
+#Unread
+
+MoLE-GNNはadapterベースのPEFTとMoE routingを統合し，GNN全体を再学習せずに深さ感度に応じたexpert選択を可能にする．報告では総パラメータの約5.1%のみ更新して複数設定で既存PEFT法を上回る結果を示した．開放論点は，graphサイズ分布が大きく変わるタスクでrouting規則がどこまで転移可能かである．
 
 ### 2026
 #### [Diverse and Sparse Mixture-of-Experts for Causal Subgraph-Based Out-of-Distribution Graph Learning](https://openreview.net/forum?id=4XVczusV2K)
