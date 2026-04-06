@@ -25,3 +25,4 @@
 
 ## その他
 - [論文メモ](Others/index.md)
+- [逐次翻訳](translation/index.md)
