@@ -6,7 +6,7 @@ math: mathjax
 ---
 
 # 論文紹介
-klis3年 鈴木史麿
+klis4年 鈴木史麿
 
 ---
 
