@@ -135,8 +135,8 @@ f(x) &= x^2 + 2x + 1 \\
 \end{document}
 ```
 
-### 日本語のコンパイルを通しには
-```latexmkrc```というファイルを作り、以下を書き込む．texの設定はLatex．
+### 日本語のコンパイルを通すには
+latexmkrcというファイルを作り、以下を書き込む．texの設定はLatex．
 
 ```
 $latex = 'uplatex';
