@@ -137,6 +137,7 @@ f(x) &= x^2 + 2x + 1 \\
 
 ### 日本語のコンパイルを通しには
 ```latexmkrc```というファイルを作り、以下を書き込む．texの設定はLatex．
+
 ```
 $latex = 'uplatex';
 $bibtex = 'upbibtex';
@@ -147,10 +148,13 @@ $pdf_mode = 3;
 
 ### 2段組
 2列組にしたい場合は，documentclass を以下のように変更する
+
 ```
 \documentclass[a4paper,11pt,twocolumn]{article}
 ```
+
 または、
+
 ```
 \usepackage{multicol}
 
