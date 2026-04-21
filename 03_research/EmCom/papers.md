@@ -18,6 +18,7 @@
 ## サーベイ
 - [言語とコミュニケーションの創発に関する構成論的研究の展開(2024)](https://www.jstage.jst.go.jp/article/jcss/31/1/31_2023.073/_article/-char/ja/)
 - [Emergent language: a survey and taxonomy(2025)](#emergent-language-a-survey-and-taxonomy)
+- [The Five Ws of Multi-Agent Communication: Who Talks to Whom, When, What, and Why -- A Survey from MARL to Emergent Language and LLMs](#the-five-ws-of-multi-agent-communication-who-talks-to-whom-when-what-and-why----a-survey-from-marl-to-emergent-language-and-llms)
 
 ---
 
@@ -55,3 +56,7 @@ conceptゲームは、それに加えて教師と生徒が異なる入力を見�
 
 #### [Unsupervised Translation of Emergent Communication](https://arxiv.org/abs/2502.07552)
 [Ido Levy](../Authors/overseas/IdoLevy.md) [Orr Paradise](../Authors/overseas/OrrParadise.md) [Boaz Carmeli](../Authors/overseas/BoazCarmeli.md) [Ron Meir](../Authors/overseas/RonMeir.md) [Shafi Goldwasser](../Authors/overseas/ShafiGoldwasser.md) [Yonatan Belinkov](../Authors/overseas/YonatanBelinkov.md)
+
+
+### 2026
+#### [The Five Ws of Multi-Agent Communication: Who Talks to Whom, When, What, and Why -- A Survey from MARL to Emergent Language and LLMs](https://arxiv.org/abs/2602.11583)
