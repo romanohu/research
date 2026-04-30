@@ -1,0 +1,17 @@
+{
+  "name": "tmu-cs-marp-slides",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "html": "node scripts/build.mjs html",
+    "pdf": "node scripts/build.mjs pdf",
+    "pptx": "node scripts/build.mjs pptx",
+    "standalone": "node scripts/build.mjs standalone",
+
+    "new": "node scripts/new.mjs"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^4.3.1",
+    "marp-theme-tmu-cs": "github:taishi-n/marp-theme-tmu-cs"
+  }
+}
