@@ -1,0 +1,20 @@
+sample_factory/algo/learning/
+├── batcher.py
+│   receives complete rollouts
+│   copies them into training batches
+├── learner_worker.py
+│   learner process / event-loop wrapper
+├── learner.py
+│   PPO loss, V-trace, optimizer step
+└── rnn_utils.py
+    recurrent sequence packing helpers
+
+sample_factory/algo/utils/
+├── shared_buffers.py
+│   allocates trajectory and policy-output tensors
+├── model_sharing.py
+│   publishes latest weights to inference workers
+├── tensor_dict.py
+│   structured tensor container
+└── rl_utils.py / optimizers.py
+    common RL math and optimizer helpers

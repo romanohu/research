@@ -1,0 +1,16 @@
+sample_factory/
+├── train.py / enjoy.py / eval.py
+│     training, inference, evaluation entrypoints
+├── cfg/
+│     arguments.py, cfg.py
+│     CLI options and default configuration
+├── algo/
+│     reinforcement learning execution core
+├── model/
+│     actor_critic.py, encoder.py, decoder.py
+├── envs/
+│     create_env.py and environment wrappers
+├── launcher/
+│     multi-run and slurm launch helpers
+└── utils/
+      logging, timing, GPU, wandb helpers

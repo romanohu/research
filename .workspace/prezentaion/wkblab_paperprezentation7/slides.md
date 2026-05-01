@@ -4,11 +4,11 @@ theme: tmu-cs
 paginate: true
 math: mathjax
 
-title: "論文紹介タイトル"
-subtitle: "Paper Reading / Literature Review"
-author: "氏名"
-affiliation: "所属"
-date: "YYYY-MM-DD"
+title: "論文紹介"
+subtitle: "Sample Factory: Egocentric 3D Control from Pixels at 100000 FPS with Asynchronous Reinforcement Learning"
+author: "鈴木史麿"
+affiliation: "wkblab"
+date: "05-01"
 
 bibliography: references.bib
 
@@ -17,57 +17,9 @@ sectionPageLevel: 2
 tocPageMaxLevel: 2
 ---
 
-# 論文紹介
-
-## 論文タイトル
-
-著者名  
-会議・ジャーナル名, 年
-
-発表者：氏名  
-所属：所属名
-
----
-
 # 目次
 
 <!-- toc -->
-
----
-
-## 論文の基本情報
-
----
-
-### 紹介する論文
-
-| 項目 | 内容 |
-| :-- | :-- |
-| タイトル | 論文タイトル |
-| 著者 | 著者名 |
-| 発表年 | YYYY |
-| 掲載先 | Conference / Journal |
-| URL / DOI | URLまたはDOI |
-| 分野 | 例：自然言語処理、機械学習、HCI、セキュリティなど |
-
----
-
-### 一言でいうと
-
-> この論文は、**何の問題**に対して、**どのような方法**を提案し、**何を示した**研究である。
-
-例：
-
-> この論文は、既存手法では困難だった〇〇問題に対して、△△という手法を提案し、□□データセット上で有効性を示した研究である。
-
----
-
-### なぜこの論文を選んだか
-
-- 自分の研究テーマと関係があるため
-- 最近の重要会議で発表されたため
-- 提案手法が今後の研究に応用できそうなため
-- 実験設計や評価方法が参考になるため
 
 ---
 
@@ -75,339 +27,373 @@ tocPageMaxLevel: 2
 
 ---
 
-### 研究背景
-
-この分野では、〇〇という問題が重要である。
-
-- 背景1
-- 背景2
-- 背景3
-
-既存研究では、〇〇に対して複数のアプローチが提案されてきた [@example2024]。
-
----
-
-### 問題設定
-
-この論文が扱う問題は次の通りである。
-
-```text
-入力：ここに入力を書く
-出力：ここに出力を書く
-目的：ここに目的を書く
-```
-
-例：
-
-```text
-入力：ユーザの発話履歴
-出力：次に推薦すべきアイテム
-目的：ユーザの意図を反映した推薦精度を向上させる
-```
-
----
-
-### 既存手法の限界
-
-既存手法には、次のような課題がある。
-
-1. 課題1
-2. 課題2
-3. 課題3
-
-この論文は、特に **〇〇** という限界に着目している。
-
----
-
-### 論文の主張
-
-この論文の中心的な主張は次の通りである。
-
-> 提案手法により、従来手法よりも〇〇を改善できる。
-
-より具体的には、次の3点を示している。
-
-- 主張1
-- 主張2
-- 主張3
-
----
-
-## 提案手法
-
----
-
-### 提案手法の概要
-
-提案手法は、次の流れで構成される。
-
-```text
-入力データ
-  ↓
-前処理
-  ↓
-モデル / アルゴリズム
-  ↓
-出力
-  ↓
-評価
-```
-
----
-
-### 提案手法の全体像
-
-![width:900](figures/method-overview.png)
-
-図の説明：
-
-- 左側：入力
-- 中央：提案モデル
-- 右側：出力
-- 下部：学習または評価の流れ
-
----
-
-### 手法のポイント
-
-提案手法の重要なアイデアは次の3つである。
-
-1. **ポイント1**
-   - 説明を書く
-
-2. **ポイント2**
-   - 説明を書く
-
-3. **ポイント3**
-   - 説明を書く
-
----
-
-### 数式による定式化
-
-目的関数または主要な式は次のように表される。
-
-$$
-\mathcal{L}
-=
-\mathcal{L}_{task}
-+
-\lambda \mathcal{L}_{reg}
-$$
-
-ここで、
-
-- $\mathcal{L}_{task}$：主タスクの損失
-- $\mathcal{L}_{reg}$：正則化項
-- $\lambda$：重み係数
-
----
-
-### アルゴリズム
-
-```text
-Algorithm: Proposed Method
-
-Input:
-  - 入力データ X
-  - パラメータ θ
-
-Output:
-  - 予測結果 y
-
-Steps:
-  1. Xを前処理する
-  2. 特徴量を抽出する
-  3. モデルに入力する
-  4. 損失を計算する
-  5. パラメータを更新する
-  6. 予測結果を出力する
-```
-
----
-
-### 実装上の要点
-
-```python
-def proposed_method(x, model):
-    features = preprocess(x)
-    # [!annotate label="前処理" note="入力をモデルに適した形式へ変換する"]
-
-    output = model(features)
-    # [!annotate label="推論" note="提案モデルによる予測"]
-
-    return output
-```
-
----
-
-## 実験
-
----
-
-### Research Questions
-
-この論文では、主に次の問いを検証している。
-
-| RQ | 内容 |
-| :-- | :-- |
-| RQ1 | 提案手法は既存手法より性能が高いか |
-| RQ2 | 各コンポーネントは性能向上に寄与しているか |
-| RQ3 | 異なる条件でも有効か |
-| RQ4 | 計算コストは妥当か |
-
----
-
-### 実験設定
+### 論文
 
 | 項目 | 内容 |
 | :-- | :-- |
-| データセット | データセット名 |
-| 比較手法 | Baseline A, Baseline B, Proposed |
-| 評価指標 | Accuracy, F1, AUC, RMSEなど |
-| 実装 | フレームワーク、GPU、学習条件など |
-| ハイパーパラメータ | learning rate, batch size, epochなど |
+| タイトル | Sample Factory: Egocentric 3D Control from Pixels at 100000 FPS with Asynchronous Reinforcement Learning |
+| 著者 | Aleksei Petrenko, Zhehui Huang, Tushar Kumar, Gaurav S. Sukhatme, Vladlen Koltun |
+| 発表 | ICML 2020 |
+| 主張 | single machine でも $10^5$ FPS 級の RL 学習が可能 |
+| 今回の焦点 | 論文の課題設定が現行実装でどう具体化されているか |
 
 ---
 
-### データセット
+### 強化学習では何を繰り返しているか
 
-| データセット | 件数 | 特徴 | 用途 |
-| :-- | --: | :-- | :-- |
-| Dataset A | 10,000 | 説明 | 学習 |
-| Dataset B | 2,000 | 説明 | 評価 |
-| Dataset C | 5,000 | 説明 | 追加実験 |
+> #### 1 step の流れ
+>
+> agent は観測 `s_t` を見て行動 `a_t` を選び、
+> 環境は次の観測と報酬 `r_t` を返す。
 
----
-
-### 比較手法
-
-| 手法 | 概要 | 位置づけ |
-| :-- | :-- | :-- |
-| Baseline A | 既存の代表的手法 | 標準比較 |
-| Baseline B | より強い既存手法 | 強力な比較対象 |
-| Proposed | 本論文の提案手法 | 主対象 |
+- この反復を何千・何百万 step と続ける
+- learner はその履歴から policy を更新する
+- Sample Factory はこの反復を速く回す実行系である
 
 ---
 
-### 主結果
+<!-- _class: column-layout -->
 
-| 手法 | Metric 1 | Metric 2 | Metric 3 |
-| :-- | --: | --: | --: |
-| Baseline A | 0.00 | 0.00 | 0.00 |
-| Baseline B | 0.00 | 0.00 | 0.00 |
-| Proposed | **0.00** | **0.00** | **0.00** |
+### `sample` `rollout` `batch` の違い
 
-結論：
+<div class="column">
 
-- 提案手法は〇〇で最良
-- 特に△△の条件で改善幅が大きい
-- 一方で□□では改善が限定的
+#### sample
 
----
+- 1 回の `env.step()`
+- 1 時刻ぶんの観測・行動・報酬
 
-### アブレーション実験
+</div>
 
-| 設定 | Metric 1 | Metric 2 |
-| :-- | --: | --: |
-| Full Model | **0.00** | **0.00** |
-| w/o Component A | 0.00 | 0.00 |
-| w/o Component B | 0.00 | 0.00 |
-| w/o Component C | 0.00 | 0.00 |
+<div class="column">
 
-読み取り：
+#### rollout
 
-- Component A は〇〇に効いている
-- Component B は△△に寄与している
-- Component C の効果は限定的
+- sample を数 step ためたもの
+- worker が learner へ渡す単位
 
----
+</div>
 
-### 追加実験・分析
+<div class="column">
 
-論文では、次の追加分析も行っている。
+#### batch
 
-- パラメータ感度分析
-- データサイズ別の性能比較
-- エラー分析
-- ケーススタディ
-- 計算コストの比較
+- rollout を集めて束ねたもの
+- learner が SGD に使う単位
+
+</div>
 
 ---
 
-### ケーススタディ
+### 同期 RL はどこで待つのか
 
-| 入力 | Baseline | Proposed | 正解 |
-| :-- | :-- | :-- | :-- |
-| 例1 | 出力 | 出力 | 正解 |
-| 例2 | 出力 | 出力 | 正解 |
+```text
+env を進める
+  -> policy で推論する
+    -> learner が更新する
+      -> 次の env を進める
+```
 
-考察：
-
-- 提案手法は〇〇のケースで改善している
-- ただし、□□のようなケースでは失敗している
-
----
-
-## 考察
+- この順番だと CPU と GPU が交互に待ちやすい
+- 全体の速度は最も遅い段階に引っ張られる
+- 論文の出発点はこの待ち時間を減らすこと
 
 ---
 
-### 論文の貢献
+<!-- _class: column-layout -->
 
-この論文の主な貢献は次の通りである。
+### 非同期化すると速くなるが難しさも増える
 
-1. **問題設定の貢献**
-   - 〇〇という課題を明確化した
+<div class="column">
 
-2. **手法の貢献**
-   - △△という新しいアプローチを提案した
+#### うれしいこと
 
-3. **実験的貢献**
-   - □□の条件で有効性を示した
+- env 実行と GPU 推論を重ねられる
+- learner 更新も並行しやすい
+- throughput を大きく上げやすい
 
----
+</div>
 
-### 強み
+<div class="column">
 
-- 問題設定が明確
-- 比較対象が適切
-- アブレーション実験がある
-- 実験条件が比較的詳細
-- 提案手法の効果が複数の指標で確認されている
+#### 難しいこと
 
----
+- worker 間通信が増える
+- 古い policy のデータが混ざる
+- 学習が不安定になることがある
 
-### 弱み・限界
-
-- データセットが限定的
-- 実運用環境での検証が不足
-- 計算コストが高い可能性
-- 特定条件で性能が低下する
-- 理論的な説明が十分ではない
+</div>
 
 ---
 
-### 自分の研究との関係
+### `policy lag` 
 
-この論文は、自分の研究と次の点で関係する。
+> #### 直感
+>
+> データを集めたときの policy と、
+> learner が今更新している policy がずれること。
 
-| 観点 | 関係 |
+- 非同期化するとこのズレが大きくなりやすい
+- ズレが大きすぎると update が不安定になる
+- 後半では、このズレをどう抑えるかを実装と式の両方から見る
+
+---
+
+### Sample Factory の核は実行系の分業にある
+
+> #### 何をした論文か
+>
+> Sample Factory は、
+> **CPU の環境実行・GPU 推論・GPU 学習を同時並行で回す** ために、
+> RL システムを部品分割した実行系である。 [@petrenko2020samplefactory]
+
+- ただ速いだけでは不十分
+- async 化で増える policy lag も抑えないと学習が崩れる
+- 実装はこの 2 つを両立させる設計になっている
+
+---
+
+<!-- _class: column-layout -->
+
+### 既存法で何が詰まるか
+
+<div class="column">
+
+#### 同期 PPO / A2C
+
+- env step 中しか CPU が働かない
+- forward/backward 中は env が止まる
+- 高い GPU 利用率を作りにくい
+
+</div>
+
+<div class="column">
+
+#### 単純な async 化
+
+- worker 間通信が重い
+- 古い policy で集めた軌跡が増える
+- sample efficiency が落ちやすい
+
+</div>
+
+---
+
+### この論文が解く 4 つの問題
+
+| 問題 | 論文の方針 |
 | :-- | :-- |
-| 問題設定 | 〇〇が共通している |
-| 手法 | △△を応用できる可能性がある |
-| 評価 | □□という評価方法が参考になる |
-| 今後の課題 | ◇◇を発展させられる |
+| 待ち時間 | workload を rollout / policy / learner に分割 |
+| 通信量 | tensor は shared memory、queue は index だけ |
+| policy lag | 重み即時反映 + 古い軌跡の制御 |
+| off-policy 化 | PPO clipping と V-trace で補正 |
+
+<small>論文: pp.2-5, Sec. 3.1-3.4</small>
 
 ---
 
-### 自分ならどう拡張するか
+## 設計
 
-- 拡張案1：別データセットで検証する
-- 拡張案2：計算コストを削減する
-- 拡張案3：別タスクへ応用する
-- 拡張案4：理論的分析を追加する
-- 拡張案5：ユーザスタディを行う
+---
+
+### `sample_factory/` は入口・学習本体・周辺機能に分かれる
+
+```text path="code/project_layout.txt" fit-height="true"
+```
+
+---
+
+### `algo/` に実行系の中核が集まっている
+
+```text path="code/algo_layout.txt" fit-height="true"
+```
+
+---
+
+### `sampling/` は env 実行と推論を分業している
+
+```text path="code/sampling_layout.txt" fit-height="true"
+```
+
+---
+
+### `learning/` と `algo/utils/` が更新処理を支える
+
+```text path="code/learning_utils_layout.txt" fit-height="true"
+```
+
+---
+
+### 学習開始から learner 更新までの本線
+
+```text path="code/training_path.txt" fit-height="true"
+```
+
+---
+
+### APPO - asynchronous PPO 
+
+> #### 定義
+>
+> PPO の clipped update を土台にしつつ、
+> サンプリングと learner 更新を非同期に重ねる方式。
+
+- learner が更新している間も rollout worker は sample を集め続ける
+- そのため sample は「少し古い policy」によるものを含む
+- Sample Factory はこの前提で throughput を上げる [@petrenko2020samplefactory]
+
+<small>論文: p.1, Introduction 後半; pp.4-5, Sec. 3.4</small>
+
+---
+
+### APPO を成立させる 3 つの要素
+
+| 要素 | 役割 |
+| :-- | :-- |
+| async sampling | CPU の env 実行と learner 更新を止めない |
+| PPO clipping | policy update を急に動かしすぎない |
+| V-trace / lag control | 古い policy 由来の sample のズレを抑える |
+
+この後の `shared memory`、`policy_version`、V-trace はこの表の具体化として読む。
+
+---
+
+### 論文の部品と現行コード
+
+| 論文の語 | 現行実装 | 役割 |
+| :-- | :-- | :-- |
+| rollout worker | `algo/sampling/rollout_worker.py` | env を進める |
+| policy worker | `algo/sampling/inference_worker.py` | GPU forward |
+| learner | `algo/learning/learner.py` | SGD と重み更新 |
+| sampler / runner | `sampler.py`, `runner_parallel.py` | 接続と起動管理 |
+
+注: 論文の `policy worker` は、現行 master では `InferenceWorker` という名前になっている。
+対応コードの参照: [@samplefactoryrepo2026]
+<small>論文: p.3, Figure 1 / Sec. 3.1</small>
+
+---
+
+### 実行時データフロー
+
+```text
+RolloutWorker
+  -> policy request を queue へ送る
+InferenceWorker
+  -> request を batch 化して GPU forward
+  -> action / logprob / value を shared buffer に書く
+RolloutWorker
+  -> env.step() して rollout を完成させる
+Batcher / Learner
+  -> 学習バッチ化し、重みと policy_version を更新する
+```
+
+- 重要なのは「大きな tensor を送らない」こと
+- 重要なのは「推論と学習の更新をなるべく止めない」こと
+
+<small>論文: p.3, Figure 1 caption; Sec. 3.1 の rollout/policy/learner 説明</small>
+
+---
+
+### 論文から実装を読む最短対応
+
+| 論文の図・節 | まず見るファイル |
+| :-- | :-- |
+| PDF p.3 Figure 1 / Sec. 3.1 | `train.py`, `runner_parallel.py` |
+| PDF p.3 Sec. 3.1 rollout/policy worker paragraphs | `rollout_worker.py`, `inference_worker.py` |
+| PDF p.4 Sec. 3.3 communication paragraphs | `shared_buffers.py`, `sampler.py` |
+| PDF pp.4-5 Sec. 3.4 policy lag / APPO | `learner.py`, `model_sharing.py`, `cfg.py` |
+
+---
+
+## 問題と解決
+
+---
+
+### 1. 待ち時間: env と推論が交互に止まる
+
+- 論文の解決策は double-buffered sampling
+- 1 worker が持つ env 群を split し、片方の推論待ち中にもう片方を進める
+- 現行実装では `worker_num_splits` がそのまま対応する
+
+対応箇所:
+- `RolloutWorker.num_splits`
+- `RolloutWorker.env_runners`
+- `BatchedVectorEnvRunner` / `NonBatchedVectorEnvRunner`
+
+<small>論文: p.4, Figure 2(b) と Sec. 3.2 冒頭</small>
+
+---
+
+### 実装での double buffering
+
+```python path="code/double_buffering.py" fit-height="true"
+```
+
+---
+
+### 2. 通信量: actor と learner 間で巨大 tensor を送りたくない
+
+- 論文は「queue では metadata だけ送る」と整理する
+- 実データは shared tensor 上に置き、受け手は index から参照する
+- これで serialization cost を大きく減らす
+
+対応箇所:
+- `shared_buffers.py::BufferMgr`
+- `rollout_worker.py::_enqueue_policy_request()`
+- `inference_worker.py::_batch_*()`
+
+<small>論文: p.4, Sec. 3.3 前半</small>
+
+---
+
+### 実装での shared memory + queue
+
+```python path="code/communication_path.py" fit-height="true"
+```
+
+---
+
+### 3. policy lag: async 化すると古い policy の軌跡が混ざる
+
+- 論文では lag の原因を 2 つに分ける
+- 1つ目: 推論側が古い重みを持つ
+- 2つ目: learner が処理し切れない軌跡が溜まる
+
+現行実装の対策:
+- `ensure_weights_updated()` で推論側へ即時反映
+- `policy_version` を軌跡ごとに保存
+- `max_policy_lag` を超えたデータは learner 側で無効化
+
+<small>論文: pp.4-5, Sec. 3.4 前半</small>
+
+---
+
+### 実装での policy lag 制御
+
+```python path="code/policy_lag_controls.py" fit-height="true"
+```
+
+---
+
+### 4. off-policy のズレは learner 側で吸収する
+
+$$
+r_t % [!annotate label="ratio" note="target policy と behavior policy のズレを測る"]
+= \exp(
+\log \pi_\theta(a_t|s_t) % [!annotate label="target" note="learner が今最適化している policy"]
+- \log \mu(a_t|s_t) % [!annotate label="behavior" note="実際にサンプルを生成した古い側の policy"]
+)
+$$
+
+- policy loss は PPO の clipped surrogate を使う
+- value / advantage 側では `with_vtrace=True` で V-trace を有効化できる
+- つまり「高速化で生じるズレ」を learner 側で吸収する設計になっている
+
+対応箇所:
+- `learner.py`
+- `cfg.py::with_vtrace`, `vtrace_rho`, `vtrace_c`
+
+<small>論文: p.5, Sec. 3.4 後半の V-trace / PPO clipping 段落</small>
 
 ---
 
@@ -417,47 +403,9 @@ def proposed_method(x, model):
 
 ### まとめ
 
-この論文は、〇〇という問題に対して、△△という手法を提案した。
 
-主な結果：
-
-- 結果1
-- 結果2
-- 結果3
-
-重要な示唆：
-
-- 示唆1
-- 示唆2
-- 示唆3
-
----
-
-### 発表者の評価
-
-| 観点 | 評価 |
-| :-- | :-- |
-| 新規性 | 高 / 中 / 低 |
-| 有効性 | 高 / 中 / 低 |
-| 実験の妥当性 | 高 / 中 / 低 |
-| 再現性 | 高 / 中 / 低 |
-| 自分の研究への有用性 | 高 / 中 / 低 |
-
-総評：
-
-> この論文は、〇〇の観点では有用だが、□□については追加検証が必要である。
-
----
-
-### Discussion
-
-議論したい点：
-
-1. 提案手法のどの部分が本質的に効いているのか
-2. 別のデータセットでも同じ結果になるか
-3. 自分たちの研究に応用するなら何を変更すべきか
-4. 実運用上の制約は何か
-5. 今後どの方向に発展させるべきか
+- Sample Factory の本質は「アルゴリズム」だけでなく「実行系の設計」にある
+- 論文の問題設定は、現行実装でもかなり直接的に追跡できそう
 
 ---
 

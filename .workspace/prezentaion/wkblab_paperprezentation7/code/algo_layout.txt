@@ -1,0 +1,19 @@
+sample_factory/algo/
+├── runners/
+│   ├── runner_parallel.py    async orchestration
+│   ├── runner_serial.py      sync/single-process path
+│   └── runner.py             shared runner base
+├── sampling/
+│   ├── sampler.py            worker creation and wiring
+│   ├── rollout_worker.py     environment stepping
+│   ├── inference_worker.py   policy forward on GPU
+│   └── batched/non_batched   env-runner implementations
+├── learning/
+│   ├── batcher.py            rollout -> training batch
+│   ├── learner_worker.py     learner process shell
+│   └── learner.py            PPO / V-trace update
+├── utils/
+│   ├── shared_buffers.py     shared tensors
+│   └── model_sharing.py      weight synchronization
+└── evaluators/
+    └── default_evaluator.py  evaluation support

@@ -1,0 +1,16 @@
+sample_factory/algo/sampling/
+├── sampler.py
+│   creates rollout workers and inference workers
+│   connects queues and event-loop signals
+├── rollout_worker.py
+│   owns env runners and trajectory collection
+│   sends policy requests and emits complete rollouts
+├── inference_worker.py
+│   batches requests from many workers
+│   runs policy forward and writes shared outputs
+├── batched_sampling.py
+│   vectorized env runner for batched environments
+├── non_batched_sampling.py
+│   per-actor runner for flexible environment layouts
+└── sampling_utils.py / stats.py
+    helper functions and runtime statistics

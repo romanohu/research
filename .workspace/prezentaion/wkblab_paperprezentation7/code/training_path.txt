@@ -1,0 +1,21 @@
+[cfg/arguments.py + cfg/cfg.py]
+              |
+              v
+          [train.py]
+              |
+              v
+ [algo/runners/runner_parallel.py]
+          /               \
+         v                 v
+[algo/sampling/]     [algo/learning/]
+  sampler.py           batcher.py
+  rollout_worker.py    learner_worker.py
+  inference_worker.py  learner.py
+  batched/non_batched
+         \                 /
+          \               /
+           v             v
+ [algo/utils/shared_buffers.py]
+ [algo/utils/model_sharing.py]
+
+[model/] and [envs/] are called from sampling/learning
