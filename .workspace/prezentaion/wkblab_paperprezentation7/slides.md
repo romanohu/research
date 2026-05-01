@@ -294,17 +294,6 @@ Batcher / Learner
 
 ---
 
-### 論文から実装を読む最短対応
-
-| 論文の図・節 | まず見るファイル |
-| :-- | :-- |
-| PDF p.3 Figure 1 / Sec. 3.1 | `train.py`, `runner_parallel.py` |
-| PDF p.3 Sec. 3.1 rollout/policy worker paragraphs | `rollout_worker.py`, `inference_worker.py` |
-| PDF p.4 Sec. 3.3 communication paragraphs | `shared_buffers.py`, `sampler.py` |
-| PDF pp.4-5 Sec. 3.4 policy lag / APPO | `learner.py`, `model_sharing.py`, `cfg.py` |
-
----
-
 ## 問題と解決
 
 ---
@@ -335,7 +324,6 @@ Batcher / Learner
 
 - 論文は「queue では metadata だけ送る」と整理する
 - 実データは shared tensor 上に置き、受け手は index から参照する
-- これで serialization cost を大きく減らす
 
 対応箇所:
 - `shared_buffers.py::BufferMgr`
@@ -344,12 +332,6 @@ Batcher / Learner
 
 <small>論文: p.4, Sec. 3.3 前半</small>
 
----
-
-### 実装での shared memory + queue
-
-```python path="code/communication_path.py" fit-height="true"
-```
 
 ---
 
@@ -404,7 +386,7 @@ $$
 ### まとめ
 
 
-- Sample Factory の本質は「アルゴリズム」だけでなく「実行系の設計」にある
+- Sample Factory の凄い点は「アルゴリズム」だけでなく「実行系の設計」にある
 - 論文の問題設定は、現行実装でもかなり直接的に追跡できそう
 
 ---

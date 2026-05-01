@@ -21,4 +21,3 @@
 - [Sven Koenig: MAPF Talk (ICAPS 2022)](https://www.youtube.com/watch?v=BX4U5B_vx5c)
     - mapf.infoのTutorialsページで紹介されている講演動画
 - [論文](papers.md)
-- [用語リスト](words)
