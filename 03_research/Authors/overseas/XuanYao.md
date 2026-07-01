@@ -8,4 +8,4 @@ Xuan Yao は関連論文の著者として確認できる研究者。([source](h
 
 ## 論文
 ### 2025
-- [Bottom-Up Reputation Promotes Cooperation with Multi-Agent Reinforcement Learning](../../MARL/cmarl_papers.md#bottom-up-reputation-promotes-cooperation-with-multi-agent-reinforcement-learning)
+- [Bottom-Up Reputation Promotes Cooperation with Multi-Agent Reinforcement Learning](../../MARL/cmarl_papers.html#bottom-up-reputation-promotes-cooperation-with-multi-agent-reinforcement-learning)

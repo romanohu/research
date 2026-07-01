@@ -37,7 +37,7 @@
 ## 論文メモ
 ### 1991
 #### [Adaptive Mixtures of Local Experts](https://www.cs.toronto.edu/~fritz/absps/jjnh91.pdf)
-[Robert A. Jacobs](../Authors/overseas/RobertAJacobs.md) [Michael I. Jordan](../Authors/overseas/MichaelIJordan.md) [Steven J. Nowlan](../Authors/overseas/StevenJNowlan.md) [Geoffrey E. Hinton](../Authors/overseas/GeoffreyEHinton.md)
+[Robert A. Jacobs](../Authors/overseas/RobertAJacobs.html) [Michael I. Jordan](../Authors/overseas/MichaelIJordan.html) [Steven J. Nowlan](../Authors/overseas/StevenJNowlan.html) [Geoffrey E. Hinton](../Authors/overseas/GeoffreyEHinton.html)
 
 #Unread
 
@@ -45,7 +45,7 @@
 
 ### 2013
 #### [Learning Factored Representations in a Deep Mixture of Experts](https://arxiv.org/abs/1312.4314)
-[David Eigen](../Authors/overseas/DavidEigen.md) [Marc'Aurelio Ranzato](../Authors/overseas/MarcAurelioRanzato.md) [Ilya Sutskever](../Authors/overseas/IlyaSutskever.md)
+[David Eigen](../Authors/overseas/DavidEigen.html) [Marc'Aurelio Ranzato](../Authors/overseas/MarcAurelioRanzato.html) [Ilya Sutskever](../Authors/overseas/IlyaSutskever.html)
 
 #Unread
 
@@ -53,7 +53,7 @@
 
 ### 2016
 #### [Ensemble Learning for Multi-Source Neural Machine Translation](https://aclanthology.org/C16-1133/)
-[Ekaterina Garmash](../Authors/overseas/EkaterinaGarmash.md) [Christof Monz](../Authors/overseas/ChristofMonz.md)
+[Ekaterina Garmash](../Authors/overseas/EkaterinaGarmash.html) [Christof Monz](../Authors/overseas/ChristofMonz.html)
 
 #Unread
 
@@ -68,7 +68,7 @@ Justin Gilmer, Samuel S. Schoenholz, Patrick F. Riley, Oriol Vinyals, George E. 
 メッセージ関数と更新関数を分離したMPNN枠組みを提示し，既存の分子グラフ向け手法を統一的に記述可能にした．量子化学ベンチマークで高精度を示し，核心は「エッジ特徴付きメッセージ設計」を一般化した点にある．開放論点は，タスク依存でmessage/update/readoutのどこが性能ボトルネックになるかをどう切り分けるかである．
 
 #### [Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer](https://arxiv.org/abs/1701.06538)
-[Noam Shazeer](../Authors/overseas/NoamShazeer.md) [Azalia Mirhoseini](../Authors/overseas/AzaliaMirhoseini.md) [Krzysztof Maziarz](../Authors/overseas/KrzysztofMaziarz.md) [Andy Davis](../Authors/overseas/AndyDavis.md) [Quoc Le](../Authors/overseas/QuocLe.md) [Geoffrey Hinton](../Authors/overseas/GeoffreyEHinton.md) [Jeff Dean](../Authors/overseas/JeffDean.md)
+[Noam Shazeer](../Authors/overseas/NoamShazeer.html) [Azalia Mirhoseini](../Authors/overseas/AzaliaMirhoseini.html) [Krzysztof Maziarz](../Authors/overseas/KrzysztofMaziarz.html) [Andy Davis](../Authors/overseas/AndyDavis.html) [Quoc Le](../Authors/overseas/QuocLe.html) [Geoffrey Hinton](../Authors/overseas/GeoffreyEHinton.html) [Jeff Dean](../Authors/overseas/JeffDean.html)
 
 #Unread
 
@@ -86,7 +86,7 @@ Gabriele Corso, Luca Cavalleri, Dominique Beaini, Pietro Lio, Petar Velickovic
 PNAは平均や最大など複数の集約器と次数スケーラを組み合わせ，連続特徴空間での識別力低下を補うmessage passing設計を提案する．分子回帰を中心とした評価でGIN系を上回る性能を報告し，noveltyは「次数統計を明示的に取り込む汎用集約ブロック」にある．今後の論点は，計算コスト増と表現力向上のトレードオフをどの程度許容するかである．
 
 #### [GShard: Scaling Giant Models with Conditional Computation and Automatic Sharding](https://arxiv.org/abs/2006.16668)
-[Dmitry Lepikhin](../Authors/overseas/DmitryLepikhin.md) [HyoukJoong Lee](../Authors/overseas/HyoukJoongLee.md) [Yuanzhong Xu](../Authors/overseas/YuanzhongXu.md) [Dehao Chen](../Authors/overseas/DehaoChen.md) [Orhan Firat](../Authors/overseas/OrhanFirat.md) [Yanping Huang](../Authors/overseas/YanpingHuang.md) [Maxim Krikun](../Authors/overseas/MaximKrikun.md) [Noam Shazeer](../Authors/overseas/NoamShazeer.md) [Zhifeng Chen](../Authors/overseas/ZhifengChen.md)
+[Dmitry Lepikhin](../Authors/overseas/DmitryLepikhin.html) [HyoukJoong Lee](../Authors/overseas/HyoukJoongLee.html) [Yuanzhong Xu](../Authors/overseas/YuanzhongXu.html) [Dehao Chen](../Authors/overseas/DehaoChen.html) [Orhan Firat](../Authors/overseas/OrhanFirat.html) [Yanping Huang](../Authors/overseas/YanpingHuang.html) [Maxim Krikun](../Authors/overseas/MaximKrikun.html) [Noam Shazeer](../Authors/overseas/NoamShazeer.html) [Zhifeng Chen](../Authors/overseas/ZhifengChen.html)
 
 #Unread
 
@@ -101,7 +101,7 @@ Teng Xiao, Zhengyu Chen, Donglin Wang, Suhang Wang
 ノードごとに最適な伝播ステップを潜在変数として学習するLTPフレームワークを提案し，固定層数・固定k-hopの制約を緩和した．変分EMで伝播戦略と予測器を同時最適化し，複数ノード分類ベンチマークで精度向上を示す．主な論点は，推論時の計算コストと学習された伝播戦略の解釈可能性をどう両立するかである．
 
 #### [BASE Layers: Simplifying Training of Large, Sparse Models](https://proceedings.mlr.press/v139/lewis21a.html)
-[Mike Lewis](../Authors/overseas/MikeLewis.md) [Shruti Bhosale](../Authors/overseas/ShrutiBhosale.md) [Tim Dettmers](../Authors/overseas/TimDettmers.md) [Naman Goyal](../Authors/overseas/NamanGoyal.md) [Luke Zettlemoyer](../Authors/overseas/LukeZettlemoyer.md)
+[Mike Lewis](../Authors/overseas/MikeLewis.html) [Shruti Bhosale](../Authors/overseas/ShrutiBhosale.html) [Tim Dettmers](../Authors/overseas/TimDettmers.html) [Naman Goyal](../Authors/overseas/NamanGoyal.html) [Luke Zettlemoyer](../Authors/overseas/LukeZettlemoyer.html)
 
 #Unread
 
@@ -109,21 +109,21 @@ Teng Xiao, Zhengyu Chen, Donglin Wang, Suhang Wang
 
 ### 2022
 #### [Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity](https://arxiv.org/abs/2101.03961)
-[William Fedus](../Authors/overseas/WilliamFedus.md) [Barret Zoph](../Authors/overseas/BarretZoph.md) [Noam Shazeer](../Authors/overseas/NoamShazeer.md)
+[William Fedus](../Authors/overseas/WilliamFedus.html) [Barret Zoph](../Authors/overseas/BarretZoph.html) [Noam Shazeer](../Authors/overseas/NoamShazeer.html)
 
 #Unread
 
 MoEのルータをTop-1に単純化したSwitch routingで通信と計算を削減し，安定化テクニックによりbfloat16でも学習可能に．T5系でFLOPs一定のまま専門家数を増やし，最大7倍の事前学習速度とトリリオン規模パラメータを実現．
 
 #### [ST-MoE: Designing Stable and Transferable Sparse Expert Models](https://arxiv.org/abs/2202.08906)
-[Barret Zoph](../Authors/overseas/BarretZoph.md) [Irwan Bello](../Authors/overseas/IrwanBello.md) [Sameer Kumar](../Authors/overseas/SameerKumar.md) [Nan Du](../Authors/overseas/NanDu.md) [Yanping Huang](../Authors/overseas/YanpingHuang.md) [Jeff Dean](../Authors/overseas/JeffDean.md) [Noam Shazeer](../Authors/overseas/NoamShazeer.md) [William Fedus](../Authors/overseas/WilliamFedus.md)
+[Barret Zoph](../Authors/overseas/BarretZoph.html) [Irwan Bello](../Authors/overseas/IrwanBello.html) [Sameer Kumar](../Authors/overseas/SameerKumar.html) [Nan Du](../Authors/overseas/NanDu.html) [Yanping Huang](../Authors/overseas/YanpingHuang.html) [Jeff Dean](../Authors/overseas/JeffDean.html) [Noam Shazeer](../Authors/overseas/NoamShazeer.html) [William Fedus](../Authors/overseas/WilliamFedus.html)
 
 #Unread
 
 Switch系で課題だった不安定さと転移性能を改善する設計指針を提示．正規化・初期化・負荷分散損失を調整し，269BパラメータのST-MoE-32Bが32B密モデルと同等の計算量で多様な下流タスク（SuperGLUE，XSum等）でSOTAを達成した．
 
 #### [Mixture-of-Experts with Expert Choice Routing](https://arxiv.org/abs/2202.09368)
-[Yanqi Zhou](../Authors/overseas/YanqiZhou.md) [Tao Lei](../Authors/overseas/TaoLei.md) [Hanxiao Liu](../Authors/overseas/HanxiaoLiu.md) [Nan Du](../Authors/overseas/NanDu.md) [Yanping Huang](../Authors/overseas/YanpingHuang.md) [Vincent Zhao](../Authors/overseas/VincentZhao.md) [Andrew Dai](../Authors/overseas/AndrewDai.md) [Zhifeng Chen](../Authors/overseas/ZhifengChen.md) [Quoc Le](../Authors/overseas/QuocLe.md) [James Laudon](../Authors/overseas/JamesLaudon.md)
+[Yanqi Zhou](../Authors/overseas/YanqiZhou.html) [Tao Lei](../Authors/overseas/TaoLei.html) [Hanxiao Liu](../Authors/overseas/HanxiaoLiu.html) [Nan Du](../Authors/overseas/NanDu.html) [Yanping Huang](../Authors/overseas/YanpingHuang.html) [Vincent Zhao](../Authors/overseas/VincentZhao.html) [Andrew Dai](../Authors/overseas/AndrewDai.html) [Zhifeng Chen](../Authors/overseas/ZhifengChen.html) [Quoc Le](../Authors/overseas/QuocLe.html) [James Laudon](../Authors/overseas/JamesLaudon.html)
 
 #Unread
 
@@ -132,7 +132,7 @@ tokenがexpertを選ぶ従来のTop-k routerと逆に，expert側が受け取る
 
 ### 2023
 #### [GraphCast:Learning skillful medium-range global weather forecasting](https://arxiv.org/abs/2212.12794)
-[Remi Lam](../Authors/overseas/RemiLam.md) [Alvaro Sanchez-Gonzalez](../Authors/overseas/AlvaroSanchezGonzalez.md) [Matthew Willson](../Authors/overseas/MatthewWillson.md) [Peter Wirnsberger](../Authors/overseas/PeterWirnsberger.md) [Meire Fortunato](../Authors/overseas/MeireFortunato.md) [Ferran Alet](../Authors/overseas/FerranAlet.md) [Suman Ravuri](../Authors/overseas/SumanRavuri.md) [Timo Ewalds](../Authors/overseas/TimoEwalds.md) [Zach Eaton-Rosen](../Authors/overseas/ZachEatonRosen.md) [Weihua Hu](../Authors/overseas/WeihuaHu.md) [Alexander Merose](../Authors/overseas/AlexanderMerose.md) [Stephan Hoyer](../Authors/overseas/StephanHoyer.md) [George Holland](../Authors/overseas/GeorgeHolland.md) [Oriol Vinyals](../Authors/overseas/OriolVinyals.md) [Jacklynn Stott](../Authors/overseas/JacklynnStott.md) [Alexander Pritzel](../Authors/overseas/AlexanderPritzel.md) [Shakir Mohamed](../Authors/overseas/ShakirMohamed.md) [Peter Battaglia](../Authors/overseas/PeterBattaglia.md)
+[Remi Lam](../Authors/overseas/RemiLam.html) [Alvaro Sanchez-Gonzalez](../Authors/overseas/AlvaroSanchezGonzalez.html) [Matthew Willson](../Authors/overseas/MatthewWillson.html) [Peter Wirnsberger](../Authors/overseas/PeterWirnsberger.html) [Meire Fortunato](../Authors/overseas/MeireFortunato.html) [Ferran Alet](../Authors/overseas/FerranAlet.html) [Suman Ravuri](../Authors/overseas/SumanRavuri.html) [Timo Ewalds](../Authors/overseas/TimoEwalds.html) [Zach Eaton-Rosen](../Authors/overseas/ZachEatonRosen.html) [Weihua Hu](../Authors/overseas/WeihuaHu.html) [Alexander Merose](../Authors/overseas/AlexanderMerose.html) [Stephan Hoyer](../Authors/overseas/StephanHoyer.html) [George Holland](../Authors/overseas/GeorgeHolland.html) [Oriol Vinyals](../Authors/overseas/OriolVinyals.html) [Jacklynn Stott](../Authors/overseas/JacklynnStott.html) [Alexander Pritzel](../Authors/overseas/AlexanderPritzel.html) [Shakir Mohamed](../Authors/overseas/ShakirMohamed.html) [Peter Battaglia](../Authors/overseas/PeterBattaglia.html)
 
 #Unread
 
@@ -146,14 +146,14 @@ Zhiqiang Zhong, Cheng-Te Li, Jun Pang
 階層的に構成したsuper graph間でbottom-up / within-level / top-downの3種類の伝播を行うHMGNNを提案し，長距離依存と高次近傍情報を同時に扱う．リンク予測・ノード分類・コミュニティ検出で既存flat message passingより高い性能を報告した．未解決点は，階層生成品質への依存が強く，構造化前処理の設計が性能を大きく左右する点である．
 
 #### [Graph Mixture of Experts: Learning on Large-Scale Graphs with Explicit Diversity Modeling](https://arxiv.org/abs/2304.02806)
-[Haotao Wang](../Authors/overseas/HaotaoWang.md) [Ziyu Jiang](../Authors/overseas/ZiyuJiang.md) [Yuning You](../Authors/overseas/YuningYou.md) [Yan Han](../Authors/overseas/YanHan.md) [Gaowen Liu](../Authors/overseas/GaowenLiu.md) [Jayanth Srinivasa](../Authors/overseas/JayanthSrinivasa.md) [Ramana Rao Kompella](../Authors/overseas/RamanaRaoKompella.md) [Zhangyang Wang](../Authors/overseas/ZhangyangWang.md)
+[Haotao Wang](../Authors/overseas/HaotaoWang.html) [Ziyu Jiang](../Authors/overseas/ZiyuJiang.html) [Yuning You](../Authors/overseas/YuningYou.html) [Yan Han](../Authors/overseas/YanHan.html) [Gaowen Liu](../Authors/overseas/GaowenLiu.html) [Jayanth Srinivasa](../Authors/overseas/JayanthSrinivasa.html) [Ramana Rao Kompella](../Authors/overseas/RamanaRaoKompella.html) [Zhangyang Wang](../Authors/overseas/ZhangyangWang.html)
 
 #Unread
 
 大規模グラフで過平滑化と表現の同質化を避けるため，複数expertの出力をrouterで選択統合しつつ，expert間の多様性を明示的に促進するGraph MoEを提案．ノード分類設定で性能改善を示し，routing粒度をnode側に置いたときの多様性制約の効き方が主要論点となっている．
 
 #### [GraphMETRO: Mitigating Complex Distribution Shifts in GNNs via Mixture of Aligned Experts](https://openreview.net/forum?id=ofIAlQ0FPy)
-[Shirley Wu](../Authors/overseas/ShirleyWu.md) [Kaidi Cao](../Authors/overseas/KaidiCao.md) [Bruno Ribeiro](../Authors/overseas/BrunoRibeiro.md) [James Zou](../Authors/overseas/JamesZou.md) [Jure Leskovec](../Authors/overseas/JureLeskovec.md)
+[Shirley Wu](../Authors/overseas/ShirleyWu.html) [Kaidi Cao](../Authors/overseas/KaidiCao.html) [Bruno Ribeiro](../Authors/overseas/BrunoRibeiro.html) [James Zou](../Authors/overseas/JamesZou.html) [Jure Leskovec](../Authors/overseas/JureLeskovec.html)
 
 #Unread
 
@@ -168,7 +168,7 @@ Hanqing Zeng, Hanjia Lyu, Diyi Hu, Yinglong Xia, Jiebo Luo
 Mowstは弱いMLP expertと強いGNN expertをゲートで混合し，ノードごとに「自己特徴中心か隣接構造中心か」を切り替えるMoE設計を示す．homophilyとheterophilyが混在するデータで精度改善を示し，core methodは信頼度に基づくnode-wise routingである．議論点は，ゲートがデータ分布変化時に安定に機能するかと，expert間の役割分担が再現可能かである．
 
 #### [Node-wise Filtering in Graph Neural Networks: A Mixture of Experts Approach](https://arxiv.org/abs/2406.03464)
-[Haoyu Han](../Authors/overseas/HaoyuHan.md) [Juanhui Li](../Authors/overseas/JuanhuiLi.md) [Wei Huang](../Authors/overseas/WeiHuang.md) [Xianfeng Tang](../Authors/overseas/XianfengTang.md) [Hanqing Lu](../Authors/overseas/HanqingLu.md) [Chen Luo](../Authors/overseas/ChenLuo.md) [Hui Liu](../Authors/overseas/HuiLiu.md) [Jiliang Tang](../Authors/overseas/JiliangTang.md)
+[Haoyu Han](../Authors/overseas/HaoyuHan.html) [Juanhui Li](../Authors/overseas/JuanhuiLi.html) [Wei Huang](../Authors/overseas/WeiHuang.html) [Xianfeng Tang](../Authors/overseas/XianfengTang.html) [Hanqing Lu](../Authors/overseas/HanqingLu.html) [Chen Luo](../Authors/overseas/ChenLuo.html) [Hui Liu](../Authors/overseas/HuiLiu.html) [Jiliang Tang](../Authors/overseas/JiliangTang.html)
 
 #Unread
 
@@ -191,7 +191,7 @@ MoLE-GNNはadapterベースのPEFTとMoE routingを統合し，GNN全体を再�
 
 ### 2026
 #### [Diverse and Sparse Mixture-of-Experts for Causal Subgraph-Based Out-of-Distribution Graph Learning](https://openreview.net/forum?id=4XVczusV2K)
-[Jerry Sun](../Authors/overseas/JerrySun.md) [Mohamed Abubakr Hassan](../Authors/overseas/MohamedAbubakrHassan.md) [Yaoyu Zhang](../Authors/overseas/YaoyuZhang.md) [Wanying Zhang](../Authors/overseas/WanyingZhang.md) [Chi-Guhn Lee](../Authors/overseas/ChiGuhnLee.md)
+[Jerry Sun](../Authors/overseas/JerrySun.html) [Mohamed Abubakr Hassan](../Authors/overseas/MohamedAbubakrHassan.html) [Yaoyu Zhang](../Authors/overseas/YaoyuZhang.html) [Wanying Zhang](../Authors/overseas/WanyingZhang.html) [Chi-Guhn Lee](../Authors/overseas/ChiGuhnLee.html)
 
 #Unread
 

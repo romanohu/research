@@ -9,4 +9,4 @@ Andrei Lupu は University of Oxford の PhD student かつ FAIR, Meta AI 研究
 
 ## 論文
 ### 2025
-- [OVERCOOKEDV2: RETHINKING OVERCOOKED FOR ZERO-SHOT COORDINATION](../../MARL/cmarl_papers.md#overcookedv2-rethinking-overcooked-for-zero-shot-coordination)
+- [OVERCOOKEDV2: RETHINKING OVERCOOKED FOR ZERO-SHOT COORDINATION](../../MARL/cmarl_papers.html#overcookedv2-rethinking-overcooked-for-zero-shot-coordination)

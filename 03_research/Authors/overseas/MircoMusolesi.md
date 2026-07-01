@@ -9,11 +9,11 @@ Mirco Musolesi は関連論文の著者として確認できる研究者。([sou
 
 ## 論文
 ### 2018
-- [Learning through Probing: a decentralized reinforcement learning architecture for social dilemmas](../../MARL/cmarl_papers.md#learning-through-probing-a-decentralized-reinforcement-learning-architecture-for-social-dilemmas)
+- [Learning through Probing: a decentralized reinforcement learning architecture for social dilemmas](../../MARL/cmarl_papers.html#learning-through-probing-a-decentralized-reinforcement-learning-architecture-for-social-dilemmas)
 
 ### 2020
-- [Partner Selection for the Emergence of Cooperation in Multi-Agent Systems Using Reinforcement Learning](../../MARL/marl_papers.md#partner-selection-for-the-emergence-of-cooperation-in-multi-agent-systems-using-reinforcement-learning)
+- [Partner Selection for the Emergence of Cooperation in Multi-Agent Systems Using Reinforcement Learning](../../MARL/marl_papers.html#partner-selection-for-the-emergence-of-cooperation-in-multi-agent-systems-using-reinforcement-learning)
 ### 2021
-- [Cooperation and Reputation Dynamics with Reinforcement Learning](../../MARL/marl_papers.md#cooperation-and-reputation-dynamics-with-reinforcement-learning)
+- [Cooperation and Reputation Dynamics with Reinforcement Learning](../../MARL/marl_papers.html#cooperation-and-reputation-dynamics-with-reinforcement-learning)
 ### 2025
-- [Investigating the impact of direct punishment on the emergence of cooperation in multi-agent reinforcement learning systems](../../MARL/marl_papers.md#investigating-the-impact-of-direct-punishment-on-the-emergence-of-cooperation-in-multi-agent-reinforcement-learning-systems)
+- [Investigating the impact of direct punishment on the emergence of cooperation in multi-agent reinforcement learning systems](../../MARL/marl_papers.html#investigating-the-impact-of-direct-punishment-on-the-emergence-of-cooperation-in-multi-agent-reinforcement-learning-systems)

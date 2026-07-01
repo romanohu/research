@@ -9,4 +9,4 @@ Peter Sunehag は強化学習・系列決定に関する研究実績を持つ研
 
 ## 論文
 ### 2023
-- [A Review of Cooperation in Multi-agent Learning](../../MARL/cmarl_papers.md#a-review-of-cooperation-in-multi-agent-learning)
+- [A Review of Cooperation in Multi-agent Learning](../../MARL/cmarl_papers.html#a-review-of-cooperation-in-multi-agent-learning)

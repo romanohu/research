@@ -9,4 +9,4 @@ Rahma Chaabouni は emergent communication 研究に取り組む研究者で、2
 
 ## 論文
 ### 2019
-- [Anti-efficient encoding in emergent communication](../../EmCom/papers.md#anti-efficient-encoding-in-emergent-communication)
+- [Anti-efficient encoding in emergent communication](../../EmCom/papers.html#anti-efficient-encoding-in-emergent-communication)

@@ -9,4 +9,4 @@ Alexandre Bayen は UC Berkeley の教授で、制御・最適化・交通シス
 
 ## 論文
 ### 2021
-- [The Surprising Effectiveness of PPO in Cooperative, Multi-Agent Games](../../MARL/cmarl_papers.md#the-surprising-effectiveness-of-ppo-in-cooperative-multi-agent-games)
+- [The Surprising Effectiveness of PPO in Cooperative, Multi-Agent Games](../../MARL/cmarl_papers.html#the-surprising-effectiveness-of-ppo-in-cooperative-multi-agent-games)

@@ -25,10 +25,10 @@
 ## 論文メモ
 ### 2019
 #### [Anti-efficient encoding in emergent communication](https://arxiv.org/abs/1905.12561)
-[Rahma Chaabouni](../Authors/overseas/RahmaChaabouni.md) [Eugene Kharitonov](../Authors/overseas/EugeneKharitonov.md) [Emmanuel Dupoux](../Authors/overseas/EmmanuelDupoux.md) [Marco Baroni](../Authors/overseas/MarcoBaroni.md)
+[Rahma Chaabouni](../Authors/overseas/RahmaChaabouni.html) [Eugene Kharitonov](../Authors/overseas/EugeneKharitonov.html) [Emmanuel Dupoux](../Authors/overseas/EmmanuelDupoux.html) [Marco Baroni](../Authors/overseas/MarcoBaroni.html)
 ### 2021
 #### Emergent Communication of Generalizations
-[Jesse Mu](../Authors/overseas/JesseMu.md)
+[Jesse Mu](../Authors/overseas/JesseMu.html)
 従来のLewis形式の参照ゲームは、それから発生するコミュニケーションは対象となる単一のオブジェクトに特化した一意なメッセージの出現しか促さず、人間的な抽象概念を持つ言語の出現が促されることはなかった．それは、例えば対象オブジェクトがとある画像であったとすると、それに含まれる微細なノイズや擬似的なパターンにまでも適応(過学習)してしまうことや、複数の物体に跨って初めて意味を持つ概念(xorなど)を理解できないことが原因だとしている．そこで、setrefゲームとconceptゲームを提案する．
 setrefゲームは教師が(単一の物体ではなく)とある概念に属する物体のグループを見て、それを生徒に伝達するタスク．ただし、教師と生徒は同じ入力を見る．
 conceptゲームは、それに加えて教師と生徒が異なる入力を見る．
@@ -37,25 +37,25 @@ conceptゲームは、それに加えて教師と生徒が異なる入力を見�
 
 ### 2022
 #### [Linking Emergent and Natural Languages via Corpus Transfer](https://arxiv.org/abs/2203.13344)
-[Shunyu Yao](../Authors/overseas/ShunyuYao.md) [Mo Yu](../Authors/overseas/MoYu.md) [Yang Zhang](../Authors/overseas/YangZhang.md) [Karthik R Narasimhan](../Authors/overseas/KarthikRNarasimhan.md) [Joshua B. Tenenbaum](../Authors/overseas/JoshuaBTenenbaum.md) [Chuang Gan](../Authors/overseas/ChuangGan.md)
+[Shunyu Yao](../Authors/overseas/ShunyuYao.html) [Mo Yu](../Authors/overseas/MoYu.html) [Yang Zhang](../Authors/overseas/YangZhang.html) [Karthik R Narasimhan](../Authors/overseas/KarthikRNarasimhan.html) [Joshua B. Tenenbaum](../Authors/overseas/JoshuaBTenenbaum.html) [Chuang Gan](../Authors/overseas/ChuangGan.html)
 創発言語と自然言語の接続．創発言語のコーパスを作り、それを自然言語と結びつきつかせようとしている．創発言語の評価を自然言語で行う．
 
 ### 2024
 #### One-to-Many Communication and Compositionality  in Emergent Communication
-[Heeyoung Lee](../Authors/overseas/HeeyoungLee.md)
+[Heeyoung Lee](../Authors/overseas/HeeyoungLee.html)
 多対一コミュニケーション環境における構成性の出現に着眼した論文．主張としては、リスナが「多」であることにより発生する環境的な圧力が、スピーカのメッセージの構成性を促進する．
 環境的圧力1:リスナがそれぞれ異なるメッセージの特定の部分(特定の要素)にのみ関心を持つことで、スピーカに「メッセージの一部にしか関心が無いリスナに対してもより理解しやすい」ようにメッセージを構成するような圧力が働く
 環境的圧力2:メッセージが複数のリスナに同時に処理されるという協調圧力によって、スピーカは「メッセージを誰が受け取っても分かるような形に」構成する?
 
 #### [Knowledge Distillation from Language-Oriented to Emergent Communication for Multi-Agent Remote Control](https://arxiv.org/abs/2401.12624)
-[Yongjun Kim](../Authors/overseas/YongjunKim.md) [Sejin Seo](../Authors/overseas/SejinSeo.md) [Jihong Park](../Authors/overseas/JihongPark.md) [Mehdi Bennis](../Authors/overseas/MehdiBennis.md) [Seong-Lyun Kim](../Authors/overseas/SeongLyunKim.md) [Junil Choi](../Authors/overseas/JunilChoi.md)
+[Yongjun Kim](../Authors/overseas/YongjunKim.html) [Sejin Seo](../Authors/overseas/SejinSeo.html) [Jihong Park](../Authors/overseas/JihongPark.html) [Mehdi Bennis](../Authors/overseas/MehdiBennis.html) [Seong-Lyun Kim](../Authors/overseas/SeongLyunKim.html) [Junil Choi](../Authors/overseas/JunilChoi.html)
 
 ### 2025
 #### [Emergent language: a survey and taxonomy](https://arxiv.org/abs/2409.02645)
-[Jannik Peters](../Authors/overseas/JannikPeters.md) [Constantin Waubert de Puiseau](../Authors/overseas/ConstantinWaubertDePuiseau.md) [Hasan Tercan](../Authors/overseas/HasanTercan.md) [Arya Gopikrishnan](../Authors/overseas/AryaGopikrishnan.md) [Gustavo Adolpho Lucas De Carvalho](../Authors/overseas/GustavoAdolphoLucasDeCarvalho.md) [Christian Bitter](../Authors/overseas/ChristianBitter.md) [Tobias Meisen](../Authors/overseas/TobiasMeisen.md)
+[Jannik Peters](../Authors/overseas/JannikPeters.html) [Constantin Waubert de Puiseau](../Authors/overseas/ConstantinWaubertDePuiseau.html) [Hasan Tercan](../Authors/overseas/HasanTercan.html) [Arya Gopikrishnan](../Authors/overseas/AryaGopikrishnan.html) [Gustavo Adolpho Lucas De Carvalho](../Authors/overseas/GustavoAdolphoLucasDeCarvalho.html) [Christian Bitter](../Authors/overseas/ChristianBitter.html) [Tobias Meisen](../Authors/overseas/TobiasMeisen.html)
 
 #### [Unsupervised Translation of Emergent Communication](https://arxiv.org/abs/2502.07552)
-[Ido Levy](../Authors/overseas/IdoLevy.md) [Orr Paradise](../Authors/overseas/OrrParadise.md) [Boaz Carmeli](../Authors/overseas/BoazCarmeli.md) [Ron Meir](../Authors/overseas/RonMeir.md) [Shafi Goldwasser](../Authors/overseas/ShafiGoldwasser.md) [Yonatan Belinkov](../Authors/overseas/YonatanBelinkov.md)
+[Ido Levy](../Authors/overseas/IdoLevy.html) [Orr Paradise](../Authors/overseas/OrrParadise.html) [Boaz Carmeli](../Authors/overseas/BoazCarmeli.html) [Ron Meir](../Authors/overseas/RonMeir.html) [Shafi Goldwasser](../Authors/overseas/ShafiGoldwasser.html) [Yonatan Belinkov](../Authors/overseas/YonatanBelinkov.html)
 
 
 ### 2026

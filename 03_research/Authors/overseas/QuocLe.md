@@ -10,7 +10,7 @@ Quoc Le は mixture-of-experts routing, sparse expert models に関連する研�
 
 ## 論文
 ### 2017
-- [Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer](../../ML/papers.md#outrageously-large-neural-networks-the-sparsely-gated-mixture-of-experts-layer)
+- [Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer](../../ML/papers.html#outrageously-large-neural-networks-the-sparsely-gated-mixture-of-experts-layer)
 
 ### 2022
-- [Mixture-of-Experts with Expert Choice Routing](../../ML/papers.md#mixture-of-experts-with-expert-choice-routing)
+- [Mixture-of-Experts with Expert Choice Routing](../../ML/papers.html#mixture-of-experts-with-expert-choice-routing)

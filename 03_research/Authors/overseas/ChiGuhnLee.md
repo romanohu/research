@@ -9,4 +9,4 @@ Chi-Guhn Lee は causal subgraph OOD learning, sparse MoE routing に関連す�
 
 ## 論文
 ### 2026
-- [Diverse and Sparse Mixture-of-Experts for Causal Subgraph-Based Out-of-Distribution Graph Learning](../../ML/papers.md#diverse-and-sparse-mixture-of-experts-for-causal-subgraph-based-out-of-distribution-graph-learning)
+- [Diverse and Sparse Mixture-of-Experts for Causal Subgraph-Based Out-of-Distribution Graph Learning](../../ML/papers.html#diverse-and-sparse-mixture-of-experts-for-causal-subgraph-based-out-of-distribution-graph-learning)

@@ -9,4 +9,4 @@ Marc Lanctot は multi-agent learning・game theory を専門とする Google De
 
 ## 論文
 ### 2017
-- [Multi-agent Reinforcement Learning in Sequential Social Dilemmas](../../MARL/cmarl_papers.md#multi-agent-reinforcement-learning-in-sequential-social-dilemmas)
+- [Multi-agent Reinforcement Learning in Sequential Social Dilemmas](../../MARL/cmarl_papers.html#multi-agent-reinforcement-learning-in-sequential-social-dilemmas)

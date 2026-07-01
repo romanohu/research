@@ -8,4 +8,4 @@ Julian Garcia は関連論文の著者として確認できる研究者。([sour
 
 ## 論文
 ### 2021
-- [Cooperation and Reputation Dynamics with Reinforcement Learning](../../MARL/marl_papers.md#cooperation-and-reputation-dynamics-with-reinforcement-learning)
+- [Cooperation and Reputation Dynamics with Reinforcement Learning](../../MARL/marl_papers.html#cooperation-and-reputation-dynamics-with-reinforcement-learning)

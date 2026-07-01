@@ -2,4 +2,4 @@
 
 ## 論文
 ### 2021
-- [Emergent Communication of Generalizations](../../EmCom/papers.md#emergent-communication-of-generalizations)
+- [Emergent Communication of Generalizations](../../EmCom/papers.html#emergent-communication-of-generalizations)

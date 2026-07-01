@@ -9,4 +9,4 @@ Yue Wang は Clemson University 機械工学所属として constrained communic
 
 ## 論文
 ### 2026
-- [MULTI-AGENT DEEP REINFORCEMENT LEARNING UNDER CONSTRAINED COMMUNICATIONS](../../MARL/cmarl_papers.md#multi-agent-deep-reinforcement-learning-under-constrained-communications)
+- [MULTI-AGENT DEEP REINFORCEMENT LEARNING UNDER CONSTRAINED COMMUNICATIONS](../../MARL/cmarl_papers.html#multi-agent-deep-reinforcement-learning-under-constrained-communications)

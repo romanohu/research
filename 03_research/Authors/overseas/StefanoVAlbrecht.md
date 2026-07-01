@@ -9,4 +9,4 @@ Stefano V. Albrecht は HyperMARL の著者であり、University of Edinburgh �
 
 ## 論文
 ### 2024
-- [HyperMARL: Adaptive Hypernetworks for Multi-Agent RL](../../MARL/marl_papers.md#hypermarl-adaptive-hypernetworks-for-multi-agent-rl)
+- [HyperMARL: Adaptive Hypernetworks for Multi-Agent RL](../../MARL/marl_papers.html#hypermarl-adaptive-hypernetworks-for-multi-agent-rl)

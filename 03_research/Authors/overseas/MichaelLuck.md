@@ -8,4 +8,4 @@ Michael Luck は関連論文の著者として確認できる研究者。([sourc
 
 ## 論文
 ### 2024
-- [Resolving social dilemmas with minimal reward transfer](../../MARL/cmarl_papers.md#resolving-social-dilemmas-with-minimal-reward-transfer)
+- [Resolving social dilemmas with minimal reward transfer](../../MARL/cmarl_papers.html#resolving-social-dilemmas-with-minimal-reward-transfer)

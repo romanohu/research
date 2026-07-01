@@ -9,4 +9,4 @@ Afshin OroojlooyJadid は マルチエージェント学習・最適化を扱う
 
 ## 論文
 ### 2022
-- [A Review of Cooperative Multi-Agent Deep Reinforcement Learning](../../MARL/cmarl_papers.md#a-review-of-cooperative-multi-agent-deep-reinforcement-learning)
+- [A Review of Cooperative Multi-Agent Deep Reinforcement Learning](../../MARL/cmarl_papers.html#a-review-of-cooperative-multi-agent-deep-reinforcement-learning)

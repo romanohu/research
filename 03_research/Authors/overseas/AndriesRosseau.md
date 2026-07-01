@@ -8,4 +8,4 @@ Andries Rosseau は関連論文の著者として確認できる研究者。([so
 
 ## 論文
 ### 2023
-- [Cooperative Foraging Behaviour Through Multi-Agent Reinforcement Learning with Graph-Based Communication](../../MARL/cmarl_papers.md#cooperative-foraging-behaviour-through-multi-agent-reinforcement-learning-with-graph-based-communication)
+- [Cooperative Foraging Behaviour Through Multi-Agent Reinforcement Learning with Graph-Based Communication](../../MARL/cmarl_papers.html#cooperative-foraging-behaviour-through-multi-agent-reinforcement-learning-with-graph-based-communication)

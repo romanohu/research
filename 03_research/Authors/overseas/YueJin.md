@@ -11,4 +11,4 @@ Yue Jin は関連論文の著者として確認できる研究者。([source](ht
 
 ## 論文
 ### 2025
-- [Achieving collective welfare in multi-agent reinforcement learning via suggestion sharing](../../MARL/cmarl_papers.md#achieving-collective-welfare-in-multi-agent-reinforcement-learning-via-suggestion-sharing)
+- [Achieving collective welfare in multi-agent reinforcement learning via suggestion sharing](../../MARL/cmarl_papers.html#achieving-collective-welfare-in-multi-agent-reinforcement-learning-via-suggestion-sharing)

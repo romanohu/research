@@ -9,4 +9,4 @@ Jiaxuan Gao は UC Berkeley の研究者で、PPO in Cooperative Multi-Agent Gam
 
 ## 論文
 ### 2021
-- [The Surprising Effectiveness of PPO in Cooperative, Multi-Agent Games](../../MARL/cmarl_papers.md#the-surprising-effectiveness-of-ppo-in-cooperative-multi-agent-games)
+- [The Surprising Effectiveness of PPO in Cooperative, Multi-Agent Games](../../MARL/cmarl_papers.html#the-surprising-effectiveness-of-ppo-in-cooperative-multi-agent-games)

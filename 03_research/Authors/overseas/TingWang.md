@@ -9,4 +9,4 @@ Ting Wang は East China Normal University の教員で、状況依存の因果�
 
 ## 論文
 ### 2023
-- [Situation-Dependent Causal Influence-Based Cooperative Multi-agent Reinforcement Learning](../../MARL/cmarl_papers.md#situation-dependent-causal-influence-based-cooperative-multi-agent-reinforcement-learning)
+- [Situation-Dependent Causal Influence-Based Cooperative Multi-agent Reinforcement Learning](../../MARL/cmarl_papers.html#situation-dependent-causal-influence-based-cooperative-multi-agent-reinforcement-learning)

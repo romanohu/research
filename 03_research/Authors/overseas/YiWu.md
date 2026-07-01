@@ -9,11 +9,11 @@ Yi Wu は OpenAI の研究者で、MARL 論文群の著者として確認でき�
 
 ## 論文
 ### 2019
-- [Influence-Based Multi-Agent Exploration](../../MARL/cmarl_papers.md#influence-based-multi-agent-exploration)
+- [Influence-Based Multi-Agent Exploration](../../MARL/cmarl_papers.html#influence-based-multi-agent-exploration)
 
 ### 2021
-- [Discovering Diverse Multi-Agent Strategic Behavior via Reward Randomization](../../MARL/cmarl_papers.md#discovering-diverse-multi-agent-strategic-behavior-via-reward-randomization)
-- [The Surprising Effectiveness of PPO in Cooperative, Multi-Agent Games](../../MARL/cmarl_papers.md#the-surprising-effectiveness-of-ppo-in-cooperative-multi-agent-games)
+- [Discovering Diverse Multi-Agent Strategic Behavior via Reward Randomization](../../MARL/cmarl_papers.html#discovering-diverse-multi-agent-strategic-behavior-via-reward-randomization)
+- [The Surprising Effectiveness of PPO in Cooperative, Multi-Agent Games](../../MARL/cmarl_papers.html#the-surprising-effectiveness-of-ppo-in-cooperative-multi-agent-games)
 
 ### 2024
-- [MESA: Cooperative Meta-Exploration in Multi-Agent Learning through Exploiting State-Action Space Structure](../../MARL/cmarl_papers.md#mesa-cooperative-meta-exploration-in-multi-agent-learning-through-exploiting-state-action-space-structure)
+- [MESA: Cooperative Meta-Exploration in Multi-Agent Learning through Exploiting State-Action Space Structure](../../MARL/cmarl_papers.html#mesa-cooperative-meta-exploration-in-multi-agent-learning-through-exploiting-state-action-space-structure)

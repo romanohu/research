@@ -2,7 +2,7 @@
 
 ## 論文
 ### 2021
-- [Birds of a Feather Flock Together: A Close Look at Cooperation Emergence via Multi-Agent RL](../../MARL/cmarl_papers.md#birds-of-a-feather-flock-together-a-close-look-at-cooperation-emergence-via-multi-agent-rl)
+- [Birds of a Feather Flock Together: A Close Look at Cooperation Emergence via Multi-Agent RL](../../MARL/cmarl_papers.html#birds-of-a-feather-flock-together-a-close-look-at-cooperation-emergence-via-multi-agent-rl)
 
 ### 2019
-- [Influence-Based Multi-Agent Exploration](../../MARL/cmarl_papers.md#influence-based-multi-agent-exploration)
+- [Influence-Based Multi-Agent Exploration](../../MARL/cmarl_papers.html#influence-based-multi-agent-exploration)

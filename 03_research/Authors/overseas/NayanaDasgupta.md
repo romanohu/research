@@ -8,4 +8,4 @@ Nayana Dasgupta は関連論文の著者として確認できる研究者。([so
 
 ## 論文
 ### 2025
-- [Investigating the impact of direct punishment on the emergence of cooperation in multi-agent reinforcement learning systems](../../MARL/marl_papers.md#investigating-the-impact-of-direct-punishment-on-the-emergence-of-cooperation-in-multi-agent-reinforcement-learning-systems)
+- [Investigating the impact of direct punishment on the emergence of cooperation in multi-agent reinforcement learning systems](../../MARL/marl_papers.html#investigating-the-impact-of-direct-punishment-on-the-emergence-of-cooperation-in-multi-agent-reinforcement-learning-systems)

@@ -8,4 +8,4 @@ Btissam El Khamlichi は関連論文の著者として確認できる研究者�
 
 ## 論文
 ### 2025
-- [Reputation-Filtered Reward Reshaping: Encouraging Cooperation in High-Dimensional Semi-Cooperative Multi-agent Settings](../../MARL/cmarl_papers.md#reputation-filtered-reward-reshaping-encouraging-cooperation-in-high-dimensional-semi-cooperative-multi-agent-settings)
+- [Reputation-Filtered Reward Reshaping: Encouraging Cooperation in High-Dimensional Semi-Cooperative Multi-agent Settings](../../MARL/cmarl_papers.html#reputation-filtered-reward-reshaping-encouraging-cooperation-in-high-dimensional-semi-cooperative-multi-agent-settings)

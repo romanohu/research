@@ -9,4 +9,4 @@ Hongyang Du は The University of Hong Kong の研究者で、マルチエージ
 
 ## 論文
 ### 2025
-- [A Comprehensive Survey on Multi-Agent Cooperative Decision-Making: Scenarios, Approaches, Challenges and Perspectives](../../MARL/cmarl_papers.md#a-comprehensive-survey-on-multi-agent-cooperative-decision-making-scenarios-approaches-challenges-and-perspectives)
+- [A Comprehensive Survey on Multi-Agent Cooperative Decision-Making: Scenarios, Approaches, Challenges and Perspectives](../../MARL/cmarl_papers.html#a-comprehensive-survey-on-multi-agent-cooperative-decision-making-scenarios-approaches-challenges-and-perspectives)

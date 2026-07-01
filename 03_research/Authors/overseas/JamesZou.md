@@ -9,4 +9,4 @@ James Zou は graph OOD generalization, mixture-of-experts, distribution shift �
 
 ## 論文
 ### 2023
-- [GraphMETRO: Mitigating Complex Distribution Shifts in GNNs via Mixture of Aligned Experts](../../ML/papers.md#graphmetro-mitigating-complex-distribution-shifts-in-gnns-via-mixture-of-aligned-experts)
+- [GraphMETRO: Mitigating Complex Distribution Shifts in GNNs via Mixture of Aligned Experts](../../ML/papers.html#graphmetro-mitigating-complex-distribution-shifts-in-gnns-via-mixture-of-aligned-experts)

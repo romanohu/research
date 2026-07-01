@@ -9,4 +9,4 @@ Karolina Dziugaite は reinforcement learning, mixture-of-experts under non-stat
 
 ## 論文
 ### 2024
-- [Mixture of Experts in a Mixture of RL settings](../../MARL/marl_papers.md#mixture-of-experts-in-a-mixture-of-rl-settings)
+- [Mixture of Experts in a Mixture of RL settings](../../MARL/marl_papers.html#mixture-of-experts-in-a-mixture-of-rl-settings)

@@ -9,4 +9,4 @@ Fei Sha は機械学習研究者で、本人サイトで USC 在籍が確認で�
 
 ## 論文
 ### 2019
-- [Coordinated Exploration via Intrinsic Rewards for Multi-Agent Reinforcement Learning](../../MARL/cmarl_papers.md#coordinated-exploration-via-intrinsic-rewards-for-multi-agent-reinforcement-learning)
+- [Coordinated Exploration via Intrinsic Rewards for Multi-Agent Reinforcement Learning](../../MARL/cmarl_papers.html#coordinated-exploration-via-intrinsic-rewards-for-multi-agent-reinforcement-learning)

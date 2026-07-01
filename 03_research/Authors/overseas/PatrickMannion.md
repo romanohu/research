@@ -8,4 +8,4 @@ Patrick Mannion は関連論文の著者として確認できる研究者。([so
 
 ## 論文
 ### 2021
-- [Exploring the Impact of Tunable Agents in Sequential Social Dilemmas](../../MARL/cmarl_papers.md#exploring-the-impact-of-tunable-agents-in-sequential-social-dilemmas)
+- [Exploring the Impact of Tunable Agents in Sequential Social Dilemmas](../../MARL/cmarl_papers.html#exploring-the-impact-of-tunable-agents-in-sequential-social-dilemmas)

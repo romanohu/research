@@ -9,7 +9,7 @@ Fei Fang は CMU School of Computer Science の教員で、ゲーム理論と機
 
 ## 論文
 ### 2021
-- [Discovering Diverse Multi-Agent Strategic Behavior via Reward Randomization](../../MARL/cmarl_papers.md#discovering-diverse-multi-agent-strategic-behavior-via-reward-randomization)
+- [Discovering Diverse Multi-Agent Strategic Behavior via Reward Randomization](../../MARL/cmarl_papers.html#discovering-diverse-multi-agent-strategic-behavior-via-reward-randomization)
 
 ### 2024
-- [MESA: Cooperative Meta-Exploration in Multi-Agent Learning through Exploiting State-Action Space Structure](../../MARL/cmarl_papers.md#mesa-cooperative-meta-exploration-in-multi-agent-learning-through-exploiting-state-action-space-structure)
+- [MESA: Cooperative Meta-Exploration in Multi-Agent Learning through Exploiting State-Action Space Structure](../../MARL/cmarl_papers.html#mesa-cooperative-meta-exploration-in-multi-agent-learning-through-exploiting-state-action-space-structure)

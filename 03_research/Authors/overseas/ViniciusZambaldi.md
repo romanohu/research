@@ -9,6 +9,6 @@ Vinicius Zambaldi は DeepMind の Research Engineer で、SSD 論文の著者�
 
 ## 論文
 ### 2017
-- [Multi-agent Reinforcement Learning in Sequential Social Dilemmas](../../MARL/cmarl_papers.md#multi-agent-reinforcement-learning-in-sequential-social-dilemmas)
+- [Multi-agent Reinforcement Learning in Sequential Social Dilemmas](../../MARL/cmarl_papers.html#multi-agent-reinforcement-learning-in-sequential-social-dilemmas)
 
-- [A multi-agent reinforcement learning model of common-pool resource appropriation](../../MARL/cmarl_papers.md#a-multi-agent-reinforcement-learning-model-of-common-pool-resource-appropriation)
+- [A multi-agent reinforcement learning model of common-pool resource appropriation](../../MARL/cmarl_papers.html#a-multi-agent-reinforcement-learning-model-of-common-pool-resource-appropriation)

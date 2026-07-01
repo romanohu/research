@@ -11,4 +11,4 @@ Feng Fu は関連論文の著者として確認できる研究者。([source](ht
 
 ## 論文
 ### 2025
-- [Evolutionary multi-agent reinforcement learning in group social dilemmas](../../MARL/cmarl_papers.md#evolutionary-multi-agent-reinforcement-learning-in-group-social-dilemmas)
+- [Evolutionary multi-agent reinforcement learning in group social dilemmas](../../MARL/cmarl_papers.html#evolutionary-multi-agent-reinforcement-learning-in-group-social-dilemmas)

@@ -9,7 +9,7 @@ Karl Tuyls は関連論文の著者として確認できる研究者。([source]
 
 ## 論文
 ### 2018
-- [Inequity aversion improves cooperation in intertemporal social dilemmas](../../MARL/cmarl_papers.md#inequity-aversion-improves-cooperation-in-intertemporal-social-dilemmas)
+- [Inequity aversion improves cooperation in intertemporal social dilemmas](../../MARL/cmarl_papers.html#inequity-aversion-improves-cooperation-in-intertemporal-social-dilemmas)
 
 ### 2017
-- [A multi-agent reinforcement learning model of common-pool resource appropriation](../../MARL/cmarl_papers.md#a-multi-agent-reinforcement-learning-model-of-common-pool-resource-appropriation)
+- [A multi-agent reinforcement learning model of common-pool resource appropriation](../../MARL/cmarl_papers.html#a-multi-agent-reinforcement-learning-model-of-common-pool-resource-appropriation)

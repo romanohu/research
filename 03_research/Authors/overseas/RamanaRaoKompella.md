@@ -9,4 +9,4 @@ Ramana Rao Kompella は graph neural networks, mixture-of-experts, diversity mod
 
 ## 論文
 ### 2023
-- [Graph Mixture of Experts: Learning on Large-Scale Graphs with Explicit Diversity Modeling](../../ML/papers.md#graph-mixture-of-experts-learning-on-large-scale-graphs-with-explicit-diversity-modeling)
+- [Graph Mixture of Experts: Learning on Large-Scale Graphs with Explicit Diversity Modeling](../../ML/papers.html#graph-mixture-of-experts-learning-on-large-scale-graphs-with-explicit-diversity-modeling)

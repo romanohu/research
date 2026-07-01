@@ -9,4 +9,4 @@ Janusz Marecki はマルチエージェント意思決定の研究実績を持�
 
 ## 論文
 ### 2017
-- [Multi-agent Reinforcement Learning in Sequential Social Dilemmas](../../MARL/cmarl_papers.md#multi-agent-reinforcement-learning-in-sequential-social-dilemmas)
+- [Multi-agent Reinforcement Learning in Sequential Social Dilemmas](../../MARL/cmarl_papers.html#multi-agent-reinforcement-learning-in-sequential-social-dilemmas)

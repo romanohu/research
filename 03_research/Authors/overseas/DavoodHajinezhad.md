@@ -9,4 +9,4 @@ Davood Hajinezhad は 強化学習・最適化関連の研究者で、OpenReview
 
 ## 論文
 ### 2022
-- [A Review of Cooperative Multi-Agent Deep Reinforcement Learning](../../MARL/cmarl_papers.md#a-review-of-cooperative-multi-agent-deep-reinforcement-learning)
+- [A Review of Cooperative Multi-Agent Deep Reinforcement Learning](../../MARL/cmarl_papers.html#a-review-of-cooperative-multi-agent-deep-reinforcement-learning)

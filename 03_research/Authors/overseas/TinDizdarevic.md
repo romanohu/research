@@ -9,4 +9,4 @@ Tin Dizdarevic は University of Oxford の DPhil student で、OvercookedV2 論
 
 ## 論文
 ### 2025
-- [OVERCOOKEDV2: RETHINKING OVERCOOKED FOR ZERO-SHOT COORDINATION](../../MARL/cmarl_papers.md#overcookedv2-rethinking-overcooked-for-zero-shot-coordination)
+- [OVERCOOKEDV2: RETHINKING OVERCOOKED FOR ZERO-SHOT COORDINATION](../../MARL/cmarl_papers.html#overcookedv2-rethinking-overcooked-for-zero-shot-coordination)

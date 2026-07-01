@@ -9,4 +9,4 @@ Hanxiao Liu は mixture-of-experts routing, expert choice assignment に関連�
 
 ## 論文
 ### 2022
-- [Mixture-of-Experts with Expert Choice Routing](../../ML/papers.md#mixture-of-experts-with-expert-choice-routing)
+- [Mixture-of-Experts with Expert Choice Routing](../../ML/papers.html#mixture-of-experts-with-expert-choice-routing)

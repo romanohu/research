@@ -8,4 +8,4 @@ Wenhao Li は関連論文の著者として確認できる研究者。([source](
 
 ## 論文
 ### 2023
-- [Learning Optimal "Pigovian Tax" in Sequential Social Dilemmas](../../MARL/cmarl_papers.md#learning-optimal-pigovian-tax-in-sequential-social-dilemmas)
+- [Learning Optimal "Pigovian Tax" in Sequential Social Dilemmas](../../MARL/cmarl_papers.html#learning-optimal-pigovian-tax-in-sequential-social-dilemmas)

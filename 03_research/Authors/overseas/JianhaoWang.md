@@ -9,4 +9,4 @@ Jianhao Wang は MARL 研究の著者で、WashU 研究プロフィールで CSE
 
 ## 論文
 ### 2019
-- [Influence-Based Multi-Agent Exploration](../../MARL/cmarl_papers.md#influence-based-multi-agent-exploration)
+- [Influence-Based Multi-Agent Exploration](../../MARL/cmarl_papers.html#influence-based-multi-agent-exploration)

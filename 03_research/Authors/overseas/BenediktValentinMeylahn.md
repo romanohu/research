@@ -8,4 +8,4 @@ Benedikt Valentin Meylahn は関連論文の著者として確認できる研究
 
 ## 論文
 ### 2025
-- [Multi-agent Reinforcement Learning in the All-or-Nothing Public Goods game on Networks](../../MARL/cmarl_papers.md#multi-agent-reinforcement-learning-in-the-all-or-nothing-public-goods-game-on-networks)
+- [Multi-agent Reinforcement Learning in the All-or-Nothing Public Goods game on Networks](../../MARL/cmarl_papers.html#multi-agent-reinforcement-learning-in-the-all-or-nothing-public-goods-game-on-networks)

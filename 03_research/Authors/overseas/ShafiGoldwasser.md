@@ -9,4 +9,4 @@ Shafi Goldwasser は emergent communication, unsupervised translation に関連�
 
 ## 論文
 ### 2025
-- [Unsupervised Translation of Emergent Communication](../../EmCom/papers.md#unsupervised-translation-of-emergent-communication)
+- [Unsupervised Translation of Emergent Communication](../../EmCom/papers.html#unsupervised-translation-of-emergent-communication)

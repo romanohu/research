@@ -62,32 +62,32 @@
 ## 論文メモ
 ### 2017
 #### [Multi-agent Reinforcement Learning in Sequential Social Dilemmas](https://arxiv.org/abs/1702.03037)
-[Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.md) [Vinicius Zambaldi](../Authors/overseas/ViniciusZambaldi.md) [Marc Lanctot](../Authors/overseas/MarcLanctot.md) [Janusz Marecki](../Authors/overseas/JanuszMarecki.md) [Thore Graepel](../Authors/overseas/ThoreGraepel.md)
+[Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.html) [Vinicius Zambaldi](../Authors/overseas/ViniciusZambaldi.html) [Marc Lanctot](../Authors/overseas/MarcLanctot.html) [Janusz Marecki](../Authors/overseas/JanuszMarecki.html) [Thore Graepel](../Authors/overseas/ThoreGraepel.html)
 従来のMGSDは1回の行動において"協力"か"裏切り"かの選択を迫る設定をしていたが、本論文ではその選択というのは短期的な行動選択ではなく、長期的な行動選択の方針(policy)として現れると主張している．それを県境するための枠組みとしてSequentialSocialDilemma(SSD)を提言する．これはMGSDの特徴を維持しつつも、時間的に拡張されたMarkovゲームとして定式化した社会ジレンマモデルである．SSDの特徴として協力の「度合い」も表現できる点がある．
 また、MGSDの利得行列上では同質に見えたとしても、SSDとして見ると本質的に異なるゲームがあることが判明した．
 記述的(Descriptive)な立場で、どのような行動パターンが現れるのかを観察．
 それぞれのゲームの差異の他に、学習の際のハイパーパラメータにも着目している．
 
 #### Multiagent cooperation and competition with deep reinforcement learning
-[Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.md)
+[Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.html)
 Pongゲーム環境において、報酬設定pを操作することで、協力的/競争的な行動が創発する．また、固定方策AIを相手に学習するsingle-playerDQNよりも、固定方策AIを用いないmultiplayerDQNのほうが、より一般的でロバストな戦略が育つ．
 
 #### [A multi-agent reinforcement learning model of common-pool resource appropriation](https://arxiv.org/abs/1707.06600)
-[Julien Perolat](../Authors/overseas/JulienPerolat.md) [Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.md) [Vinicius Zambaldi](../Authors/overseas/ViniciusZambaldi.md) [Charles Beattie](../Authors/overseas/CharlesBeattie.md) [Karl Tuyls](../Authors/overseas/KarlTuyls.md) [Thore Graepel](../Authors/overseas/ThoreGraepel.md)
+[Julien Perolat](../Authors/overseas/JulienPerolat.html) [Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.html) [Vinicius Zambaldi](../Authors/overseas/ViniciusZambaldi.html) [Charles Beattie](../Authors/overseas/CharlesBeattie.html) [Karl Tuyls](../Authors/overseas/KarlTuyls.html) [Thore Graepel](../Authors/overseas/ThoreGraepel.html)
 Paper: NeurIPS 2017 (arXiv preprint)
 共有資源の過剰利用を伴う社会的ジレンマを部分観測Markov gameとして定式化し、独立に学習する複数エージェントがどの条件で協力・乱獲・格差へ収束するかを分析した研究．新規性は「資源動態」と「学習ダイナミクス」を同時に扱った点で、検証は資源再生率や環境難易度を変えたシミュレーション比較により行われ、独立学習だけでは持続的協力が崩れやすいという示唆が残る．
 
 ### 2018
 #### Maintaining cooperation in complex social dilemmas using deep reinforcement learning
-[Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.md)
+[Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.html)
 深層強化学習を用いてTFT(しっぺ返し戦略)みたいに協力できるエージェントを作るにはどうしたら良いかという問題に挑戦し、拡張版のamTFTを提起している．マルチエージェントではなく単一エージェントの設計を狙っている．
 #### [Inequity aversion improves cooperation in intertemporal social dilemmas](https://arxiv.org/abs/1803.08884)
-[Edward Hughes](../Authors/overseas/EdwardHughes.md) [Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.md) [Matthew Phillips](../Authors/overseas/MatthewPhillips.md) [Karl Tuyls](../Authors/overseas/KarlTuyls.md) [Edgar A. Duenez-Guzman](../Authors/overseas/EdgarDuenezGuzman.md) [Antonio García Castañeda](../Authors/overseas/AntonioGarciaCastaneda.md) [Iain Dunning](../Authors/overseas/IainDunning.md) [Tina Zhu](../Authors/overseas/TinaZhu.md) [Kevin McKee](../Authors/overseas/KevinMcKee.md) [Raphael Koster](../Authors/overseas/RaphaelKoster.md) [Heather Roff](../Authors/overseas/HeatherRoff.md) [Thore Graepel](../Authors/overseas/ThoreGraepel.md)
+[Edward Hughes](../Authors/overseas/EdwardHughes.html) [Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.html) [Matthew Phillips](../Authors/overseas/MatthewPhillips.html) [Karl Tuyls](../Authors/overseas/KarlTuyls.html) [Edgar A. Duenez-Guzman](../Authors/overseas/EdgarDuenezGuzman.html) [Antonio García Castañeda](../Authors/overseas/AntonioGarciaCastaneda.html) [Iain Dunning](../Authors/overseas/IainDunning.html) [Tina Zhu](../Authors/overseas/TinaZhu.html) [Kevin McKee](../Authors/overseas/KevinMcKee.html) [Raphael Koster](../Authors/overseas/RaphaelKoster.html) [Heather Roff](../Authors/overseas/HeatherRoff.html) [Thore Graepel](../Authors/overseas/ThoreGraepel.html)
 #Unread
 SSD環境において、不公平嫌悪(inquity aversion)を報酬構造に組み込むことで、自己利益だけでなく社会的な協調を誘導できると主張．
 
 #### [Learning through Probing: a decentralized reinforcement learning architecture for social dilemmas](https://arxiv.org/abs/1809.10007?utm_source=chatgpt.com)
-[Nicolas Anastassacos](../Authors/overseas/NicolasAnastassacos.md) [Mirco Musolesi](../Authors/overseas/MircoMusolesi.md)
+[Nicolas Anastassacos](../Authors/overseas/NicolasAnastassacos.html) [Mirco Musolesi](../Authors/overseas/MircoMusolesi.html)
 > [Leibo(2017)](#multi-agent-reinforcement-learning-in-sequential-social-dilemmas)のSSDに沿っているものではない
 
 本論文は、社会的ジレンマ環境におけるマルチエージェント強化学習に対して、「相手の行動が将来どのように変化するか」を学習過程に明示的に取り込む、新しい分散型学習アーキテクチャ Learning through Probing(LTP)を提案した研究である．従来の多くの MARL 手法では、各エージェントは自分が得た即時的・割引累積的な報酬に基づいて方策を更新するが、LTP ではそれに加えて「ある行動を取った結果、相手の学習・行動方針がどう変わったか」という相互作用の二次的効果を評価対象に含める点が特徴である．特に本研究は、社会的相互作用を「解くべきゲーム」ではなく、「学習主体同士が適応し続ける社会的プロセス」として捉え直す立場を明確にしている．
@@ -101,7 +101,7 @@ SSD環境において、不公平嫌悪(inquity aversion)を報酬構造に組�
 一方で、議論の余地や限界も明確に存在する．第一に、本手法は相手が学習する存在であることを暗黙に前提としており、完全に非適応的、あるいは非常に高速に変化する相手に対してどの程度有効かは十分に検証されていない．第二に、η の設定は結果に大きく影響するが、その理論的な決定指針は与えられておらず、現状では経験的調整に依存している．さらに、評価環境は基本的に IPD に限定されており、より高次元・部分観測・多人数の社会的ジレンマ環境にどこまでスケールするかは未解決である．ただし、これらの点は同時に、本研究が「協調の出現を説明・分析するための概念的枠組み」を提示した論文であることを示しており、社会的相互作用を扱う MARL 研究への重要な問題提起として位置づけられる．
 
 #### [Evolving intrinsic motivations for altruistic behavior](https://arxiv.org/abs/1811.05931?utm_source=chatgpt.com)
-[Jane X. Wang](../Authors/overseas/JaneXWang.md) [Edward Hughes](../Authors/overseas/EdwardHughes.md) [Chrisantha Fernando](../Authors/overseas/ChrisanthaFernando.md) [Wojciech M. Czarnecki](../Authors/overseas/WojciechMCzarnecki.md) [Edgar A. Duenez-Guzman](../Authors/overseas/EdgarDuenezGuzman.md) [Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.md)
+[Jane X. Wang](../Authors/overseas/JaneXWang.html) [Edward Hughes](../Authors/overseas/EdwardHughes.html) [Chrisantha Fernando](../Authors/overseas/ChrisanthaFernando.html) [Wojciech M. Czarnecki](../Authors/overseas/WojciechMCzarnecki.html) [Edgar A. Duenez-Guzman](../Authors/overseas/EdgarDuenezGuzman.html) [Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.html)
 内初的報酬に関する研究の1つ．
 本論文は，利他的・協力的行動がどのようにして自己利益を追求するエージェント集団から自然に生じうるのかという，進化理論とマルチエージェント強化学習(MARL)の両分野に共通する根源的な問いに取り組んだ研究である．特に，短期的な個人利益と長期的な集団利益が鋭く対立する intertemporal social dilemma(ISD) を対象に，協力行動が「外から設計された報酬」ではなく，エージェント自身の内発的動機として学習・進化されうることを示す点に特徴がある．
 
@@ -113,10 +113,10 @@ SSD環境において、不公平嫌悪(inquity aversion)を報酬構造に組�
 
 もっとも，本論文にはいくつかの議論すべき点も存在する．第一に，進化的選択は環境設計や集団評価指標に依存するため，どの程度まで一般的な協力原理を獲得しているのかは慎重に解釈する必要がある．第二に，計算コストやスケールの問題から，現実的な大規模MARLへの直接適用には課題が残る．また，進化された内発的動機の「解釈可能性」は限定的であり，それが人間的な倫理や社会規範とどこまで対応しているかは未解決である．ただし，これらの制約を踏まえても，本研究は協力・利他性を“設計する”のではなく，“進化させる”という発想を，深層強化学習の枠組みで具体化した点で，理論的にも方法論的にも大きな意義を持つ．
 #### [Exploration by Random Network Distillation](https://arxiv.org/abs/1810.12894)
-[Yuri Burda](../Authors/overseas/YuriBurda.md) [Harrison Edwards](../Authors/overseas/HarrisonEdwards.md) [Amos Storkey](../Authors/overseas/AmosStorkey.md) [Oleg Klimov](../Authors/overseas/OlegKlimov.md)
+[Yuri Burda](../Authors/overseas/YuriBurda.html) [Harrison Edwards](../Authors/overseas/HarrisonEdwards.html) [Amos Storkey](../Authors/overseas/AmosStorkey.html) [Oleg Klimov](../Authors/overseas/OlegKlimov.html)
 深層強化学習における探索問題において有効な内的報酬の設計手法であるRandomNetworkDistillation(RND)を提案している．構造はかなりシンプルでエージェントが受け取る報酬に環境からのものに加えて独自の機構から出力される内的報酬を含めている．その機構には次状態の観測$o_(t+1)$を受け取る2つのニューラルネットで構成されている．片方のニューラルネットはパラメータを固定してあり、もう片方のニューラルネットが、その出力を予測するようにパラメータを学習する．そして内的報酬は、その予測誤差である．これにより、未知の状態に対しては学習が進んでいないため、予測が上手くいかず、結果として報酬が大きくなり、既知の状態に対しては、報酬が小さくなる．さらにRNDは、予測対象を環境依存の遷移ではなく固定されたランダム関数にすることで、確率的遷移に起因する noisy-TV 問題を回避しており、内的報酬は状態訪問密度の proxy として振る舞う．また内的報酬は非定常であるため、論文では外的報酬と価値関数を分離して学習している．
 #### [Social Influence as Intrinsic Motivation for Multi-Agent Deep Reinforcement Learning](https://arxiv.org/abs/1810.08647?utm_source=chatgpt.com)
-[Alex Sasha Vezhnevets](../Authors/overseas/AlexSashaVezhnevets.md) [Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.md)
+[Alex Sasha Vezhnevets](../Authors/overseas/AlexSashaVezhnevets.html) [Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.html)
 #Unread
 [Leibo(2017)](#multi-agent-reinforcement-learning-in-sequential-social-dilemmas)のSSDに対応した上で、報酬項に変更を加えた．各エージェントiの報酬を以下のように定義．
 $$r_i(t)=r^{ext}_i(t)+Br^{inf}_i(t)$$
@@ -125,31 +125,31 @@ $$r^{inf}_t(t)=\sum_{j≠i} D(\pi_j(・|o_t,a^i_t)||\pi_j(・|o_t,a^{i,cf}_t))$$
 
 ### 2019
 #### [Influence-Based Multi-Agent Exploration](https://arxiv.org/abs/1910.05512)
-[Tonghan Wang](../Authors/overseas/TonghanWang.md) [Jianhao Wang](../Authors/overseas/JianhaoWang.md) [Yi Wu](../Authors/overseas/YiWu.md) [Chongjie Zhang](../Authors/overseas/ChongjieZhang.md)
+[Tonghan Wang](../Authors/overseas/TonghanWang.html) [Jianhao Wang](../Authors/overseas/JianhaoWang.html) [Yi Wu](../Authors/overseas/YiWu.html) [Chongjie Zhang](../Authors/overseas/ChongjieZhang.html)
 #Unread
 
 他エージェントの行動分布に与える影響を情報ボトルネック風の報酬として定義し，影響度が高い行動を探索させることで協調的な状態空間のカバレッジを高める．StarCraft IIの協力タスクで従来探索報酬より高速に学習．
 
 #### [Learning Reciprocity in Complex Sequential Social Dilemmas](https://arxiv.org/abs/1903.08082)
-[Tom Eccles](../Authors/overseas/TomEccles.md) [Edward Hughes](../Authors/overseas/EdwardHughes.md) [János Kramár](../Authors/overseas/JanosKramar.md) [Steven Wheelwright](../Authors/overseas/StevenWheelwright.md) [Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.md)
+[Tom Eccles](../Authors/overseas/TomEccles.html) [Edward Hughes](../Authors/overseas/EdwardHughes.html) [János Kramár](../Authors/overseas/JanosKramar.html) [Steven Wheelwright](../Authors/overseas/StevenWheelwright.html) [Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.html)
 
 #Unread
 [この論文](#inequity-aversion-improves-cooperation-in-intertemporal-social-dilemmas)と似ているが、あちらがエージェントの行動に対する因果的影響度を報酬として用いて学習するのに対し、これは互恵性(相手の行動パターンに応じて戦略を調整すること、自分の行動が相手の"報酬"にどれだけ影響を与えたか)を学習することを意図した論文．この論文の手法ではエージェントは環境報酬に加えて、互恵性に基づく内在報酬を得る．
 (読み途中)
 
 #### [Coordinated Exploration via Intrinsic Rewards for Multi-Agent Reinforcement Learning](https://arxiv.org/abs/1905.12127)
-[Shariq Iqbal](../Authors/overseas/ShariqIqbal.md) [Fei Sha](../Authors/overseas/FeiSha.md)
+[Shariq Iqbal](../Authors/overseas/ShariqIqbal.html) [Fei Sha](../Authors/overseas/FeiSha.html)
 
 
 ### 2020
 #### [Promoting Coordination through Policy Regularization in Multi-Agent Deep Reinforcement Learning](https://arxiv.org/abs/1908.02269)
-[Julien Roy](../Authors/overseas/JulienRoy.md) [Paul Barde](../Authors/overseas/PaulBarde.md) [Félix G. Harvey](../Authors/overseas/FelixGHarvey.md) [Derek Nowrouzezahrai](../Authors/overseas/DerekNowrouzezahrai.md) [Christopher Pal](../Authors/overseas/ChristopherPal.md)
+[Julien Roy](../Authors/overseas/JulienRoy.html) [Paul Barde](../Authors/overseas/PaulBarde.html) [Félix G. Harvey](../Authors/overseas/FelixGHarvey.html) [Derek Nowrouzezahrai](../Authors/overseas/DerekNowrouzezahrai.html) [Christopher Pal](../Authors/overseas/ChristopherPal.html)
 #Unread
 
 集中度の違う方策を正則化で束ねるPCR（Policy Regularization）を提案．各エージェントの方策が均質になるようKL項を追加しつつ価値最大化を行うことで，分散実行でも協調行動が安定し，SMACなどで勝率を改善．
 
 #### [Social diversity and social preferences in mixed-motive reinforcement learning](https://arxiv.org/abs/2002.02325)
-[Kevin R. McKee](../Authors/overseas/KevinMcKee.md) [Ian Gemp](../Authors/overseas/IanGemp.md) [Brian McWilliams](../Authors/overseas/BrianMcWilliams.md) [Edgar A. Duenez-Guzman](../Authors/overseas/EdgarDuenezGuzman.md) [Edward Hughes](../Authors/overseas/EdwardHughes.md) [Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.md)
+[Kevin R. McKee](../Authors/overseas/KevinMcKee.html) [Ian Gemp](../Authors/overseas/IanGemp.html) [Brian McWilliams](../Authors/overseas/BrianMcWilliams.html) [Edgar A. Duenez-Guzman](../Authors/overseas/EdgarDuenezGuzman.html) [Edward Hughes](../Authors/overseas/EdwardHughes.html) [Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.html)
 エージェントに社会的価値志向(Social Value Orientation:SVO)という選考形式を付与することで、集団内の多様性を生み出すことが、相互依存理論(社会心理学の文脈)が示唆するのと同様の有意かつ複雑な行動パターンの多様性をエージェント間に生成することを明らかにした．
 SVOは内発的動機づけであり、自己と他者の間で、どのような報酬分配を好むかを表す．それを表現するために報酬角(reward angle)という概念が導入されている．
 $$R=(r_1,...,r_n)$$
@@ -163,26 +163,26 @@ $$
 この論文ではエージェントごとに固有の理想SVO値を設定することで「多様性があることで生まれる効用」を図ろうとしている．
 
 #### [Partner Selection for the Emergence of Cooperation in Multi-Agent Systems Using Reinforcement Learning](https://arxiv.org/abs/1902.03185)
-[Nicolas Anastassacos](../Authors/overseas/NicolasAnastassacos.md) [Stephen Hailes](../Authors/overseas/StephenHailes.md) [Mirco Musolesi](../Authors/overseas/MircoMusolesi.md)
+[Nicolas Anastassacos](../Authors/overseas/NicolasAnastassacos.html) [Stephen Hailes](../Authors/overseas/StephenHailes.html) [Mirco Musolesi](../Authors/overseas/MircoMusolesi.html)
 
 #Unread
 
 #### [Inducing Cooperative behaviour in Sequential-Social dilemmas through Multi-Agent Reinforcement Learning using Status-Quo Loss](https://arxiv.org/abs/2001.05458)
-[Pinkesh Badjatiya](../Authors/overseas/PinkeshBadjatiya.md) [Mausoom Sarkar](../Authors/overseas/MausoomSarkar.md) [Abhishek Sinha](../Authors/overseas/AbhishekSinha.md) [Siddharth Singh](../Authors/overseas/SiddharthSingh.md) [Nikaash Puri](../Authors/overseas/NikaashPuri.md) [Jayakumar Subramanian](../Authors/overseas/JayakumarSubramanian.md) [Balaji Krishnamurthy](../Authors/overseas/BalajiKrishnamurthy.md)
+[Pinkesh Badjatiya](../Authors/overseas/PinkeshBadjatiya.html) [Mausoom Sarkar](../Authors/overseas/MausoomSarkar.html) [Abhishek Sinha](../Authors/overseas/AbhishekSinha.html) [Siddharth Singh](../Authors/overseas/SiddharthSingh.html) [Nikaash Puri](../Authors/overseas/NikaashPuri.html) [Jayakumar Subramanian](../Authors/overseas/JayakumarSubramanian.html) [Balaji Krishnamurthy](../Authors/overseas/BalajiKrishnamurthy.html)
 Paper: arXiv 2020
 SSDにおいて独立学習エージェントが短期利得に偏って協力崩壊しやすい問題に対し、現状からの急激な逸脱を抑えるStatus-Quo Lossを導入して協調安定化を狙う手法．追加損失で方策更新を制御する点が新規で、Gathering系環境で協力率や報酬を比較評価しており、損失重みの調整依存が残る点は今後の議論ポイント．
 
 
 ### 2021
 #### Multi-agent deep reinforcement learning: a survey
-[Lu Dong](../Authors/overseas/LuDong.md)
+[Lu Dong](../Authors/overseas/LuDong.html)
 MARL及びMADRLに関する包括的なサーベイ．メルポは、ゲーム設定が混合設定(一般和ゲーム)で、エージェントは独立学習者で、環境はPOMGな実験ということか．p11の分散訓練分散実行(DTDE)の詳細がかなり分かりやすい．Leibo(2017)も出てきているので、他の登場した文献も読んでおきたい．
 
 #### [The Surprising Effectiveness of PPO in Cooperative, Multi-Agent Games](https://arxiv.org/abs/2103.01955?utm_source=chatgpt.com)
-[Chao Yu](../Authors/overseas/ChaoYu.md) [Akash Velu](../Authors/overseas/AkashVelu.md) [Eugene Vinitsky](../Authors/overseas/EugeneVinitsky.md) [Jiaxuan Gao](../Authors/overseas/JiaxuanGao.md) [Yu Wang](../Authors/overseas/YuWang.md) [Alexandre Bayen](../Authors/overseas/AlexandreBayen.md) [Yi Wu](../Authors/overseas/YiWu.md)
+[Chao Yu](../Authors/overseas/ChaoYu.html) [Akash Velu](../Authors/overseas/AkashVelu.html) [Eugene Vinitsky](../Authors/overseas/EugeneVinitsky.html) [Jiaxuan Gao](../Authors/overseas/JiaxuanGao.html) [Yu Wang](../Authors/overseas/YuWang.html) [Alexandre Bayen](../Authors/overseas/AlexandreBayen.html) [Yi Wu](../Authors/overseas/YiWu.html)
 
 #### [Birds of a Feather Flock Together: A Close Look at Cooperation Emergence via Multi-Agent RL](https://arxiv.org/abs/2104.11455?utm_source=chatgpt.com)
-[Heng Dong](../Authors/overseas/HengDong.md) [Tonghan Wang](../Authors/overseas/TonghanWang.md) [Jiayuan Liu](../Authors/overseas/JiayuanLiu.md) [Chi Han](../Authors/overseas/ChiHan.md) [Chongjie Zhang](../Authors/overseas/ChongjieZhang.md)
+[Heng Dong](../Authors/overseas/HengDong.html) [Tonghan Wang](../Authors/overseas/TonghanWang.html) [Jiayuan Liu](../Authors/overseas/JiayuanLiu.html) [Chi Han](../Authors/overseas/ChiHan.html) [Chongjie Zhang](../Authors/overseas/ChongjieZhang.html)
 協調分散MARLに関してのこれの先行研究では、エージェントの行動に影響するインセンティブ(他のエージェントに報酬/罰を与える)を学習させることで協調を促進してきたが、それでは安定せず、協力と裏切りの間で周期的に変動する脆弱(ロバストでない)挙動が観察されたとしている．それを解決するための方法として同類志向(homophily)を導入した学習枠組みを提案している．
 本研究は、この不安定性がインセンティブ行動自体が利己的になり得る「第二次社会的ジレンマ」に起因することを理論的に分析した点が大きな貢献である．さらに、人間社会で広く観察される同類志向(homophily)に着目し、エージェント同士が似たインセンティブを与えるよう学習を誘導する homophilic incentives を提案した．これにより学習ダイナミクスが安定化し、協調行動が持続的に維持される．提案手法は、Public Goods や Tragedy of the Commons といった代表的な逐次的社会的ジレンマ環境で検証され、従来手法と比べて高く安定した協調水準を達成することが示された．一方で、同質性を促す設計が異質性を必要とするタスクに与える影響や、大規模・複雑な環境への一般化可能性については今後の課題として議論の余地がある．
 - 第1次的社会的ジレンマ
@@ -193,98 +193,98 @@ MARL及びMADRLに関する包括的なサーベイ．メルポは、ゲーム�
   - 他者がインセンティブを出してくれるなら、自分は出さない方が得
 
 #### [Discovering Diverse Multi-Agent Strategic Behavior via Reward Randomization](https://arxiv.org/abs/2103.04564)
-[Zhenggang Tang](../Authors/overseas/ZhenggangTang.md) [Chao Yu](../Authors/overseas/ChaoYu.md) [Boyuan Chen](../Authors/overseas/BoyuanChen.md) [Huazhe Xu](../Authors/overseas/HuazheXu.md) [Xiaolong Wang](../Authors/overseas/XiaolongWang.md) [Fei Fang](../Authors/overseas/FeiFang.md) [Simon Du](../Authors/overseas/SimonDu.md) [Yu Wang](../Authors/overseas/YuWang.md) [Yi Wu](../Authors/overseas/YiWu.md)
+[Zhenggang Tang](../Authors/overseas/ZhenggangTang.html) [Chao Yu](../Authors/overseas/ChaoYu.html) [Boyuan Chen](../Authors/overseas/BoyuanChen.html) [Huazhe Xu](../Authors/overseas/HuazheXu.html) [Xiaolong Wang](../Authors/overseas/XiaolongWang.html) [Fei Fang](../Authors/overseas/FeiFang.html) [Simon Du](../Authors/overseas/SimonDu.html) [Yu Wang](../Authors/overseas/YuWang.html) [Yi Wu](../Authors/overseas/YiWu.html)
 #Unread
 
 報酬関数をエピソードごとにランダム化し，獲得した多様な方策を事後に蒸留することで戦略のモード崩壊を防ぐ手法を提案．Matrix gamesや粒子環境で既存MARLより頑健な協調・競合戦略のレパートリを獲得．
 
 #### [Exploring the Impact of Tunable Agents in Sequential Social Dilemmas](https://arxiv.org/abs/2101.11967)
-[David O'Callaghan](../Authors/overseas/DavidOCallaghan.md) [Patrick Mannion](../Authors/overseas/PatrickMannion.md)
+[David O'Callaghan](../Authors/overseas/DavidOCallaghan.html) [Patrick Mannion](../Authors/overseas/PatrickMannion.html)
 Paper: AAMAS 2021 Extended Abstract / arXiv
 SSDで協力志向と利己志向を連続的に調整できるTunable Agentを導入し、独立に動くエージェント集団へ混在させたときの集団ダイナミクスを評価した研究．方策そのものではなく行動傾向パラメータを操作して社会的帰結を制御するのが新規点で、複数割合の混成実験で全体効率と公平性を測定している一方、環境依存の一般化は未解決．
 
 ### 2022
 #### [A Review of Cooperative Multi-Agent Deep Reinforcement Learning](https://arxiv.org/abs/1908.03963)
-[Afshin OroojlooyJadid](../Authors/overseas/AfshinOroojlooyJadid.md) [Davood Hajinezhad](../Authors/overseas/DavoodHajinezhad.md)
+[Afshin OroojlooyJadid](../Authors/overseas/AfshinOroojlooyJadid.html) [Davood Hajinezhad](../Authors/overseas/DavoodHajinezhad.html)
 MARLが扱う課題の多くはNP困難問題に分類される．このサーベイでは協調的な目標を持つ分散型問題に焦点を当てている．IL(Independent Learners)の限界を緩和するために提案された手法として、1パラメータ共有、2学習率・更新頻度の工夫、3役割分担(エージェント行動の固定/探索空間を削減)などがある．
 
 ### 2023
 #### [A Review of Cooperation in Multi-agent Learning](https://arxiv.org/abs/2312.05162)
-[Yali Du](../Authors/overseas/YaliDu.md) [Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.md) [Usman Islam](../Authors/overseas/UsmanIslam.md) [Richard Willis](../Authors/overseas/RichardWillis.md) [Peter Sunehag](../Authors/overseas/PeterSunehag.md)
+[Yali Du](../Authors/overseas/YaliDu.html) [Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.html) [Usman Islam](../Authors/overseas/UsmanIslam.html) [Richard Willis](../Authors/overseas/RichardWillis.html) [Peter Sunehag](../Authors/overseas/PeterSunehag.html)
 #Unread
 
 協調を要するMARLを網羅的に整理し，インセンティブ設計・通信・役割分担・社会的選好モデリングの4軸で手法を比較したサーベイ．協調を測るベンチや評価指標の欠如を課題として挙げる．
 
 #### [LJIR: Learning Joint-Action Intrinsic Reward in cooperative multi-agent reinforcement learning](https://www.sciencedirect.com/science/article/abs/pii/S0893608023004355)
-[Ting Zhu](../Authors/overseas/TingZhu.md)
+[Ting Zhu](../Authors/overseas/TingZhu.html)
 #Unread
 
 共同行動に対する内発的報酬を学習するLJIRを提案．混合観測下での因果効果推定を通じて「全員に有益な行動」を強化し，SMACでのサンプル効率と最終勝率を向上させた．
 
 #### [Two Heads are Better Than One: A Simple Exploration Framework for Efficient Multi-Agent Reinforcement Learning](https://openreview.net/forum?id=AYLlZMmUbo&noteId=sIoIRG6uqi)
-[Linxuan Xu](../Authors/overseas/LinxuanXu.md)
+[Linxuan Xu](../Authors/overseas/LinxuanXu.html)
 #Unread
 
 方策ヘッドを探索用と活用用の2本に分け，共有バックボーンで切り替える枠組みを提案．探索ヘッドにはノイズと楽観的価値を入れて多様な挙動を誘発し，SMACで少ないステップで高勝率に到達．
 
 #### [Situation-Dependent Causal Influence-Based Cooperative Multi-agent Reinforcement Learning](https://arxiv.org/abs/2312.09539)
-[Xiao Du](../Authors/overseas/XiaoDu.md) [Yutong Ye](../Authors/overseas/YutongYe.md) [Pengyu Zhang](../Authors/overseas/PengyuZhang.md) [Yaning Yang](../Authors/overseas/YaningYang.md) [Mingsong Chen](../Authors/overseas/MingsongChen.md) [Ting Wang](../Authors/overseas/TingWang.md)
+[Xiao Du](../Authors/overseas/XiaoDu.html) [Yutong Ye](../Authors/overseas/YutongYe.html) [Pengyu Zhang](../Authors/overseas/PengyuZhang.html) [Yaning Yang](../Authors/overseas/YaningYang.html) [Mingsong Chen](../Authors/overseas/MingsongChen.html) [Ting Wang](../Authors/overseas/TingWang.html)
 #Unread
 
 状態ごとに因果影響の重みを調整するSD-CICを導入し，他者への影響が大きい状況だけ追加報酬を与えることで過度な干渉を抑制．SMACやHanabiで標準CICより安定した協調を実現．
 
 #### [Cooperative Foraging Behaviour Through Multi-Agent Reinforcement Learning with Graph-Based Communication](https://openreview.net/forum?id=epzrEgNNSWL)
-[Hicham Azmani](../Authors/overseas/HichamAzmani.md) [Andries Rosseau](../Authors/overseas/AndriesRosseau.md) [Ann Nowe](../Authors/overseas/AnnNowe.md) [Roxana Radulescu](../Authors/overseas/RoxanaRadulescu.md)
+[Hicham Azmani](../Authors/overseas/HichamAzmani.html) [Andries Rosseau](../Authors/overseas/AndriesRosseau.html) [Ann Nowe](../Authors/overseas/AnnNowe.html) [Roxana Radulescu](../Authors/overseas/RoxanaRadulescu.html)
 Paper: EWRL 2023 (OpenReview)
 Sequential social dilemmasを対象に、エージェント間通信をグラフ構造で学習する枠組みを導入して協力的採餌行動を改善した研究．新規性は通信相手の選択と情報集約を同時学習する点で、SSDベンチマーク上で独立実行系ベースラインより協調指標を改善したが、通信コストやスケーリングの評価は今後の論点．
 
 #### [Learning Optimal "Pigovian Tax" in Sequential Social Dilemmas](https://openreview.net/forum?id=zbO1OOEKey)
-[Yun Hua](../Authors/overseas/YunHua.md) [Shang Gao](../Authors/overseas/ShangGao.md) [Wenhao Li](../Authors/overseas/WenhaoLi.md) [Haosheng Chen](../Authors/overseas/HaoshengChen.md) [Bo Jin](../Authors/overseas/BoJin.md) [Xiangfeng Wang](../Authors/overseas/XiangfengWang.md) [Jun Luo](../Authors/overseas/JunLuo.md) [Hongyuan Zha](../Authors/overseas/HongyuanZha.md)
+[Yun Hua](../Authors/overseas/YunHua.html) [Shang Gao](../Authors/overseas/ShangGao.html) [Wenhao Li](../Authors/overseas/WenhaoLi.html) [Haosheng Chen](../Authors/overseas/HaoshengChen.html) [Bo Jin](../Authors/overseas/BoJin.html) [Xiangfeng Wang](../Authors/overseas/XiangfengWang.html) [Jun Luo](../Authors/overseas/JunLuo.html) [Hongyuan Zha](../Authors/overseas/HongyuanZha.html)
 Paper: CoRR 2023 / OpenReview, Yun Hua et al.
 SSDにおける外部性を経済学のPigovian Taxとして内部化し，自己利得追求で崩れやすい協調を回復することを狙った研究．新規性は，補助的なtax agentが税・補助の配分方策を学習して個別報酬を再整形する点で，Escape RoomとCleanupで社会厚生を既存法より改善している．一方で，税制設計を担う追加主体の情報要件や，制度が操作される場合の頑健性は未解決の論点として残る．
 
 ### 2024
 #### [MESA: Cooperative Meta-Exploration in Multi-Agent Learning through Exploiting State-Action Space Structure](https://arxiv.org/abs/2405.00902)
-[Zhicheng Zhang](../Authors/overseas/ZhichengZhang.md) [Yancheng Liang](../Authors/overseas/YanchengLiang.md) [Yi Wu](../Authors/overseas/YiWu.md) [Fei Fang](../Authors/overseas/FeiFang.md)
+[Zhicheng Zhang](../Authors/overseas/ZhichengZhang.html) [Yancheng Liang](../Authors/overseas/YanchengLiang.html) [Yi Wu](../Authors/overseas/YiWu.html) [Fei Fang](../Authors/overseas/FeiFang.html)
 #Unread
 
 状態‐行動空間の構造をメタ学習で推定し，探索ノイズをタスクに適応させるMESAを提案．協調グリッドゲームで既存探索強化手法より高速に高性能方策へ収束．
 
 #### [Learning Partner Selection Rules that Sustain Cooperation in Social Dilemmas with the Option of Opting Out](https://dl.acm.org/doi/10.5555/3635637.3662967)
-[Chin-wing Leung](../Authors/overseas/ChinWingLeung.md) [Paolo Turrini](../Authors/overseas/PaoloTurrini.md)
+[Chin-wing Leung](../Authors/overseas/ChinWingLeung.html) [Paolo Turrini](../Authors/overseas/PaoloTurrini.html)
 
 #Unread
 
 #### [Formal contracts mitigate social dilemmas in multi-agent reinforcement learning](https://link.springer.com/article/10.1007/s10458-024-09682-5)
-[Andreas Haupt](../Authors/overseas/AndreasHaupt.md) [Phillip Christoffersen](../Authors/overseas/PhillipChristoffersen.md) [Mehul Damani](../Authors/overseas/MehulDamani.md) [Dylan Hadfield-Menell](../Authors/overseas/DylanHadfieldMenell.md)
+[Andreas Haupt](../Authors/overseas/AndreasHaupt.html) [Phillip Christoffersen](../Authors/overseas/PhillipChristoffersen.html) [Mehul Damani](../Authors/overseas/MehulDamani.html) [Dylan Hadfield-Menell](../Authors/overseas/DylanHadfieldMenell.html)
 Paper: Autonomous Agents and Multi-Agent Systems (2024)
 社会的ジレンマにおいて、エージェント間に形式的契約を導入して逸脱行動を抑える制度設計をMARLに統合した研究．環境内インセンティブだけでなく契約遵守コストまで含めて学習させる点が新規で、複数の社会的ジレンマ設定で協力水準の改善を示す一方、契約仕様を誰がどう設計するかは実運用上の未解決課題として残る．
 
 #### [Resolving social dilemmas with minimal reward transfer](https://link.springer.com/article/10.1007/s10458-024-09675-4)
-[Richard Willis](../Authors/overseas/RichardWillis.md) [Yali Du](../Authors/overseas/YaliDu.md) [Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.md) [Michael Luck](../Authors/overseas/MichaelLuck.md)
+[Richard Willis](../Authors/overseas/RichardWillis.html) [Yali Du](../Authors/overseas/YaliDu.html) [Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.html) [Michael Luck](../Authors/overseas/MichaelLuck.html)
 Paper: Autonomous Agents and Multi-Agent Systems (2024)
 エージェント間の報酬移転を最小限に抑えつつ協調均衡へ誘導するメカニズムを提案し、独立に報酬最大化する主体のまま社会的損失を減らせるかを検証した研究．新規性は必要最小移転量を明示的に最適化対象にした点で、標準的なジレンマ環境で効率と公平性のトレードオフを評価しているが、大規模連続制御への拡張は今後の課題．
 
 #### [Learning Partner Selection Rules that Sustain Cooperation in Social Dilemmas with the Option of Opting Out](https://www.ifaamas.org/Proceedings/aamas2024/pdfs/p1110.pdf)
-[Chin-wing Leung](../Authors/overseas/ChinWingLeung.md) [Paolo Turrini](../Authors/overseas/PaoloTurrini.md)
+[Chin-wing Leung](../Authors/overseas/ChinWingLeung.html) [Paolo Turrini](../Authors/overseas/PaoloTurrini.html)
 Paper: AAMAS 2024, Chin-wing Leung, Paolo Turrini
 
 繰り返しPDに「opting out（関係解消して再マッチ）」を入れた社会的ジレンマで，行動選択とパートナー選択規則を同時に学習させた研究．新規性は，Out-for-Tatのような規則を事前固定せずに協調維持ルールが創発する点で，手法はMulti-agent Q-learning（Boltzmann探索）による集団シミュレーション，検証は協調率と戦略分布の遷移で行う．議論点として，観測情報が極端に限定される設定から現実的な不完全観測へ拡張したときの頑健性が残る．
 
 #### [Environment Complexity and Nash Equilibria in a Sequential Social Dilemma](https://openreview.net/forum?id=Re59h4ew9o)
-[Mustafa Yasir](../Authors/overseas/MustafaYasir.md) [Andrew Howes](../Authors/overseas/AndrewHowes.md) [Vasilios Mavroudis](../Authors/overseas/VasiliosMavroudis.md) [Chris Hicks](../Authors/overseas/ChrisHicks.md)
+[Mustafa Yasir](../Authors/overseas/MustafaYasir.html) [Andrew Howes](../Authors/overseas/AndrewHowes.html) [Vasilios Mavroudis](../Authors/overseas/VasiliosMavroudis.html) [Chris Hicks](../Authors/overseas/ChrisHicks.html)
 Paper: EWRL17 2024 (OpenReview), Mustafa Yasir et al.
 一般和ゲームでのMARL協調が環境複雑性の増加でどう崩れるかを，SSD化したgridworld Stag Huntで検証した研究．新規性は，行列ゲームの社会的ジレンマを時空間的に拡張した設定で，均衡選択の変化を直接比較した点にあり，複雑化に伴って準最適なrisk-dominant戦略へ収束しやすいことを報告する．ただし，この傾向が他のSSDタスクやアルゴリズム群にも一般化するかは今後の検証課題である．
 
 ### 2025
 #### [A Comprehensive Survey on Multi-Agent Cooperative Decision-Making: Scenarios, Approaches, Challenges and Perspectives](https://arxiv.org/abs/2503.13415)
-[Weiqiang Jin](../Authors/overseas/WeiqiangJin.md) [Hongyang Du](../Authors/overseas/HongyangDu.md) [Biao Zhao](../Authors/overseas/BiaoZhao.md) [Xingwu Tian](../Authors/overseas/XingwuTian.md) [Bohang Shi](../Authors/overseas/BohangShi.md) [Guang Yang](../Authors/overseas/GuangYang.md)
+[Weiqiang Jin](../Authors/overseas/WeiqiangJin.html) [Hongyang Du](../Authors/overseas/HongyangDu.html) [Biao Zhao](../Authors/overseas/BiaoZhao.html) [Xingwu Tian](../Authors/overseas/XingwuTian.html) [Bohang Shi](../Authors/overseas/BohangShi.html) [Guang Yang](../Authors/overseas/GuangYang.html)
 #Unread
 
 協調型意思決定をシナリオ（交通・ロボティクス・ゲーム）別に整理し，CTDE/分散学習・通信・信用割当の最新手法を網羅するサーベイ．安全性・公平性・スケーラビリティを今後の主要課題として挙げる．
 
 #### [OVERCOOKEDV2: RETHINKING OVERCOOKED FOR ZERO-SHOT COORDINATION](https://arxiv.org/html/2503.17821v1)
-[Tobias Gessler](../Authors/overseas/TobiasGessler.md) [Tin Dizdarevic](../Authors/overseas/TinDizdarevic.md) [Ani Calinescu](../Authors/overseas/AniCalinescu.md) [Benjamin Ellis](../Authors/overseas/BenjaminEllis.md) [Andrei Lupu](../Authors/overseas/AndreiLupu.md) [Jakob Nicolaus Foerster](../Authors/overseas/JakobNFoerster.md)
+[Tobias Gessler](../Authors/overseas/TobiasGessler.html) [Tin Dizdarevic](../Authors/overseas/TinDizdarevic.html) [Ani Calinescu](../Authors/overseas/AniCalinescu.html) [Benjamin Ellis](../Authors/overseas/BenjaminEllis.html) [Andrei Lupu](../Authors/overseas/AndreiLupu.html) [Jakob Nicolaus Foerster](../Authors/overseas/JakobNFoerster.html)
 - MARLにおいてZSC(Zero-Shot Coordination)を上手く達成するにはどうすればいいのかは重大な課題
     - SP-XP gap：selfplayとcrossplayでの性能の差．
         - ZSCにおける「協調の失敗」を示す指標
@@ -295,39 +295,39 @@ Paper: EWRL17 2024 (OpenReview), Mustafa Yasir et al.
     - 既存のZSC手法でもZSC性能を向上させることが確認できたが、テスト時に適応を要求されるシナリオでは苦戦している?ことが確認できた
 
 #### [SocialJax: An Evaluation Suite for Multi-agent Reinforcement Learning in Sequential Social Dilemmas](https://arxiv.org/abs/2503.14576v2)
-[Cameron Hickert](../Authors/overseas/CameronHickert.md) [Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.md)
+[Cameron Hickert](../Authors/overseas/CameronHickert.html) [Joel Z. Leibo](../Authors/overseas/JoelZ.Leibo.html)
 SSDに対するMARLの評価基盤として、SocialJaxという実装スイートを提案している．エージェントは観測として、MeltingPotのように2D画像を受け取るのではなく、環境設計として数理的に利害構造が埋め込まれる、つまりかなり抽象的な表現を受け取る．
 より具体的にはMeltingPotが持っているRGBピクセル観測は存在せず、11×11のグリッドで環境が構成されており、CNN等で「何が見えているか」を学習する必要は無い．
 > [サイト？](https://sites.google.com/view/socialjax/home)、[github](https://github.com/cooperativex/SocialJax)
 
 #### [Bottom-Up Reputation Promotes Cooperation with Multi-Agent Reinforcement Learning](https://www.ifaamas.org/Proceedings/aamas2025/pdfs/p1745.pdf)
-[Tianyu Ren](../Authors/overseas/TianyuRen.md) [Xuan Yao](../Authors/overseas/XuanYao.md) [Yang Li](../Authors/overseas/YangLi.md) [Xiao-Jun Zeng](../Authors/overseas/XiaoJunZeng.md)
+[Tianyu Ren](../Authors/overseas/TianyuRen.html) [Xuan Yao](../Authors/overseas/XuanYao.html) [Yang Li](../Authors/overseas/YangLi.html) [Xiao-Jun Zeng](../Authors/overseas/XiaoJunZeng.html)
 Paper: AAMAS 2025, Tianyu Ren et al.
 社会的ジレンマで評判メカニズムを使って協調を維持するMARL研究で，既存の事前定義ノルム依存を避けるためにbottom-upな評判学習（LR2）を導入している．新規性は，dilemma policyとevaluation policyの二方策で評判付与と行動選択を同時学習し，中央集権や固定規範なしに局所観測のみで報酬再整形する点にある．空間的社会的ジレンマで協調安定化と戦略クラスタリングを示す一方，偏った社会情報やノイズ下での頑健性は引き続き重要な検討点である．
 
 #### [Reputation-Filtered Reward Reshaping: Encouraging Cooperation in High-Dimensional Semi-Cooperative Multi-agent Settings](https://www.ifaamas.org/Proceedings/aamas2025/pdfs/p1736.pdf)
-[Hassan Raissouni](../Authors/overseas/HassanRaissouni.md) [Wissal Bekhti](../Authors/overseas/WissalBekhti.md) [Btissam El Khamlichi](../Authors/overseas/BtissamElKhamlichi.md) [Amal El Fallah Seghrouchni](../Authors/overseas/AmalElFallahSeghrouchni.md)
+[Hassan Raissouni](../Authors/overseas/HassanRaissouni.html) [Wissal Bekhti](../Authors/overseas/WissalBekhti.html) [Btissam El Khamlichi](../Authors/overseas/BtissamElKhamlichi.html) [Amal El Fallah Seghrouchni](../Authors/overseas/AmalElFallahSeghrouchni.html)
 Paper: AAMAS 2025, Hassan Raissouni et al.
 半協調環境で「全員と等価に協力する」非効率を避けるため，評判フィルタと報酬再整形を組み合わせた協調促進手法を提案した研究．新規性は，信頼できる相手への寄与を強める仕組みと，観測空間内の密度に基づくPotential-Based Reward Shapingを統合した点で，PED-DQNやIndependent Q-Learnersとの比較で性能向上を報告している．ただし，評判推定の誤差が大きい設定やタスク分布が大きく変わる場合の転移性能は今後の論点である．
 
 #### [Multi-agent Reinforcement Learning in the All-or-Nothing Public Goods game on Networks](https://www.ifaamas.org/Proceedings/aamas2025/pdfs/p1492.pdf)
-[Benedikt Valentin Meylahn](../Authors/overseas/BenediktValentinMeylahn.md)
+[Benedikt Valentin Meylahn](../Authors/overseas/BenediktValentinMeylahn.html)
 Paper: AAMAS 2025, Benedikt Valentin Meylahn
 all-or-nothing型Public Goods Gameをネットワーク上のMARLとして扱い，信頼形成と協調崩壊の条件を解析した研究．新規性は，指数移動平均に基づく学習ルールで長時間極限の収束を理論化しつつ，複雑ネットワークでは収束前のメタ安定状態が実質的に持続しうる点を示したところにある．シミュレーションではネットワーク密度上昇で寄与率低下が観測される一方，深層方策や連続行動系への拡張可能性は今後の課題である．
 
 #### [Achieving collective welfare in multi-agent reinforcement learning via suggestion sharing](https://link.springer.com/article/10.1007/s10994-025-06823-z)
-[Yue Jin](../Authors/overseas/YueJin.md) [Shuangqing Wei](../Authors/overseas/ShuangqingWei.md) [Giovanni Montana](../Authors/overseas/GiovanniMontana.md)
+[Yue Jin](../Authors/overseas/YueJin.html) [Shuangqing Wei](../Authors/overseas/ShuangqingWei.html) [Giovanni Montana](../Authors/overseas/GiovanniMontana.html)
 Paper: Machine Learning 114, 190 (2025), Yue Jin et al.
 個別報酬下で社会厚生を高めるため，報酬や方策そのものではなく行動suggestionを交換して協調を誘導するSS法を提案した研究．新規性は，個人情報に近い内部信号共有を抑えつつ，理論的な下界に基づく最適化目的で集団目標と個別目標のずれを縮小する設計にある．Sequential social dilemmasやtragedy of the commonsを含む実験で既存の共有型手法と競合性能を示すが，通信遅延・誤報・敵対的提案がある設定での頑健性は未解決である．
 
 #### [Evolutionary multi-agent reinforcement learning in group social dilemmas](https://doi.org/10.1063/5.0246332)
-[Brian Mintz](../Authors/overseas/BrianMintz.md) [Feng Fu](../Authors/overseas/FengFu.md)
+[Brian Mintz](../Authors/overseas/BrianMintz.html) [Feng Fu](../Authors/overseas/FengFu.html)
 Paper: Chaos 35(2):023140 (2025), Brian Mintz, Feng Fu
 Public GoodsゲームにおけるQ-learning集団を対象に，進化圧と学習ダイナミクスを同時に扱って協調の創発条件を調べた研究．新規性は，進化ゲーム理論とMARLの中間的枠組みを構成し，シミュレーションと極限微分方程式の双方で探索率進化の相図を解析した点である．高探索・低探索の双方が選択される条件を示した一方，表現能力の高い関数近似器や非定常環境への一般化は今後の論点として残る．
 
 ### 2026
 #### [MULTI-AGENT DEEP REINFORCEMENT LEARNING UNDER CONSTRAINED COMMUNICATIONS](https://www.arxiv.org/abs/2601.17069)
-[Shahil Shaik](../Authors/overseas/ShahilShaik.md) [Jonathon M. Smereka](../Authors/overseas/JonathonMSmereka.md) [Yue Wang](../Authors/overseas/YueWang.md)
+[Shahil Shaik](../Authors/overseas/ShahilShaik.html) [Jonathon M. Smereka](../Authors/overseas/JonathonMSmereka.html) [Yue Wang](../Authors/overseas/YueWang.html)
 [プレゼン](https://romanohu.github.io/pages/prezentation/wkblab_paperprezentation2.html#1)
 
 本論文は、マルチエージェント深層強化学習（MARL）において主流である「中央集権的学習・分散実行（CTDE）」の限界を打破することを目的としている．CTDEは学習時にグローバル情報を必要とするため、スケーラビリティの低下や、未知の環境に対するロバスト性の欠如といった実運用上の課題を抱えていた．
@@ -337,6 +337,6 @@ Public GoodsゲームにおけるQ-learning集団を対象に，進化圧と学�
 学習プロセスでは、各エージェントがD-GATsによる推定状態と自己の局所観測を統合し、共有報酬（平均報酬）をもとに独立して方策および価値関数を更新する．StarCraft II（SMAC）やGoogle Research Footballなどの複雑なタスクを用いた実験の結果、提案手法は中央集権的な機構を持つ従来のMAPPOやHAPPOと同等、あるいはそれらを上回る性能と一般化能力を示すことが実証された．
 
 #### [Defection at First Sight: Learning Partner Selection in Optional Social Dilemmas without Prior Information](https://openreview.net/forum?id=yGPJMcNPSI)
-[Benedict Russell](../Authors/overseas/BenedictRussell.md) [Chin-wing Leung](../Authors/overseas/ChinWingLeung.md) [Paolo Turrini](../Authors/overseas/PaoloTurrini.md)
+[Benedict Russell](../Authors/overseas/BenedictRussell.html) [Chin-wing Leung](../Authors/overseas/ChinWingLeung.html) [Paolo Turrini](../Authors/overseas/PaoloTurrini.html)
 Paper: AAMAS 2026 Full (OpenReview), Benedict Russell et al.
 全エージェントの過去行動が既知という仮定を外したoptional social dilemmaで，パートナー選択と協調創発をMARLで検証した研究．新規性は，対戦履歴長に依存する方策で初期情報なしの意思決定を扱い，固定的なトリガー機構なしに協調規則が学習されることを示した点にある．実験では初期defection（hazing period）からTit-for-Tat系やOut-for-Tat系へ遷移して協調維持に至る挙動を報告する一方，マッチング制度や観測欠損の変化に対する安定性評価は今後の課題である．

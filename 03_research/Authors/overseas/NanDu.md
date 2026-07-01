@@ -10,5 +10,5 @@ Nan Du は mixture-of-experts routing, sparse expert models に関連する研�
 
 ## 論文
 ### 2022
-- [ST-MoE: Designing Stable and Transferable Sparse Expert Models](../../ML/papers.md#st-moe-designing-stable-and-transferable-sparse-expert-models)
-- [Mixture-of-Experts with Expert Choice Routing](../../ML/papers.md#mixture-of-experts-with-expert-choice-routing)
+- [ST-MoE: Designing Stable and Transferable Sparse Expert Models](../../ML/papers.html#st-moe-designing-stable-and-transferable-sparse-expert-models)
+- [Mixture-of-Experts with Expert Choice Routing](../../ML/papers.html#mixture-of-experts-with-expert-choice-routing)

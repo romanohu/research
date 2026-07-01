@@ -9,4 +9,4 @@ Akash Velu は Berkeley ITS の論文ページで MARL 論文の著者として�
 
 ## 論文
 ### 2021
-- [The Surprising Effectiveness of PPO in Cooperative, Multi-Agent Games](../../MARL/cmarl_papers.md#the-surprising-effectiveness-of-ppo-in-cooperative-multi-agent-games)
+- [The Surprising Effectiveness of PPO in Cooperative, Multi-Agent Games](../../MARL/cmarl_papers.html#the-surprising-effectiveness-of-ppo-in-cooperative-multi-agent-games)

@@ -9,4 +9,4 @@ János Kramár は DeepMind の研究者で、SSD 関連 MARL 論文の著者。
 
 ## 論文
 ### 2019
-- [Learning Reciprocity in Complex Sequential Social Dilemmas](../../MARL/cmarl_papers.md#learning-reciprocity-in-complex-sequential-social-dilemmas)
+- [Learning Reciprocity in Complex Sequential Social Dilemmas](../../MARL/cmarl_papers.html#learning-reciprocity-in-complex-sequential-social-dilemmas)

@@ -8,4 +8,4 @@ Julien Perolat は関連論文の著者として確認できる研究者。([sou
 
 ## 論文
 ### 2017
-- [A multi-agent reinforcement learning model of common-pool resource appropriation](../../MARL/cmarl_papers.md#a-multi-agent-reinforcement-learning-model-of-common-pool-resource-appropriation)
+- [A multi-agent reinforcement learning model of common-pool resource appropriation](../../MARL/cmarl_papers.html#a-multi-agent-reinforcement-learning-model-of-common-pool-resource-appropriation)

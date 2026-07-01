@@ -9,4 +9,4 @@ Eugene Kharitonov は Anti-efficient encoding in emergent communication の著�
 
 ## 論文
 ### 2019
-- [Anti-efficient encoding in emergent communication](../../EmCom/papers.md#anti-efficient-encoding-in-emergent-communication)
+- [Anti-efficient encoding in emergent communication](../../EmCom/papers.html#anti-efficient-encoding-in-emergent-communication)

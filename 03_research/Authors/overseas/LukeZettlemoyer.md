@@ -9,4 +9,4 @@ Luke Zettlemoyer は sparse mixture-of-experts training, routing stability に�
 
 ## 論文
 ### 2021
-- [BASE Layers: Simplifying Training of Large, Sparse Models](../../ML/papers.md#base-layers-simplifying-training-of-large-sparse-models)
+- [BASE Layers: Simplifying Training of Large, Sparse Models](../../ML/papers.html#base-layers-simplifying-training-of-large-sparse-models)

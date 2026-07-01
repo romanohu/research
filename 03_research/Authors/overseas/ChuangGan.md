@@ -9,4 +9,4 @@ Chuang Gan は UMass Amherst の助教で、マルチモーダル学習・エー
 
 ## 論文
 ### 2022
-- [Linking Emergent and Natural Languages via Corpus Transfer](../../EmCom/papers.md#linking-emergent-and-natural-languages-via-corpus-transfer)
+- [Linking Emergent and Natural Languages via Corpus Transfer](../../EmCom/papers.html#linking-emergent-and-natural-languages-via-corpus-transfer)

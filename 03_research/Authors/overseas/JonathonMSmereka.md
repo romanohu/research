@@ -9,4 +9,4 @@ Jonathon M. Smereka はマルチエージェント意思決定研究の著者で
 
 ## 論文
 ### 2026
-- [MULTI-AGENT DEEP REINFORCEMENT LEARNING UNDER CONSTRAINED COMMUNICATIONS](../../MARL/cmarl_papers.md#multi-agent-deep-reinforcement-learning-under-constrained-communications)
+- [MULTI-AGENT DEEP REINFORCEMENT LEARNING UNDER CONSTRAINED COMMUNICATIONS](../../MARL/cmarl_papers.html#multi-agent-deep-reinforcement-learning-under-constrained-communications)

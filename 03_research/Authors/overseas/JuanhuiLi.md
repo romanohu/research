@@ -9,4 +9,4 @@ Juanhui Li は node-level routing in graph neural networks に関連する研究
 
 ## 論文
 ### 2024
-- [Node-wise Filtering in Graph Neural Networks: A Mixture of Experts Approach](../../ML/papers.md#node-wise-filtering-in-graph-neural-networks-a-mixture-of-experts-approach)
+- [Node-wise Filtering in Graph Neural Networks: A Mixture of Experts Approach](../../ML/papers.html#node-wise-filtering-in-graph-neural-networks-a-mixture-of-experts-approach)

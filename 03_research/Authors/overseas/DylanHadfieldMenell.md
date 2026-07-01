@@ -8,4 +8,4 @@ Dylan Hadfield-Menell は関連論文の著者として確認できる研究者�
 
 ## 論文
 ### 2024
-- [Formal contracts mitigate social dilemmas in multi-agent reinforcement learning](../../MARL/cmarl_papers.md#formal-contracts-mitigate-social-dilemmas-in-multi-agent-reinforcement-learning)
+- [Formal contracts mitigate social dilemmas in multi-agent reinforcement learning](../../MARL/cmarl_papers.html#formal-contracts-mitigate-social-dilemmas-in-multi-agent-reinforcement-learning)

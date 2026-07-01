@@ -11,4 +11,4 @@ Chris Hicks は関連論文の著者として確認できる研究者。([source
 
 ## 論文
 ### 2024
-- [Environment Complexity and Nash Equilibria in a Sequential Social Dilemma](../../MARL/cmarl_papers.md#environment-complexity-and-nash-equilibria-in-a-sequential-social-dilemma)
+- [Environment Complexity and Nash Equilibria in a Sequential Social Dilemma](../../MARL/cmarl_papers.html#environment-complexity-and-nash-equilibria-in-a-sequential-social-dilemma)

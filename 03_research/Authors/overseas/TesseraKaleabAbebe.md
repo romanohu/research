@@ -9,4 +9,4 @@ Kale-ab Abebe Tessera は HyperMARL の著者として確認できる研究者�
 
 ## 論文
 ### 2024
-- [HyperMARL: Adaptive Hypernetworks for Multi-Agent RL](../../MARL/marl_papers.md#hypermarl-adaptive-hypernetworks-for-multi-agent-rl)
+- [HyperMARL: Adaptive Hypernetworks for Multi-Agent RL](../../MARL/marl_papers.html#hypermarl-adaptive-hypernetworks-for-multi-agent-rl)

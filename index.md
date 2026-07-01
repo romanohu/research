@@ -1,12 +1,12 @@
 # メモ
 
-## [フリーメモ](02_freememo/index.md)
+## [フリーメモ](02_freememo/)
 フリメモ
 
-## [研究](03_research/index.md)
+## [研究](03_research/)
 とにかくやるしかない
 
-## [勉強](04_study/index.md)
+## [勉強](04_study/)
 とにかくやるしかない2
 
 ---

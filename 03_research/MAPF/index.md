@@ -20,4 +20,4 @@
 - [OMRON：機械学習を活用した経路計画技術](https://www.omron.com/jp/ja/technology/omrontechnics/2021/20211119-taniai-yonetani.html)
 - [Sven Koenig: MAPF Talk (ICAPS 2022)](https://www.youtube.com/watch?v=BX4U5B_vx5c)
     - mapf.infoのTutorialsページで紹介されている講演動画
-- [論文](papers.md)
+- [論文](papers.html)

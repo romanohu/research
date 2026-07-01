@@ -9,4 +9,4 @@ Sejin Seo は韓国の研究発表ページで対象論文の共著者として�
 
 ## 論文
 ### 2024
-- [Knowledge Distillation from Language-Oriented to Emergent Communication for Multi-Agent Remote Control](../../EmCom/papers.md#knowledge-distillation-from-language-oriented-to-emergent-communication-for-multi-agent-remote-control)
+- [Knowledge Distillation from Language-Oriented to Emergent Communication for Multi-Agent Remote Control](../../EmCom/papers.html#knowledge-distillation-from-language-oriented-to-emergent-communication-for-multi-agent-remote-control)

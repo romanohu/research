@@ -9,5 +9,5 @@ Yu Wang は UC Berkeley 関連の機械学習研究者で、協調型MARL論文�
 
 ## 論文
 ### 2021
-- [Discovering Diverse Multi-Agent Strategic Behavior via Reward Randomization](../../MARL/cmarl_papers.md#discovering-diverse-multi-agent-strategic-behavior-via-reward-randomization)
-- [The Surprising Effectiveness of PPO in Cooperative, Multi-Agent Games](../../MARL/cmarl_papers.md#the-surprising-effectiveness-of-ppo-in-cooperative-multi-agent-games)
+- [Discovering Diverse Multi-Agent Strategic Behavior via Reward Randomization](../../MARL/cmarl_papers.html#discovering-diverse-multi-agent-strategic-behavior-via-reward-randomization)
+- [The Surprising Effectiveness of PPO in Cooperative, Multi-Agent Games](../../MARL/cmarl_papers.html#the-surprising-effectiveness-of-ppo-in-cooperative-multi-agent-games)

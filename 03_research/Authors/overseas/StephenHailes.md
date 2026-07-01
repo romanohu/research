@@ -9,8 +9,8 @@ Stephen Hailes は関連論文の著者として確認できる研究者。([sou
 
 ## 論文
 ### 2020
-- [Partner Selection for the Emergence of Cooperation in Multi-Agent Systems Using Reinforcement Learning](../../MARL/cmarl_papers.md#partner-selection-for-the-emergence-of-cooperation-in-multi-agent-systems-using-reinforcement-learning)
+- [Partner Selection for the Emergence of Cooperation in Multi-Agent Systems Using Reinforcement Learning](../../MARL/cmarl_papers.html#partner-selection-for-the-emergence-of-cooperation-in-multi-agent-systems-using-reinforcement-learning)
 
-- [Partner Selection for the Emergence of Cooperation in Multi-Agent Systems Using Reinforcement Learning](../../MARL/marl_papers.md#partner-selection-for-the-emergence-of-cooperation-in-multi-agent-systems-using-reinforcement-learning)
+- [Partner Selection for the Emergence of Cooperation in Multi-Agent Systems Using Reinforcement Learning](../../MARL/marl_papers.html#partner-selection-for-the-emergence-of-cooperation-in-multi-agent-systems-using-reinforcement-learning)
 ### 2021
-- [Cooperation and Reputation Dynamics with Reinforcement Learning](../../MARL/marl_papers.md#cooperation-and-reputation-dynamics-with-reinforcement-learning)
+- [Cooperation and Reputation Dynamics with Reinforcement Learning](../../MARL/marl_papers.html#cooperation-and-reputation-dynamics-with-reinforcement-learning)

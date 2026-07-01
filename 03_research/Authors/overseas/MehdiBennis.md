@@ -9,4 +9,4 @@ Mehdi Bennis は University of Oulu の教授で、無線通信・分散AIの研
 
 ## 論文
 ### 2024
-- [Knowledge Distillation from Language-Oriented to Emergent Communication for Multi-Agent Remote Control](../../EmCom/papers.md#knowledge-distillation-from-language-oriented-to-emergent-communication-for-multi-agent-remote-control)
+- [Knowledge Distillation from Language-Oriented to Emergent Communication for Multi-Agent Remote Control](../../EmCom/papers.html#knowledge-distillation-from-language-oriented-to-emergent-communication-for-multi-agent-remote-control)

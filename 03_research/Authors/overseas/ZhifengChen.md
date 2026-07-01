@@ -10,7 +10,7 @@ Zhifeng Chen は mixture-of-experts routing, sparse expert models に関連す�
 
 ## 論文
 ### 2020
-- [GShard: Scaling Giant Models with Conditional Computation and Automatic Sharding](../../ML/papers.md#gshard-scaling-giant-models-with-conditional-computation-and-automatic-sharding)
+- [GShard: Scaling Giant Models with Conditional Computation and Automatic Sharding](../../ML/papers.html#gshard-scaling-giant-models-with-conditional-computation-and-automatic-sharding)
 
 ### 2022
-- [Mixture-of-Experts with Expert Choice Routing](../../ML/papers.md#mixture-of-experts-with-expert-choice-routing)
+- [Mixture-of-Experts with Expert Choice Routing](../../ML/papers.html#mixture-of-experts-with-expert-choice-routing)
